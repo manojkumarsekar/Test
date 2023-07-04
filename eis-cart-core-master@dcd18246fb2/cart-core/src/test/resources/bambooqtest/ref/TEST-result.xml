@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="TEST-TOMR3_INTF_RIMES-001_infile" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tomcart.testcase.0" name="IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation" time="0"/>
+  <testcase classname="tomcart.testcase.1" name="IF_0100_TC_2: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Loading" time="0"/>
+  <testcase classname="tomcart.testcase.2" name="IF_0100_TC_3: Process BNP Intraday Cash Transactions to DMP (CAS1): &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; Verifications" time="0"/>
+</testsuite>

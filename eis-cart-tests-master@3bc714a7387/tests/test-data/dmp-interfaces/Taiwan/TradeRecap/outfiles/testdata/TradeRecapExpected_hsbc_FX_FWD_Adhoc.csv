@@ -1,0 +1,2 @@
+FUND,HSBC Transaction Type,Date,HSBC Deal Number,HSBC Portfolio identifier,recsec_,HSBC seq1_,Date,type_,settle_date_,days_,maturity,maturity_settle,value_date_,bno_,fte type,rate type,amount,deal type,rate,actrate,basecurr,curr,bank,bank_accno,bank2,bank_accno2,points,matrate,mat_value,act_value,purcost_ ,dealno2_,Scode,fex deal,spno_,sun_cur
+A0007,C50,20210405,201902150000000,A0007DDM01,1,201902150000,20190215,4,20190215,313,20191225,20191225,,TEST04468,1,1,900000,1,69.61,0,USD,TEST04468,,,,,0.9,70.72,29296.875,,29296.88,,TEST04468,1,,TWD

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Snapshot Date="${SNAPSHOT_DATE}">
+    <Portfolios>
+        <Portfolio PortfolioId="E63002">
+            <Asset AssetId="E63002_${ISS_ID_EIMK}" AssetName="${ISE_NME_EIMK}" ExecutionVenue="XNGS" InstrumentId="${ISS_ID_EIMK}" MarketValue="" MarketValueInInstrumentCurrency="" Quantity="13318" SFTType="Normal"/>
+        </Portfolio>
+        <Portfolio PortfolioId="APACEQ">
+            <Asset AssetId="APACEQ_${ISS_ID_BOCI}" AssetName="${ISS_NME_BOCI}" ExecutionVenue="XTAI" InstrumentId="${ISS_ID_BOCI}" MarketValue="" MarketValueInInstrumentCurrency="" Quantity="31600" SFTType="Normal"/>
+        </Portfolio>
+        <Portfolio PortfolioId="3000601">
+            <Asset AssetId="3000601_${ISS_ID_ESJP}" AssetName="${ISE_NME_ESJP}" ExecutionVenue="BVMF" InstrumentId="${ISS_ID_ESJP}" MarketValue="" MarketValueInInstrumentCurrency="" Quantity="10440" SFTType="Normal"/>
+        </Portfolio>
+        <Portfolio PortfolioId="PAFR005">
+            <Asset AssetId="PAFR005_${ISS_ID_BRSTRS}" AssetName="${ISS_NME_BRSTRS}" ExecutionVenue="XXXX" InstrumentId="${ISS_ID_BRSTRS}" MarketValue="" MarketValueInInstrumentCurrency="" Quantity="379998300" SFTType="Normal"/>
+            <Asset AssetId="PAFR005_${ISS_ID_BRSTRS}_L" AssetName="${ISS_NME_BRSTRS}" AuthorisedLendingAgreement="TH" ExecutionVenue="XXXX" HasTransferOfTitle="True" HasTransferOfVotingPower="True" InstrumentId="${ISS_ID_BRSTRS}_L" MarketValue="" MarketValueInInstrumentCurrency="" Quantity="1700" SFTType="Lent"/>
+        </Portfolio>
+    </Portfolios>
+</Snapshot>

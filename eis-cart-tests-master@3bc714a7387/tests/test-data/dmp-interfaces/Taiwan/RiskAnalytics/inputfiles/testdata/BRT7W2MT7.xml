@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="5/29/2019" CREATE_DATE="5/29/2019" RECORDS="1">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>1/4/2003</ACCRUAL_DT>
+        <ASSET_BENCHMARK>BRTAPV5L0</ASSET_BENCHMARK>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>4/26/2019 3:15:22.863</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TW</COUNTRY>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>BRT7W2MT7</CUSIP>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL1381224</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>QSFR51387835</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>PPMA MANAGED US IG COMLD (USD PAR)</DESC_INSTMT>
+        <DESC_INSTMT2>IBH</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>1/4/2003</ISSUE_DT>
+        <LEAD_MGR>2543</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>US</MARKET>
+        <MODIFIED_BY>e4pshett</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="2">
+            <NOTES_record>
+                <EFF_DT>4/24/2019</EFF_DT>
+                <INSTMT>ESI: ISIN updated in Private identifier tab as requested by TOM team</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>e4pshett</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>4/24/2019</EFF_DT>
+                <INSTMT>ESI: FAS details have been updated by TOM BA</INSTMT>
+                <SEQ_NUM>2</SEQ_NUM>
+                <USER_ID>e4pshett</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>NY_Bank|TW</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>e4pshett</REVIEWED_BY>
+        <RISK_COUNTRY>US</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>NY_Bank|TW</SETTLE_CAL>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>SUBP</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL>GAA_ASTTY</LABEL>
+                <PURPOSE>GAA</PURPOSE>
+                <UDF_SOURCE>pdefonte</UDF_SOURCE>
+                <VALUE>CREDIT_IGDUR</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>SAA_VEHICLE</LABEL>
+                <PURPOSE>GAA</PURPOSE>
+                <UDF_SOURCE>e4rochan</UDF_SOURCE>
+                <VALUE>Y</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

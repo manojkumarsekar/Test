@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="${VAR_SYSDATE}" CREATE_DATE="${VAR_SYSDATE}" RECORDS="1">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>3/12/1998</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>10/31/2019 1:41:12.203</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>IE</COUNTRY>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>S02461051</CUSIP>
+        <CUSIP2_set SIZE="2">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>0246105</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>IE0246105.I</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="5">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003dc003be43535</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>1010</CODE>
+                <IDENTIFIER>1010477</IDENTIFIER>
+                <PURPOSE>VALOR</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>G7112N102</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>IE0002461055</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>PIMGBAI</IDENTIFIER>
+                <PURPOSE>ESITH</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>PIMCO GIS GLOBAL BOND</DESC_INSTMT>
+        <DESC_INSTMT2>EB</DESC_INSTMT2>
+        <EXCHANGE>IRI</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>3/12/1998</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>IE</MARKET>
+        <MODIFIED_BY>adapjoy</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>IE</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>adapjoy</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>ISEO</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <TICKER>PIMGBAI</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>CMoney</PURPOSE>
+                <VALUE>495018680.515</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

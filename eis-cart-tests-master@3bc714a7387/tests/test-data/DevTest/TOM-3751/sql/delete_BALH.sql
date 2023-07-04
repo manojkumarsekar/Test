@@ -1,0 +1,4 @@
+delete ft_t_bhst where balh_oid in (select balh_oid from ft_t_balh where instr_id in (select instr_id from ft_t_isid where iss_id='MD_499047' and id_ctxt_typ='BNPLSTID'and end_tms is null) and acct_id in (select acct_id from fT_t_acid where acct_alt_id='ARBRUF' and end_tms is null) and trunc(as_of_tms) = trunc(sysdate+1));
+
+delete ft_t_balh where instr_id in (select instr_id from ft_t_isid where iss_id='MD_499047' and id_ctxt_typ='BNPLSTID' and end_tms is null) 
+and acct_id in (select acct_id from fT_t_acid where acct_alt_id='ARBRUF' and end_tms is null) and trunc(as_of_tms) = trunc(sysdate+1);

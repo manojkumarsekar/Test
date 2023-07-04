@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportRequest xmlns="http://www.reuters.com/Datascope/ReportRequest.xsd">
+    <InputList>
+        <InputListAction>Replace</InputListAction>
+        <Name>EIS_Reuters_Composite00032186</Name>
+        <Instrument>
+            <IdentifierType>SED</IdentifierType>
+            <Identifier>TSTRTS0</Identifier>
+            <UserDefinedIdentifier>TSTRTS0</UserDefinedIdentifier>
+        </Instrument>
+    </InputList>
+    <Schedule>
+        <ScheduleAction>Replace</ScheduleAction>
+        <Name>EIS_Reuters_Composite00032186</Name>
+        <TermsandConditionsSchedule>
+            <InputListName>EIS_Reuters_Composite00032186</InputListName>
+            <ReportTemplateName>EIS_Reuters_Composite</ReportTemplateName>
+            <OutputFileName>gs_com00032186.csv</OutputFileName>
+            <ScheduleImmediate>
+                <Type>CurrentDay</Type>
+            </ScheduleImmediate>
+        </TermsandConditionsSchedule>
+    </Schedule>
+</ReportRequest>

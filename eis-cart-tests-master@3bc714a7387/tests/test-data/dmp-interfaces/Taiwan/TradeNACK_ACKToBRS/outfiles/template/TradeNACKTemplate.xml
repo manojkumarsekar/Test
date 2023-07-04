@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TMSACKS>
+    <TMSACK>
+        <ACK_CODE>UNAVAIL</ACK_CODE>
+        <ACK_MESSAGE>DMP - exception when loading</ACK_MESSAGE>
+        <EXT_ID/>
+        <FUND>${BRS_FUND_CODE}</FUND>
+        <GROUP_ID/>
+        <INVNUM>-401</INVNUM>
+        <PORTFOLIOS_PORTFOLIO_NAME/>
+        <TOUCH_COUNT>1</TOUCH_COUNT>
+        <TRD_STATUS>C</TRD_STATUS>
+        <TRD_VERSION/>
+        <UNIQUE_ID/>
+        <RECIPIENT>ESI TAIWAN ESI_TAIWAN</RECIPIENT>
+    </TMSACK>
+    <TMSACK>
+        <ACK_CODE>SENT</ACK_CODE>
+        <ACK_MESSAGE>DMP - confirmed trade stored</ACK_MESSAGE>
+        <EXT_ID/>
+        <FUND>${BRS_FUND_CODE}</FUND>
+        <GROUP_ID/>
+        <INVNUM>-404</INVNUM>
+        <PORTFOLIOS_PORTFOLIO_NAME/>
+        <TOUCH_COUNT>1</TOUCH_COUNT>
+        <TRD_VERSION/>
+        <UNIQUE_ID/>
+        <RECIPIENT>ESI TAIWAN ESI_TAIWAN</RECIPIENT>
+    </TMSACK>
+    <TMSACK>
+        <ACK_CODE>SENT</ACK_CODE>
+        <ACK_MESSAGE>DMP - confirmed trade stored</ACK_MESSAGE>
+        <EXT_ID/>
+        <FUND>${BRS_FUND_CODE}</FUND>
+        <GROUP_ID/>
+        <INVNUM>-402</INVNUM>
+        <PORTFOLIOS_PORTFOLIO_NAME/>
+        <TOUCH_COUNT>1</TOUCH_COUNT>
+        <TRD_VERSION/>
+        <UNIQUE_ID/>
+        <RECIPIENT>ESI TAIWAN ESI_TAIWAN</RECIPIENT>
+    </TMSACK>
+    <TMSACK>
+        <ACK_CODE>SENT</ACK_CODE>
+        <ACK_MESSAGE>DMP - executed trade stored</ACK_MESSAGE>
+        <EXT_ID/>
+        <FUND>${BRS_FUND_CODE}</FUND>
+        <GROUP_ID/>
+        <INVNUM>-403</INVNUM>
+        <PORTFOLIOS_PORTFOLIO_NAME/>
+        <TOUCH_COUNT>1</TOUCH_COUNT>
+        <TRD_STATUS>C</TRD_STATUS>
+        <TRD_VERSION/>
+        <UNIQUE_ID/>
+        <RECIPIENT>ESI TAIWAN ESI_TAIWAN</RECIPIENT>
+    </TMSACK>
+    <TMSACK>
+        <ACK_CODE>SENT</ACK_CODE>
+        <ACK_MESSAGE>DMP - Trade Recap Generated to Fund Admin</ACK_MESSAGE>
+        <EXT_ID/>
+        <FUND>${BRS_FUND_CODE_TWFACAP1}</FUND>
+        <GROUP_ID/>
+        <INVNUM>-405</INVNUM>
+        <PORTFOLIOS_PORTFOLIO_NAME/>
+        <TOUCH_COUNT>1</TOUCH_COUNT>
+        <TRD_VERSION/>
+        <UNIQUE_ID/>
+        <RECIPIENT>ESI TAIWAN ESI_TAIWAN</RECIPIENT>
+    </TMSACK>
+</TMSACKS>

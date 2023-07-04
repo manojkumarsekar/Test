@@ -1,0 +1,19 @@
+{
+  "@type": "MessageCard",
+  "@context": "http://schema.org/extensions",
+  "summary": "Failed Test Detected",
+  "sections": [
+    {
+      "activityTitle": "Failed Test Detected",
+      "activitySubtitle": "Feature: custom-json-format/dummy4.feature
+      Scenario: Test3
+      Tags: [@ignore_hooks, @dummy, @dummy4]
+      Failed at: 14-08-2020 17:38:17
+      Error Message: com.eastspring.tom.cart.core.CartException: string match expected, but expected [Test1] does not match actual [Test2]
+    at com.eastspring.tom.cart.core.utl.StringVerifyUtil.match(StringVerifyUtil.java:29)
+    at com.eastspring.tom.cart.core.steps.ConfigSteps.verifyValuesEqual(ConfigSteps.java:100)
+    at tomcart.glue.ConfigStepsDef.assertEquals(ConfigStepsDef.java:59)
+    at ✽.I expect the value of var "" equals to "Test1"(file:custom-json-format/dummy4.feature:15)
+    ",
+    "activityImage": "https://www.samsungsfour.com/images/thumbnails/images/exclamation-fit-286x250.png"
+    }

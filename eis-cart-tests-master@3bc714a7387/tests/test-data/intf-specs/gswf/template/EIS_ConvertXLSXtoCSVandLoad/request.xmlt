@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_ConvertXLSXtoCSVandLoadAsynchron>
+         <even:BusinessFeed>${BUSINESS_FEED!}</even:BusinessFeed>
+         <even:Counter>0</even:Counter>
+         <even:Directory>${INPUT_DATA_DIR!}</even:Directory>
+         <even:FileLoadEvent>${FILE_LOAD_EVENT!}</even:FileLoadEvent>
+         <even:FilePatterns>${FILEPATTERN!}</even:FilePatterns>
+         <even:ListFilePatternArray></even:ListFilePatternArray>
+         <even:LoadFilePatterns>${LOAD_FILE_PATTERN!}</even:LoadFilePatterns>
+         <even:MessageBulkSize>2000</even:MessageBulkSize>
+         <even:MessageType>${MESSAGE_TYPE!}</even:MessageType>
+         <even:NrOfFilesParallel>${PARALLELISM!}</even:NrOfFilesParallel>
+         <even:OutputDirectory>${OUTPUT_DATA_DIR!}</even:OutputDirectory>
+         <even:ReProcessProcessedFiles>false</even:ReProcessProcessedFiles>
+         <even:RecursiveSearch>false</even:RecursiveSearch>
+         <even:SheetName>${SHEET_NAME!}</even:SheetName>
+         <even:SortAscending>true</even:SortAscending>
+         <even:SortFiles>TIME</even:SortFiles>
+         <even:SuccessAction>${SUCCESS_ACTION!}</even:SuccessAction>
+         <even:VendorDefinition></even:VendorDefinition>
+      </even:RaiseEIS_ConvertXLSXtoCSVandLoadAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

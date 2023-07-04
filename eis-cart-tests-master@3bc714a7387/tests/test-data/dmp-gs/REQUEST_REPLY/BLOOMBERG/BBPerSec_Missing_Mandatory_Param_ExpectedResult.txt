@@ -1,0 +1,5 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><EIS_BBPerSecurityResult xmlns="http://www.thegoldensource.com/EventRaiserService.wsdl"><flowResultId>EIS_BBPerSecurity-Failed
+
+com.j2fe.workflow.impl.exception.CreationException: ERROR: Required Workflow parameter not specified.
+Additional Info: FirmName
+Workflow: EIS_BBPerSecurity</flowResultId></EIS_BBPerSecurityResult></SOAP-ENV:Body></SOAP-ENV:Envelope>

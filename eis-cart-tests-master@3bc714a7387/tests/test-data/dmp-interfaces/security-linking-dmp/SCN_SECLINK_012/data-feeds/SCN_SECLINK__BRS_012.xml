@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<ASSETS ASOF_DATE="20170615" CREATE_DATE="6/19/2017" RECORDS="1">
+    <ASSET><EQUITY_EQUITY>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>5/18/2017 21:07:53.780</CHANGE_DT>
+        <COUNTRY>CN</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="2">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>CN</CNTRY>
+                <CNTRY_SRC>REU</CNTRY_SRC>
+                <CNTRY_TYPE>COI</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>CN</CNTRY>
+                <CNTRY_SRC>BLK</CNTRY_SRC>
+                <CNTRY_TYPE>COT</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <CURRENCY>CNY</CURRENCY>
+        <CUSIP>SB4XT6X67</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>BD5CCF0</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>300136.SZ</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>300136 CH</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="4">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003f803a391a369</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>SHENZHEN SUNWAY COMMUNICATION LTD</DESC_INSTMT>
+        <DESC_INSTMT2>A</DESC_INSTMT2>
+        <DR_TYPE>N</DR_TYPE>
+        <EXCHANGE>FCZ</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>F87557</ISSUER_ID>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>CN</MARKET>
+        <MIN_LOT_SIZE>100</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>100</MIN_TRD_SIZE>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>AUTOREVU</REVIEWED_BY>
+        <RISK_COUNTRY>CN</RISK_COUNTRY>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>CHIN</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>MASK</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>300136</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>

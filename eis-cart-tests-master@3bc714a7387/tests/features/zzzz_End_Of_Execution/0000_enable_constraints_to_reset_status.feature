@@ -1,0 +1,45 @@
+@dmp_regression_unittest @dmp_regression_integrationtest @enable_constraints
+Feature: This feature is to run enable constraints scripts after finishing the regression execution
+
+  This feature runs for both unit and integration tests.
+
+  Scenario: Execute Enable Constraints scripts
+
+    * I reset the database connection with configuration "dmp.db.GC"
+    * I assign "GS_GC" to variable "dmp.db.GC.jdbc.user"
+    * I set the database connection to configuration "dmp.db.GC"
+
+    Given I execute below queries to "Enable constraints"
+    """
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF005;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF003;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF010;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF002;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF009;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF008;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF001;
+    ALTER TABLE FT_T_ISPC ENABLE CONSTRAINT ISPCF001;
+    ALTER TABLE FT_T_POSV ENABLE CONSTRAINT POSVF001;
+    ALTER TABLE FT_T_ISPS ENABLE CONSTRAINT ISPSF001;
+    ALTER TABLE FT_T_ISPS ENABLE CONSTRAINT ISPSF002;
+    ALTER TABLE FT_T_PCST ENABLE CONSTRAINT PCSTF001;
+    ALTER TABLE FT_T_LOTV ENABLE CONSTRAINT LOTVF001;
+    ALTER TABLE FT_T_MPPT ENABLE CONSTRAINT MPPTF002;
+    ALTER TABLE FT_T_GPCS ENABLE CONSTRAINT GPCSF006;
+    ALTER TABLE FT_T_GPCS ENABLE CONSTRAINT GPCSF007;
+    ALTER TABLE FT_T_GPCS ENABLE CONSTRAINT GPCSF003;
+    ALTER TABLE FT_T_GPRC ENABLE CONSTRAINT GPRCF001;
+    ALTER TABLE FT_T_HOLV ENABLE CONSTRAINT HOLVF001;
+    ALTER TABLE FT_T_PCCM ENABLE CONSTRAINT PCCMF001;
+    ALTER TABLE FT_T_BNVL ENABLE CONSTRAINT BNVLF003;
+    ALTER TABLE FT_T_EOPB ENABLE CONSTRAINT EOPBF019;
+    ALTER TABLE FT_T_EOPB ENABLE CONSTRAINT EOPBF018;
+    ALTER TABLE FT_O_PRJB ENABLE CONSTRAINT PRJBF001;
+    ALTER TABLE FT_T_RQEV ENABLE CONSTRAINT RQEVF003;
+    ALTER TABLE FT_T_SPRD ENABLE CONSTRAINT SPRDF001;
+    """
+
+  Scenario: Setting back GC_GC_APP user to dmp.db.GC.jdbc.user property and reset the DB connection
+
+    * I assign "GS_GC_APP" to variable "dmp.db.GC.jdbc.user"
+    * I reset the database connection with configuration "dmp.db.GC"

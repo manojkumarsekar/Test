@@ -1,0 +1,3 @@
+cusip,modify_time,modify_by,Modifier's Full Name,change_action,tag,Tag Full Name,value,Value Full Name,purpose,source
+001055102,1/17/2020 12:56:12 AM,e4tarun,e4tarun,ins,UCITS_ARTICLE,ESI UCITS Article number,41-2,41-2,GAA,e4tarun
+001055102,Apr 30 2020  2:32AM,e4raisa,e4tarun,ins,UCITS_ELIGIBLE,ESI UCITS Eligibility Flag,N,N,GAA,e4raisa

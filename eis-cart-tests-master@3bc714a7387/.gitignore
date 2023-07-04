@@ -1,0 +1,15 @@
+/{testdata.path}/
+/.idea/
+/target/
+/testout/
+/testevidence/
+/report/
+/docs/
+*.bak
+*.iml
+*.ipr
+*.ipl
+dependency-reduced-pom.xml
+*~
+~*
+*.log

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="true"
+                     xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p %c:%L - %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="FILE_DEBUG" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false" />
+        <param name="maxFileSize" value="2MB" />
+        <param name="maxBackupIndex" value="5" />
+        <param name="file" value="debug.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p %c{1}:%L - %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="FILE_INFO" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false" />
+        <param name="maxFileSize" value="2MB" />
+        <param name="maxBackupIndex" value="5" />
+        <param name="file" value="info.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p %c{1}:%L - %m%n" />
+        </layout>
+    </appender>
+
+
+    <appender name="FILE_ERROR" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false"/>
+        <param name="maxFileSize" value="2MB"/>
+        <param name="maxBackupIndex" value="5"/>
+        <param name="file" value="error.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <logger name="org.apache.http">
+        <level value="WARN"/>
+    </logger>
+
+    <logger name="net.masterthought.cucumber">
+        <level value="WARN"/>
+    </logger>
+
+    <logger name="org.springframework">
+        <level value="ERROR"/>
+    </logger>
+
+    <logger name="org.mockftpserver">
+        <level value="ERROR"/>
+    </logger>
+
+    <logger name="org.apache.pdfbox">
+        <level value="ERROR"/>
+    </logger>
+
+    <logger name="net.schmizz.sshj">
+        <level value="ERROR"/>
+    </logger>
+
+    <logger name="org.eis.cart">
+        <level value="DEBUG"/>
+    </logger>
+
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="CONSOLE"/>
+        <!--		<appender-ref ref="FILE_INFO"/>-->
+    </root>
+
+</log4j:configuration>

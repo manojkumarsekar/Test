@@ -1,0 +1,78 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseBasicCheckSynchron>
+         <!--Zero or more repetitions:-->
+         <even:Additional_BLANK_Price_BLANK_Qualification_BLANK_Type>?</even:Additional_BLANK_Price_BLANK_Qualification_BLANK_Type>
+         <even:Bulk_BLANK_Size>?</even:Bulk_BLANK_Size>
+         <!--Optional:-->
+         <even:Calculate_BLANK_MID_BLANK_price_BLANK_Options>?</even:Calculate_BLANK_MID_BLANK_price_BLANK_Options>
+         <!--Optional:-->
+         <even:Calendar>?</even:Calendar>
+         <!--Optional:-->
+         <even:CleanValidationInstructionCache>?</even:CleanValidationInstructionCache>
+         <!--Optional:-->
+         <even:Consider_BLANK_Calendar_BLANK_Results>?</even:Consider_BLANK_Calendar_BLANK_Results>
+         <!--Zero or more repetitions:-->
+         <even:Country>?</even:Country>
+         <!--Optional:-->
+         <even:DiagnosticMode>?</even:DiagnosticMode>
+         <!--Optional:-->
+         <even:Donot_BLANK_Consider_BLANK_Issue_BLANK_Maturity>?</even:Donot_BLANK_Consider_BLANK_Issue_BLANK_Maturity>
+         <even:Downstream_BLANK_System_BLANK_Identifier>?</even:Downstream_BLANK_System_BLANK_Identifier>
+         <!--Optional:-->
+         <even:Extra_BLANK_Configuration_BLANK_Information>?</even:Extra_BLANK_Configuration_BLANK_Information>
+         <!--Optional:-->
+         <even:Ignore_BLANK_Issue_BLANK_MAT_EXP_TMS>?</even:Ignore_BLANK_Issue_BLANK_MAT_EXP_TMS>
+         <!--Zero or more repetitions:-->
+         <even:Instruments>?</even:Instruments>
+         <!--Zero or more repetitions:-->
+         <even:IssueGroup>?</even:IssueGroup>
+         <!--Zero or more repetitions:-->
+         <even:IssueType>?</even:IssueType>
+         <!--Zero or more repetitions:-->
+         <even:IssueTypeGroup>?</even:IssueTypeGroup>
+         <!--Zero or more repetitions:-->
+         <even:JobIDs>?</even:JobIDs>
+         <!--Zero or more repetitions:-->
+         <even:Market>?</even:Market>
+         <!--Optional:-->
+         <even:Message_BLANK_Type>?</even:Message_BLANK_Type>
+         <!--Optional:-->
+         <even:Observation_BLANK_Period>?</even:Observation_BLANK_Period>
+         <!--Optional:-->
+         <even:OverwriteSuspectStatus>?</even:OverwriteSuspectStatus>
+         <!--Optional:-->
+         <even:PRVI_BLANK_Hierarchy_BLANK_Enable_BLANK_Switch>?</even:PRVI_BLANK_Hierarchy_BLANK_Enable_BLANK_Switch>
+         <!--Optional:-->
+         <even:ParentJobId>?</even:ParentJobId>
+         <!--Optional:-->
+         <even:Price_BLANK_Day_BLANK_Frequency>?</even:Price_BLANK_Day_BLANK_Frequency>
+         <!--Zero or more repetitions:-->
+         <even:Price_BLANK_Method_BLANK_Type>?</even:Price_BLANK_Method_BLANK_Type>
+         <!--Zero or more repetitions:-->
+         <even:Price_BLANK_Quote_BLANK_Method_BLANK_Type>?</even:Price_BLANK_Quote_BLANK_Method_BLANK_Type>
+         <!--Zero or more repetitions:-->
+         <even:Price_BLANK_Source>?</even:Price_BLANK_Source>
+         <!--Zero or more repetitions:-->
+         <even:Price_BLANK_Type>?</even:Price_BLANK_Type>
+         <!--Optional:-->
+         <even:Processing_BLANK_Date>?</even:Processing_BLANK_Date>
+         <!--Optional:-->
+         <even:Purpose_BLANK_Type>?</even:Purpose_BLANK_Type>
+         <!--Zero or more repetitions:-->
+         <even:Region>?</even:Region>
+         <!--Optional:-->
+         <even:RelType_BLANK_OneToMany>?</even:RelType_BLANK_OneToMany>
+         <!--Optional:-->
+         <even:RelType_BLANK_Sequence>?</even:RelType_BLANK_Sequence>
+         <!--Zero or more repetitions:-->
+         <even:Suppress_BLANK_GEN1_BLANK_Issues_BLANK_for_BLANK_User_BLANK_Ids>?</even:Suppress_BLANK_GEN1_BLANK_Issues_BLANK_for_BLANK_User_BLANK_Ids>
+         <even:Threads_BLANK_in_BLANK_Parallel>?</even:Threads_BLANK_in_BLANK_Parallel>
+         <!--Zero or more repetitions:-->
+         <even:Vendor>?</even:Vendor>
+         <!--Optional:-->
+         <even:WriteValidStatusRecords>?</even:WriteValidStatusRecords>
+      </even:RaiseBasicCheckSynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

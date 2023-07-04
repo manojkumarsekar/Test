@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseBulkSubscriptionPublishingEventSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseBulkSubscriptionPublishingEventAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element minOccurs="0" name="Configuration_BLANK_File" type="xs:anyURI"><xs:annotation><xs:documentation>Mapping file in which for each table, Model ID / Business ID with Entity mode is present.</xs:documentation></xs:annotation></xs:element><xs:element name="Database" type="xs:string"><xs:annotation><xs:documentation>Database</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="DateFormat" type="xs:string"><xs:annotation><xs:documentation>DateFormat to be appended to the file name.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="FilePerEntity" type="xs:boolean"/><xs:element minOccurs="0" name="JMSBulkSize" type="xs:integer"><xs:annotation><xs:documentation>JMSBulkSize</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="No._BLANK_Of_BLANK_Parallel_BLANK_Branches" type="xs:integer"/><xs:element minOccurs="0" name="PublishingBulkSize" type="xs:integer"/><xs:element minOccurs="0" name="PublishingFileName" type="xs:string"><xs:annotation><xs:documentation>File Name of the file to be Published.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Sample_BLANK_Email_BLANK_Text" type="xs:string"><xs:annotation><xs:documentation>Sample Email message to be sent.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Senders_BLANK_Email" type="xs:string"><xs:annotation><xs:documentation>Sender's Email .This will be used only when PUBLISHING DESTINATION  is EMAIL.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="StorePublishedMessageToPBDP" type="xs:boolean"><xs:annotation><xs:documentation>Boolean Parameter to store Published Message to PBDP</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="SubscriptionName" type="xs:string"/><xs:element minOccurs="0" name="addCorrelationHeader" type="xs:boolean"><xs:annotation><xs:documentation>Add Correlation header to XML message. If this flag is true then correlation header will be added to XML message. Default value is false.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="addCoveringXMLHeader" type="xs:boolean"><xs:annotation><xs:documentation>Add header at the start of the XML and footer at the end of the message.&#xd;
+This flag is set to false by default. When it is set to false, existing structure of the XML is preserved. When it is set to true, a header tag and a footer tag is added at the start and end of the XML message. In case of a CSV file, when this flag is set to true, only one header is added at the beginning of the file instead of adding the header for every record.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="appendEOFLine" type="xs:boolean"/><xs:element minOccurs="0" name="bulkSize" type="xs:integer"/><xs:element minOccurs="0" name="entityMode" type="xs:string"/><xs:element minOccurs="0" name="inlineAOIProcessing" type="xs:boolean"><xs:annotation><xs:documentation>This flag indicates if AOI Processing is required to be run</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="jobId" type="xs:string"/><xs:element minOccurs="0" name="messageType" type="xs:string"/><xs:element minOccurs="0" name="modelName" type="xs:string"/><xs:element name="publishingMode" type="xs:string"/><xs:element minOccurs="0" name="requireFullyQualifiedName" type="xs:boolean"><xs:annotation><xs:documentation>Add fully qualified names in the CSV header.&#xd;
+This flag is set to true by default. When it is set to true, fully qualified names will be used in the CSV header. If it is set to false, then only short anmes will be used in the CSV header.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="sql" type="xs:string"/><xs:element minOccurs="0" name="startRecordSequence" type="xs:integer"/><xs:element minOccurs="0" name="subscriptionId" type="xs:string"/><xs:element minOccurs="0" name="transactionId" type="xs:string"/></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="SubscriptionInstanceID" type="xs:string"><xs:annotation><xs:documentation>SubscriptionInstanceID</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="BulkSubscriptionPublishingEventResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseBulkSubscriptionPublishingEventSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseBulkSubscriptionPublishingEventAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:BulkSubscriptionPublishingEventResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

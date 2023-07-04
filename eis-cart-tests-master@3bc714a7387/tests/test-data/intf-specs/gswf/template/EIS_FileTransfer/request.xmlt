@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_FileTransferAsynchron>
+         <even:ArchiveFilePath>${ARCHIVE_FILE_PATH}</even:ArchiveFilePath>
+         <even:ConfigSource>${CONFIG_SOURCE}</even:ConfigSource>
+         <even:FilePath>${FILE_PATH}</even:FilePath>
+         <even:FilePattern>${FILE_PATTERN}</even:FilePattern>
+      </even:RaiseEIS_FileTransferAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

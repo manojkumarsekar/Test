@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+    <soapenv:Header/>
+    <soapenv:Body>
+       <even:RaiseEIS_DW_PublishQueryResultsAsynchron>
+           <even:BulkSize>${BULK_SIZE!}</even:BulkSize>
+           <even:ConvertToXlsx>${CONVERT_TO_EXCEL!}</even:ConvertToXlsx>
+           <even:FileDirectory>${FILE_DIRECTORY!}</even:FileDirectory>
+           <even:FileName>${PUBLISHING_FILENAME!}</even:FileName>
+           <even:NoOfThread>${THREAD_COUNT!}</even:NoOfThread>
+           <even:SqlID>${SQL_ID!}</even:SqlID>
+           <even:SqlPublish>${SQL_PUBLISH!}</even:SqlPublish>
+       </even:RaiseEIS_DW_PublishQueryResultsAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+		
+      

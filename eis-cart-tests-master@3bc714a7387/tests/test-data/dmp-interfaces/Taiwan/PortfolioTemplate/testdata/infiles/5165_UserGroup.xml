@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<USERS ASOF_DATE="3/30/2018" CREATE_DATE="3/30/2018" RECORDS="6">
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>portfolio.manager.1.1@eastspring.com</EMAIL>
+        <FNAME>Portfolio Manager</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>5165</LNAME>
+        <LOGIN>pm11</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>portfolio.manager.1.2@eastspring.com</EMAIL>
+        <FNAME>Portfolio Manager</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>5165</LNAME>
+        <LOGIN>pm12</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>portfolio.manager.2.1@eastspring.com</EMAIL>
+        <FNAME>Portfolio Manager</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>5165</LNAME>
+        <LOGIN>pm21</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>portfolio.manager.2.2@eastspring.com</EMAIL>
+        <FNAME>Portfolio Manager</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>5165</LNAME>
+        <LOGIN>pm22</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>bkp.portfolio.manager.1@eastspring.com</EMAIL>
+        <FNAME>Portfolio Manager</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>5165</LNAME>
+        <LOGIN>bkppm1</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>bkp.portfolio.manager.2@eastspring.com</EMAIL>
+        <FNAME>Portfolio Manager</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>5165</LNAME>
+        <LOGIN>bkppm2</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+</USERS>

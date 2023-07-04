@@ -1,0 +1,6 @@
+Security_ID|Issuer|Description|ISIN_Code|Sedol|CUSIP|Underlying_Security_ID|Expiry_Date|CV_Terms_Numerator|CV_Terms_Denominator|Contract_Size|Option_Type|Settlement_Type|Currency_of_Denomination|Voting_Rights_Numerator|Voting_Rights_Denominator|Security_Instrument_Type|Next_Conversion_Date|Voting_Rights_Indicator|Source
+6804585|SHIN-ETSU CHEMICAL|NPV|JP3371200001|6804585|J72810120|||||1||C|JPY|.01|1|COM||Y|MANG
+6493745|KIRIN HOLDINGS CO|NPV|JP3258000003|6493745|497350108|||||1||C|JPY|.01|1|COM||Y|MANG
+6468152|IZUMI CO LTD|NPV|JP3138400001|6468152|J25725110|||||1||C|JPY|.01|1|COM||Y|MANG
+6484620|KAWASAKI HEAVY IND|NPV|JP3224200000|6484620|J31502131|||||1||C|JPY|.01|1|COM||Y|MANG
+6804347|SHIKOKU ELEC POWER|NPV|JP3350800003|6804347|J72079106|||||1||C|JPY|.01|1|COM||Y|MANG

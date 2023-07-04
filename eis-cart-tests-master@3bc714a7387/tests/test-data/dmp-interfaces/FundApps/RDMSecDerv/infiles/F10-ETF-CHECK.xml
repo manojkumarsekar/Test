@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2019-03-22" CREATE_DATE="3/22/2019" RECORDS="7641">
+    <ASSET><EQUITY_EQUITY>
+            <ASSET_BENCHMARK>BRT9H0EF3</ASSET_BENCHMARK>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CHANGE_DT>2/16/2018 6:26:56.746</CHANGE_DT>
+            <COUNTRY>IE</COUNTRY>
+            <COUNTRY_CLASSIFICATION_set SIZE="2">
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>IE</CNTRY>
+                    <CNTRY_SRC>REU</CNTRY_SRC>
+                    <CNTRY_TYPE>COI</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>IE</CNTRY>
+                    <CNTRY_SRC>BLK</CNTRY_SRC>
+                    <CNTRY_TYPE>COT</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+            </COUNTRY_CLASSIFICATION_set>
+            <CURRENCY>USD</CURRENCY>
+            <CUSIP>SBYV39K80</CUSIP>
+            <CUSIP2_set SIZE="3">
+                <CUSIP2_record>
+                    <CODE>C</CODE>
+                    <IDENTIFIER>BYV39K8</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>R</CODE>
+                    <IDENTIFIER>XDGU.L</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>2</CODE>
+                    <IDENTIFIER>XDGU LN</IDENTIFIER>
+                </CUSIP2_record>
+            </CUSIP2_set>
+            <CUSIP_ALIAS_set SIZE="4">
+                <CUSIP_ALIAS_record>
+                    <CODE>8888</CODE>
+                    <IDENTIFIER>00100b000dc644c8</IDENTIFIER>
+                    <PURPOSE>REUQID</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>1010</CODE>
+                    <IDENTIFIER>29667123</IDENTIFIER>
+                    <PURPOSE>VALOR</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>145986</CODE>
+                    <IDENTIFIER>ESL1523914</IDENTIFIER>
+                    <PURPOSE>ESI</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>70</CODE>
+                    <IDENTIFIER>IE00BZ036H21</IDENTIFIER>
+                    <PURPOSE>ISIN</PURPOSE>
+                </CUSIP_ALIAS_record>
+            </CUSIP_ALIAS_set>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DESC_INSTMT>XTRACKERS USD CORPORATE BOND UCITS</DESC_INSTMT>
+            <DESC_INSTMT2>ETF-F</DESC_INSTMT2>
+            <DR_TYPE>N</DR_TYPE>
+            <EXCHANGE>LON</EXCHANGE>
+            <FLAG_144A>N</FLAG_144A>
+            <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+            <ISSUER_ID>H72370</ISSUER_ID>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>GB</MARKET>
+            <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+            <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+            <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+            <MTN>N</MTN>
+            <NTL_FLAG>N</NTL_FLAG>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <REVIEWED_BY>AUTOREVU</REVIEWED_BY>
+            <RISK_COUNTRY>US</RISK_COUNTRY>
+            <SECTOR_set SIZE="1">
+                <SECTOR_record>
+                    <CODE>ETEU</CODE>
+                    <LEVEL>1</LEVEL>
+                    <TYPE>REUT_SEGM</TYPE>
+                </SECTOR_record>
+            </SECTOR_set>
+            <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+            <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+            <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+            <TICKER>XDGU</TICKER>
+            <UDF_set SIZE="4">
+                <UDF_record>
+                    <LABEL>Funds_Sec_ShOS</LABEL>
+                    <PURPOSE>CMoney</PURPOSE>
+                    <VALUE>159418766.35</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>GAA_ASTTY</LABEL>
+                    <PURPOSE>GAA</PURPOSE>
+                    <UDF_SOURCE>ptong</UDF_SOURCE>
+                    <VALUE>CREDIT_IG</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>GAA_VEHICLE</LABEL>
+                    <PURPOSE>ESI</PURPOSE>
+                    <UDF_SOURCE>Manual</UDF_SOURCE>
+                    <VALUE>Satellite I</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>SYNTH_ETF</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                    <VALUE>N</VALUE>
+                </UDF_record>
+            </UDF_set>
+            <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>

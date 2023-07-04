@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEmailAsynchron>
+         <!--Zero or more repetitions:-->
+         <even:arrayOfProblems>?</even:arrayOfProblems>
+         <!--Optional:-->
+         <even:metadata>
+            <!--You may enter ANY elements at this point-->
+         </even:metadata>
+         <!--Optional:-->
+         <even:recipientEmailId>?</even:recipientEmailId>
+         <!--Optional:-->
+         <even:senderEmailId>?</even:senderEmailId>
+      </even:RaiseEmailAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

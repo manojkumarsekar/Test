@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2018-07-09" CREATE_DATE="7/9/2018" RECORDS="2227">
+    <ASSET>
+        <ISSUE>
+            <ASSET_BENCHMARK>M1ASJ</ASSET_BENCHMARK>
+            <ASSET_STATUS>INACTIVE</ASSET_STATUS>
+            <ASSET_STATUS_TYPE>DEL</ASSET_STATUS_TYPE>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>N/A</CD_INSTMT_TYPE>
+            <CHANGE_DT>7/9/2018 2:51:10.336</CHANGE_DT>
+            <COMPOUND_FLAG>0</COMPOUND_FLAG>
+            <COUNTRY>HK</COUNTRY>
+            <CURRENCY>USD</CURRENCY>
+            <CUSIP>BPM1MKZK7</CUSIP>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DATE_CONV>ACTACT</DATE_CONV>
+            <DESC_INSTMT>DO NOT USE</DESC_INSTMT>
+            <FLAG_ERISA>N</FLAG_ERISA>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>HK</MARKET>
+            <MATURITY>9/21/2018</MATURITY>
+            <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+            <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+            <MODIFIED_BY>p9sho</MODIFIED_BY>
+            <NOTES_set SIZE="1">
+                <NOTES_record>
+                    <EFF_DT>7/9/2018</EFF_DT>
+                    <INSTMT>ESI: To use MJSU82015 instead which is created by BRS</INSTMT>
+                    <SEQ_NUM>1</SEQ_NUM>
+                    <USER_ID>p9sho</USER_ID>
+                </NOTES_record>
+            </NOTES_set>
+            <NTL_FLAG>Y</NTL_FLAG>
+            <PMT_LOCATION>F</PMT_LOCATION>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <ROUND_FLAG>R</ROUND_FLAG>
+            <ROUND_PRECISION>9</ROUND_PRECISION>
+            <SEC_TYPE>FUTURE_INDEX</SEC_TYPE>
+            <SETTLE_LOCATION>F</SETTLE_LOCATION>
+            <SM_SEC_GROUP>FUTURE</SM_SEC_GROUP>
+            <SM_SEC_TYPE>INDEX</SM_SEC_TYPE>
+            <UDF_set SIZE="1">
+                <UDF_record>
+                    <LABEL>ESI_REGION</LABEL>
+                    <PURPOSE>GAA</PURPOSE>
+                    <UDF_SOURCE>GAA</UDF_SOURCE>
+                    <VALUE>AXJ</VALUE>
+                </UDF_record>
+            </UDF_set>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

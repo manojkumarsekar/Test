@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <even:RaiseEIS_PricingProcessConsolidatedAsynchron>
+            <even:Downstream_BLANK_System_BLANK_Identifier>BRS_EOD_PRICE</even:Downstream_BLANK_System_BLANK_Identifier>
+            <even:Extra_BLANK_Configuration_BLANK_Information>EIS_PricingProcessConsolidated</even:Extra_BLANK_Configuration_BLANK_Information>
+            <even:FVGroupName>ESIFVPRP</even:FVGroupName>
+            <even:FVPricePurpose>ESIFV</even:FVPricePurpose>
+            <even:FVPriceType>SODEIS</even:FVPriceType>
+            <even:Instruments>${INSTRUMENT_ID1!}</even:Instruments>
+            <even:IssueGroup>${ISSUE_GROUP1!}</even:IssueGroup>
+            <even:IssueGroup>${ISSUE_GROUP2!}</even:IssueGroup>
+            <even:NoOfBranches>10</even:NoOfBranches>
+            <even:Observation_BLANK_Period>200</even:Observation_BLANK_Period>
+	        <even:OverlyingPriceType>DERIVE</even:OverlyingPriceType>
+	        <even:OverlyingUnlistedSOIGroupName>UNLWARSOI</even:OverlyingUnlistedSOIGroupName>
+            <even:PricePointEventDefinitionId>ESIPRPTEOD</even:PricePointEventDefinitionId>
+            <even:Prior_BLANK_GPRC_BLANK_Observation_BLANK_Count>201</even:Prior_BLANK_GPRC_BLANK_Observation_BLANK_Count>
+            <even:Processing_BLANK_Date>${PROCESSING_DATE}</even:Processing_BLANK_Date>
+            <even:Qualifying_BLANK_type_BLANK_for_BLANK_Golden_BLANK_Price_BLANK_Check>VALID</even:Qualifying_BLANK_type_BLANK_for_BLANK_Golden_BLANK_Price_BLANK_Check>
+            <even:RunFairValueDerivation>${RUN_FAIR_VALUE_DERIVATION!}</even:RunFairValueDerivation>
+            <even:RunPVCForPRVI>${RUNPVCFORPRVI!}</even:RunPVCForPRVI>
+            <even:RunThaiPriceDerivation>${RUN_THAI_PRICE_DERIVATION!}</even:RunThaiPriceDerivation>
+            <even:RunUnlistedWarrantPriceDerivation>${RUN_UNLISTED_WARRANT_PRICE_DERIVATION!}</even:RunUnlistedWarrantPriceDerivation>
+            <even:THForeignGroupName>ESITHAIFL</even:THForeignGroupName>
+            <even:THPricePurpose>ESITHP</even:THPricePurpose>
+            <even:THPriceType>DERIVE</even:THPriceType>
+            <even:THPricingSource>ESTHF</even:THPricingSource>
+            <even:THStaleBusinessDay>7</even:THStaleBusinessDay>
+            <even:Threads_BLANK_In_BLANK_Parallel>20</even:Threads_BLANK_In_BLANK_Parallel>
+            <even:UnderlyingPriceType>CL1D</even:UnderlyingPriceType>
+        </even:RaiseEIS_PricingProcessConsolidatedAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>

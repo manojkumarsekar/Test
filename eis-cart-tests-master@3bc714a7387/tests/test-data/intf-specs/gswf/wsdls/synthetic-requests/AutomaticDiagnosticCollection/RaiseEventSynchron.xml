@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseAutomaticDiagnosticCollectionSynchron>
+         <!--Optional:-->
+         <even:EmailText>?</even:EmailText>
+         <even:Recipients>?</even:Recipients>
+         <even:Sender>?</even:Sender>
+         <!--Optional:-->
+         <even:Subject>?</even:Subject>
+         <even:TransactionId>?</even:TransactionId>
+      </even:RaiseAutomaticDiagnosticCollectionSynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

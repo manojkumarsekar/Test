@@ -1,0 +1,54 @@
+- myAladdin||myAladdin
+- group-head-office||Group Head Office
+- ppmg||Prudential Portfolio Management Group
+- mg||M&G Investments
+- prucap||PruCap
+- special-analysis||Special Analysis
+- eastspring-investment||Eastspring Investments
+- singapore||Eastspring Investments::Singapore
+- singapore-hk-fi||Eastspring Investments::Singapore::Fixed Income
+- singapore-hk-fi-loan||Eastspring Investments::Singapore::Fixed Income::Loans
+- singapore-fi-subadvise||Eastspring Investments::Singapore::Fixed Income::Sub Advised and Delegated
+- singapore-hk-eq||Eastspring Investments::Singapore::Equity
+- asia-ex-japan||Eastspring Investments::Singapore::Equity::ASEAN
+- sg_china_india||Eastspring Investments::Singapore::Equity::China India
+- sg_greater_china||Eastspring Investments::Singapore::Equity::Greater China
+- sg_income||Eastspring Investments::Singapore::Equity::Income
+- sg_eq_india||Eastspring Investments::Singapore::Equity::India
+- infrastructure||Eastspring Investments::Singapore::Equity::Infrastructure
+- property||Eastspring Investments::Singapore::Equity::Property
+- regional-asia||Eastspring Investments::Singapore::Equity::Regional Asia
+- esi-japan||Eastspring Investments::Singapore::Equity::Japan
+- gem||Eastspring Investments::Singapore::Equity::GEM
+- icici||Eastspring Investments::Singapore::Equity::ICICI
+- subadvised||Eastspring Investments::Singapore::Equity::Sub Advised
+- sg-qis||Eastspring Investments::Singapore::QIS
+- singapore-hk-balanced||Eastspring Investments::Singapore::Multi-Asset
+- sg-gaa||Eastspring Investments::Singapore::Multi-Asset::GAA
+- sg-gaa-sa||Eastspring Investments::Singapore::Multi-Asset::GAA::Sub Advised and Delegated
+- sg-mas||Eastspring Investments::Singapore::Multi-Asset::MAS
+- sg-mas-sa||Eastspring Investments::Singapore::Multi-Asset::MAS::Sub Advised and Delegated
+- alternative||Eastspring Investments::Singapore::Alternatives
+- sg-infrastructure||Eastspring Investments::Singapore::Alternatives::Infrastructure
+- sg-pe||Eastspring Investments::Singapore::Alternatives::Private Equity
+- feeder||Eastspring Investments::Singapore::Feeder
+- non-processing||Eastspring Investments::Singapore::Non-Processing
+- hk||Eastspring Investments::Hong Kong
+- indonesia||Eastspring Investments::Indonesia
+- malaysia||Eastspring Investments::Malaysia
+- malaysia-insurance||Eastspring Investments::Malaysia::Insurance
+- malaysia-pamb||Eastspring Investments::Malaysia::Insurance::PAMB
+- malaysia-pbtb||Eastspring Investments::Malaysia::Insurance::PBTB
+- malaysia-non-insurance||Eastspring Investments::Malaysia::Non-Insurance
+- myr-domestic||Eastspring Investments::Malaysia::Non-Insurance::Domestic
+- myr-regional||Eastspring Investments::Malaysia::Non-Insurance::Regional
+- mybnirsub||Eastspring Investments::Malaysia::Non-Insurance::Sub Advised and Delegated
+- malaysia-al-wara||Eastspring Investments::Malaysia::Al Wara
+- malaysia-al-wara-multi-asset||Eastspring Investments::Malaysia::Al Wara::Multi-Asset
+- malaysia-al-wara-equity||Eastspring Investments::Malaysia::Al Wara::Equity
+- malaysia-al-wara-sub||Eastspring Investments::Malaysia::Al Wara::Sub Advised and Delegated
+- taiwan||Eastspring Investments::Taiwan
+- taiwan-nda||Eastspring Investments::Taiwan::Non-Discretionary
+- taiwan-dam||Eastspring Investments::Taiwan::Discretionary
+- vietnam||Eastspring Investments::Vietnam
+- esi-jp||Eastspring Investments::Japan

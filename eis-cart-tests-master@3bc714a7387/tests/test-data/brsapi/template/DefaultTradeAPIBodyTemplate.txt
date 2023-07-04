@@ -1,0 +1,38 @@
+{
+  "options": {
+    "tradingEntity": 0,
+    "orgId": 0,
+    "overrideCharges": true,
+    "overrideRels": true,
+    "secIdPurpose": "string",
+    "suppressNotification": true,
+    "runCompliance": true,
+    "entityType": "string",
+    "updateEntireBlock": true,
+    "lockTradeFields": true,
+    "cancelEntireBlock": true,
+    "deleteExternalTradeId": true
+  },
+  "blockTrades": [
+    {
+      "tradePrice": ${TRADE_PRICE},
+      "security": {
+        "assetId": "${CUSIP}"
+       },
+      "allocations": [
+        {
+          "ssi": {
+            "delivery": "No Settlement",
+            "settlementInstruction": "N/A"
+          },
+          "cptyName": "${CPRTY_NAME}",
+          "tradeQuantity":${TRADE_QTY} ,
+          "portfolioTicker":"${PORTFOLIO_TICKER}"
+        }
+      ],
+      "trader": "e4twdmp",
+      "tradeDate": "${TRADE_DATE}",
+      "tradeTranType": "${TRAN_TYPE}"
+    }
+  ]
+}

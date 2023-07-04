@@ -1,0 +1,27 @@
+{
+  "options": {
+    "complianceTimeout": 10,
+    "whatIf": false,
+    "runCompliance": false
+  },
+  "orders": [
+    {
+      "basketId": "TEST_API_ORDER",
+      "limitValue": 3000,
+      "traderInitials": "",
+      "tradePurpose": "",
+      "security": {
+        "assetId": "SBF55Y570"
+      },
+      "pmInitials": "MTG",
+      "orderTranType": "BUY",
+      "orderDetails": [
+        {
+          "portfolioTicker": "TSTTT16",
+          "quantity": 1000
+        }
+      ],
+      "mktPrice": 200
+    }
+  ]
+}

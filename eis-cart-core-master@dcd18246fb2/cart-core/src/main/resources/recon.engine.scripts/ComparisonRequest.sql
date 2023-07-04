@@ -1,0 +1,43 @@
+USE TestAutomation;
+IF OBJECT_ID('TestAutomation.dbo.ComparisonRequest', 'U') IS NOT NULL DROP TABLE TestAutomation.dbo.ComparisonRequest;
+CREATE TABLE TestAutomation.dbo.ComparisonRequest
+(
+    ComparisonRequestId INTEGER NOT NULL IDENTITY(1, 1),
+    ComparisonGUID UNIQUEIDENTIFIER NOT NULL,
+    SourceTable NVARCHAR(400) NOT NULL,
+    SourceRecordCount INT NULL,
+    TargetTable NVARCHAR(400) NOT NULL,
+    TargetRecordCount INT NULL,
+    MatchKeySourceList NVARCHAR(MAX) NOT NULL,
+    ExcludedColumnSourceList NVARCHAR(MAX) NULL,
+    ExcludedColumnTargetList NVARCHAR(MAX) NULL,
+    DisplayOnlyColumnSourceList NVARCHAR(MAX) NULL,
+    DisplayOnlyColumnTargetList NVARCHAR(MAX) NULL,
+    ColumnMappingList NVARCHAR(MAX) NULL,
+    NumericTolerance NUMERIC(10, 6) NOT NULL DEFAULT 0.0,
+    CaseSensitive BIT NOT NULL DEFAULT 0,
+    IgnoreOrphanColumns BIT NOT NULL DEFAULT 0,
+    OptimizedStorage BIT NOT NULL DEFAULT 1,
+    ComparisonStatus NVARCHAR(50) NULL,
+    [Source] NVARCHAR(400) NULL,
+    [Target] NVARCHAR(400) NULL,
+    SourceDuplicate NVARCHAR(400) NULL,
+    SourceDuplicateRecordCount INT NULL,
+    TargetDuplicate NVARCHAR(400) NULL,
+    TargetDuplicateRecordCount INT NULL,
+    SourceSurplus NVARCHAR(400) NULL,
+    SourceSurplusRecordCount INT NULL,
+    TargetSurplus NVARCHAR(400) NULL,
+    TargetSurplusRecordCount INT NULL,
+    Mismatch NVARCHAR(400) NULL,
+    MismatchRecordCount INT NULL,
+    [Match] NVARCHAR(400) NULL,
+    MatchRecordCount INT NULL,
+    MismatchSmell NVARCHAR(400) NULL,
+    StartTime DATETIME2 NOT NULL,
+    EndTime DATETIME2 NULL,
+    UserName NVARCHAR(400) NULL,
+    ErrorMessage VARCHAR(MAX) NULL,
+    CONSTRAINT PK_ComparisonRequest PRIMARY KEY (ComparisonRequestId)
+);
+CREATE UNIQUE NONCLUSTERED INDEX IX_ComparisonGUID ON TestAutomation.dbo.ComparisonRequest(ComparisonGUID);

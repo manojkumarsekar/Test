@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+   <soapenv:Header/>
+   <soapenv:Body>
+       <even:RaiseEIS_ConvertDos2UnixAsynchron>
+           <even:Directory>${SOURCE_PATH!}</even:Directory>
+           <even:FilePattern>${FILE_PATTERN!}</even:FilePattern>
+       </even:RaiseEIS_ConvertDos2UnixAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

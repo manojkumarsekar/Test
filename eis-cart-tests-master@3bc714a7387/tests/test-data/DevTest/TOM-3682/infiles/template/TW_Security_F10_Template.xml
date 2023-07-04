@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="${AS_OF_DATE}" CREATE_DATE="10/3/2018" RECORDS="1">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>1/1/2018</ACCRUAL_DT>
+        <ASSET_BENCHMARK>BPM0UJFW9</ASSET_BENCHMARK>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>3/27/2018 9:06:11.423</CHANGE_DT>
+        <COUNTRY>TW</COUNTRY>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>TWTOM3682</CUSIP>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL0003682X</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>N/A</DATE_CONV>
+        <DESC_INSTMT>ASDTREX</DESC_INSTMT>
+        <DESC_INSTMT2>IAUF</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>P</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>1/1/2018</ISSUE_DT>
+        <MARKET>US</MARKET>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>NY_Bank</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>mtang</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <TICKER>ASDTREX</TICKER>
+        <UDF_set SIZE="3">
+            <UDF_record>
+                <LABEL>ESI_REGION</LABEL>
+                <PURPOSE>ESI</PURPOSE>
+                <UDF_SOURCE>ESI</UDF_SOURCE>
+                <VALUE>AXJ</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>GAA_ASTTY</LABEL>
+                <PURPOSE>GAA</PURPOSE>
+                <UDF_SOURCE>ptong</UDF_SOURCE>
+                <VALUE>MIN_VOLATILITY</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>REGION</LABEL>
+                <PURPOSE>ESI</PURPOSE>
+                <UDF_SOURCE>ESI</UDF_SOURCE>
+                <VALUE>AXJ</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>TWN_MNY_TRPlat</LABEL>
+                <PURPOSE>TEST TOM-3682 MNY</PURPOSE>
+                <UDF_SOURCE>EITW</UDF_SOURCE>
+                <VALUE>${MNY_VALUE}</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>ISRULT_RISK_CTY</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                <VALUE>TW</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>JPMorganFC</LABEL>
+                <PURPOSE>TEST TOM-3682 JPM</PURPOSE>
+                <UDF_SOURCE>EITW</UDF_SOURCE>
+                <VALUE>${JPM_VALUE}</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+        ${ADDITIONAL_XML}
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

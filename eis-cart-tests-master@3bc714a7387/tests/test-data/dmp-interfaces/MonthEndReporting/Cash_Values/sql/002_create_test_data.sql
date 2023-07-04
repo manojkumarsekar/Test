@@ -1,0 +1,3 @@
+INSERT INTO ft_t_wact (acct_data_sok, acct_sok, acct_nme, version_start_tmsmp, version_end_tmsmp, rptg_prd_start_dte, rptg_prd_end_dte)
+SELECT NEW_OID(), k.acct_sok, c.acct_nme, TO_DATE('${MS_DATE}','yyyy-mon-dd'), TO_DATE('${ME_DATE}','yyyy-mon-dd'), TO_DATE('${MS_DATE}','yyyy-mon-dd'), TO_DATE('${ME_DATE}','yyyy-mon-dd')
+FROM   ft_t_wack k, ft_t_wact c WHERE k.dw_acct_id IN ('AGOBAB','AGOCAB','ALJPDJ','AGOBOA','JGQJTE','JGSACJ') AND c.acct_sok = k.acct_sok AND c.rptg_prd_end_dte = TO_DATE('30-SEP-2018','dd-mon-yyyy');

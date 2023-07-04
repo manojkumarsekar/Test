@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+<soapenv:Header/>
+   <soapenv:Body>
+        <even:RaiseEIS_PublishReportAsynchron>
+        	<even:AttachmentFileName>${ATTACHMENT_FILENAME!}</even:AttachmentFileName>
+        	<even:AttachmentRequired>${ATTACHMENT_REQUIRED!}</even:AttachmentRequired>
+            <even:DataHeader>${DATA_HEADER!}</even:DataHeader>
+            <even:DataRowsDetailsInBody>${DATA_DETAILS_COUNT!}</even:DataRowsDetailsInBody>
+            <even:DataSQL>${DATA_SQL!}</even:DataSQL>
+            <even:EmailAddresses>${EMAIL_ADDRESS!}</even:EmailAddresses>
+            <even:EmailFooter>${FOOTER!}</even:EmailFooter>
+			<even:EmailHeader>${HEADER!}</even:EmailHeader>
+            <even:EmailSubject>${EMAIL_SUBJECT!}</even:EmailSubject>
+            <even:NoDataEmailBody>${NO_DATA_EMAILBODY!}</even:NoDataEmailBody>
+            <even:NoDataEmailSub>${NO_DATA_EMAILSUB!}</even:NoDataEmailSub>
+            <even:SenderEmail>eis-dmp-support@eastspring.com</even:SenderEmail>
+            <even:UserGroupID>${USER_GROUP_ID!}</even:UserGroupID>
+        </even:RaiseEIS_PublishReportAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

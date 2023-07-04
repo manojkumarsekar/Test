@@ -1,0 +1,2 @@
+Date|Fund ID|Fund Name|Fund Custody Account Number|Security ID|Security Description|Security Type|Exchange|ISIN|SEDOL|SBL Quantity EOD|Counterparty Full Name
+${DYNAMIC_DATE}|LF1|JUMBO PLUS Dividend Long Term Equity Fund|0|TH0268010Z03|ADVANC|COM|TB|TH0268010Z03|6412568|0|TMBAM

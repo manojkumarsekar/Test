@@ -1,0 +1,77 @@
+/*******************************************************************************
+ * Import pipeline libraries
+ *******************************************************************************/
+@Library(['eis-jenkins-lib@develop']) _
+
+pipeline {
+        agent {
+            label 'java'
+        }
+
+        options {
+            ansiColor('xterm')
+        }
+
+        triggers {
+            pollSCM 'H H 1 12 *'
+        }
+
+        stages {
+            stage('Build'){
+                steps{
+                    eisMavenExecute(
+                        goal: "clean install -DskipTests=true"
+                    )
+                    script {
+                        notifyBitbucket()
+                    }
+                }
+
+            }
+
+            stage('Test'){
+                steps {
+                    eisMavenExecute(
+                        goal: "test"
+                    )
+                    sh 'ls -alF cart-core/target'
+                    script {
+                        notifyBitbucket()
+                    }
+                }
+
+            }
+
+            stage('Deploy'){
+                when {
+                   branch 'master'
+                }
+                steps {
+                    eisMavenExecute(
+                        goal: "deploy -DskipTests=true"
+                    )
+                    script {
+                        notifyBitbucket()
+                    }
+                }
+            }
+        }
+
+        post {
+            success {
+                archiveArtifacts artifacts: 'cart-core/target/surefire-reports/**/*'
+                junit testResults: 'cart-core/target/surefire-reports/*.xml'
+            }
+            always {
+                script {
+                    currentBuild.result = currentBuild.result ?: 'SUCCESS'
+                    notifyBitbucket()
+                }
+            }
+            failure {
+                sendEmail("mahesh.gummaraju@eastspring.com")
+            }
+
+        }
+}
+

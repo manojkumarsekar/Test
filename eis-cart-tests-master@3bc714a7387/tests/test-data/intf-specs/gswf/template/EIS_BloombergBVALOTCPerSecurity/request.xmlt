@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <even:RaiseEIS_BloombergBVALOTCPerSecurityAsynchron>
+             <even:BBDownloadDirectory>${BB_DOWNLOAD_DIR!}</even:BBDownloadDirectory>
+             <even:BBTimeout>3000</even:BBTimeout>
+             <even:BBUploadDirectory>${BB_UPLOAD_DIR!}</even:BBUploadDirectory>
+             <even:FileSystem>${FILE_SYSTEM!}</even:FileSystem>
+             <even:FirmName>${FIRM_NAME!}</even:FirmName>
+             <even:Identifiers>${IDENTIFIERS!}</even:Identifiers>
+             <even:NoOfFilesToRunInParallel>100</even:NoOfFilesToRunInParallel>
+             <even:PricePointEventDefinitionId>${PRICE_POINT_DEF_ID!}</even:PricePointEventDefinitionId>
+             <even:RequestType>${REQUEST_TYPE!}</even:RequestType>
+             <even:RequestorID>UNKNOWN</even:RequestorID>
+             <even:SN>${SN!}</even:SN>
+             <even:UserNumber>${USER_NUMBER!}</even:UserNumber>
+             <even:WS>${WORK_STATION!}</even:WS>
+         </even:RaiseEIS_BloombergBVALOTCPerSecurityAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <page>1</page>
+    <page_size>5</page_size>
+    <size>5</size>
+    <total_pages>1</total_pages>
+    <links><next>/?page=2&amp;page_size=5</next><prev>null</prev></links>
+    <additionalHeaders>null</additionalHeaders>
+    <results>
+        <RowNumber>1</RowNumber>
+        <RDMCode>AUTOTEST001</RDMCode>
+        <FullShareClassNameEnglish>Test ShareClass for Automation Test 001</FullShareClassNameEnglish>
+        <ShareClassExtensionEnglish>TE01</ShareClassExtensionEnglish>
+        <ShareClassCurrency>USD</ShareClassCurrency>
+        <ShareClassLaunchDate>21/05/2020</ShareClassLaunchDate>
+        <ShareClassBenchmarkCode>BM_00224</ShareClassBenchmarkCode>
+        <TWUniformBusinessNumber>null</TWUniformBusinessNumber>
+        <TWSITCAID>null</TWSITCAID>
+        <FullShareClassNameChineseTaiwanTraditional>null</FullShareClassNameChineseTaiwanTraditional>
+        <AbbreviatedShareClassNameChineseTaiwanTraditional>null</AbbreviatedShareClassNameChineseTaiwanTraditional>
+        <TWHedgePortfolioCode>null</TWHedgePortfolioCode>
+        <ISINCode>LU0012186622</ISINCode>
+        <FundId>T1</FundId>
+        <ShareClassId>T201</ShareClassId>
+        <Domicile>LU</Domicile>
+        <EntityStateId>Active</EntityStateId>
+    </results>
+    <results>
+        <RowNumber>2</RowNumber>
+        <RDMCode>AUTOTEST002</RDMCode>
+        <FullShareClassNameEnglish>Test ShareClass for Automation Test 002</FullShareClassNameEnglish>
+        <ShareClassExtensionEnglish>TE02</ShareClassExtensionEnglish>
+        <ShareClassCurrency>USD</ShareClassCurrency>
+        <ShareClassLaunchDate>21/05/2020</ShareClassLaunchDate>
+        <ShareClassBenchmarkCode>BM_00224</ShareClassBenchmarkCode>
+        <TWUniformBusinessNumber>null</TWUniformBusinessNumber>
+        <TWSITCAID>null</TWSITCAID>
+        <FullShareClassNameChineseTaiwanTraditional>null</FullShareClassNameChineseTaiwanTraditional>
+        <AbbreviatedShareClassNameChineseTaiwanTraditional>null</AbbreviatedShareClassNameChineseTaiwanTraditional>
+        <TWHedgePortfolioCode>null</TWHedgePortfolioCode>
+        <ISINCode>LU0012001002</ISINCode>
+        <FundId>1</FundId>
+        <ShareClassId>202</ShareClassId>
+        <Domicile>LU</Domicile>
+        <EntityStateId>Archived</EntityStateId>
+    </results>
+    <results>
+        <RowNumber>3</RowNumber>
+        <RDMCode>AUTOTEST003</RDMCode>
+        <FullShareClassNameEnglish>Test ShareClass for Automation Test 003</FullShareClassNameEnglish>
+        <ShareClassExtensionEnglish>TE03</ShareClassExtensionEnglish>
+        <ShareClassCurrency>USD</ShareClassCurrency>
+        <ShareClassLaunchDate>21/05/2020</ShareClassLaunchDate>
+        <ShareClassBenchmarkCode>BM_00224</ShareClassBenchmarkCode>
+        <TWUniformBusinessNumber>null</TWUniformBusinessNumber>
+        <TWSITCAID>null</TWSITCAID>
+        <FullShareClassNameChineseTaiwanTraditional>null</FullShareClassNameChineseTaiwanTraditional>
+        <AbbreviatedShareClassNameChineseTaiwanTraditional>null</AbbreviatedShareClassNameChineseTaiwanTraditional>
+        <TWHedgePortfolioCode>null</TWHedgePortfolioCode>
+        <ISINCode>LU0012001003</ISINCode>
+        <FundId>1</FundId>
+        <ShareClassId>203</ShareClassId>
+        <Domicile>LU</Domicile>
+        <EntityStateId>Deleted</EntityStateId>
+    </results>
+    <results>
+        <RowNumber>4</RowNumber>
+        <RDMCode>AUTOTEST004</RDMCode>
+        <FullShareClassNameEnglish>Test ShareClass for Automation Test 004</FullShareClassNameEnglish>
+        <ShareClassExtensionEnglish>TE04</ShareClassExtensionEnglish>
+        <ShareClassCurrency>USD</ShareClassCurrency>
+        <ShareClassLaunchDate>21/05/2020</ShareClassLaunchDate>
+        <ShareClassBenchmarkCode>BM_00224</ShareClassBenchmarkCode>
+        <TWUniformBusinessNumber>null</TWUniformBusinessNumber>
+        <TWSITCAID>null</TWSITCAID>
+        <FullShareClassNameChineseTaiwanTraditional>null</FullShareClassNameChineseTaiwanTraditional>
+        <AbbreviatedShareClassNameChineseTaiwanTraditional>null</AbbreviatedShareClassNameChineseTaiwanTraditional>
+        <TWHedgePortfolioCode>null</TWHedgePortfolioCode>
+        <ISINCode>LU0012001004</ISINCode>
+        <FundId>1</FundId>
+        <ShareClassId>204</ShareClassId>
+        <Domicile>LU</Domicile>
+        <EntityStateId>Created</EntityStateId>
+    </results>
+</root>

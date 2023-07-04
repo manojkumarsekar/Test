@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+           <soapenv:Header/>
+               <soapenv:Body>
+                   <even:RaiseLoadCalendarHolidayDetailsAsynchron>
+                       <even:BulkSize>${BULK_SIZE!}</even:BulkSize>
+                       <even:BusinessFeed>${BUSINESS_FEED!}</even:BusinessFeed>
+                       <even:File>${FILE_NAME!}</even:File>
+                       <even:IsVDDBConfigured>${IS_VDDBCONFIGURED!}</even:IsVDDBConfigured>
+                       <even:MessageProcessingEvent>${MESSAGE_PROCESSING_EVENT!}</even:MessageProcessingEvent>
+                       <even:MessageType>${MESSAGE_TYPE!}</even:MessageType>
+                       <even:NoOfThreads>${NO_OF_THREADS!}</even:NoOfThreads>
+                       <even:OutputDirectory>${ARCHIVE_DIR!}</even:OutputDirectory>
+                       <even:ParallelBranches>${PARALLELISM!}</even:ParallelBranches>
+                       <even:SuccessAction>${SUCCESS_ACTION!}</even:SuccessAction>
+                   </even:RaiseLoadCalendarHolidayDetailsAsynchron>
+               </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,844 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#https://collaborate.intranet.asia/pages/viewpage.action?pageId\u003d24939361"
+      },
+      {
+        "line": 2,
+        "value": "#https://jira.intranet.asia/browse/TOM-1588"
+      },
+      {
+        "line": 3,
+        "value": "#https://jira.intranet.asia/browse/TOM-1395"
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 373026210,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I use the named environment \"TOM_DEV1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TOM_DEV1",
+                  "offset": 29
+                }
+              ],
+              "location": "ConfigStepsDef.java:16"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1948674,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set the DMP workflow web service endpoint to named configuration \"dmp.ws.WORKFLOW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dmp.ws.WORKFLOW",
+                  "offset": 68
+                }
+              ],
+              "location": "DmpGsWorkflowStepsDef.java:36"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 899656029,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set the database connection to configuration \"dmp.db.GC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dmp.db.GC",
+                  "offset": 48
+                }
+              ],
+              "location": "DatabaseStepsDef.java:24"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation",
+        "description": "",
+        "id": "inbound-intraday-cash-transactions-interface-testing-(r3.in.cas1-bnp-to-dmp);if-0100-tc-1:-process-bnp-intraday-cash-transactions-to-dmp-(cas1):-data-preparation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 734443,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2736426,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I assign \"ESIINTRADAY_TRN_NEWCASH_NEW.out\" to variable \"INPUT_FILENAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ESIINTRADAY_TRN_NEWCASH_NEW.out",
+                  "offset": 10
+                },
+                {
+                  "val": "INPUT_FILENAME",
+                  "offset": 56
+                }
+              ],
+              "location": "ConfigStepsDef.java:20"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8015314,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I assign \"ESIINTRADAY_TRN_NEWCASH_NEW_Template.out\" to variable \"INPUT_TEMPLATENAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ESIINTRADAY_TRN_NEWCASH_NEW_Template.out",
+                  "offset": 10
+                },
+                {
+                  "val": "INPUT_TEMPLATENAME",
+                  "offset": 65
+                }
+              ],
+              "location": "ConfigStepsDef.java:20"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1023546,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I assign \"tests/test-data/dmp-interfaces/R3_IN_CAS1_BNP_TO_DMP\" to variable \"testdata.path\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tests/test-data/dmp-interfaces/R3_IN_CAS1_BNP_TO_DMP",
+                  "offset": 10
+                },
+                {
+                  "val": "testdata.path",
+                  "offset": 77
+                }
+              ],
+              "location": "ConfigStepsDef.java:20"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108872697,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I create input file \"${INPUT_FILENAME}\" using template \"${INPUT_TEMPLATENAME}\" with below codes from location \"${testdata.path}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${INPUT_FILENAME}",
+                  "offset": 21
+                },
+                {
+                  "val": "${INPUT_TEMPLATENAME}",
+                  "offset": 56
+                },
+                {
+                  "val": "${testdata.path}",
+                  "offset": 111
+                }
+              ],
+              "location": "DmpGsWorkflowStepsDef.java:96"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DYNAMIC_CODE",
+                  "DateTimeFormat:HmsS"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1223285089,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I copy files below from local folder \"${testdata.path}/testdata\" to the host \"dmp.ssh.inbound\" folder \"${dmp.ssh.inbound.path}\":",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${testdata.path}/testdata",
+                  "offset": 38
+                },
+                {
+                  "val": "dmp.ssh.inbound",
+                  "offset": 78
+                },
+                {
+                  "val": "${dmp.ssh.inbound.path}",
+                  "offset": 103
+                }
+              ],
+              "location": "HostStepsDef.java:25"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "${INPUT_FILENAME}"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@cash_data_prep"
+          },
+          {
+            "line": 5,
+            "name": "@interface"
+          },
+          {
+            "line": 5,
+            "name": "@cash_in"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 130362645,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I use the named environment \"TOM_DEV1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TOM_DEV1",
+                  "offset": 29
+                }
+              ],
+              "location": "ConfigStepsDef.java:16"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 456413,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set the DMP workflow web service endpoint to named configuration \"dmp.ws.WORKFLOW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dmp.ws.WORKFLOW",
+                  "offset": 68
+                }
+              ],
+              "location": "DmpGsWorkflowStepsDef.java:36"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110431390,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set the database connection to configuration \"dmp.db.GC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dmp.db.GC",
+                  "offset": 48
+                }
+              ],
+              "location": "DatabaseStepsDef.java:24"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 33,
+            "value": "#|   ESIINTRADAY_TRN_NEWCASH_CANC_Template.out                   |    ESIINTRADAY_TRN_NEWCASH_CANC.out           |"
+          },
+          {
+            "line": 34,
+            "value": "#|   ESIINTRADAY_TRN_MISCCASH_Template.out                       |    ESIINTRADAY_TRN_MISCCASH.out               |"
+          },
+          {
+            "line": 35,
+            "value": "#|   ESIINTRADAY_TRN_CASHCOLLATERAL_MMDE_Template.out            |    ESIINTRADAY_TRN_CASH_COLL_MMDE.out         |"
+          },
+          {
+            "line": 36,
+            "value": "#|   ESIINTRADAY_TRN_CASHCOLLATERAL_MMWD_Template.out            |    ESIINTRADAY_TRN_CASH_COLL_MMWD.out         |"
+          },
+          {
+            "line": 37,
+            "value": "#|   ESIINTRADAY_TRN_FFXP_NEW_Template.out                       |    ESIINTRADAY_TRN_FFXP_NEW.out               |"
+          },
+          {
+            "line": 38,
+            "value": "#|   ESIINTRADAY_TRN_FFXS_NEW_Template.out                       |    ESIINTRADAY_TRN_FFXS_NEW.out               |"
+          },
+          {
+            "line": 39,
+            "value": "#|   ESIINTRADAY_TRN_SFXP_NEW_Template.out                       |    ESIINTRADAY_TRN_SFXP_NEW.out               |"
+          },
+          {
+            "line": 40,
+            "value": "#|   ESIINTRADAY_TRN_SFXS_NEW_Template.out                       |    ESIINTRADAY_TRN_SFXS_NEW.out               |"
+          }
+        ],
+        "line": 43,
+        "name": "IF_0100_TC_2: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Loading",
+        "description": "",
+        "id": "inbound-intraday-cash-transactions-interface-testing-(r3.in.cas1-bnp-to-dmp);if-0100-tc-2:-process-bnp-intraday-cash-transactions-to-dmp-(cas1):-data-loading",
+        "after": [
+          {
+            "result": {
+              "duration": 102108,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2001404505,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I pause for 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "WebStepsDef.java:18"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5173608269,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I process files with below parameters and wait for the job to be completed",
+            "match": {
+              "location": "DmpGsWorkflowStepsDef.java:100"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "BUSINESS_FEED",
+                  "EIS_BF_BNP_FIXEDHEADER"
+                ],
+                "line": 48
+              },
+              {
+                "cells": [
+                  "FILE_PATTERN",
+                  "ESIINTRADAY*.out"
+                ],
+                "line": 49
+              },
+              {
+                "cells": [
+                  "MESSAGE_TYPE",
+                  "EIS_MT_BNP_INTRADAY_CASH_TRANSACTION"
+                ],
+                "line": 50
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@cash_data_load"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 128106416,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I use the named environment \"TOM_DEV1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TOM_DEV1",
+                  "offset": 29
+                }
+              ],
+              "location": "ConfigStepsDef.java:16"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5826337,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set the DMP workflow web service endpoint to named configuration \"dmp.ws.WORKFLOW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dmp.ws.WORKFLOW",
+                  "offset": 68
+                }
+              ],
+              "location": "DmpGsWorkflowStepsDef.java:36"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100361603,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set the database connection to configuration \"dmp.db.GC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dmp.db.GC",
+                  "offset": 48
+                }
+              ],
+              "location": "DatabaseStepsDef.java:24"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 94,
+        "name": "IF_0100_TC_3: Process BNP Intraday Cash Transactions to DMP (CAS1): \"ESIINTRADAY_TRN_NEWCASH_NEW.out\" Verifications",
+        "description": "",
+        "id": "inbound-intraday-cash-transactions-interface-testing-(r3.in.cas1-bnp-to-dmp);if-0100-tc-3:-process-bnp-intraday-cash-transactions-to-dmp-(cas1):-\"\u003cinputfile\u003e\"-verifications;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 109900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2788505,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I assign \"ESIINTRADAY_TRN_NEWCASH_NEW.out\" to variable \"INPUT_FILENAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ESIINTRADAY_TRN_NEWCASH_NEW.out",
+                  "offset": 10
+                },
+                {
+                  "val": "INPUT_FILENAME",
+                  "offset": 56
+                }
+              ],
+              "location": "ConfigStepsDef.java:20"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73332371,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 57,
+                "value": "#|ColumnName|Variable|"
+              }
+            ],
+            "line": 58,
+            "name": "I extract below values for row 2 from PSV file \"ESIINTRADAY_TRN_NEWCASH_NEW.out\" in local folder \"${testdata.path}/testdata\" and assign to variables:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                },
+                {
+                  "val": "ESIINTRADAY_TRN_NEWCASH_NEW.out",
+                  "offset": 48
+                },
+                {
+                  "val": "${testdata.path}/testdata",
+                  "offset": 98
+                }
+              ],
+              "location": "DmpGsWorkflowStepsDef.java:80"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "ACCT_ID",
+                  "VAR_ACCT_ID"
+                ],
+                "line": 59
+              },
+              {
+                "cells": [
+                  "BNP_SOURCE_TRAN_EV_ID",
+                  "VAR_BNP_SOURCE_TRAN_EV_ID"
+                ],
+                "line": 60
+              },
+              {
+                "cells": [
+                  "INSTR_ID",
+                  "VAR_INSTR_ID"
+                ],
+                "line": 61
+              },
+              {
+                "cells": [
+                  "BNP_SOURCE_TRAN_ID",
+                  "VAR_BNP_SOURCE_TRAN_ID"
+                ],
+                "line": 62
+              },
+              {
+                "cells": [
+                  "CANCEL_IND",
+                  "VAR_CANCEL_IND"
+                ],
+                "line": 63
+              },
+              {
+                "cells": [
+                  "BNP_CASH_IMPACT_CODE",
+                  "VAR_BNP_CASH_IMPACT_CODE"
+                ],
+                "line": 64
+              },
+              {
+                "cells": [
+                  "NET_SETT_AMT_L",
+                  "VAR_NET_SETT_AMT_L"
+                ],
+                "line": 65
+              },
+              {
+                "cells": [
+                  "NOTES",
+                  "VAR_NOTES"
+                ],
+                "line": 66
+              },
+              {
+                "cells": [
+                  "SETT_CCY",
+                  "VAR_SETT_CCY"
+                ],
+                "line": 67
+              },
+              {
+                "cells": [
+                  "SETT_DATE",
+                  "VAR_SETT_DATE"
+                ],
+                "line": 68
+              },
+              {
+                "cells": [
+                  "TRADE_DATE",
+                  "VAR_TRADE_DATE"
+                ],
+                "line": 69
+              },
+              {
+                "cells": [
+                  "TRAN_TYPE_CODE",
+                  "VAR_TRAN_TYPE_CODE"
+                ],
+                "line": 70
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3632439,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I assign \"${testdata.path}/queries/CASH\" to variable \"SQL_QUERIES_DIR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${testdata.path}/queries/CASH",
+                  "offset": 10
+                },
+                {
+                  "val": "SQL_QUERIES_DIR",
+                  "offset": 54
+                }
+              ],
+              "location": "ConfigStepsDef.java:20"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4379315931,
+              "error_message": "com.eastspring.tom.cart.core.CartException: Verification failed, were expecting column [INSTR_ID_CHECK] value to be [PASS], but it is [FAIL]\r\n\tat com.eastspring.tom.cart.core.svc.DatabaseSvc.verifySqlResultOfColumn(DatabaseSvc.java:158)\r\n\tat com.eastspring.tom.cart.core.steps.DatabaseSteps.verifySqlResultOfColumn(DatabaseSteps.java:89)\r\n\tat tomcart.glue.DatabaseStepsDef.lambda$new$6(DatabaseStepsDef.java:44)\r\n\tat ✽.Then I expect value of column in the below SQL query equals to \"PASS\"(dmp-interfaces/Cash/0100_R3_IN_CAS1_BNP_TO_DMP_workflow.feature:75)\r\n",
+              "status": "failed"
+            },
+            "line": 75,
+            "name": "I expect value of column in the below SQL query equals to \"PASS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PASS",
+                  "offset": 59
+                }
+              ],
+              "location": "DatabaseStepsDef.java:41"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EXEC_TRN_ID_CHECK",
+                  "${SQL_QUERIES_DIR}/EXEC_TRN_ID_CHECK.sql"
+                ],
+                "line": 76
+              },
+              {
+                "cells": [
+                  "EXEC_TRN_ID_WITH_TRAN_ID_CHECK",
+                  "${SQL_QUERIES_DIR}/EXEC_TRN_ID_WITH_TRAN_ID_CHECK.sql"
+                ],
+                "line": 77
+              },
+              {
+                "cells": [
+                  "EXEC_TRD_STAT_TYP_CHECK",
+                  "${SQL_QUERIES_DIR}/EXEC_TRD_STAT_TYP_CHECK.sql"
+                ],
+                "line": 78
+              },
+              {
+                "cells": [
+                  "EXEC_TRN_CL_TYP_CHECK",
+                  "${SQL_QUERIES_DIR}/EXEC_TRN_CL_TYP_CHECK.sql"
+                ],
+                "line": 79
+              },
+              {
+                "cells": [
+                  "NET_SETTLE_CAMT_CHECK",
+                  "${SQL_QUERIES_DIR}/NET_SETTLE_CAMT_CHECK.sql"
+                ],
+                "line": 80
+              },
+              {
+                "cells": [
+                  "TRD_LEGEND_TXT_CHECK",
+                  "${SQL_QUERIES_DIR}/TRD_LEGEND_TXT_CHECK.sql"
+                ],
+                "line": 81
+              },
+              {
+                "cells": [
+                  "SETTLE_CURR_CDE_CHECK",
+                  "${SQL_QUERIES_DIR}/SETTLE_CURR_CDE_CHECK.sql"
+                ],
+                "line": 82
+              },
+              {
+                "cells": [
+                  "SETTLE_DTE_CHECK",
+                  "${SQL_QUERIES_DIR}/SETTLE_DTE_CHECK.sql"
+                ],
+                "line": 83
+              },
+              {
+                "cells": [
+                  "TRD_DTE_CHECK",
+                  "${SQL_QUERIES_DIR}/TRD_DTE_CHECK.sql"
+                ],
+                "line": 84
+              },
+              {
+                "cells": [
+                  "EXEC_TRN_CAT_SUB_TYP_CHECK",
+                  "${SQL_QUERIES_DIR}/EXEC_TRN_CAT_SUB_TYP_CHECK.sql"
+                ],
+                "line": 85
+              },
+              {
+                "cells": [
+                  "EXEC_TRN_CAT_TYP_CHECK",
+                  "${SQL_QUERIES_DIR}/EXEC_TRN_CAT_TYP_CHECK.sql"
+                ],
+                "line": 86
+              },
+              {
+                "cells": [
+                  "TRN_CDE_CHECK",
+                  "${SQL_QUERIES_DIR}/TRN_CDE_CHECK.sql"
+                ],
+                "line": 87
+              },
+              {
+                "cells": [
+                  "TRD_CQTY_CHECK",
+                  "${SQL_QUERIES_DIR}/TRD_CQTY_CHECK.sql"
+                ],
+                "line": 88
+              },
+              {
+                "cells": [
+                  "ACCT_ID_CHECK",
+                  "${SQL_QUERIES_DIR}/ACCT_ID_CHECK.sql"
+                ],
+                "line": 89
+              },
+              {
+                "cells": [
+                  "INSTR_ID_CHECK",
+                  "${SQL_QUERIES_DIR}/INSTR_ID_CHECK.sql"
+                ],
+                "line": 90
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@interface"
+          },
+          {
+            "line": 52,
+            "name": "@cash_verification"
+          },
+          {
+            "line": 5,
+            "name": "@cash_in"
+          }
+        ]
+      }
+    ],
+    "name": "Inbound Intraday Cash Transactions Interface Testing (R3.IN.CAS1 BNP to DMP)",
+    "description": "\r\n      Data Management Platform (DMP) Workflow Regression Suite\r\nThe Data Management Platform (DMP) which is implemented using Golden Source solutions, exposes workflow for inbound/outbound.",
+    "id": "inbound-intraday-cash-transactions-interface-testing-(r3.in.cas1-bnp-to-dmp)",
+    "keyword": "Feature",
+    "uri": "dmp-interfaces/Cash/0100_R3_IN_CAS1_BNP_TO_DMP_workflow.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@interface"
+      },
+      {
+        "line": 5,
+        "name": "@cash_in"
+      }
+    ]
+  }
+]

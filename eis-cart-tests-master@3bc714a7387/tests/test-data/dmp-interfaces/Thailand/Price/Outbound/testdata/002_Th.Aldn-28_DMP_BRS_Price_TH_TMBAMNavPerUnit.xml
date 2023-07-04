@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="WINDOWS-874"?>
+<header>
+    <result>
+        <status>OK</status>
+        <inquiry_date_time>06/03/2020 200245</inquiry_date_time>
+        <file_date>200306_200245_FA</file_date>
+        <short_fund_date>06/03/20</short_fund_date>
+        <fund_date>06/03/2020</fund_date>
+        <tri_date>06/03/2020</tri_date>
+        <thai_date>6 ÁÕ¹Ò¤Á ¾.È. 2563</thai_date>
+        <pdf_fund_date>09/03/2020</pdf_fund_date>
+        <exchange_gold_rate>31.5400</exchange_gold_rate>
+        <exchange_us2_rate>31.4600</exchange_us2_rate>
+        <exchange_us3_rate>31.3400</exchange_us3_rate>
+        <exchange_jpy1_rate>29.4050</exchange_jpy1_rate>
+        <exchange_jpy_rate>29.7410</exchange_jpy_rate>
+        <exchange_sgd_rate>22.7361</exchange_sgd_rate>
+        <exchange_hk_rate>4.0476</exchange_hk_rate>
+        <exchange_euro_rate>35.1210</exchange_euro_rate>
+        <bot_108a_rate>N/A</bot_108a_rate>
+        <benchmark_hist>No adjust info.</benchmark_hist>
+    </result>
+    <fund_info>
+        <row id="1">
+            <fund_code>EISDEV6179</fund_code>
+            <fund_short_name_thai>·ËÒÃä·Â¸¹ÃÑ°</fund_short_name_thai>
+            <fund_sec_name>TMBTM</fund_sec_name>
+            <nav>11,094,759,524.69</nav>
+            <nav_per_unit>13.8285</nav_per_unit>
+            <change>+ 0.0005</change>
+            <percent_change>+0.0036%</percent_change>
+            <bid>13.8285</bid>
+            <offer>13.8286</offer>
+            <offer2/>
+            <offer3/>
+            <ppr_no_fee_agency1>N/A</ppr_no_fee_agency1>
+            <return_ytd>0.17%</return_ytd>
+            <return_3month>0.23%</return_3month>
+            <return_6month>0.53%</return_6month>
+            <return_1year>1.24%</return_1year>
+            <return_3year>1.07%</return_3year>
+            <return_5year>1.13%</return_5year>
+            <return_10year>1.62%</return_10year>
+            <return_inception>1.82%</return_inception>
+            <fund_date>06/03/2020</fund_date>
+            <performance_date>06/03/2020</performance_date>
+            <send_sms>N</send_sms>
+            <send_ivr>Y</send_ivr>
+            <send_fund_connext>Y</send_fund_connext>
+            <nav_date>06/03/2020</nav_date>
+            <total_unit>802,309,432.0091</total_unit>
+            <nav_date_short_thai>6/03/63</nav_date_short_thai>
+            <nav_date_full_thai>6 ÁÕ.¤. 2563</nav_date_full_thai>
+        </row>
+    </fund_info>
+    <fund_info_fif>
+        <row id="1">
+            <fund_code>T05_SGD</fund_code>
+            <fund_short_name_thai>¾ÃçÍ¾à¾ÍÃìµÕé ¾ÅÑÊ</fund_short_name_thai>
+            <fund_sec_name>TMBPIPF_SGD</fund_sec_name>
+            <nav>1,784,609,295.92</nav>
+            <nav_per_unit>0.5607</nav_per_unit>
+            <change>N/A</change>
+            <bid>N/A</bid>
+            <offer>N/A</offer>
+            <return_ytd>N/A</return_ytd>
+            <return_3month>N/A</return_3month>
+            <return_6month>N/A</return_6month>
+            <return_1year>N/A</return_1year>
+            <return_3year>N/A</return_3year>
+            <return_5year>N/A</return_5year>
+            <return_10year>N/A</return_10year>
+            <return_inception>N/A</return_inception>
+            <fund_date>06/03/2020</fund_date>
+            <performance_date>N/A</performance_date>
+            <send_sms>N</send_sms>
+            <send_ivr>N</send_ivr>
+            <nav_date>06/03/2020</nav_date>
+        </row>
+    </fund_info_fif>
+    <fund_info_sd>
+        <row id="1">
+            <fund_code>TB4</fund_code>
+            <return_ytd>0.03%</return_ytd>
+            <return_3month>0.03%</return_3month>
+            <return_6month>0.04%</return_6month>
+            <return_1year>0.05%</return_1year>
+            <return_3year>0.04%</return_3year>
+            <return_5year>0.05%</return_5year>
+            <return_10year>0.08%</return_10year>
+            <return_inception>0.10%</return_inception>
+            <fund_date>06/03/2020</fund_date>
+            <performance_date>06/03/2020</performance_date>
+            <nav_date>06/03/2020</nav_date>
+        </row>
+    </fund_info_sd>
+    <benchmark>
+        <row id="1">
+            <benchmark_name>BENCHMARK1</benchmark_name>
+            <last_price>121149.83</last_price>
+            <return_ytd>0.27%</return_ytd>
+            <return_3month>0.37%</return_3month>
+            <return_6month>0.67%</return_6month>
+            <return_1year>1.03%</return_1year>
+            <return_3year>0.82%</return_3year>
+            <return_5year>0.78%</return_5year>
+            <return_10year>0.91%</return_10year>
+            <return_inception>1.07%</return_inception>
+            <benchmark_date>06/03/2020</benchmark_date>
+            <nav_date>06/03/2020</nav_date>
+        </row>
+    </benchmark>
+    <benchmark_sd>
+        <row id="1">
+            <benchmark_name>BENCHMARK1</benchmark_name>
+            <return_ytd>0.08%</return_ytd>
+            <return_3month>0.07%</return_3month>
+            <return_6month>0.08%</return_6month>
+            <return_1year>0.06%</return_1year>
+            <return_3year>0.04%</return_3year>
+            <return_5year>0.04%</return_5year>
+            <return_10year>0.04%</return_10year>
+            <return_inception>0.05%</return_inception>
+            <benchmark_date>06/03/2020</benchmark_date>
+            <nav_date>06/03/2020</nav_date>
+        </row>
+    </benchmark_sd>
+    <pdf_info>
+        <row id="1">
+            <trans_date>03/09/2020</trans_date>
+            <market_id_etf>A</market_id_etf>
+            <etf_symbol>ENGY</etf_symbol>
+            <isin_code_etf> </isin_code_etf>
+            <type>C</type>
+            <market_id_stock> </market_id_stock>
+            <security_symbol>CASH</security_symbol>
+            <isin_code_stock> </isin_code_stock>
+            <volume>               0</volume>
+            <amount>          260989.00</amount>
+        </row>
+    </pdf_info>
+    <nav_etf_info>
+        <row id="1">
+            <valuation_date>03/06/2020</valuation_date>
+            <market_id_etf> </market_id_etf>
+            <etf_symbol>ENGY</etf_symbol>
+            <isin_code_etf> </isin_code_etf>
+            <UnitPerCU>  1000000</UnitPerCU>
+            <NAV>        76899543.55</NAV>
+            <TOTAL_UNIT>        14000000.0000</TOTAL_UNIT>
+            <NAV_PER_UNIT>        5.4928</NAV_PER_UNIT>
+            <PPR>         5.4928</PPR>
+            <RPR>         5.4928</RPR>
+            <BA>       -356.46</BA>
+            <TRACKING_ERROR>        0.40%</TRACKING_ERROR>
+        </row>
+    </nav_etf_info>
+    <tracking_err_info>
+        <row id="1">
+            <fund_code>E01</fund_code>
+            <tracking_difference>       -2.48%</tracking_difference>
+            <tracking_error>        2.99%</tracking_error>
+            <fund_date>06/03/2020</fund_date>
+            <nav_date>06/03/2020</nav_date>
+        </row>
+    </tracking_err_info>
+    <nav_info>
+        <row id="1">
+            <amc_code>TMBAM</amc_code>
+            <fund_code>TMBWDEQ</fund_code>
+            <aum>698415864.91</aum>
+            <nav>14.1429</nav>
+            <offer_nav>14.1571</offer_nav>
+            <bid_nav>14.1288</bid_nav>
+            <swo_nav>14.1288</swo_nav>
+            <swi_nav>14.1571</swi_nav>
+            <nav_date>20200305</nav_date>
+            <sa_code_for_unit_link>N/A</sa_code_for_unit_link>
+            <total_unit>49382781.9324</total_unit>
+        </row>
+    </nav_info>
+    <unitlink_nav_info>
+        <row id="1">
+            <amc_code>TMBAM</amc_code>
+            <fund_code>TMBGF</fund_code>
+            <aum>2050709763.41</aum>
+            <nav>13.5551</nav>
+            <offer_nav>13.5552</offer_nav>
+            <bid_nav>13.5551</bid_nav>
+            <swo_nav>13.5551</swo_nav>
+            <swi_nav>13.5552</swi_nav>
+            <nav_date>20200305</nav_date>
+            <sa_code_for_unit_link>AIA-U</sa_code_for_unit_link>
+            <total_unit>151286708.1727</total_unit>
+        </row>
+    </unitlink_nav_info>
+</header>

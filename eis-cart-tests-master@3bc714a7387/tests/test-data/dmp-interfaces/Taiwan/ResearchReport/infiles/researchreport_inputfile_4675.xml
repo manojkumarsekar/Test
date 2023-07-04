@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <research>
+        <category>TW GFI Buy Sell</category>
+        <id>https://eastspring.blackrock.com/aladdinresearch/index.html#/link/29410</id>
+        <createDate>2019-07-24, 02:58</createDate>
+        <portfolio>
+            <portfolioCode>POWFIN</portfolioCode>
+        </portfolio>
+        <portfolio>
+            <portfolioCode>TT112</portfolioCode>
+        </portfolio>
+        <portfolio>
+            <portfolioCode>TT112_S</portfolioCode>
+        </portfolio>
+        <listValues>
+            <fieldName>Equity Ticker</fieldName>
+            <action></action>
+            <value></value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>CUSIP</fieldName>
+            <action></action>
+            <value>BPM01JN51</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ISIN</fieldName>
+            <action></action>
+            <value>INE134E08IH4</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Description</fieldName>
+            <action></action>
+            <value>POWER FINANCE CORPORATION LTD 7.5 16-AUG-2021 (SENIOR)</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Group</fieldName>
+            <action></action>
+            <value>BND</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Price</fieldName>
+            <action></action>
+            <value>99.24</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>S&amp;P Rating</fieldName>
+            <action></action>
+            <value>NA</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Moodys Rating</fieldName>
+            <action></action>
+            <value>NA</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Fitch Rating</fieldName>
+            <action></action>
+            <value>NA</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ESI TW GFI Buy Sell</fieldName>
+            <action>Changed</action>
+            <value>Buy</value>
+            <newEndDate>2021-08-16</newEndDate>
+            <matRestriction>2021-08-16</matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Lower</fieldName>
+            <action></action>
+            <value>95</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Upper</fieldName>
+            <action>Changed</action>
+            <value>105</value>
+            <newEndDate>2021-08-16</newEndDate>
+            <matRestriction>2021-08-16</matRestriction>
+        </listValues>
+    </research>
+    <research>
+        <category>TW GFI Buy Sell</category>
+        <id>https://eastspring.blackrock.com/aladdinresearch/index.html#/link/29411</id>
+        <createDate>2019-07-24, 03:01</createDate>
+        <portfolio>
+            <portfolioCode>POWFIN</portfolioCode>
+        </portfolio>
+        <portfolio>
+            <portfolioCode>TT112</portfolioCode>
+        </portfolio>
+        <portfolio>
+            <portfolioCode>TT112_S</portfolioCode>
+        </portfolio>
+        <listValues>
+            <fieldName>Equity Ticker</fieldName>
+            <action></action>
+            <value></value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>CUSIP</fieldName>
+            <action></action>
+            <value>BPM01JN51</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ISIN</fieldName>
+            <action></action>
+            <value>INE134E08IH4</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Description</fieldName>
+            <action></action>
+            <value>POWER FINANCE CORPORATION LTD 7.5 16-AUG-2021 (SENIOR)</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Group</fieldName>
+            <action></action>
+            <value>BND</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Price</fieldName>
+            <action></action>
+            <value>99.24</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>S&amp;P Rating</fieldName>
+            <action></action>
+            <value>NA</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Moodys Rating</fieldName>
+            <action></action>
+            <value>NA</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Fitch Rating</fieldName>
+            <action></action>
+            <value>NA</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ESI TW GFI Buy Sell</fieldName>
+            <action>Changed</action>
+            <value>Sell</value>
+            <newEndDate>2021-08-16</newEndDate>
+            <matRestriction>2021-08-16</matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Lower</fieldName>
+            <action></action>
+            <value>95</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Upper</fieldName>
+            <action></action>
+            <value>105</value>
+            <newEndDate></newEndDate>
+            <matRestriction></matRestriction>
+        </listValues>
+    </research>
+</root>

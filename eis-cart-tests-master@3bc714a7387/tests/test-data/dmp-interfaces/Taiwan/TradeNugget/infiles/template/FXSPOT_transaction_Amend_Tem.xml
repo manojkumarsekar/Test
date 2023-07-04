@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSACTIONS ASOF_DATE="12/18/2018" CREATE_DATE="12/18/2018" RECORDS="1">
+    <TRADE>
+        <COUNTERPARTY_CODE>4856</COUNTERPARTY_CODE>
+        <CUSIP>BPM1K49G3</CUSIP>
+        <DESC_INSTMT>USD/TWD</DESC_INSTMT>
+        <DESK_TYPE>GEN</DESK_TYPE>
+        <EXECUTION_TIME>12/18/2018 4:02:49.000</EXECUTION_TIME>
+        <EXEC_TIME_SOURCE>A</EXEC_TIME_SOURCE>
+        <FUND>12627</FUND>
+        <FX_PAY_AMT>46298.0000000000</FX_PAY_AMT>
+        <FX_PAY_CURR>TWD</FX_PAY_CURR>
+        <FX_PAY_SETTLE_LOCATION>FX_NET</FX_PAY_SETTLE_LOCATION>
+        <FX_PAY_SI_set SIZE="7">
+            <FX_PAY_SI>
+                <NAME>CLEARING BANK NAME</NAME>
+                <NUM>1</NUM>
+                <VALUE>CITIGROUP GLOBAL MARKETS LTD, LONDON</VALUE>
+            </FX_PAY_SI>
+            <FX_PAY_SI>
+                <NAME>CLEARING BANK BIC</NAME>
+                <NUM>2</NUM>
+                <VALUE>CITIGB2LXXX</VALUE>
+            </FX_PAY_SI>
+            <FX_PAY_SI>
+                <NAME>BENE A/C#</NAME>
+                <NUM>4</NUM>
+                <VALUE>GB36CITI18500813578887</VALUE>
+            </FX_PAY_SI>
+            <FX_PAY_SI>
+                <NAME>TRADING/BENE NAME</NAME>
+                <NUM>5</NUM>
+                <VALUE>CITIGROUP GLOBAL MARKETS LIMITED</VALUE>
+            </FX_PAY_SI>
+            <FX_PAY_SI>
+                <NAME>TRADING/BENE BIC</NAME>
+                <NUM>6</NUM>
+                <VALUE>SBILGB2LMLV</VALUE>
+            </FX_PAY_SI>
+            <FX_PAY_SI>
+                <NAME>INTERMEDIARY NAME</NAME>
+                <NUM>7</NUM>
+                <VALUE>CITIBANK NA SYDNEY</VALUE>
+            </FX_PAY_SI>
+            <FX_PAY_SI>
+                <NAME>INTERMEDIARY BIC</NAME>
+                <NUM>8</NUM>
+                <VALUE>CITIAUSXXXX</VALUE>
+            </FX_PAY_SI>
+        </FX_PAY_SI_set>
+        <FX_PRICE>30.8655000000</FX_PRICE>
+        <FX_PRICE_SPOT>30.9655000000</FX_PRICE_SPOT>
+        <FX_RCV_AMT>1500.0000000000</FX_RCV_AMT>
+        <FX_RCV_CURR>USD</FX_RCV_CURR>
+        <FX_RCV_SETTLE_LOCATION>FX_NET</FX_RCV_SETTLE_LOCATION>
+        <FX_RCV_SI_set SIZE="6">
+            <FX_RCV_SI>
+                <NAME>CLEARING BANK NAME</NAME>
+                <NUM>1</NUM>
+                <VALUE>CITIBANK NA NEW YORK</VALUE>
+            </FX_RCV_SI>
+            <FX_RCV_SI>
+                <NAME>CLEARING BANK BIC</NAME>
+                <NUM>2</NUM>
+                <VALUE>CITIUS33XXX</VALUE>
+            </FX_RCV_SI>
+            <FX_RCV_SI>
+                <NAME>ABA#</NAME>
+                <NUM>3</NUM>
+                <VALUE>021000089</VALUE>
+            </FX_RCV_SI>
+            <FX_RCV_SI>
+                <NAME>CLEARING/BENE A/C#</NAME>
+                <NUM>4</NUM>
+                <VALUE>GB64CITI18500813578771</VALUE>
+            </FX_RCV_SI>
+            <FX_RCV_SI>
+                <NAME>TRADING/BENE NAME</NAME>
+                <NUM>5</NUM>
+                <VALUE>CITIGROUP GLOBAL MARKETS LIMITED</VALUE>
+            </FX_RCV_SI>
+            <FX_RCV_SI>
+                <NAME>TRADING/BENE BIC</NAME>
+                <NUM>6</NUM>
+                <VALUE>SBILGB2LMLV</VALUE>
+            </FX_RCV_SI>
+        </FX_RCV_SI_set>
+        <REPO_RATE>2951236.0000000000</REPO_RATE>
+        <TRDCHARGE_set SIZE="4">
+            <TRDCHARGE>
+                <CALC_TYPE>PRIN</CALC_TYPE>
+                <CATEGORY>LEVY</CATEGORY>
+                <RATE>0.0000270000</RATE>
+                <TRDCHARGE_AMOUNT>83.5500000000</TRDCHARGE_AMOUNT>
+                <TRDCHARGE_SCHEDULE_ID>2341.0000000000</TRDCHARGE_SCHEDULE_ID>
+            </TRDCHARGE>
+            <TRDCHARGE>
+                <CALC_TYPE>PRIN</CALC_TYPE>
+                <CATEGORY>LOCO</CATEGORY>
+                <RATE>0.0020000000</RATE>
+                <RATE_TYPE>R</RATE_TYPE>
+                <TRDCHARGE_AMOUNT>6189.0100000000</TRDCHARGE_AMOUNT>
+                <TRDCHARGE_SCHEDULE_ID>5702.0000000000</TRDCHARGE_SCHEDULE_ID>
+            </TRDCHARGE>
+            <TRDCHARGE>
+                <CALC_TYPE>PRIN</CALC_TYPE>
+                <CATEGORY>STAM</CATEGORY>
+                <RATE>0.0010000000</RATE>
+                <TRDCHARGE_AMOUNT>3095.0000000000</TRDCHARGE_AMOUNT>
+                <TRDCHARGE_SCHEDULE_ID>9.0000000000</TRDCHARGE_SCHEDULE_ID>
+            </TRDCHARGE>
+            <TRDCHARGE>
+                <CALC_TYPE>PRIN</CALC_TYPE>
+                <CATEGORY>TRAX</CATEGORY>
+                <RATE>0.0000500000</RATE>
+                <TRDCHARGE_AMOUNT>154.7300000000</TRDCHARGE_AMOUNT>
+                <TRDCHARGE_SCHEDULE_ID>32.0000000000</TRDCHARGE_SCHEDULE_ID>
+            </TRDCHARGE>
+        </TRDCHARGE_set>
+        <INVNUM>-215</INVNUM>
+        <MATURITY>12/20/2018</MATURITY>
+        <MTG_SUBTYPE>USD</MTG_SUBTYPE>
+        <MULTI_FUND_ID>1451531</MULTI_FUND_ID>
+        <PORTFOLIOS_PORTFOLIO_NAME>${PORTFOLIO_NAME}</PORTFOLIOS_PORTFOLIO_NAME>
+        <PREPAY_RATE>100.0000000000</PREPAY_RATE>
+        <ROLL_FEE>0.0000000000</ROLL_FEE>
+        <SI_set SIZE="7">
+            <SI>
+                <NAME>CLEARING BANK NAME</NAME>
+                <NUM>1</NUM>
+                <VALUE>CITIGROUP GLOBAL MARKETS LTD, LONDON</VALUE>
+            </SI>
+            <SI>
+                <NAME>CLEARING BANK BIC</NAME>
+                <NUM>2</NUM>
+                <VALUE>CITIGB2LXXX</VALUE>
+            </SI>
+            <SI>
+                <NAME>BENE A/C#</NAME>
+                <NUM>4</NUM>
+                <VALUE>GB36CITI18500813578887</VALUE>
+            </SI>
+            <SI>
+                <NAME>TRADING/BENE NAME</NAME>
+                <NUM>5</NUM>
+                <VALUE>CITIGROUP GLOBAL MARKETS LIMITED</VALUE>
+            </SI>
+            <SI>
+                <NAME>TRADING/BENE BIC</NAME>
+                <NUM>6</NUM>
+                <VALUE>SBILGB2LMLV</VALUE>
+            </SI>
+            <SI>
+                <NAME>INTERMEDIARY NAME</NAME>
+                <NUM>7</NUM>
+                <VALUE>CITIBANK NA SYDNEY</VALUE>
+            </SI>
+            <SI>
+                <NAME>INTERMEDIARY BIC</NAME>
+                <NUM>8</NUM>
+                <VALUE>CITIAUSXXXX</VALUE>
+            </SI>
+        </SI_set>
+        <SM_COUPON_FREQ>0</SM_COUPON_FREQ>
+        <SM_CURRENCY>TWD</SM_CURRENCY>
+        <SM_PRINCIPAL_FREQ>0</SM_PRINCIPAL_FREQ>
+        <SM_SEC_GROUP>FX</SM_SEC_GROUP>
+        <SM_SEC_TYPE>SPOT</SM_SEC_TYPE>
+        <SUB_BROKER_ID>10552.0000000000</SUB_BROKER_ID>
+        <TD_NUM>105</TD_NUM>
+        <TICKER>USD</TICKER>
+        <TOUCH_COUNT>2</TOUCH_COUNT>
+        <TRAN_TYPE>BUY</TRAN_TYPE>
+        <TRAN_TYPE1>TRD</TRAN_TYPE1>
+        <TRDCHARGE_set SIZE="0"></TRDCHARGE_set>
+        <TRDCOMM_COMMENTS_set SIZE="2">
+            <TRDCOMM_COMMENTS>Test Automation -FX/SPOT</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>Test Automation -FX/SPOT1</TRDCOMM_COMMENTS>
+        </TRDCOMM_COMMENTS_set>
+        <TRDCOMM_STIPS_set SIZE="0"></TRDCOMM_STIPS_set>
+        <TRD_AUTH_TIME>12/18/2018 4:02:49.000</TRD_AUTH_TIME>
+        <TRD_COMMISSION>100.0000000000</TRD_COMMISSION>
+        <TRD_COMMISSION_RATE>1.0000000000</TRD_COMMISSION_RATE>
+        <TRD_CONFIRMED_BY>TST</TRD_CONFIRMED_BY>
+        <TRD_CONVEXITY>0.0000000000</TRD_CONVEXITY>
+        <TRD_COUNTERPARTY>AAST-TW</TRD_COUNTERPARTY>
+        <TRD_COUPON>0.0323986328</TRD_COUPON>
+        <TRD_CURRENCY>TWD</TRD_CURRENCY>
+        <TRD_DROP_RATE>0.0000000000</TRD_DROP_RATE>
+        <TRD_DURATION>0.0000000000</TRD_DURATION>
+        <TRD_ENTRY_TIME>12/18/2018 4:02:49.000</TRD_ENTRY_TIME>
+        <TRD_EXCHANGE_RATE>1.0000000000</TRD_EXCHANGE_RATE>
+        <TRD_EXTID_set SIZE="0"></TRD_EXTID_set>
+        <TRD_EX_COMMISSION>0.0000000000</TRD_EX_COMMISSION>
+        <TRD_FACTOR>1.0000000000</TRD_FACTOR>
+        <TRD_FIFO_TYPE>OPEN</TRD_FIFO_TYPE>
+        <TRD_FINANCING_RATE>0.0000000000</TRD_FINANCING_RATE>
+        <TRD_INTEREST>3.0000000000</TRD_INTEREST>
+        <TRD_MODIFIED_BY>p9nkanda</TRD_MODIFIED_BY>
+        <TRD_MODIFY_DATE>12/18/2018</TRD_MODIFY_DATE>
+        <TRD_MODIFY_TIME>12/18/2018 6:02:50.836</TRD_MODIFY_TIME>
+        <TRD_ORIG_ENTRY_DATE>12/18/2018</TRD_ORIG_ENTRY_DATE>
+        <TRD_ORIG_FACE>2500.0000000000</TRD_ORIG_FACE>
+        <TRD_OTHER_FEE>0.0000000000</TRD_OTHER_FEE>
+        <TRD_PRICE>1.0323986328</TRD_PRICE>
+        <TRD_PRINCIPAL>46298.0000000000</TRD_PRINCIPAL>
+        <TRD_REVIEWED_BY>CONV</TRD_REVIEWED_BY>
+        <TRD_REVIEW_TIME>12/18/2018 4:02:49.000</TRD_REVIEW_TIME>
+        <TRD_SERIES_NUM>0</TRD_SERIES_NUM>
+        <TRD_SETTLE_DATE>12/20/2018</TRD_SETTLE_DATE>
+        <TRD_SETTLE_LOCATION>NO_DELIV</TRD_SETTLE_LOCATION>
+        <TRD_TD_PAR>1600.0000000000</TRD_TD_PAR>
+        <TRD_TRADER>CONV</TRD_TRADER>
+        <TRD_TRADE_DATE>12/18/2018</TRD_TRADE_DATE>
+        <TRD_VERSION>2</TRD_VERSION>
+        <TRD_YIELD>1.0000000000</TRD_YIELD>
+        <UDF_set SIZE="0"></UDF_set>
+        <UNITS>FX</UNITS>
+    </TRADE>
+</TRANSACTIONS>

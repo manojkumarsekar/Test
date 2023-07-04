@@ -1,0 +1,4 @@
+Security_ID|Issuer|Description|ISIN_Code|Sedol|CUSIP|Underlying_Security_ID|Expiry_Date|CV_Terms_Numerator|CV_Terms_Denominator|Contract_Size|Option_Type|Settlement_Type|Currency_of_Denomination|Voting_Rights_Numerator|Voting_Rights_Denominator|Security_Instrument_Type|Next_Conversion_Date|Voting_Rights_Indicator|Source
+BYRH4D2|MINEBEA MITSUMI IN|MINEBA 0% 3/8/22 JPY CNVB|XS1255457696|BYRH4D2|J45464AJ3|6642406|03/08/2022|4835.5899|10000000|1||C|JPY|||CONV||Y|MANG
+B3N14D1|XTRACKERS|XTRACKERS S&P 500 SWAP UCIT|LU0490618542|B3N14D1|L2296R239|||||1||C|USD|||COM||Y|MANG
+End of File

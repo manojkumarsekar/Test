@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+           <soapenv:Header/>
+               <soapenv:Body>
+                   <even:RaiseEIS_RestartAllEngines_ClearPubCacheAsynchron/>
+               </soapenv:Body>
+</soapenv:Envelope>

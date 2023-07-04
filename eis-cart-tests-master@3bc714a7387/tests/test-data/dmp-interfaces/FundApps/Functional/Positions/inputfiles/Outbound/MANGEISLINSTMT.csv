@@ -1,0 +1,6 @@
+Security_ID|Issuer|Description|ISIN_Code|Sedol|CUSIP|Underlying_Security_ID|Expiry_Date|CV_Terms_Numerator|CV_Terms_Denominator|Contract_Size|Option_Type|Settlement_Type|Currency_of_Denomination|Voting_Rights_Numerator|Voting_Rights_Denominator|Security_Instrument_Type|Next_Conversion_Date|Voting_Rights_Indicator|Source
+BLLHKZ1|WH GROUP LTD|USD0.0001|KYG960071028|BLLHKZ1|G96007102|||||1||C|USD|1|1|COM||Y|MANG
+6773812|SAMSUNG ELECTRONIC|PFD KRW100|KR7005931001|6773812|Y74718118|||||1||C|KRW|0|1|PREF||Y|MANG
+2569286|ICICI BANK|SPON ADR EACH REP 2 ORD SHS|US45104G1040|2569286||6100368||||1||C|INR|2|1|DR||Y|MANG
+BP9DZJ8|ASIA VIEW LIMITED|1.5% EXCH GTD 08/08/19 USD|XS1090241040|BP9DZJ8||6398787|08/08/2019|344087.358|250000|1||C|USD|||CONV||Y|MANG
+End of File

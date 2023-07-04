@@ -1,0 +1,5 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><EIS_PublishDocumentResult xmlns="http://www.thegoldensource.com/EventRaiserService.wsdl"><flowResultId>EIS_PublishDocument-Failed
+
+com.j2fe.workflow.impl.exception.CreationException: ERROR: Required Workflow parameter not specified.
+Additional Info: InsightPropertyFileLocation
+Workflow: EIS_PublishDocument</flowResultId></EIS_PublishDocumentResult></SOAP-ENV:Body></SOAP-ENV:Envelope>

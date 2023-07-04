@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_ResearchReportWrapperAsynchron>
+         <even:BRSPropertyFileLocation>db://resource/propertyfiles/UATBRSCredentials.enc</even:BRSPropertyFileLocation>
+         <even:BRSWebserviceURL>${BRS_WEBSERVICE_URL}</even:BRSWebserviceURL>
+         <even:EmailPropertyFileLocation>db://resource/propertyfiles/EmailHKCredentials.enc</even:EmailPropertyFileLocation>
+         <even:EmailSubject></even:EmailSubject>
+         <even:MessageType>EITW_MT_RESEARCH_REPORT</even:MessageType>
+      </even:RaiseEIS_ResearchReportWrapperAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

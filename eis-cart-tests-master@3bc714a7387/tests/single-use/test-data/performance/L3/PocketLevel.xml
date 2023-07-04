@@ -1,0 +1,92 @@
+<html lang="en">
+	<head>
+		<style>
+			
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+			
+table, tr, th, td {
+	border: 1px solid #ddd;
+	text-align: left;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+td, th {
+	display: table-cell;
+	padding: 8px;
+	vertical-align: inherit;
+}
+
+th {
+	text-align: center;
+}
+
+tr.even {
+	background-color: #ffe6e6;
+}
+
+		</style>
+	</head>
+	<body>
+		<h1>Performance L3 Reconciliation for Performance Attribution (Legacy vs BNP DNA)</h1>
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Item</th>
+				<th>Source</th>
+				<th>Target</th>
+			</tr>
+			<tr>
+				<td>00</td>
+				<td>Comparsion GUID</td>
+				<td colspan="2">${ComparisonGUID}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Numeric Tolerance</td>
+				<td colspan="2">${NumericTolerance}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Case Sensitive</td>
+				<td colspan="2">${CaseSensitive}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Start Time</td>
+				<td colspan="2">${StartTime}</td>
+			</tr>
+			<tr class="even">
+				<td></td>
+				<td>End Time</td>
+				<td colspan="2">${EndTime}</td>
+			</tr>
+			<tr>
+				<td>01</td>
+				<td>Record Count</td>
+				<td>${SourceRecordCount}</td>
+				<td>${TargetRecordCount}</td>
+			</tr>
+			<tr class="even">
+				<td>02</td>
+				<td>Duplicate Record Count</td>
+				<td>${SourceDuplicateRecordCount}</td>
+				<td>${TargetDuplicateRecordCount}</td>
+			</tr>
+			<tr>
+				<td>03</td>
+				<td>Surplus</td>
+				<td>${SourceSurplusRecordCount}</td>
+				<td>${TargetSurplusRecordCount}</td>
+			</tr>
+			<tr class="even">
+				<td>04</td>
+				<td>Mismatch Record Count</td>
+				<td colspan="2">${MismatchRecordCount}</td>
+			</tr>
+		</table>
+	</body>
+</html>

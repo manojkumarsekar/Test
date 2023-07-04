@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseCloseExceptionsAsynchron>
+         <!--Optional:-->
+         <even:Comments>?</even:Comments>
+         <!--Optional:-->
+         <even:Current_BLANK_User>?</even:Current_BLANK_User>
+         <!--Optional:-->
+         <even:TRCM_OID>?</even:TRCM_OID>
+         <!--Optional:-->
+         <even:entity>?</even:entity>
+         <!--Zero or more repetitions:-->
+         <even:entityList>?</even:entityList>
+      </even:RaiseCloseExceptionsAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

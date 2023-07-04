@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COUNTERPARTIES ASOF_DATE="9/16/2019" CREATE_DATE="9/17/2019" RECORDS="3714">
+    <COUNTERPARTY>
+        <BROKER_TICKER>UNK</BROKER_TICKER>
+        <BROKER_TYPE>GEN</BROKER_TYPE>
+        <COUNTERPARTY_CODE>0</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>UNKNOWN SOURCE</COUNTERPARTY_NAME>
+        <TRD_COUNTERPARTY>UNK</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>R93561</BROKER_ISSUER>
+        <BROKER_TICKER>TEST</BROKER_TICKER>
+        <BROKER_TYPE>FF-EF</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1033</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>BFM TEST BROKER  abc</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="6">
+            <EXTERN>
+                <ENTITY_ID>EFIX</ENTITY_ID>
+                <EXTERN_ENTITY>9476</EXTERN_ENTITY>
+                <FULL_NAME>BLOOMBERG EMSX</FULL_NAME>
+                <SHORTNAME>FIXEMSX</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>D1</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>123456</ENTITY_ID>
+                <EXTERN_ENTITY>9483</EXTERN_ENTITY>
+                <FULL_NAME>OMGEO-CTM</FULL_NAME>
+                <SHORTNAME>CTM</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BLKSUS30AMGI</ENTITY_ID>
+                <EXTERN_ENTITY>9638</EXTERN_ENTITY>
+                <FULL_NAME>MT300 - FX CONFIRMS MT300</FULL_NAME>
+                <SHORTNAME>MT300</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BLKSUS30AMGI</ENTITY_ID>
+                <EXTERN_ENTITY>38419</EXTERN_ENTITY>
+                <FULL_NAME>Swift Bank Identification Code</FULL_NAME>
+                <SHORTNAME>BIC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK>k</DESK>
+                <ENTITY_ID>1234</ENTITY_ID>
+                <EXTERN_ENTITY>38216</EXTERN_ENTITY>
+                <FULL_NAME>Swift DTC ID for broker</FULL_NAME>
+                <SHORTNAME>DTC</SHORTNAME>
+                <SUB_BROKER_ID>13.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>TEST</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>R93637</BROKER_ISSUER>
+        <BROKER_TICKER>TST</BROKER_TICKER>
+        <BROKER_TYPE>FF-EF</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1045</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>VALIDATION TEST BROKER</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="3">
+            <EXTERN>
+                <ENTITY_ID>BMTB</ENTITY_ID>
+                <EXTERN_ENTITY>9476</EXTERN_ENTITY>
+                <FULL_NAME>BLOOMBERG EMSX</FULL_NAME>
+                <SHORTNAME>FIXEMSX</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>D2</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK></DESK>
+                <ENTITY_ID>MG_Offline.TEST</ENTITY_ID>
+                <EXTERN_ENTITY>172780</EXTERN_ENTITY>
+                <FULL_NAME>360T</FULL_NAME>
+                <SHORTNAME>FIX360T</SHORTNAME>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>TST</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>B96729</BROKER_ISSUER>
+        <BROKER_TICKER>TST1</BROKER_TICKER>
+        <BROKER_TYPE>GEN</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1588</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>TST1</COUNTERPARTY_NAME>
+        <TRD_COUNTERPARTY>TST1</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>BFTEST</BROKER_ISSUER>
+        <BROKER_TICKER>TST-V</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1589</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>TEST VALIDATION - DO NOT DELETE</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="1">
+            <EXTERN>
+                <ENTITY_ID>BLKBLK1</ENTITY_ID>
+                <EXTERN_ENTITY>172800</EXTERN_ENTITY>
+                <FULL_NAME>Omgeo OASYS</FULL_NAME>
+                <SHORTNAME>OASYS</SHORTNAME>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>TST-V</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>002801</BROKER_ISSUER>
+        <BROKER_TICKER>ABBE</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1590</COUNTERPARTY_CODE>
+        <COUNTERPARTY_DTC>0000</COUNTERPARTY_DTC>
+        <COUNTERPARTY_NAME>ABBEY NATIONAL TREASURY SERVICES PL</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="4">
+            <EXTERN>
+                <ENTITY_ID>0000P672</ENTITY_ID>
+                <EXTERN_ENTITY>38138</EXTERN_ENTITY>
+                <FULL_NAME>Deriv/SERV ID</FULL_NAME>
+                <SHORTNAME>DERIVSE</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>0000</ENTITY_ID>
+                <EXTERN_ENTITY>38216</EXTERN_ENTITY>
+                <FULL_NAME>Swift DTC ID for broker</FULL_NAME>
+                <SHORTNAME>DTC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>ANTSGB2LXXX</ENTITY_ID>
+                <EXTERN_ENTITY>38419</EXTERN_ENTITY>
+                <FULL_NAME>Swift Bank Identification Code</FULL_NAME>
+                <SHORTNAME>BIC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK></DESK>
+                <ENTITY_ID>SANTANDER</ENTITY_ID>
+                <EXTERN_ENTITY>9483</EXTERN_ENTITY>
+                <FULL_NAME>OMGEO-CTM</FULL_NAME>
+                <SHORTNAME>CTM</SHORTNAME>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>ABBE</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>052528</BROKER_ISSUER>
+        <BROKER_TICKER>ANZA</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1591</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>AUSTRALIA &amp; NEW ZEALAND BANKING GRO</COUNTERPARTY_NAME>
+        <TRD_COUNTERPARTY>ANZA</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>B71007</BROKER_ISSUER>
+        <BROKER_TICKER>BOA</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1592</COUNTERPARTY_CODE>
+        <COUNTERPARTY_DTC>0000</COUNTERPARTY_DTC>
+        <COUNTERPARTY_NAME>BANK OF AMERICA NA</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="4">
+            <EXTERN>
+                <ENTITY_ID>00006191</ENTITY_ID>
+                <EXTERN_ENTITY>38138</EXTERN_ENTITY>
+                <FULL_NAME>Deriv/SERV ID</FULL_NAME>
+                <SHORTNAME>DERIVSE</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>0000</ENTITY_ID>
+                <EXTERN_ENTITY>38216</EXTERN_ENTITY>
+                <FULL_NAME>Swift DTC ID for broker</FULL_NAME>
+                <SHORTNAME>DTC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>13</ENTITY_ID>
+                <EXTERN_ENTITY>38380</EXTERN_ENTITY>
+                <FULL_NAME>WALL STREET OFFICE</FULL_NAME>
+                <SHORTNAME>WALLSTR</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BOFAUS6SGDS</ENTITY_ID>
+                <EXTERN_ENTITY>38419</EXTERN_ENTITY>
+                <FULL_NAME>Swift Bank Identification Code</FULL_NAME>
+                <SHORTNAME>BIC</SHORTNAME>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>BOA</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+    <COUNTERPARTY>
+        <BROKER_ISSUER>06738C</BROKER_ISSUER>
+        <BROKER_TICKER>BCM</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1593</COUNTERPARTY_CODE>
+        <COUNTERPARTY_DTC>2196</COUNTERPARTY_DTC>
+        <COUNTERPARTY_NAME>BARCLAYS BANK PLC</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="40">
+            <EXTERN>
+                <ENTITY_ID>BZWSGB21</ENTITY_ID>
+                <EXTERN_ENTITY>9471</EXTERN_ENTITY>
+                <FULL_NAME>TRADEWEB U.K. (FIX)</FULL_NAME>
+                <SHORTNAME>FIXTWUK</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BCM</ENTITY_ID>
+                <EXTERN_ENTITY>9480</EXTERN_ENTITY>
+                <FULL_NAME>FX MANAGER</FULL_NAME>
+                <SHORTNAME>FXMV</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BARCGB5GXXX</ENTITY_ID>
+                <EXTERN_ENTITY>9638</EXTERN_ENTITY>
+                <FULL_NAME>MT300 - FX CONFIRMS MT300</FULL_NAME>
+                <SHORTNAME>MT300</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>00006211</ENTITY_ID>
+                <EXTERN_ENTITY>38138</EXTERN_ENTITY>
+                <FULL_NAME>Deriv/SERV ID</FULL_NAME>
+                <SHORTNAME>DERIVSE</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>2196</ENTITY_ID>
+                <EXTERN_ENTITY>38216</EXTERN_ENTITY>
+                <FULL_NAME>Swift DTC ID for broker</FULL_NAME>
+                <SHORTNAME>DTC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>4</ENTITY_ID>
+                <EXTERN_ENTITY>38380</EXTERN_ENTITY>
+                <FULL_NAME>WALL STREET OFFICE</FULL_NAME>
+                <SHORTNAME>WALLSTR</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BARCGB22XXX</ENTITY_ID>
+                <EXTERN_ENTITY>38419</EXTERN_ENTITY>
+                <FULL_NAME>Swift Bank Identification Code</FULL_NAME>
+                <SHORTNAME>BIC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BZWSGB21</ENTITY_ID>
+                <EXTERN_ENTITY>38446</EXTERN_ENTITY>
+                <FULL_NAME>TRADEWEB SEF (FIX) - PPMG</FULL_NAME>
+                <SHORTNAME>FIXTWNYSEF</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BZWSGB21</ENTITY_ID>
+                <EXTERN_ENTITY>115319</EXTERN_ENTITY>
+                <FULL_NAME>TRADEWEB SEF (FIX) - PRUCAP</FULL_NAME>
+                <SHORTNAME>FIXTWJPSEF</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BARX</ENTITY_ID>
+                <EXTERN_ENTITY>124792</EXTERN_ENTITY>
+                <FULL_NAME>TRADEWEB SEF (FIX) - M&amp;G</FULL_NAME>
+                <SHORTNAME>FIXTWUKSEF</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BARCEB</ENTITY_ID>
+                <EXTERN_ENTITY>172793</EXTERN_ENTITY>
+                <FULL_NAME>FIXAIFCM</FULL_NAME>
+                <SHORTNAME>FIXAIFCM</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BARCEB</ENTITY_ID>
+                <EXTERN_ENTITY>172794</EXTERN_ENTITY>
+                <FULL_NAME>FIXAIFOEB</FULL_NAME>
+                <SHORTNAME>FIXAIFOEB</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>BARC-LON-PILOT</ENTITY_ID>
+                <EXTERN_ENTITY>173523</EXTERN_ENTITY>
+                <FULL_NAME>Neptune (FIX)</FULL_NAME>
+                <SHORTNAME>FIXNEPTUNE</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK></DESK>
+                <ENTITY_ID>BARCLAYS BANK</ENTITY_ID>
+                <EXTERN_ENTITY>9483</EXTERN_ENTITY>
+                <FULL_NAME>OMGEO-CTM</FULL_NAME>
+                <SHORTNAME>CTM</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK>C</DESK>
+                <ENTITY_ID>BXCY</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>9686.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>L</DESK>
+                <ENTITY_ID>BXEM</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2946.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>T</DESK>
+                <ENTITY_ID>BXEC</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2864.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>U</DESK>
+                <ENTITY_ID>BXEB</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2863.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>V</DESK>
+                <ENTITY_ID>BXCR</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2862.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>W</DESK>
+                <ENTITY_ID>BXCA</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2861.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>X</DESK>
+                <ENTITY_ID>BEMU</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2860.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>Z</DESK>
+                <ENTITY_ID>BART</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2859.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>a</DESK>
+                <ENTITY_ID>BARX</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>74.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>b</DESK>
+                <ENTITY_ID>BARX</ENTITY_ID>
+                <EXTERN_ENTITY>9476</EXTERN_ENTITY>
+                <FULL_NAME>BLOOMBERG EMSX</FULL_NAME>
+                <SHORTNAME>FIXEMSX</SHORTNAME>
+                <SUB_BROKER_ID>2649.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>c</DESK>
+                <ENTITY_ID>BXLT</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>6770.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>e</DESK>
+                <ENTITY_ID>BCAP</ENTITY_ID>
+                <EXTERN_ENTITY>9472</EXTERN_ENTITY>
+                <FULL_NAME>MARKETAXESS  (FIX)</FULL_NAME>
+                <SHORTNAME>FIXMA</SHORTNAME>
+                <SUB_BROKER_ID>6879.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>f</DESK>
+                <ENTITY_ID>BIIC</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>6897.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>g</DESK>
+                <ENTITY_ID>ABRT</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7070.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>h</DESK>
+                <ENTITY_ID>BARB</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7071.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>i</DESK>
+                <ENTITY_ID>BARC</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7072.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>j</DESK>
+                <ENTITY_ID>BARH</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7073.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>k</DESK>
+                <ENTITY_ID>BARL</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7074.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>l</DESK>
+                <ENTITY_ID>BCRP</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7075.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>m</DESK>
+                <ENTITY_ID>BRCA</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7076.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>n</DESK>
+                <ENTITY_ID>BXAP</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7077.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>o</DESK>
+                <ENTITY_ID>BFRA</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>7078.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>x</DESK>
+                <ENTITY_ID>BRSCUS31</ENTITY_ID>
+                <EXTERN_ENTITY>9472</EXTERN_ENTITY>
+                <FULL_NAME>MARKETAXESS  (FIX)</FULL_NAME>
+                <SHORTNAME>FIXMA</SHORTNAME>
+                <SUB_BROKER_ID>2622.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>x</DESK>
+                <ENTITY_ID>BXOL</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2622.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>z</DESK>
+                <ENTITY_ID>BARCGB33</ENTITY_ID>
+                <EXTERN_ENTITY>9472</EXTERN_ENTITY>
+                <FULL_NAME>MARKETAXESS  (FIX)</FULL_NAME>
+                <SHORTNAME>FIXMA</SHORTNAME>
+                <SUB_BROKER_ID>2599.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>z</DESK>
+                <ENTITY_ID>BARJ</ENTITY_ID>
+                <EXTERN_ENTITY>9478</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT UK</FULL_NAME>
+                <SHORTNAME>FIXBBUK</SHORTNAME>
+                <SUB_BROKER_ID>2599.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>BCM</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+</COUNTERPARTIES>

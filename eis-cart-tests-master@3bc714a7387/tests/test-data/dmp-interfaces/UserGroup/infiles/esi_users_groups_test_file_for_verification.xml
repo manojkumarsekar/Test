@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<USERS ASOF_DATE="10/29/2018" CREATE_DATE="10/29/2018" RECORDS="6748">
+    <USER>
+        <ACCOUNT_CREATED>11/9/2017</ACCOUNT_CREATED>
+        <EMAIL>test1.user1@MandG.co.uk</EMAIL>
+        <FNAME>Test1</FNAME>
+        <INITIALS>ABC</INITIALS>
+        <LAST_LOGIN>10/28/2018 14:50:20</LAST_LOGIN>
+        <LNAME>User1</LNAME>
+        <LOGIN>p9tuser1</LOGIN>
+        <OFFICE_LOCATION>MG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Technology Solutions</PRIMARY_DEPT_NAME>
+        <USER_GROUP>MG_ASM</USER_GROUP>
+        <USER_GROUP_DESC>MG_ASM</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>9/28/2017</ACCOUNT_CREATED>
+        <EMAIL>test2.user2@eastspring.com</EMAIL>
+        <FNAME>Test2</FNAME>
+        <LAST_LOGIN>10/25/2018 13:11:02</LAST_LOGIN>
+        <LNAME>User2</LNAME>
+        <LOGIN>p9tuser2</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Testing</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>(+65) 66534711</TEL_OFFICE>
+        <USER_GROUP>ESI_VIEW-VNB-AG</USER_GROUP>
+        <USER_GROUP_DESC>View permission on all Vietnam Portfolios</USER_GROUP_DESC>
+    </USER>
+	<USER>
+        <ACCOUNT_CREATED>9/28/2017</ACCOUNT_CREATED>
+        <EMAIL>test3.user3@eastspring.com</EMAIL>
+        <FNAME>Test3</FNAME>
+        <LAST_LOGIN>10/25/2018 13:11:02</LAST_LOGIN>
+        <LNAME>User3</LNAME>
+        <LOGIN>p9tuser3</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <USER_GROUP>ESI_VIEW-VNB-AG</USER_GROUP>
+        <USER_GROUP_DESC>View permission on all Vietnam Portfolios</USER_GROUP_DESC>
+    </USER>
+	<USER>
+        <ACCOUNT_CREATED>9/28/2017</ACCOUNT_CREATED>
+        <EMAIL>test4.user4@eastspring.com</EMAIL>
+        <FNAME>Test4</FNAME>
+        <LAST_LOGIN>10/25/2018 13:11:02</LAST_LOGIN>
+        <LNAME>User4</LNAME>
+        <LOGIN>p9tuser4</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>(+65) 66534711</TEL_OFFICE>
+        <USER_GROUP>ESI_VIEW-VNB-AG</USER_GROUP>
+        <USER_GROUP_DESC>View permission on all Vietnam Portfolios</USER_GROUP_DESC>
+    </USER>
+	<USER>
+        <ACCOUNT_CREATED>9/28/2017</ACCOUNT_CREATED>
+        <EMAIL>test5.user5@eastspring.com</EMAIL>
+        <FNAME>Test5</FNAME>
+        <LAST_LOGIN>10/25/2018 13:11:02</LAST_LOGIN>
+        <LNAME>User5</LNAME>
+        <LOGIN>p9tuser5</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>(+65) 66534711</TEL_OFFICE>
+        <USER_GROUP>ESI_VIEW-VNB-AG</USER_GROUP>
+        <USER_GROUP_DESC>View permission on all Vietnam Portfolios</USER_GROUP_DESC>
+    </USER>
+</USERS>

@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_BRSETDTradeRequestReplyAsynchron>
+         <even:BRSPortGroup>${BRS_PORT_GROUP}</even:BRSPortGroup>
+         <even:Directory>${DIRECTORY}</even:Directory>
+         <even:EndDateRange>${END_DATE_RANGE}</even:EndDateRange>
+         <even:MessageType>${MESSAGE_TYPE}</even:MessageType>
+         <even:OutputDirectory>${OUTPUT_DIRECTORY}</even:OutputDirectory>
+         <even:PropertyFile>${BRSPROPERTY_FILE_LOCATION}</even:PropertyFile>
+         <even:StartDateRange>${START_DATE_RANGE}</even:StartDateRange>
+         <even:WebserviceURL>${BRS_WEBSERVICE_URL}</even:WebserviceURL>
+      </even:RaiseEIS_BRSETDTradeRequestReplyAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

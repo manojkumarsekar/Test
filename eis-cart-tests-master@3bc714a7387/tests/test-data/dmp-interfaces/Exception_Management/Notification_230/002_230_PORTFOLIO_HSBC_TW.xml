@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FUND_GROUP ASOF_DATE="12/4/2020" CREATE_DATE="12/4/2020" RECORDS="1024">
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="24">
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281203</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:AUD</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281209</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:CNH</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>848-673281-220</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:EUR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281202</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:GBP</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281001</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:HKD</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 001824713068</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:IDR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 006158927001</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:INR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 002503092041</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:KRW</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 318342250016</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:MYR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281210</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:NZD</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 026254490157</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:PHP</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281216</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:SGD</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 002205102903</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:THB</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281201</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:USD</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>006-608350-434 848673281214</FUND_ID>
+                <LOC>HSBCTW</LOC>
+                <LOC_TYPE>:ZAR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>TT56_EQ_S</FUND_ID>
+                <LOC>BNPACCOUNT</LOC>
+                <LOC_TYPE>ACCT</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>TT56_EQ_S</FUND_ID>
+                <LOC>HSBCBANK(T</LOC>
+                <LOC_TYPE>ADMN</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>38621330001</FUND_ID>
+                <LOC>ALRT</LOC>
+                <LOC_TYPE>ALRT</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>ESI</LOC>
+                <LOC_TYPE>ASA</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>ESI</LOC>
+                <LOC_TYPE>ASM</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>TT56</FUND_ID>
+                <LOC>FIXFLEXD</LOC>
+                <LOC_TYPE>EPN</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>004950-0</FUND_ID>
+                <LOC>FFUTFUT-TW</LOC>
+                <LOC_TYPE>FUTR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>1238149</FUND_ID>
+                <LOC>SPFCFUT-TW</LOC>
+                <LOC_TYPE>FUTR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TW</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>USD</BASE_CURRENCY>
+        <COUNTRY>TW</COUNTRY>
+        <CUSTODIAN>HSBCTW</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>006-608350-434</CUSTODY_ACCT_NUM>
+        <FUND>15830</FUND>
+        <INCEPT_DATE>1/1/2018</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>BRT9EH9R9</CUSIP>
+                <DESC>MSCI AC Asia Pacific Ex Japan (Gross) (TWD)</DESC>
+                <NAME>MSAPACXJC</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>Eastspring Investments Asian Income Balanced Fund (EQ Sub)</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>TT56_EQ_S</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>BPM2MK924</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>ESI_DMP</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <TAX_ID/>
+    </FUND_MEMBER>
+</FUND_GROUP>

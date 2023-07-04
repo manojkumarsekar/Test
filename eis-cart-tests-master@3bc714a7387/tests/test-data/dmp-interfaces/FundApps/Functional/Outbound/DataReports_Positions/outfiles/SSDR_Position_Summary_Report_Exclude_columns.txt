@@ -1,0 +1,17 @@
+Position Date/Effective Date
+BOD Position (QTY)
+BOD% - Issuer QTY
+BOD% - Security (QTY)
+Intraday Movement (EOD-BOD)
+EOD Position (QTY)
+EOD as per DMP
+EOD% - Issuer (QTY)
+EOD % - Security (QTY)
+Class Shares Outstanding
+Class Debt Outstanding
+Total Debt Outstanding
+Total Issued Nominal Capital
+Total Shares In Treasury
+Total Shares Outstanding
+Total Voting Rights
+Total Voting Shares

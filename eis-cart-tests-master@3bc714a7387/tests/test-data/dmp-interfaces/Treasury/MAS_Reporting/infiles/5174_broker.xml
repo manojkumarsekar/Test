@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COUNTERPARTIES ASOF_DATE="11/13/2019" CREATE_DATE="11/14/2019" RECORDS="2">
+   <COUNTERPARTY>
+        <BROKER_ISSUER>R88907</BROKER_ISSUER>
+        <BROKER_TICKER>HSBC-ES</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>2520</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>THE HONGKONG &amp; SHANGHAI BANKING COR</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="12">
+            <EXTERN>
+                <ENTITY_ID>HSBC</ENTITY_ID>
+                <EXTERN_ENTITY>9483</EXTERN_ENTITY>
+                <FULL_NAME>OMGEO-CTM</FULL_NAME>
+                <SHORTNAME>CTM</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>hsbcbank</ENTITY_ID>
+                <EXTERN_ENTITY>38404</EXTERN_ENTITY>
+                <FULL_NAME>FXCONNECT(FIX)</FULL_NAME>
+                <SHORTNAME>FIXFXC</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <ENTITY_ID>HKST</ENTITY_ID>
+                <EXTERN_ENTITY>183342</EXTERN_ENTITY>
+                <FULL_NAME>BLOOMBERG FXGO</FULL_NAME>
+                <SHORTNAME>FIXBLOOMFX</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK>a</DESK>
+                <ENTITY_ID>HSBC:CASH</ENTITY_ID>
+                <EXTERN_ENTITY>38402</EXTERN_ENTITY>
+                <FULL_NAME>FLEX - ULLINK</FULL_NAME>
+                <SHORTNAME>FIXFLEXD</SHORTNAME>
+                <SUB_BROKER_ID>3019.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>a</DESK>
+                <ENTITY_ID>HSBC42P^~CASH</ENTITY_ID>
+                <EXTERN_ENTITY>134264</EXTERN_ENTITY>
+                <FULL_NAME>FIXULLINK</FULL_NAME>
+                <SHORTNAME>FIXULLINK</SHORTNAME>
+                <SUB_BROKER_ID>3019.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>c</DESK>
+                <ENTITY_ID>HSBC:ALGO</ENTITY_ID>
+                <EXTERN_ENTITY>38403</EXTERN_ENTITY>
+                <FULL_NAME>FLEXTRADE</FULL_NAME>
+                <SHORTNAME>FLEX</SHORTNAME>
+                <SUB_BROKER_ID>3081.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>k</DESK>
+                <ENTITY_ID>MIDLGB22</ENTITY_ID>
+                <EXTERN_ENTITY>38427</EXTERN_ENTITY>
+                <FULL_NAME>Tradeweb SP - ESI</FULL_NAME>
+                <SHORTNAME>FIXTWSP</SHORTNAME>
+                <SUB_BROKER_ID>4728.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>k</DESK>
+                <ENTITY_ID>MIDLGB22</ENTITY_ID>
+                <EXTERN_ENTITY>172734</EXTERN_ENTITY>
+                <FULL_NAME>MARKETAXESS (FIX) - ESI</FULL_NAME>
+                <SHORTNAME>FIXMAAPAC</SHORTNAME>
+                <SUB_BROKER_ID>4728.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>k</DESK>
+                <ENTITY_ID>16124</ENTITY_ID>
+                <EXTERN_ENTITY>172768</EXTERN_ENTITY>
+                <FULL_NAME>Bloomberg FIT Singapore - ESI</FULL_NAME>
+                <SHORTNAME>FIXBBSP</SHORTNAME>
+                <SUB_BROKER_ID>4728.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>o</DESK>
+                <ENTITY_ID>HSBC</ENTITY_ID>
+                <EXTERN_ENTITY>38427</EXTERN_ENTITY>
+                <FULL_NAME>Tradeweb SP - ESI</FULL_NAME>
+                <SHORTNAME>FIXTWSP</SHORTNAME>
+                <SUB_BROKER_ID>6755.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>o</DESK>
+                <ENTITY_ID>JCSIUS33</ENTITY_ID>
+                <EXTERN_ENTITY>172734</EXTERN_ENTITY>
+                <FULL_NAME>MARKETAXESS (FIX) - ESI</FULL_NAME>
+                <SHORTNAME>FIXMAAPAC</SHORTNAME>
+                <SUB_BROKER_ID>6755.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>p</DESK>
+                <ENTITY_ID>hsbctrinkaus</ENTITY_ID>
+                <EXTERN_ENTITY>38404</EXTERN_ENTITY>
+                <FULL_NAME>FXCONNECT(FIX)</FULL_NAME>
+                <SHORTNAME>FIXFXC</SHORTNAME>
+                <SUB_BROKER_ID>10771.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>HSBC-ES</TRD_COUNTERPARTY>
+    </COUNTERPARTY>    
+    <COUNTERPARTY>
+        <BROKER_ISSUER>064059</BROKER_ISSUER>
+        <BROKER_TICKER>BNYM-GT</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>5700</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>BNY MELLON CAPITAL MARKETS, LLC</COUNTERPARTY_NAME>
+        <TRD_COUNTERPARTY>BNYM-GT</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+</COUNTERPARTIES>

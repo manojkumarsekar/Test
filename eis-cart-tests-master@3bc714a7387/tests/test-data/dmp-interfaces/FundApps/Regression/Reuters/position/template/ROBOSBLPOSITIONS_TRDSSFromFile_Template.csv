@@ -1,0 +1,2 @@
+As Of Date,Client Org External Name,Fund External Name,Fund Short Id,Security Id,Security Name,Sec Subclass Name,Trd Ctry Id,ISIN Id,Sedol Id,Share Qnty,Borrower Entity External Name,Record Type
+${DYNAMIC_DATE_SBL},"PRUDENTIAL HONG KONG LIMITED","PHKL EU MULTI FACTOR EQ FUND","PR3W","TSTRTS0","SCHAEFFLER AG   PREF PREFERENCE ","PREFERRED STOCK","DE",,"TSTRTS0",60000,"BARCLAYS CAPITAL INC.","COLLATERAL"

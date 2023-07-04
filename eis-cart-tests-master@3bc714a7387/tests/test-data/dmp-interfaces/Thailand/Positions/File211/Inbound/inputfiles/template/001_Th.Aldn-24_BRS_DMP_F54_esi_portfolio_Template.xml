@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FUND_GROUP ASOF_DATE="${DYNAMIC_DATE}" CREATE_DATE="${DYNAMIC_DATE}" RECORDS="8">
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>E01</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>E01</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>E01</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>E01</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>E01</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>LF1</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>LF1</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>LF1</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>LF1</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>LF1</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>LF6</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>LF6</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>LF6</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>LF6</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>LF6</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>RF3</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>RF3</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>RF3</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>RF3</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>RF3</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>	
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>RF6</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>RF6</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>RF6</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>RF6</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>RF6</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>TB3</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>TB3</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>TB3</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>TB3</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>TB3</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>	
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>TB5</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>TB5</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>TB5</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>TB5</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>TB5</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>TB6</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>TB6</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>TB6</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>TB6</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>TB6</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>THB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>		
+</FUND_GROUP>

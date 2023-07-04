@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="${CURR_DATE_1}" CREATE_DATE="${CURR_DATE_1}" RECORDS="2">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>11/18/2019</ACCRUAL_DT>
+        <ASSET_BENCHMARK>BPM0UJMV3</ASSET_BENCHMARK>
+        <CD_INSTMT_TYPE>N/A</CD_INSTMT_TYPE>
+        <CHANGE_DT>3/31/2020 6:49:49.503</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>ID</COUNTRY>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>IDR</CURRENCY>
+        <CUSIP>BES2XEPW1</CUSIP>
+        <CUSIP2_set SIZE="1">
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>IDN000418308</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL9824645</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>EASTSPRING ID CASH RESERVE B</DESC_INSTMT>
+        <DESC_INSTMT2>ICH</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>11/18/2019</ISSUE_DT>
+        <LEAD_MGR>4591</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>ID</MARKET>
+        <MODIFIED_BY>e4kotoh</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="5">
+            <NOTES_record>
+                <EFF_DT>11/1/2019</EFF_DT>
+                <INSTMT>ESI: Pending ESLID and ISIN</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>e4kotoh</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>11/18/2019</EFF_DT>
+                <INSTMT>ESI: Updated ESL ID</INSTMT>
+                <SEQ_NUM>2</SEQ_NUM>
+                <USER_ID>e4seho</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>11/19/2019</EFF_DT>
+                <INSTMT>ESI: Inserted ISIN</INSTMT>
+                <SEQ_NUM>3</SEQ_NUM>
+                <USER_ID>e4kotoh</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>11/20/2019</EFF_DT>
+                <INSTMT>ESI: Transfer underlying index from BRSRYWLV2</INSTMT>
+                <SEQ_NUM>4</SEQ_NUM>
+                <USER_ID>e4kotoh</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>3/31/2020</EFF_DT>
+                <INSTMT>ESI: Updated Class to reflect Internal Fund per tari</INSTMT>
+                <SEQ_NUM>5</SEQ_NUM>
+                <USER_ID>e4kotoh</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>ID</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>e4kotoh</REVIEWED_BY>
+        <RISK_COUNTRY>ID</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>CMoney</PURPOSE>
+                <VALUE>105386413.472</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>1/1/1990</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>3/12/2019 4:04:26.760</CHANGE_DT>
+        <COUNTRY>GB</COUNTRY>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>BRT7MMZB9</CUSIP>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL5220245</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>PPM MANAGERS PARTNERSHIP VII A LP</DESC_INSTMT>
+        <DESC_INSTMT2>EPE</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>I84366</ISSUER_ID>
+        <ISSUE_DT>1/1/1990</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>GB</MARKET>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>NY_Bank</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <RED_FREQ>12</RED_FREQ>
+        <REVIEWED_BY>ptong</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SM_VECTOR_DATA_set SIZE="1">
+            <SM_VECTOR_DATA_record>
+                <ATTR_NAME>Europe</ATTR_NAME>
+                <ATTR_PCT>100</ATTR_PCT>
+                <ATTR_TYPE>PE_CNT</ATTR_TYPE>
+                <START_DATE>8/4/2017</START_DATE>
+                <STOP_DATE>12/31/2049</STOP_DATE>
+            </SM_VECTOR_DATA_record>
+        </SM_VECTOR_DATA_set>
+        <SUB_FREQ>12</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

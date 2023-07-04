@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="3/19/2019" CREATE_DATE="3/19/2019" RECORDS="1">
+    <ASSET><EQUITY_EQUITY>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>7/29/2016 1:30:07.643</CHANGE_DT>
+		<CONTRACT_SIZE>20</CONTRACT_SIZE>
+        <COUNTRY>HK</COUNTRY>
+        <CURRENCY>HKD</CURRENCY>
+        <CUSIP>SB3X9PM11</CUSIP>
+        <CUSIP2_set SIZE="4">
+			<CUSIP2_record>
+                <CODE>A</CODE>
+                <IDENTIFIER>SB3X9PM11</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>B3X9PM1</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>0080.TW</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>0080 TT</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003f80234cea4a7</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>Y3037U107</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>HANG SENG H-SHARE INDEX ETF</DESC_INSTMT>
+        <DESC_INSTMT2>ETF</DESC_INSTMT2>
+        <DR_TYPE>N</DR_TYPE>
+        <EXCHANGE>TAI</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>D47000</ISSUER_ID>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TW</MARKET>
+		<MATURITY>09/11/2025</MATURITY>
+        <MIN_LOT_SIZE>200</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>200</MIN_TRD_SIZE>
+        <MODIFIED_BY>tsgops</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>TAIW</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>0080</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>UCITS_ELIGIBLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>N</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>

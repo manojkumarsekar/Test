@@ -1,0 +1,61 @@
+7-Digit Sedol,Name,Country,Contender Rank,PE Rank,Price Momentum Rank,EPS Revision Rank,Quality,Sentiment,Sentiment Momentum
+6467803,Itochu,Japan,100,97,76,99,4: B+,2: Above Average,3: No Change
+6661144,ORIX,Japan,100,96,71,95,1: A+,1: Strongest,3: No Change
+B62G7K6,Sompo,Japan,100,93,70,73,4: B+,3: Average,5: Large Negative
+6900580,Toyota Tsusho,Japan,99,83,80,77,5: B,4: Below Average,3: No Change
+6805544,Showa Shell,Japan,99,81,74,74,6: B-,2: Above Average,3: No Change
+6499806,Kyushu Electric,Japan,99,81,90,85,6: B-,3: Average,3: No Change
+6431897,Sumitomo Mitsui Trust,Japan,98,79,77,90,4: B+,4: Below Average,3: No Change
+6467104,Isuzu Motors,Japan,98,78,69,94,3: A-,1: Strongest,3: No Change
+6660204,Taiheiyo Cement,Japan,98,71,72,75,4: B+,1: Strongest,1: Large Postive
+6497662,Kuraray,Japan,97,65,86,86,4: B+,3: Average,1: Large Postive
+6744294,T&D,Japan,97,64,79,78,3: A-,3: Average,3: No Change
+6895266,Tohoku Electric,Japan,97,61,87,95,5: B,5: Weakest,3: No Change
+6738220,Ricoh,Japan,96,60,85,99,6: B-,4: Below Average,3: No Change
+6496700,Konica Minolta,Japan,96,59,68,89,3: A-,5: Weakest,4: Small Negative
+6356525,FujiFilm,Japan,96,59,82,92,1: A+,1: Strongest,1: Large Postive
+6821506,Sony,Japan,95,58,78,96,6: B-,1: Strongest,3: No Change
+BYT8143,Japan Post,Japan,95,53,92,90,-,3: Average,3: No Change
+B10RB15,INPEX,Japan,95,52,73,100,6: B-,1: Strongest,3: No Change
+6858902,Sumitomo Realty,Japan,95,51,81,74,2: A,3: Average,4: Small Negative
+6597067,MHI,Japan,94,51,83,68,5: B,5: Weakest,3: No Change
+6497509,Kubota,Japan,94,49,84,75,4: B+,3: Average,4: Small Negative
+B05LZ02,Hakuhodo DY,Japan,94,46,75,83,2: A,4: Below Average,3: No Change
+6597603,Mitsui Fudosan,Japan,93,46,81,83,1: A+,2: Above Average,4: Small Negative
+6416281,Dentsu,Japan,93,44,73,70,4: B+,2: Above Average,4: Small Negative
+6640400,NEC,Japan,93,42,95,100,4: B+,5: Weakest,3: No Change
+B0JDQD4,Bandai Namco,Japan,92,42,89,95,4: B+,1: Strongest,3: No Change
+6782090,Medipal,Japan,92,40,94,86,4: B+,5: Weakest,3: No Change
+6640541,Taiyo Nippon Sanso,Japan,92,39,96,72,2: A,1: Strongest,1: Large Postive
+B0FS5D6,Seven & i,Japan,91,38,88,80,4: B+,1: Strongest,1: Large Postive
+6687214,Alfresa,Japan,91,38,96,91,3: A-,5: Weakest,3: No Change
+6986427,Yokogawa Electric,Japan,91,36,79,91,4: B+,3: Average,4: Small Negative
+6804682,Shionogi,Japan,90,36,100,80,3: A-,2: Above Average,4: Small Negative
+6125639,NTT Data,Japan,90,35,80,71,4: B+,1: Strongest,3: No Change
+6250025,Daifuku Co,Japan,90,35,73,90,2: A,2: Above Average,3: No Change
+6569527,Marui,Japan,89,34,89,82,2: A,1: Strongest,4: Small Negative
+BFFY885,SG Holdings,Japan,89,29,94,79,-,4: Below Average,3: No Change
+6895200,Toho Co,Japan,89,28,87,82,2: A,1: Strongest,3: No Change
+6441506,Hoya,Japan,89,28,88,77,3: A-,1: Strongest,3: No Change
+6776606,Santen Pharma,Japan,88,23,71,69,3: A-,4: Below Average,3: No Change
+6250906,Dainippon,Japan,88,22,89,83,3: A-,2: Above Average,3: No Change
+6723839,United Urban Investment,Japan,88,20,84,70,-,3: Average,3: No Change
+6513342,JRFIF,Japan,87,17,93,69,-,3: Average,4: Small Negative
+6895222,Toho Gas,Japan,87,17,97,67,4: B+,5: Weakest,3: No Change
+6269861,Don Quijote,Japan,87,16,100,74,2: A,1: Strongest,1: Large Postive
+6136749,OBIC,Japan,86,13,72,76,4: B+,1: Strongest,1: Large Postive
+6641588,Nissan Chemical,Japan,86,12,95,70,2: A,3: Average,3: No Change
+6865560,Suzuken,Japan,86,10,99,98,4: B+,5: Weakest,3: No Change
+B2Q4CL4,Isetan Mitsukoshi,Japan,85,8,79,85,6: B-,5: Weakest,3: No Change
+6332439,Fast Retailing,Japan,85,6,99,82,4: B+,3: Average,4: Small Negative
+6196408,Chugai Pharma,Japan,85,5,98,84,3: A-,4: Below Average,3: No Change
+6897466,Toto,Japan,6,32,15,23,4: B+,-,1: Large Postive
+6986041,Yaskawa Electric Corp,Japan,6,31,24,11,4: B+,4: Below Average,-
+BK0S445,Cyberdyne,Japan,1,1,2,20,7: C,1: Strongest,2: Small Positive
+,Cyberdyne,Japan,1,1,2,20,7: C,1: Strongest,2: Small Positive
+6428907,Hisamitsu Pharm,Japan,19,7,7,39,XX,5: Weakest,3: No Change
+6648891,Oriental Land,Japan,19,4,45,38,2: A,XX,4: Small Negative
+B02K2M3,M3,Japan,19,2,4,47,4: B+,3: Average,XX
+6596923,Mitsubishi Gas,Japan,19,99,3,4,,3: Average,3: No Change
+6900289,Tosoh,Japan,18,96,28,3,3: A-,,3: No Change
+6985264,Yamaha Motor,Japan,18,95,5,13,4: B+,2: Above Average,

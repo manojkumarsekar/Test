@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<page>1</page>
+	<page_size>100</page_size>
+	<size>31</size>
+	<total_pages>1</total_pages>
+	<links>
+		<next>null</next>
+		<prev>null</prev>
+	</links>
+	<additionalHeaders>null</additionalHeaders>
+	<results>
+		<RowNumber>1</RowNumber>
+		<PortfolioId>4</PortfolioId>
+		<FundId>22</FundId>
+		<PortfolioCode>ASUDPF</PortfolioCode>
+		<PortfolioName>EASTSPRING INV UT DRAGON PEA</PortfolioName>
+		<PortfolioLegalName>EASTSPRING INVESTMENTS UNIT TRUSTS - DRAGON PEACOCK FUND</PortfolioLegalName>
+		<PortfolioCurrency>SGD</PortfolioCurrency>
+		<PortfolioLaunchDate>18/06/2004</PortfolioLaunchDate>
+		<InvestmentManager>EASTSPRING INVESTMENTS (SINGAPORE) LIMITED</InvestmentManager>
+		<InvestmentManagerLocation>SG</InvestmentManagerLocation>
+		<IsPortfolioProcessed>PROCESSED</IsPortfolioProcessed>
+		<BNPPortfolioPerformanceFlag>No</BNPPortfolioPerformanceFlag>
+		<IRPCode>ASUDPF</IRPCode>
+		<EntityStateId>Active</EntityStateId>
+		<MFUNDPortfolioCode>MFUND_ASUDPF</MFUNDPortfolioCode>
+		<RDMPortfolioCode>RDM_ASUDPF</RDMPortfolioCode>
+		<TstarPortfolioCode>TSTAR_ASUDPF</TstarPortfolioCode>
+		<KoreaMDPortfolioCode>KOREA_ASUDPF</KoreaMDPortfolioCode>
+		<TWPortfolioShortnameTraditionalchinese>收益優化傘型證券投資信託基金之南非幣保本證券投資信託基金</TWPortfolioShortnameTraditionalchinese>
+		<TWPortfoliolongnameTraditionalchinese>收益優化傘型證券投資信託基金之南非幣保本證券投資信託基金</TWPortfoliolongnameTraditionalchinese>
+		<Thailandfundportcode>THAI_ASUDPF</Thailandfundportcode>
+		<TMBAMHiportSuffixcode>SUFFIX_ASUDPF</TMBAMHiportSuffixcode>
+		<ESUNSPCLPlatform>No</ESUNSPCLPlatform>
+		<FundUniformNumber>UBN_ASUDPF</FundUniformNumber>
+		<SITCAFundID>SITCA_ASUDPF</SITCAFundID>
+		<BenchmarkRDMID>OTJPMASG</BenchmarkRDMID>
+		<BenchmarkCRTSID>OTJPMASG</BenchmarkCRTSID>
+		<SSHFlag>YES</SSHFlag>
+		<PPMAFlag>Y</PPMAFlag>
+		<QFIIFlag>NO</QFIIFlag>
+		<STCFlag>N</STCFlag>
+		<FINIFlag>Yes</FINIFlag>
+		<USPersonindicator>No</USPersonindicator>
+		<DOPPortfolioID>AGPPMT</DOPPortfolioID>
+		<DOPCFETargetPercent>0.09</DOPCFETargetPercent>
+		<DOPCFELowerTolerancePercent>0.01</DOPCFELowerTolerancePercent>
+		<DOPCFEUpperTolerancePercent>0.02</DOPCFEUpperTolerancePercent>
+		<Clientname>Prudential Assurance Company Limited – UK Life</Clientname>
+		<FundManagementCompany>EASTSPRING INVESTMENTS (LUXEMBOURG) S.A.</FundManagementCompany>
+		<SubInvestmentManager>EASTSPRING INVESTMENTS (SINGAPORE) LIMITED</SubInvestmentManager>
+		<Advisor>EASTSPRING INVESTMENT MANAGEMENT (SHANGHAI) COMPANY LIMITED</Advisor>
+		<Trustee>DEUTSCHE TRUSTEES MALAYSIA BERHAD</Trustee>
+		<AccountingAgent>STANDARD CHARTERED BANK INDONESIA</AccountingAgent>
+		<ValuationAgent>Kasikorn Bank of Thailand</ValuationAgent>
+		<Registrar>HSBC INSTITUTIONAL TRUST SERVICES SINGAPORE LTD</Registrar>
+		<SubRegistrar>SSB HONG KONG</SubRegistrar>
+		<TransferAgent>TA - STATE STREET DUBLIN</TransferAgent>
+		<SubTransferAgent>BNP PARIBAS LUXEMBOURG</SubTransferAgent>
+		<GlobalDistributor>CITIBANK HONGKONG</GlobalDistributor>
+		<FundAdministrator>CITIBANK MALAYSIA</FundAdministrator>
+		<PruGroupLEName>SQUIRE CAPITAL I LLC</PruGroupLEName>
+		<NonGroupLEName>PRUDENTIAL (US HOLDCO 1) LIMITED</NonGroupLEName>
+		<SIDNumber>Asian Equity Portfolio  (SID - OTF010153613607)</SIDNumber>
+		<MASCategory>FUNDS UNDER DISCRETIONARY MANAGEMENT</MASCategory>
+		<InvestmentTeam>EQUITY</InvestmentTeam>
+		<FundPlatform>UNIT TRUST</FundPlatform>
+		<FundVehicletype>Corporate</FundVehicletype>
+		<LEVRDiscretion>Sole</LEVRDiscretion>
+		<LEInvestmentDiscretion>Sole</LEInvestmentDiscretion>
+		<BRSLETicker>EQFEEDER</BRSLETicker>
+		<BRSBLTicker>ES-MUT</BRSBLTicker>
+		<PortfolioManager1Email>testautomation@eastspring.com</PortfolioManager1Email>
+		<PortfolioManager2Email>testautomation@eastspring.com</PortfolioManager2Email>
+		<BackupPortfolioManagerEmail>testautomation@eastspring.com</BackupPortfolioManagerEmail>
+		<TWALTPortfolioCode>ALTCRTS_ASUDPF</TWALTPortfolioCode>
+		<DMSID>DMSID_ASUDPF</DMSID>
+		<PortfolioLEIcode> 549300ANHZKCZ42E5591</PortfolioLEIcode>
+		<PortfolioISIN>SG9999002828</PortfolioISIN>
+		<PortfolioDomicile>SG</PortfolioDomicile>
+		<FundRegion>NONLATAM</FundRegion>
+		<Custodian>BNP SECURITY SERVICES</Custodian>
+		<FundCategory>Model Portfolio</FundCategory>
+		<FundType>DIRECT INVESTMENT</FundType>
+		<InvestmentStrategy>FIXED INCOME</InvestmentStrategy>
+	</results>
+	<results>
+		<RowNumber>2</RowNumber>
+		<PortfolioId>6</PortfolioId>
+		<FundId>26</FundId>
+		<PortfolioCode>ALGEMD</PortfolioCode>
+		<PortfolioName>EASTSPRING INV GLOBAL EM DYN</PortfolioName>
+		<PortfolioLegalName>EASTSPRING INVESTMENTS - GLOBAL EMERGING MARKETS DYNAMIC FUND</PortfolioLegalName>
+		<PortfolioCurrency>USD</PortfolioCurrency>
+		<PortfolioLaunchDate>29/10/2010</PortfolioLaunchDate>
+		<InvestmentManager>EASTSPRING INVESTMENTS SINGAPORE LIMITED</InvestmentManager>
+		<InvestmentManagerLocation>SG</InvestmentManagerLocation>
+		<IsPortfolioProcessed>PROCESSED</IsPortfolioProcessed>
+		<BNPPortfolioPerformanceFlag>No</BNPPortfolioPerformanceFlag>
+		<IRPCode>ALGEMD_M</IRPCode>
+		<EntityStateId>Archived</EntityStateId>
+	</results>
+	<results>
+		<RowNumber>3</RowNumber>
+		<PortfolioId>8</PortfolioId>
+		<FundId>27</FundId>
+		<PortfolioCode>ALGENF</PortfolioCode>
+		<PortfolioName>EASTSPRING INV GLOBAL EQ NAV</PortfolioName>
+		<PortfolioLegalName>EASTSPRING INVESTMENTS - GLOBAL EQUITY NAVIGATOR FUND PREVIOUSLY INTERNATIONAL OPPORTUNITIES FUNDS - GLOBAL EQUITY NAVIGATOR</PortfolioLegalName>
+		<PortfolioCurrency>USD</PortfolioCurrency>
+		<PortfolioLaunchDate>15/06/2011</PortfolioLaunchDate>
+		<InvestmentManager>EASTSPRING INVESTMENTS SINGAPORE LIMITED</InvestmentManager>
+		<InvestmentManagerLocation>SG</InvestmentManagerLocation>
+		<IsPortfolioProcessed>PROCESSED</IsPortfolioProcessed>
+		<BNPPortfolioPerformanceFlag>No</BNPPortfolioPerformanceFlag>
+		<IRPCode>ALGENF</IRPCode>
+		<EntityStateId>Deleted</EntityStateId>
+	</results>
+	<results>
+		<RowNumber>4</RowNumber>
+		<PortfolioId>11</PortfolioId>
+		<FundId>30</FundId>
+		<PortfolioCode>ALGMNF</PortfolioCode>
+		<PortfolioName>EASTSPRING INV GLOBAL MKT NAV</PortfolioName>
+		<PortfolioLegalName>EASTSPRING INVESTMENTS - GLOBAL MARKET NAVIGATOR FUND</PortfolioLegalName>
+		<PortfolioCurrency>USD</PortfolioCurrency>
+		<PortfolioLaunchDate>27/03/2008</PortfolioLaunchDate>
+		<InvestmentManager>EASTSPRING INVESTMENTS SINGAPORE LIMITED</InvestmentManager>
+		<InvestmentManagerLocation>SG</InvestmentManagerLocation>
+		<IsPortfolioProcessed>PROCESSED</IsPortfolioProcessed>
+		<BNPPortfolioPerformanceFlag>No</BNPPortfolioPerformanceFlag>
+		<IRPCode>ALGMNF_M</IRPCode>
+		<EntityStateId>Created</EntityStateId>
+	</results>	
+</root>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseProcessFilesDirectorySynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseProcessFilesDirectoryAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element minOccurs="0" name="BusinessFeed" type="xs:string"><xs:annotation><xs:documentation>The Business Feed to be used for the file processing. Only files which belong to the feed will be picked up from the directory!
+Either Business Feed or the Vendor Definition must be provided.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Directory" type="xs:string"><xs:annotation><xs:documentation>The directory it is searched for files. If not set the working directory configured in the Assembly will be used as directory searched for files.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="FileLoadEvent" type="xs:string"><xs:annotation><xs:documentation>The Event that is called to process the file.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="FilePatterns" type="xs:string"><xs:annotation><xs:documentation>In addition to the file patterns defined at Business Feed level, more restrictive File Patterns can be specified.
+NOTE: If there is no file pattern specified at Business Feed level, the default will be all files ('*').</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="IncludeFilePatternNBusinessFeed" type="xs:boolean"><xs:annotation><xs:documentation>Whether to consider both Custom File patterns and patterns in Business Feed while listing of files.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Job_BLANK_Definition_BLANK_Id" type="xs:string"><xs:annotation><xs:documentation>Job Definition Id</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="LastRunInterval" type="xs:string"><xs:annotation><xs:documentation>This variable will be used to query the RSRT table. the query will fetch the records for only those files which have the RUN_TMS range as [sysdate-LastRunInterval, sysdate]. The records for the files having RUN_TMS below sysdate-LastRunInterva and above sysdate will not be fetched.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="MessageBulkSize" type="xs:integer"><xs:annotation><xs:documentation>The number of messages from a file which are processed in parallel.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="MessageProcessingEvent" type="xs:string"><xs:annotation><xs:documentation>The Event that is called to process a single message.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="MessageType" type="xs:string"><xs:annotation><xs:documentation>Sets the Message Type to be used for processing a list of files. Processing of the files will be done in sequence (Grouping on file level will not be taken into consideration).</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="NrOfFilesParallel" type="xs:integer"><xs:annotation><xs:documentation>The number of files that are processed in parallel, as long as they belong to the same group (see File Definitions at Business Feed).</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="OutputDirectory" type="xs:string"><xs:annotation><xs:documentation>Only if SuccessAction is MOVE. The files will be moved to this directory.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="OverridePriceSourceType" type="xs:string"><xs:annotation><xs:documentation>The Price Source Type in ISPC table will be overridden by the value provided in this parameter. This value cannot be null so the default value is DEFAULT. When any value other than 'DEFAULT' is specified, the value will be used to populate the Price Source Type.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="ParallelBranches" type="xs:integer"><xs:annotation><xs:documentation>The number of branches in parallel.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="ParentJobID" type="xs:string"><xs:annotation><xs:documentation>Parent Job id is used to correlated all the child jobs.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Price_BLANK_Point_BLANK_Event_BLANK_Definition_BLANK_Id" type="xs:string"><xs:annotation><xs:documentation>Price Point Event Definition Id</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="ReProcessProcessedFiles" type="xs:boolean"><xs:annotation><xs:documentation>Indicates if an already processed file should be processed again.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Recursive" type="xs:boolean"><xs:annotation><xs:documentation>Should sub directories be searched?</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="SortAscending" type="xs:boolean"><xs:annotation><xs:documentation>Sort the files ascending or descending.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="SortOrder" type="xs:string"><xs:annotation><xs:documentation>Sort the files by TIME or NATURAL or FILESIZE?</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="SortedFileDirectory" type="xs:string"><xs:annotation><xs:documentation>Directory where sorted file will be created</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="SuccessAction" type="xs:string"><xs:annotation><xs:documentation>What should be done with the file after processing. MOVE or LEAVE (no action) or DELETE.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="VendorDefinition" type="xs:string"><xs:annotation><xs:documentation>The vendor definition is used to find the message types and business feeds of the files in the directory. Only files which belong to the different Business Feeds will be processed.
+Either the vendor or the business feed has to be provided to the WF.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="serverTimestampChanged" type="xs:boolean"><xs:annotation><xs:documentation>When Server Time has been modified then need to be set to true</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ProcessFilesDirectoryResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseProcessFilesDirectorySynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseProcessFilesDirectoryAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:ProcessFilesDirectoryResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,4 @@
+Security_ID|Issuer|Description|ISIN_Code|Sedol|CUSIP|Underlying_Security_ID|Expiry_Date|CV_Terms_Numerator|CV_Terms_Denominator|Contract_Size|Option_Type|Settlement_Type|Currency_of_Denomination|Voting_Rights_Numerator|Voting_Rights_Denominator|Security_Instrument_Type|Next_Conversion_Date|Voting_Rights_Indicator|Source
+6054603|ASAHI KASEI CORP|NPV|JP3111200006|6054603|J0242P110|||||1||C|JPY|.01|1|COM||Y|MANG
+|CAFE DE CORAL HLDG|HKD0.10|BMG1744V1037||G1744V103|||||1||C|HKD|1|1|COM||Y|MANG
+End of File

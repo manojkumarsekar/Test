@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <research>
+        <category>TW DEQ Buy Sell</category>
+        <id>https://ppmg.blackrock.com/aladdinresearch/index.html#/link/22919</id>
+        <createDate>2019-01-15, 10:12</createDate>
+        <portfolio>
+            <portfolioCode>TT 300</portfolioCode>
+        </portfolio>
+        <listValues>
+            <fieldName>ESI TW DEQ Buy Sell</fieldName>
+            <action>Initiated</action>
+            <value>Sell</value>
+            <matRestriction></matRestriction>
+        </listValues>
+		<listValues>
+            <fieldName>Equity Ticker</fieldName>
+            <action></action>
+            <value>TT 300</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>CUSIP</fieldName>
+            <action></action>
+            <value>09681MAB4</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ISIN</fieldName>
+            <action></action>
+            <value>US09681MAB46</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Market</fieldName>
+            <action></action>
+            <value>EURO</value>
+            <matRestriction></matRestriction>
+        </listValues>
+		 <listValues>
+            <fieldName>ESI TW GFI Buy Sell</fieldName>
+            <action>Initiated</action>
+            <value>Buy</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Lower</fieldName>
+            <action>Initiated</action>
+            <value>97</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Upper</fieldName>
+            <action>Initiated</action>
+            <value>105</value>
+            <matRestriction></matRestriction>
+        </listValues>
+    </research>
+</root>

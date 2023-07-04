@@ -1,0 +1,32 @@
+<thaibma_marktomarket>
+    <header_infomation>
+        <source>ThaiBMA</source>
+        <destination>ThaiBMA</destination>
+        <created_date>2018-09-12T15:43:06.800</created_date>
+        <total_rows>2881</total_rows>
+    </header_infomation>
+    <data>
+        <mark2marketdata>
+            <row_number>5</row_number>
+            <asof>11/09/2018</asof>
+            <symbol>TH_THAIID5949</symbol>
+            <Coupon>5.0000</Coupon>
+            <Maturity>20/07/2019</Maturity>
+            <TTM_Yrs>0.8520547945210000</TTM_Yrs>
+            <Type>Straight</Type>
+            <Coupon_Type>Fixed</Coupon_Type>
+            <TRIS></TRIS>
+            <FITCH></FITCH>
+            <Model_Yield>5.645192</Model_Yield>
+            <Static_Spread_bp>410.4831460000000</Static_Spread_bp>
+            <Market_Yield>5.645192</Market_Yield>
+            <Clean_Price>99.453278</Clean_Price>
+            <AI>0.739726</AI>
+            <Modified_Duration>0.824047</Modified_Duration>
+            <Convexity>0.892358</Convexity>
+            <Par>1000.0000000000000</Par>
+            <Currency>THB</Currency>
+            <Registration_Status>Registered</Registration_Status>
+        </mark2marketdata>
+    </data>
+</thaibma_marktomarket>

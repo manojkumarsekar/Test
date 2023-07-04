@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2021-02-25" CREATE_DATE="2/25/2021" RECORDS="1295">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>12/1/2005</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>4/28/2020 9:19:15.823</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>LU</COUNTRY>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>SB0MJ0719</CUSIP>
+        <CUSIP2_set SIZE="4">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>B0MJ071</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>LU0225737302</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>022573730X.LU</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>MOFLU LX</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="4">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003dd04f9607a39</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>173474</CODE>
+                <IDENTIFIER>B0MJ07909</IDENTIFIER>
+                <PURPOSE>HRT</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>L65225408</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>LU0225737302</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>MORGAN ST-US ADVANTAGE-AUSD</DESC_INSTMT>
+        <DESC_INSTMT2>EE</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>F30426</ISSUER_ID>
+        <ISSUE_DT>12/1/2005</ISSUE_DT>
+        <LEAD_MGR>1634</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>LU</MARKET>
+        <MODIFIED_BY>e4seho</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="3">
+            <NOTES_record>
+                <EFF_DT>5/27/2019</EFF_DT>
+                <INSTMT>SecMaster ticker updated to match full string of BB ticker per Zhou Ying</INSTMT>
+                <SEQ_NUM>50</SEQ_NUM>
+                <USER_ID>adapjoy</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>5/30/2019</EFF_DT>
+                <INSTMT>ESI: updated Risk country as Lux as per country</INSTMT>
+                <SEQ_NUM>51</SEQ_NUM>
+                <USER_ID>e4pdebna</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>4/28/2020</EFF_DT>
+                <INSTMT>ESI: Removed incorrect ticker as  MORAMFA LX belongs to SB0SKLV94</INSTMT>
+                <SEQ_NUM>52</SEQ_NUM>
+                <USER_ID>e4seho</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>LUX</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <PRICING>100ths</PRICING>
+        <RED_FREQ>365</RED_FREQ>
+        <RISK_COUNTRY>LU</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="3">
+            <SECTOR_record>
+                <CODE>e4wchen</CODE>
+                <LEVEL>0</LEVEL>
+                <SECTOR_SOURCE>1</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>e4silliu</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>1</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>LUXF</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>LUXE</SETTLE_CAL>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>93124881.116</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>12/1/2005</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/25/2021 4:13:12.010</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>LU</COUNTRY>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>SB0SKLV94</CUSIP>
+        <CUSIP2_set SIZE="2">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>B0SKLV9</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>LP65015791</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="5">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003f8038d013044</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>1010</CODE>
+                <IDENTIFIER>2330222</IDENTIFIER>
+                <PURPOSE>VALOR</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL5264872</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>L65225408</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>LU0225737302</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>MORGAN ST-US ADVANTAGE-AUSD TEST</DESC_INSTMT>
+        <DESC_INSTMT2>EE</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <EXCHANGE>Lipper</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>12/1/2005</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>US</MARKET>
+        <MODIFIED_BY>e4kawang</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="5">
+            <NOTES_record>
+                <EFF_DT>5/27/2019</EFF_DT>
+                <INSTMT>SecMaster ticker updated to match full string of BB ticker per Zhou Ying</INSTMT>
+                <SEQ_NUM>50</SEQ_NUM>
+                <USER_ID>adapjoy</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>5/31/2019</EFF_DT>
+                <INSTMT>Bulk reviewed to prevent loader from overwriting changes on Ticker</INSTMT>
+                <SEQ_NUM>60</SEQ_NUM>
+                <USER_ID>adapjoy</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>4/27/2020</EFF_DT>
+                <INSTMT>ESI: Updated Setup and FAS Schedule as per TW Team</INSTMT>
+                <SEQ_NUM>61</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>4/27/2020</EFF_DT>
+                <INSTMT>ESI: Pending ESL ID</INSTMT>
+                <SEQ_NUM>62</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>4/29/2020</EFF_DT>
+                <INSTMT>ESI: Updated ESL ID as per MODS</INSTMT>
+                <SEQ_NUM>63</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>LUXE</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <PRICING>100ths</PRICING>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>e4kawang</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>e4silliu</CODE>
+                <LEVEL>0</LEVEL>
+                <SECTOR_SOURCE>1</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>LUXE</SETTLE_CAL>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TICKER>MORAMFA LX</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>93124881.116</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

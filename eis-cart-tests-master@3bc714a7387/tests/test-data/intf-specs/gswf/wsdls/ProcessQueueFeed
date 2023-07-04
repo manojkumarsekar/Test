@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseProcessQueueFeedSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseProcessQueueFeedAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element minOccurs="0" name="JMSByteMessage" type="xs:base64Binary"><xs:annotation><xs:documentation>If a byte message is set then this property contains the value.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSCorrelationID" type="xs:string"><xs:annotation><xs:documentation>The Correlation ID is an ID supplied by the customer that identifies one or more related transactions throughout processing.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSDestinationName" type="xs:string"><xs:annotation><xs:documentation>This property displays the JMS destination name.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSMessageID" type="xs:string"><xs:annotation><xs:documentation>The Message ID contains a value that uniquely identifies each message sent by a JMS provider. The scope of its uniqueness depdends on your JMS system</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSMessages" type="tns:mapType"><xs:annotation><xs:documentation>If the JMS message type is MapMessage then this property contains the map of messages.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSObjectMessage" type="xs:string"><xs:annotation><xs:documentation>If the JMS message type is Object then this property contains the message.</xs:documentation></xs:annotation></xs:element><xs:element name="JMSProperties" type="tns:mapType"><xs:annotation><xs:documentation>This property displays the JMS header properties.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSTextMessage" type="xs:string"><xs:annotation><xs:documentation>If the JMS message type is Text then this property contains the message.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSTimestamp" type="xs:dateTime"><xs:annotation><xs:documentation>This property displays the JMS timestamp.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSType" type="xs:string"><xs:annotation><xs:documentation>This property defines the JMS type.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="messageCounter" type="xs:long"><xs:annotation><xs:documentation>The current # of messages</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="metadata" type="tns:mapType"><xs:annotation><xs:documentation>Metadata for the event-instance.</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="JMSByteMessage" type="xs:base64Binary"><xs:annotation><xs:documentation>If a byte message is set then this property contains the value.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSCorrelationID" type="xs:string"><xs:annotation><xs:documentation>The Correlation ID is an ID supplied by the customer that identifies one or more related transactions throughout processing.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSDestinationName" type="xs:string"><xs:annotation><xs:documentation>This property displays the JMS destination name.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSMessageID" type="xs:string"><xs:annotation><xs:documentation>The Message ID contains a value that uniquely identifies each message sent by a JMS provider. The scope of its uniqueness depdends on your JMS system</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSMessages" type="tns:mapType"><xs:annotation><xs:documentation>If the JMS message type is MapMessage then this property contains the map of messages.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSObjectMessage" type="xs:string"><xs:annotation><xs:documentation>If the JMS message type is Object then this property contains the message.</xs:documentation></xs:annotation></xs:element><xs:element name="JMSProperties" type="tns:mapType"><xs:annotation><xs:documentation>This property displays the JMS header properties.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSTextMessage" type="xs:string"><xs:annotation><xs:documentation>If the JMS message type is Text then this property contains the message.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSTimestamp" type="xs:dateTime"><xs:annotation><xs:documentation>This property displays the JMS timestamp.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="JMSType" type="xs:string"><xs:annotation><xs:documentation>This property defines the JMS type.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="messageCounter" type="xs:long"><xs:annotation><xs:documentation>The current # of messages</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="metadata" type="tns:mapType"><xs:annotation><xs:documentation>Metadata for the event-instance.</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="ProcessQueueFeedResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseProcessQueueFeedSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseProcessQueueFeedAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:ProcessQueueFeedResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

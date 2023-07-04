@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="${VAR_SYSDATE}" CREATE_DATE="${VAR_SYSDATE}" RECORDS="1">
+    <ASSET><CASH_TD>
+        <ACCRUAL_DT>7/4/2019</ACCRUAL_DT>
+        <AMT_ISU>41357000000</AMT_ISU>
+        <ANNOUNCE_DT>7/2/2019</ANNOUNCE_DT>
+        <CALC_TYPE>680</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>1/7/2020 2:43:14.390</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TH</COUNTRY>
+        <COUPON_FIX>0</COUPON_FIX>
+        <CPN_TYPE>Z</CPN_TYPE>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>BES2ZDXQ5</CUSIP>
+        <CUSIP2_set SIZE="0"></CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>TBF208AV</IDENTIFIER>
+                <PURPOSE>ESITH</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT365</DATE_CONV>
+        <DESC_INSTMT>THANACHART BANK PCL TH</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_SETTLE_DT>7/4/2019</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_CONVERT>N</FLAG_CONVERT>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <FLAG_REG_RIGHTS>N</FLAG_REG_RIGHTS>
+        <ISSUER_ID>R86074</ISSUER_ID>
+        <ISSUE_DT>7/4/2019</ISSUE_DT>
+        <ISSUE_EXCHANGES_set SIZE="1">
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>BDC</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+        </ISSUE_EXCHANGES_set>
+        <ISSUE_YIELD>1.7526</ISSUE_YIELD>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TH</MARKET>
+        <MARKET_ISSUE>PUBLIC</MARKET_ISSUE>
+        <MATURITY>7/2/2020</MATURITY>
+        <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1000</MIN_TRD_SIZE>
+        <MODIFIED_BY>e4kawang</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="0"> </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>TH</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>E</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PUT_CALL> </PUT_CALL>
+        <RATING_set SIZE="3">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>6/27/2019</DATE>
+                <VALUE>NA</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>6/27/2019</DATE>
+                <VALUE>NA</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>6/27/2019</DATE>
+                <VALUE>NA</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>e4kawang</REVIEWED_BY>
+        <RISK_COUNTRY>TH</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>ONOG</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>I</SECTOR_SOURCE>
+                <TYPE>BARC_SECT</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>CASH_TBILL</SEC_TYPE>
+        <SETTLE_LOCATION>E</SETTLE_LOCATION>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>TD</SM_SEC_TYPE>
+        <TICKER>ADCBUH</TICKER>
+        <UDF_set SIZE="0"></UDF_set>
+        <UNITS>BONDS</UNITS>
+        <WI_FLAG>N</WI_FLAG>
+    </CASH_TD></ASSET>
+    <ASSET><CASH_TD>
+        <ACCRUAL_DT>5/18/2020</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>6/10/2020 1:55:01.560</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>ID</COUNTRY>
+        <COUPON_FIX>3.8</COUPON_FIX>
+        <COUP_FREQ>T</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>IDR</CURRENCY>
+        <CUSIP>BES3B6MA1</CUSIP>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT366</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>BANK DANAMON INDONESIA TBK PT ID</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>6/10/2020</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>5/18/2020</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <ISSUER_ID>R44954</ISSUER_ID>
+        <ISSUE_DT>5/18/2020</ISSUE_DT>
+        <LIQUIDITY>N</LIQUIDITY>
+        <MARKET>ID</MARKET>
+        <MATURITY>6/10/2020</MATURITY>
+        <MODIFIED_BY>e4vlaksh</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTIONAL_AMT>1</NOTIONAL_AMT>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>ID</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PROSPECTUS>Not Applicable</PROSPECTUS>
+        <RATING_set SIZE="6">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>5/15/2020</DATE>
+                <VALUE>P-2</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>6/11/2015</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>1/31/2020</DATE>
+                <VALUE>F2</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>21</AGY>
+                <DATE>4/22/1999</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>22</AGY>
+                <DATE>6/11/2015</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>23</AGY>
+                <DATE>1/31/2020</DATE>
+                <VALUE>BBB</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>AUTOREVU</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>CASH_TD</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>TD</SM_SEC_TYPE>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>BDMNIJ</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </CASH_TD></ASSET>
+</ASSETS>

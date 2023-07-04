@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_CallBRSAPI_ReprocessTHTradesAsynchron>
+         <even:MessageType>${MSG_TYP}</even:MessageType>
+         <even:PropertyFile>${BRSPROPERTY_FILE_LOCATION}</even:PropertyFile>
+         <even:TradeSource>${TRADE_SOURCE}</even:TradeSource>
+         <even:TranslationMDX>${TRANSLATION_MDX}</even:TranslationMDX>
+         <even:WebserviceURL>${BRS_WEBSERVICE_URL}</even:WebserviceURL>
+      </even:RaiseEIS_CallBRSAPI_ReprocessTHTradesAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

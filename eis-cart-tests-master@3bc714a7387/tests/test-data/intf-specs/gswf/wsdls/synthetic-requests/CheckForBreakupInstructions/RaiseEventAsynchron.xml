@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseCheckForBreakupInstructionsAsynchron>
+         <!--Optional:-->
+         <even:brinOidToProcess>?</even:brinOidToProcess>
+         <!--Optional:-->
+         <even:entityTypeToProcess>?</even:entityTypeToProcess>
+         <!--Optional:-->
+         <even:messageType>?</even:messageType>
+         <even:multipleBreakupInstruction>?</even:multipleBreakupInstruction>
+      </even:RaiseCheckForBreakupInstructionsAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

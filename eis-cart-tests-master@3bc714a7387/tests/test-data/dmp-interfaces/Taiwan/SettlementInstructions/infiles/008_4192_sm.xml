@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2/19/2019" CREATE_DATE="2/19/2019" RECORDS="1">
+    <ASSET><CASH_TD>
+        <ACCRUAL_DT>2/14/2019</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/19/2019 3:27:13.963</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <CONVERT_SCHED_set SIZE="1">
+            <CONVERT_SCHED_record>
+                <CONVERT_SCHED_KEY>BPM2EATZ0</CONVERT_SCHED_KEY>
+            </CONVERT_SCHED_record>
+        </CONVERT_SCHED_set>
+        <COUNTRY>TW</COUNTRY>
+        <COUPON_FIX>0.8</COUPON_FIX>
+        <COUP_FREQ>M</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>BPM2EATZ0</CUSIP>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT365</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>DBS BANK (TAIWAN) LTD TW</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>3/14/2019</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>2/14/2019</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <ISSUER_ID>F54558</ISSUER_ID>
+        <ISSUE_DT>2/14/2019</ISSUE_DT>
+        <LIQUIDITY>N</LIQUIDITY>
+        <MARKET>TW</MARKET>
+        <MATURITY>2/14/2020</MATURITY>
+        <MODIFIED_BY>p9sjohn</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTIONAL_AMT>1</NOTIONAL_AMT>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>TW</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PROSPECTUS>Not Applicable</PROSPECTUS>
+        <PUT_CALL> </PUT_CALL>
+        <RATING_set SIZE="6">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>12/5/2016</DATE>
+                <VALUE>P-1</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>12/22/2014</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>5/18/2018</DATE>
+                <VALUE>F1+</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>21</AGY>
+                <DATE>12/5/2016</DATE>
+                <VALUE>A2</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>22</AGY>
+                <DATE>12/22/2014</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>23</AGY>
+                <DATE>5/18/2018</DATE>
+                <VALUE>AA-</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>CASH_TD</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>TD</SM_SEC_TYPE>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>DBSSP</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </CASH_TD></ASSET>
+</ASSETS>

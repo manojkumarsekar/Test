@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<tomcartTransformation>
+	<source format="CSV" delimiter="\t" encoding="UTF-16" />
+	<validations>
+		<validate validationId="encoding" />
+		<validate validationId="format" />
+		<validate validationId="delimiter" />
+		<validate validationId="uniform-column-count" />
+	</validations>
+	<transformations>
+		<transform operationId="utf16-to-utf8" namedResultFile="false" />
+		<transform operationId="tsv-to-csv" namedResultFile="false" />
+		<transform operationId="omit-preceding-lines" namedResultFile="False" lineCount="1" />
+
+		<!--
+		Use Case #1:
+		This will performs the data cleansing requirement for the Performance L1
+		where there are columns with the unwanted percent character ('%').
+		Initial versions strip these off in the database before invoking the Compare 
+		stored procedure.
+
+		Use Case #2: Performance L1
+		This will performs the data cleansing requirement for the Performance L1
+		where there are columns with the unwanted percent character (',') in one specific
+		column: [FUM $ Base in mio].
+		Initial versions strip these off in the database before invoking the Compare 
+		stored procedure.
+		-->
+		<transform operationId="strip-char-from-cols" scope="specified" cols="[ShareClass AUM (M.)]" char="," />
+		<transform operationId="trim-cols" scope="specified" cols="[Accounting Code]" char="," />
+
+	</transformations>
+</tomcartTransformation>

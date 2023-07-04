@@ -1,0 +1,12 @@
+{
+  "@type": "MessageCard",
+  "@context": "http://schema.org/extensions",
+  "summary": "Failed Test Detected",
+  "sections": [
+    {
+      "activityTitle": "Failed Test Detected",
+      "activitySubtitle": "${data}",
+      "activityImage": "https://www.samsungsfour.com/images/thumbnails/images/exclamation-fit-286x250.png"
+    }
+  ]
+}

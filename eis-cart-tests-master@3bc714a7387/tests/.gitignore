@@ -1,0 +1,8 @@
+/.idea/
+/target/
+/testout/
+*.bak
+*.iml
+*.ipr
+*.ipl
+dependency-reduced-pom.xml

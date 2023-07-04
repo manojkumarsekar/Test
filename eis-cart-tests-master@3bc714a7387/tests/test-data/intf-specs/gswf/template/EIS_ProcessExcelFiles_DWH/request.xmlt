@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_ProcessExcelFilesAsynchron>
+         <even:BeanShellScript>${BEAN_SHELL_URI!}</even:BeanShellScript>
+	     <even:FilePattern>${FILE_PATTERN!}</even:FilePattern>
+		 <even:InputDirectory>${IP_DIR!}</even:InputDirectory>
+		 <even:OutputDirectory>${OP_DIR!}</even:OutputDirectory>
+      </even:RaiseEIS_ProcessExcelFilesAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1 @@
+delete fT_T_ACTA where fpro_oid in (select fpro_oid from fT_T_fpro where fins_pro_id='ilene.chong@eastspring.com' and  pro_designation_txt='PM')

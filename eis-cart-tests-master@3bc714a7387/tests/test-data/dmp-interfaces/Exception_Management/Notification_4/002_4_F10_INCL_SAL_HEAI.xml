@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2019-11-26" CREATE_DATE="11/26/2019" RECORDS="4356">
+    <ASSET>
+        <ISSUE>
+            <ACCRUAL_DT>11/28/2019</ACCRUAL_DT>
+            <AMT_ISU>200000000</AMT_ISU>
+            <ANNOUNCE_DT>11/22/2019</ANNOUNCE_DT>
+            <CALC_TYPE>1108</CALC_TYPE>
+            <CALL_MANDATORY>N</CALL_MANDATORY>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CE_set SIZE="1">
+                <CE_record>
+                    <CONDITIONAL>D</CONDITIONAL>
+                    <MATURITY>11/28/2023</MATURITY>
+                    <PCT>100</PCT>
+                    <PROVIDER>233830</PROVIDER>
+                    <START_DATE>11/22/2019</START_DATE>
+                    <TYPE>G</TYPE>
+                </CE_record>
+            </CE_set>
+            <CHANGE_DT>11/26/2019 9:07:05.553</CHANGE_DT>
+            <COMPOUND_FLAG>0</COMPOUND_FLAG>
+            <COUNTRY>MY</COUNTRY>
+            <COUPON_FIX>3.57</COUPON_FIX>
+            <COUP_FREQ>S</COUP_FREQ>
+            <CPN_TYPE>F</CPN_TYPE>
+            <CURRENCY>MYR</CURRENCY>
+            <CUSIP>BES2ZEGV1</CUSIP>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DATE_CONV>ACT365</DATE_CONV>
+            <DESC_INSTMT>DO NOT USE</DESC_INSTMT>
+            <END_ADJ_FLAG>Y</END_ADJ_FLAG>
+            <FIRST_PAY_DT>5/28/2020</FIRST_PAY_DT>
+            <FIRST_SETTLE_DT>11/28/2019</FIRST_SETTLE_DT>
+            <FLAG_144A>N</FLAG_144A>
+            <FLAG_EOM>N</FLAG_EOM>
+            <FLAG_ERISA>N</FLAG_ERISA>
+            <FLAG_PERFORMING>N</FLAG_PERFORMING>
+            <FLAG_REG_RIGHTS>N</FLAG_REG_RIGHTS>
+            <ISSUE_DT>11/28/2019</ISSUE_DT>
+            <ISSUE_PRICE>100</ISSUE_PRICE>
+            <ISSUE_YIELD>3.57</ISSUE_YIELD>
+            <LAST_REGULAR_PMT>5/29/2023</LAST_REGULAR_PMT>
+            <LEH_INDUSTRY>SECS</LEH_INDUSTRY>
+            <LIQUIDITY>N</LIQUIDITY>
+            <MARKET>MY</MARKET>
+            <MATURITY>11/28/2023</MATURITY>
+            <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+            <MIN_TRD_SIZE>1000</MIN_TRD_SIZE>
+            <MODIFIED_BY>e4kotoh</MODIFIED_BY>
+            <MTN>Y</MTN>
+            <NOTES_set SIZE="1">
+                <NOTES_record>
+                    <EFF_DT>11/22/2019</EFF_DT>
+                    <INSTMT>ESI: Pending ISIN BBG00QYPQ8B1</INSTMT>
+                    <SEQ_NUM>1</SEQ_NUM>
+                    <USER_ID>e4kawang</USER_ID>
+                </NOTES_record>
+            </NOTES_set>
+            <NTL_FLAG>N</NTL_FLAG>
+            <PC_DAY_CONV>B</PC_DAY_CONV>
+            <PMT_ADJ_METH>M</PMT_ADJ_METH>
+            <PMT_CAL>MY</PMT_CAL>
+            <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+            <PMT_LOCATION>D</PMT_LOCATION>
+            <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+            <PUT_CALL/>
+            <PUT_MANDATORY>N</PUT_MANDATORY>
+            <RATING_set SIZE="3">
+                <RATING_record>
+                    <AGY>1</AGY>
+                    <DATE>11/22/2019</DATE>
+                    <VALUE>NR</VALUE>
+                </RATING_record>
+                <RATING_record>
+                    <AGY>2</AGY>
+                    <DATE>11/22/2019</DATE>
+                    <VALUE>NR</VALUE>
+                </RATING_record>
+                <RATING_record>
+                    <AGY>3</AGY>
+                    <DATE>11/22/2019</DATE>
+                    <VALUE>NR</VALUE>
+                </RATING_record>
+            </RATING_set>
+            <RISK_COUNTRY>DE</RISK_COUNTRY>
+            <ROUND_FLAG>R</ROUND_FLAG>
+            <ROUND_PRECISION>9</ROUND_PRECISION>
+            <SAL_INDUSTRY>SECS</SAL_INDUSTRY>
+            <SECTOR_set SIZE="2">
+                <SECTOR_record>
+                    <CODE>SECS</CODE>
+                    <LEVEL>1</LEVEL>
+                    <TYPE>BARC_SECT</TYPE>
+                </SECTOR_record>
+                <SECTOR_record>
+                    <CODE>HEAI</CODE>
+                    <LEVEL>0</LEVEL>
+                    <TYPE>SAL</TYPE>
+                </SECTOR_record>
+            </SECTOR_set>
+            <SEC_TYPE>BND_CORP</SEC_TYPE>
+            <SETTLE_LOCATION>D</SETTLE_LOCATION>
+            <SINK_MANDATORY>N</SINK_MANDATORY>
+            <SM_SEC_GROUP>BND</SM_SEC_GROUP>
+            <SM_SEC_TYPE>CORP</SM_SEC_TYPE>
+            <STRUCTURE>SENIOR</STRUCTURE>
+            <UNITS>BONDS</UNITS>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

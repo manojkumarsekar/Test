@@ -1,0 +1,11 @@
+delete ft_t_ficl where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_frip where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_finr where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_fide where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_figu where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_fiid where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_firt where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_cost where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_ffrl where prnt_inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_ffrl where inst_mnem in(select inst_mnem from fT_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS');
+delete ft_t_fins where inst_nme IN ('BNP PARIBAS SA') and data_src_id <> 'REUTERS';

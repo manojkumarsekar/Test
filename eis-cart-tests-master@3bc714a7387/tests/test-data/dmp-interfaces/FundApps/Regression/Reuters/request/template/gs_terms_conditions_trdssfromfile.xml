@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportRequest xmlns="http://www.reuters.com/Datascope/ReportRequest.xsd">
+    <InputList>
+        <InputListAction>Replace</InputListAction>
+        <Name>ReutersDSS_Terms_and_Conditions00032185</Name>
+        <Instrument>
+            <IdentifierType>SED</IdentifierType>
+            <Identifier>TSTRTS0</Identifier>
+            <UserDefinedIdentifier>TSTRTS0</UserDefinedIdentifier>
+        </Instrument>
+    </InputList>
+    <Schedule>
+        <ScheduleAction>Replace</ScheduleAction>
+        <Name>ReutersDSS_Terms_and_Conditions00032185</Name>
+        <TermsandConditionsSchedule>
+            <InputListName>ReutersDSS_Terms_and_Conditions00032185</InputListName>
+            <ReportTemplateName>ReutersDSS_Terms_and_Conditions</ReportTemplateName>
+            <OutputFileName>gs_tc00032185.csv</OutputFileName>
+            <ScheduleImmediate>
+                <Type>CurrentDay</Type>
+            </ScheduleImmediate>
+        </TermsandConditionsSchedule>
+    </Schedule>
+</ReportRequest>

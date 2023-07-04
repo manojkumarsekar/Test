@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2020-09-07" CREATE_DATE="9/7/2020" RECORDS="1193">
+    <ASSET>
+        <ISSUE>
+            <ACCRUAL_DT>1/3/1997</ACCRUAL_DT>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CHANGE_DT>7/22/2020 1:05:30.773</CHANGE_DT>
+            <COMPOUND_FLAG>0</COMPOUND_FLAG>
+            <COUNTRY>LU</COUNTRY>
+            <CURRENCY>USD</CURRENCY>
+            <CUSIP>BRS265PC5</CUSIP>
+            <CUSIP2_set SIZE="4">
+                <CUSIP2_record>
+                    <CODE>C</CODE>
+                    <IDENTIFIER>5301377</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>I</CODE>
+                    <IDENTIFIER>LU0072462426</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>N</CODE>
+                    <IDENTIFIER>998905913</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>R</CODE>
+                    <IDENTIFIER>LP60004172</IDENTIFIER>
+                </CUSIP2_record>
+            </CUSIP2_set>
+            <CUSIP_ALIAS_set SIZE="5">
+                <CUSIP_ALIAS_record>
+                    <CODE>8888</CODE>
+                    <IDENTIFIER>0003f8038cf41393</IDENTIFIER>
+                    <PURPOSE>REUQID</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>1010</CODE>
+                    <IDENTIFIER>567972</IDENTIFIER>
+                    <PURPOSE>VALOR</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>80</CODE>
+                    <IDENTIFIER>L1049H415</IDENTIFIER>
+                    <PURPOSE>CINS</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>70</CODE>
+                    <IDENTIFIER>LU0072462426</IDENTIFIER>
+                    <PURPOSE>ISIN</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>145986</CODE>
+                    <IDENTIFIER>MERGAAI</IDENTIFIER>
+                    <PURPOSE>ESITF</PURPOSE>
+                </CUSIP_ALIAS_record>
+            </CUSIP_ALIAS_set>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DESC_INSTMT>MLIIF GLOBAL ALL</DESC_INSTMT>
+            <DESC_INSTMT2>IOH</DESC_INSTMT2>
+            <EXCHANGE>Lipper</EXCHANGE>
+            <FLAG_144A>N</FLAG_144A>
+            <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+            <ISSUER_ID>D29238</ISSUER_ID>
+            <ISSUE_DT>1/3/1997</ISSUE_DT>
+            <LEAD_MGR>2097</LEAD_MGR>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>US</MARKET>
+            <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+            <MTN>N</MTN>
+            <NTL_FLAG>N</NTL_FLAG>
+            <PMT_CAL>NY_Bank</PMT_CAL>
+            <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <RED_FREQ>365</RED_FREQ>
+            <REVIEWED_BY>ltimoney</REVIEWED_BY>
+            <ROUND_FLAG>R</ROUND_FLAG>
+            <ROUND_PRECISION>6</ROUND_PRECISION>
+            <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+            <SETTLE_CAL>LUXE|XN</SETTLE_CAL>
+            <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+            <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+            <SM_VECTOR_DATA_set SIZE="16">
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Developed Asia Pacific Ex Japan Other Mixed</ATTR_NAME>
+                    <ATTR_PCT>2.9</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Developed Europe Ex UK</ATTR_NAME>
+                    <ATTR_PCT>8.57</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Developed Japan</ATTR_NAME>
+                    <ATTR_PCT>8.140000000000001</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Developed North America Canada</ATTR_NAME>
+                    <ATTR_PCT>1.2</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Developed North America United States</ATTR_NAME>
+                    <ATTR_PCT>34.76</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Developed UK</ATTR_NAME>
+                    <ATTR_PCT>2.52</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Emerging Markets Asia</ATTR_NAME>
+                    <ATTR_PCT>3.2</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Emerging Markets EMEA</ATTR_NAME>
+                    <ATTR_PCT>0.5600000000000001</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Emerging Markets LATAM</ATTR_NAME>
+                    <ATTR_PCT>0.54</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Equity Other Mixed</ATTR_NAME>
+                    <ATTR_PCT>0.35</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Fixed Income Developed Corporate Mixed Unrated</ATTR_NAME>
+                    <ATTR_PCT>3.504618375</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Fixed Income Developed Government Other Mixed</ATTR_NAME>
+                    <ATTR_PCT>23.15115194</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Fixed Income Developed Government Related</ATTR_NAME>
+                    <ATTR_PCT>0.046978799</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Fixed Income Emerging Market Debt Other Mixed</ATTR_NAME>
+                    <ATTR_PCT>1.717250883</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Fixed Income Other Mixed</ATTR_NAME>
+                    <ATTR_PCT>0.49</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+                <SM_VECTOR_DATA_record>
+                    <ATTR_NAME>Other Mixed</ATTR_NAME>
+                    <ATTR_PCT>8.35</ATTR_PCT>
+                    <ATTR_TYPE>VIC_AS</ATTR_TYPE>
+                    <START_DATE>8/31/2018</START_DATE>
+                    <STOP_DATE>12/31/2222</STOP_DATE>
+                </SM_VECTOR_DATA_record>
+            </SM_VECTOR_DATA_set>
+            <SUB_FREQ>365</SUB_FREQ>
+            <UDF_set SIZE="5">
+                <UDF_record>
+                    <LABEL>ESI_CNTRY_DOM</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                    <VALUE>LU</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>ESI_CNTRY_INCOR</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                    <VALUE>LU</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>ESI_CNTRY_ISSUE</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                    <VALUE>LU</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>Funds_Sec_ShOS</LABEL>
+                    <PURPOSE>ESITW</PURPOSE>
+                    <UDF_SOURCE>CMoney</UDF_SOURCE>
+                    <VALUE>306792176.09</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>SYNTH_ETF</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                    <VALUE>N</VALUE>
+                </UDF_record>
+            </UDF_set>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

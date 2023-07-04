@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseInternalMessagePublishingEventSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseInternalMessagePublishingEventAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element minOccurs="0" name="bulkSize" type="xs:long"><xs:annotation><xs:documentation>Size of each bulk.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="endRecordSequence" type="xs:long"><xs:annotation><xs:documentation>Ending record sequence of the message in the file. This is calculated as Record Sequence + Bulk Size</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="inputMessage" type="xs:string"><xs:annotation><xs:documentation>This property lists the input message that triggered this publishing event.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="jobId" type="xs:string"><xs:annotation><xs:documentation>This property lists the ID of the job.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="messageType" type="xs:string"><xs:annotation><xs:documentation>The message type that triggered this publishing event.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="metadata" type="tns:mapType"><xs:annotation><xs:documentation>Metadata for the event-instance.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="processedMessages" type="xs:base64Binary"><xs:annotation><xs:documentation>The processed messages that the engine produced.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="propertyFileLocation" type="xs:string"><xs:annotation><xs:documentation>Location of the property file containing the connection details of server on which publishing application is deployed.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="severity" type="xs:integer"><xs:annotation><xs:documentation>Status of the Message</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="startRecordSequence" type="xs:long"><xs:annotation><xs:documentation>Starting record sequence of the message in the file. This is calculated as Record Sequence + 1</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="transactionId" type="xs:string"><xs:annotation><xs:documentation>The ID of the transaction.</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="bulkSize" type="xs:long"><xs:annotation><xs:documentation>Size of each bulk.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="endRecordSequence" type="xs:long"><xs:annotation><xs:documentation>Ending record sequence of the message in the file. This is calculated as Record Sequence + Bulk Size</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="inputMessage" type="xs:string"><xs:annotation><xs:documentation>This property lists the input message that triggered this publishing event.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="jobId" type="xs:string"><xs:annotation><xs:documentation>This property lists the ID of the job.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="messageType" type="xs:string"><xs:annotation><xs:documentation>The message type that triggered this publishing event.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="metadata" type="tns:mapType"><xs:annotation><xs:documentation>Metadata for the event-instance.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="processedMessages" type="xs:base64Binary"><xs:annotation><xs:documentation>The processed messages that the engine produced.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="propertyFileLocation" type="xs:string"><xs:annotation><xs:documentation>Location of the property file containing the connection details of server on which publishing application is deployed.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="severity" type="xs:integer"><xs:annotation><xs:documentation>Status of the Message</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="startRecordSequence" type="xs:long"><xs:annotation><xs:documentation>Starting record sequence of the message in the file. This is calculated as Record Sequence + 1</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="transactionId" type="xs:string"><xs:annotation><xs:documentation>The ID of the transaction.</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="InternalMessagePublishingEventResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseInternalMessagePublishingEventSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseInternalMessagePublishingEventAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:InternalMessagePublishingEventResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

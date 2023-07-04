@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="TEST-TOMR3_INTF_RIMES-001_infile" time="0" errors="0" skipped="0">
+  <testcase classname="[TOM_DEV1][TOM-123] IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation" name="I assign &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; to variable &quot;INPUT_FILENAME&quot;" time="0"/>
+  <testcase classname="[TOM_DEV1][TOM-123] IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation" name="I assign &quot;ESIINTRADAY_TRN_NEWCASH_NEW_Template.out&quot; to variable &quot;INPUT_TEMPLATENAME&quot;" time="0"/>
+  <testcase classname="[TOM_DEV1][TOM-123] IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation" name="I assign &quot;tests/test-data/dmp-interfaces/R3_IN_CAS1_BNP_TO_DMP&quot; to variable &quot;testdata.path&quot;" time="0"/>
+  <testcase classname="[TOM_DEV1][TOM-123] IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation" name="I create input file &quot;${INPUT_FILENAME}&quot; using template &quot;${INPUT_TEMPLATENAME}&quot; with below codes from location &quot;${testdata.path}&quot;" time="0"/>
+  <testcase classname="[TOM_DEV1][TOM-123] IF_0100_TC_1: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Preparation" name="I copy files below from local folder &quot;${testdata.path}/testdata&quot; to the host &quot;dmp.ssh.inbound&quot; folder &quot;${dmp.ssh.inbound.path}&quot;:" time="0"/>
+  <testcase classname="[TOM_DEV1][] IF_0100_TC_2: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Loading" name="I pause for 2 seconds" time="0"/>
+  <testcase classname="[TOM_DEV1][] IF_0100_TC_2: Process BNP Intraday Cash Transactions to DMP (CAS1): Data Loading" name="I process files with below parameters and wait for the job to be completed" time="0"/>
+  <testcase classname="[TOM_DEV1][EISST-235, TOM-456] IF_0100_TC_3: Process BNP Intraday Cash Transactions to DMP (CAS1): &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; Verifications" name="I assign &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; to variable &quot;INPUT_FILENAME&quot;" time="0"/>
+  <testcase classname="[TOM_DEV1][EISST-235, TOM-456] IF_0100_TC_3: Process BNP Intraday Cash Transactions to DMP (CAS1): &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; Verifications" name="I extract below values for row 2 from PSV file &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; in local folder &quot;${testdata.path}/testdata&quot; and assign to variables:" time="0"/>
+  <testcase classname="[TOM_DEV1][EISST-235, TOM-456] IF_0100_TC_3: Process BNP Intraday Cash Transactions to DMP (CAS1): &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; Verifications" name="I assign &quot;${testdata.path}/queries/CASH&quot; to variable &quot;SQL_QUERIES_DIR&quot;" time="0"/>
+  <testcase classname="[TOM_DEV1][EISST-235, TOM-456] IF_0100_TC_3: Process BNP Intraday Cash Transactions to DMP (CAS1): &quot;ESIINTRADAY_TRN_NEWCASH_NEW.out&quot; Verifications" name="I expect value of column in the below SQL query equals to &quot;PASS&quot;" time="0"><error message="Attribute error message" type="Error Type">com.eastspring.com.eastspring.tom.cart.core.CartException:
+      Verification failed, were expecting column [INSTR_ID_CHECK] value to be [PASS], but it is [FAIL]
+      at com.eastspring.com.eastspring.tom.cart.core.svc.DatabaseSvc.verifySqlResultOfColumn(DatabaseSvc.java:158)
+      at com.eastspring.com.eastspring.tom.cart.core.steps.DatabaseSteps.verifySqlResultOfColumn(DatabaseSteps.java:89)
+      at tomcart.glue.DatabaseStepsDef.lambda$new$6(DatabaseStepsDef.java:44)
+      at ✽.Then I expect value of column in the below SQL query equals to &quot;PASS&quot;(dmp-interfaces/Cash/0100_R3_IN_CAS1_BNP_TO_DMP_workflow.feature:75)???
+  </error></testcase>
+</testsuite>

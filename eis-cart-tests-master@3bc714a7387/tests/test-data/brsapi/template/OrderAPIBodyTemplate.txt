@@ -1,0 +1,27 @@
+{
+ "options": {
+    "complianceTimeout": 10,
+    "whatIf":false,
+    "runCompliance": ${IS_RUN_COMPLIANCE}
+  },
+  "orders": [
+    {
+      "basketId": "${BASKET_ID}",
+      "limitValue": ${LIMIT_PRICE},
+      "traderInitials": "",
+      "tradePurpose": "${TRADE_PURPOSE}",
+      "security": {
+        "assetId": "${ASSET_ID}"
+      },
+      "pmInitials": "${PM_INITIALS}",
+      "orderTranType": "${ORDER_TRAN_TYPE}",
+      "orderDetails": [
+        {
+          "portfolioTicker": "${PORTFOLIO_TICKER}",
+          "quantity": ${QUANTITY}
+        }
+      ],
+      "mktPrice": ${MARKET_PRICE}
+    }
+  ]
+}

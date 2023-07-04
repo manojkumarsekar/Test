@@ -1,0 +1,14 @@
+"DATE_COL","INTL_FUNDCODE","FUNDCODE","FUNDNAME","ALLOCATIONTYPE","OFFCLISIN","NAME","PERCENT_PORTFOLIO","SRC_NAME","SOURCENAME","ASSETNAME","AUDIT_CATEGORY"
+31-JUL-19,ASUDPF,SG9121,Eastspring Investments Unit Trusts - Dragon Peacock Fund,Country,000000000120775,SINGAPORE,0,null,MSCTY,PDPI (HTSG-ORDINARY SHARE),PRURDM
+31-JUL-19,ASUSSB,SG3830,Eastspring Investments Unit Trusts - Singapore Select Bond Fund,Country,000000000162114,SINGAPORE,0,null,RSK_CNTRY,EZION SER.6 INTR NOTES 0% 20/11/2024,PRURDM
+31-JUL-19,ASUSSB,SG3830,Eastspring Investments Unit Trusts - Singapore Select Bond Fund,Country,000000000162115,SINGAPORE,0,null,RSK_CNTRY,EZION SER.3 INTR NOTES 0% 20/11/2024,PRURDM
+31-JUL-19,ASUDPF,SG9121,Eastspring Investments Unit Trusts - Dragon Peacock Fund,Holdings,000000000120775,Miscellaneous,0,null,MSCI1,PDPI (HTSG-ORDINARY SHARE),PRURDM
+31-JUL-19,ASUSSB,SG3830,Eastspring Investments Unit Trusts - Singapore Select Bond Fund,Holdings,000000000162114,Miscellaneous,0,null,HPIND,EZION SER.6 INTR NOTES 0% 20/11/2024,PRURDM
+31-JUL-19,ASUSSB,SG3830,Eastspring Investments Unit Trusts - Singapore Select Bond Fund,Holdings,000000000162115,Miscellaneous,0,null,HPIND,EZION SER.3 INTR NOTES 0% 20/11/2024,PRURDM
+31-JUL-19,ASUDPF,SG9121,Eastspring Investments Unit Trusts - Dragon Peacock Fund,Sector,000000000120775,Miscellaneous,0,null,MSCI1,PDPI (HTSG-ORDINARY SHARE),PRURDM
+31-JUL-19,ASUSSB,SG3830,Eastspring Investments Unit Trusts - Singapore Select Bond Fund,Sector,000000000162114,Miscellaneous,0,null,HPIND,EZION SER.6 INTR NOTES 0% 20/11/2024,PRURDM
+31-JUL-19,ASUSSB,SG3830,Eastspring Investments Unit Trusts - Singapore Select Bond Fund,Sector,000000000162115,Miscellaneous,0,null,HPIND,EZION SER.3 INTR NOTES 0% 20/11/2024,PRURDM
+31-JUL-19,ASUMIP,SG2123,Eastspring Investments Funds - Monthly Income Plan,Sector,LU0205653495,Mutual Fund,38.59,null,MSCI1,EASTSPRING INVESTMENTS - ASIAN BOND FUND D,PRURDM
+31-JUL-19,ASUMIP,SG2123,Eastspring Investments Funds - Monthly Income Plan,Sector,LU0210305115,Mutual Fund,38.78,null,MSCI1,EASTSPRING INVESTMENTS - US HIGH YIELD BOND FUND D,PRURDM
+31-JUL-19,ASUMIP,SG2123,Eastspring Investments Funds - Monthly Income Plan,Sector,LU0679116870,Investment Funds,.15,null,MSCI1,EASTSPRING INVESTMENTS - ASIAN HIGH YIELD BOND FUND,PRURDM
+31-JUL-19,ASUMIP,SG2123,Eastspring Investments Funds - Monthly Income Plan,Sector,SGXDB0090017,Financial,.05,null,MSCI1,MSCI SING IX ETS AUG19 29/08/2019,PRURDM

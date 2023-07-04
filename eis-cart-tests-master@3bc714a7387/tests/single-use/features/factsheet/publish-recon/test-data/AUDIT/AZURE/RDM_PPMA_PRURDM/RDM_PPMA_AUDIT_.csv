@@ -1,0 +1,52 @@
+"DATE_COL","INTL_FUNDCODE","FUNDCODE","FUNDNAME","ALLOCATIONTYPE","OFFCLISIN","NAME","PERCENT_PORTFOLIO","SRC_NAME","SOURCENAME","ASSETNAME","AUDIT_CATEGORY"
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,TYU9,NA,0,null,PPMA File,US 10YR NOTE (CBT)Sep19,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Rating,US14314MAC73,AAA,0,null,PPMA File,CARMAX AU 1.52% 16/02/21,PPMA
+31-JUL-19,ALIGBF,500160,Eastspring Investments - US Inv Grade Bond Fund,Rating,US165183AR58,Aaa,0,null,PPMA File,CHESAPEAK 1.91% 15/08/29,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,US165183AR58,Aaa,0,null,PPMA File,CHESAPEAK 1.91% 15/08/29,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Rating,US3128M9V417,AA+,0,null,PPMA File,FHLMCG  4% 01/03/43,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,US3132WFDL02,AA+,0,null,PPMA File,FHLMCG  4% 01/07/46,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,US3138WHBX93,AA+,0,null,PPMA File,FNMA  4.5% 01/05/46,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,US3140E6KP68,AA+,0,null,PPMA File,FNMA  3.5% 01/08/45,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,US31418CEJ99,AA+,0,null,PPMA File,FNMA  4.5% 01/12/46,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Rating,US31418CZJ60,AA+,0,null,PPMA File,FNMA  4.5% 01/08/48,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Rating,US31419A4G95,AA+,0,null,PPMA File,FNMA  4.5% 01/02/41,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Rating,US36179R7J23,NA,0,null,PPMA File,GNMA II  3.5% 20/04/46,PPMA
+31-JUL-19,ALHIGB,500170,Eastspring Investments - US High Inv Grade Bond Fd,Rating,USD ADJ,NA,1.07,null,PPMA File,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALHYBF,500180,Eastspring Investments - US High Yield Bond Fund,Rating,USD ADJ,NA,2.97,null,PPMA File,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALIGBF,500160,Eastspring Investments - US Inv Grade Bond Fund,Rating,USD ADJ,NA,.88,null,PPMA File,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Rating,USD ADJ,NA,.32,null,PPMA File,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALUSCB,500430,Eastspring Investments - US Corporate Bond Fund,Rating,USD ADJ,NA,.57,null,PPMA File,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,TYU9,FUTURES,0,null,PPMA File - Merill Industry 2,US 10YR NOTE (CBT)Sep19,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Sector,US14314MAC73,AUTOMOBILE ABS,0,null,PPMA File - Merill Industry 2,CARMAX AU 1.52% 16/02/21,PPMA
+31-JUL-19,ALIGBF,500160,Eastspring Investments - US Inv Grade Bond Fund,Sector,US165183AR58,AUTOMOBILE ABS,0,null,PPMA File - Merill Industry 2,CHESAPEAK 1.91% 15/08/29,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,US165183AR58,AUTOMOBILE ABS,0,null,PPMA File - Merill Industry 2,CHESAPEAK 1.91% 15/08/29,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Sector,US3128M9V417,FGLMC COLLATERAL,0,null,PPMA File - Merill Industry 2,FHLMCG  4% 01/03/43,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,US3132WFDL02,FGLMC COLLATERAL,0,null,PPMA File - Merill Industry 2,FHLMCG  4% 01/07/46,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,US3138WHBX93,FNMA COLLATERAL,0,null,PPMA File - Merill Industry 2,FNMA  4.5% 01/05/46,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,US3140E6KP68,FNMA COLLATERAL,0,null,PPMA File - Merill Industry 2,FNMA  3.5% 01/08/45,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,US31418CEJ99,FNMA COLLATERAL,0,null,PPMA File - Merill Industry 2,FNMA  4.5% 01/12/46,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Sector,US31418CZJ60,FNMA COLLATERAL,0,null,PPMA File - Merill Industry 2,FNMA  4.5% 01/08/48,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Sector,US31419A4G95,FNMA COLLATERAL,0,null,PPMA File - Merill Industry 2,FNMA  4.5% 01/02/41,PPMA
+31-JUL-19,ALSIBF,500600,Eastspring Inv US Strategic Income Bond Fund,Sector,US36179R7J23,GNMA COLLATERAL,0,null,PPMA File - Merill Industry 2,GNMA II  3.5% 20/04/46,PPMA
+31-JUL-19,ALHIGB,500170,Eastspring Investments - US High Inv Grade Bond Fd,Sector,USD ADJ,MUTUAL FUND,1.07,null,PPMA File - Merill Industry 2,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALHYBF,500180,Eastspring Investments - US High Yield Bond Fund,Sector,USD ADJ,MUTUAL FUND,2.97,null,PPMA File - Merill Industry 2,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALIGBF,500160,Eastspring Investments - US Inv Grade Bond Fund,Sector,USD ADJ,MUTUAL FUND,.88,null,PPMA File - Merill Industry 2,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALUSBF,500440,Eastspring Investments - US Bond Fund,Sector,USD ADJ,MUTUAL FUND,.32,null,PPMA File - Merill Industry 2,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALUSCB,500430,Eastspring Investments - US Corporate Bond Fund,Sector,USD ADJ,MUTUAL FUND,.57,null,PPMA File - Merill Industry 2,BNYMellon USD Liquidity Fund,PPMA
+31-JUL-19,ALALBF,500331,Eastspring Investments - Asian Local Bond Fund,Rating,SG1W38939029,NA,0,null,COMPOSITEHK,EZION HOLDINGS LTD NPV,RDM
+31-JUL-19,ALGEMB,500508,Eastspring Investments - Global EM Bond Fund,Sector,EGT9980TAJ10,SOVEREIGN,.34,null,HPIND,EGYPT 0% 29/10/19,RDM
+31-JUL-19,ALWVEF,500110,Eastspring Investments - World Value Equity Fund,Sector,ESU9,FUTURES,.41,null,GICS1,S&P500 EMINI FUT  Sep19,RDM
+31-JUL-19,ALWVEF,500110,Eastspring Investments - World Value Equity Fund,Sector,IHQ9,FUTURES,-.11,null,GICS1,SGX Nifty 50      Aug19,RDM
+31-JUL-19,ALWVEF,500110,Eastspring Investments - World Value Equity Fund,Sector,LU0103813712,EQUITY,7.71,null,GICS1,JPM LIQ-USD LIQUIDITY-INS,RDM
+31-JUL-19,ALWVEF,500110,Eastspring Investments - World Value Equity Fund,Sector,MESU9,FUTURES,-.06,null,GICS1,MSCI EmgMkt       Sep19,RDM
+31-JUL-19,ALALBF,500331,Eastspring Investments - Asian Local Bond Fund,Sector,PHY6972HCS32,SOVEREIGN,.22,null,HPIND,PHILIPPIN 0% 20/11/19,RDM
+31-JUL-19,ALALBF,500331,Eastspring Investments - Asian Local Bond Fund,Sector,SG1W38939029,COMMERCIAL SERVICES,0,null,HPIND,EZION HOLDINGS LTD NPV,RDM
+31-JUL-19,ALWVEF,500110,Eastspring Investments - World Value Equity Fund,Sector,SXOU9,FUTURES,-.05,null,GICS1,STOXX EUROPE 600  Sep19,RDM
+31-JUL-19,ALALBF,500331,Eastspring Investments - Asian Local Bond Fund,Sector,TH065507T982,BANKS,.37,null,HPIND,BANK OF T 0% 05/09/19,RDM
+31-JUL-19,ALTHEF,500235,Eastspring Investments - Thailand Equity Fund,Sector,TH5097010018,TELECOMMUNICATIONS,1.01,null,MSCI1,DIGITAL TELECOMMUNI THB10,RDM
+31-JUL-19,ALAHYB,500422,Eastspring Investments - Asian High Yield Bond Fd,Sector,TYU9,FUTURES,0,null,HPIND,US 10YR NOTE (CBT)Sep19,RDM
+31-JUL-19,ALALBF,500331,Eastspring Investments - Asian Local Bond Fund,Sector,TYU9,FUTURES,0,null,HPIND,US 10YR NOTE (CBT)Sep19,RDM
+31-JUL-19,ALASBF,500130,Eastspring Investments - Asian Bond Fund,Sector,TYU9,FUTURES,0,null,HPIND,US 10YR NOTE (CBT)Sep19,RDM
+31-JUL-19,ALGEMB,500508,Eastspring Investments - Global EM Bond Fund,Sector,TYU9,FUTURES,0,null,HPIND,US 10YR NOTE (CBT)Sep19,RDM
+31-JUL-19,ASDTRF,500680,Eastspring Investments Asian Total Return Bond Fd,Sector,TYU9,FUTURES,.01,null,HPIND,US 10YR NOTE (CBT)Sep19,RDM
+31-JUL-19,ALGEMB,500508,Eastspring Investments - Global EM Bond Fund,Sector,WNU9,FUTURES,0,null,HPIND,US ULTRA BOND CBT Sep19,RDM

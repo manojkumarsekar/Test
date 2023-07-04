@@ -1,0 +1,1 @@
+delete fT_T_cost where inst_mnem in (select inst_mnem from fT_T_frip where instr_id in (select instR_id from ft_t_isid where iss_id='USP7807HAT25' and end_tms is null)and end_tms is null);

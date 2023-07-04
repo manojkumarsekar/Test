@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2019-07-22" CREATE_DATE="7/22/2019" RECORDS="7641">
+<ASSET><EQUITY_EQUITY>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>7/29/2016 0:47:50.873</CHANGE_DT>
+        <COUNTRY>TH</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="2">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>REU</CNTRY_SRC>
+                <CNTRY_TYPE>COI</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>BLK</CNTRY_SRC>
+                <CNTRY_TYPE>COT</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>SB0V9LT10</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>B0V9LT1</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>SPCGn.BK</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>SPCG-R TB</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="3">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003dd0048df7c35</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>TH0889010R14</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>Y8118C140</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>SPCG NON-VOTING DR PCL</DESC_INSTMT>
+        <DR_CUSIP>B0V8CZ1</DR_CUSIP>
+        <DR_RATIO>1</DR_RATIO>
+        <DR_TYPE>T</DR_TYPE>
+        <EXCHANGE>BAN</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>F37820</ISSUER_ID>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TH</MARKET>
+        <MIN_LOT_SIZE>100</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>100</MIN_TRD_SIZE>
+        <MODIFIED_BY>tsgops</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>AUTOREVU</REVIEWED_BY>
+        <SECTOR_set SIZE="2">
+            <SECTOR_record>
+                <CODE>7537</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>I</SECTOR_SOURCE>
+                <TYPE>ISS_FTSE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>SETT</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>SPCG.R</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL>UCITS_ARTICLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>41-1</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>UCITS_ELIGIBLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>Y</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>

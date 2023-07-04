@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <even:RaiseEIS_RefreshSOIAsynchron>
+            <even:GroupName>${GROUP_NAME!}</even:GroupName>
+            <even:QueryName>${QUERY_NAME!}</even:QueryName>
+        </even:RaiseEIS_RefreshSOIAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>

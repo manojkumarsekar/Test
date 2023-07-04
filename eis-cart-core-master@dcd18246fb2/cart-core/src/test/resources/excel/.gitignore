@@ -1,0 +1,9 @@
+/.idea/
+/target/
+*.bak
+*.iml
+*.ipr
+*.ipl
+dependency-reduced-pom.xml
+/BRS_*
+/ESI_*

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<page>1</page>
+	<page_size>100</page_size>
+	<size>31</size>
+	<total_pages>1</total_pages>
+	<links>
+		<next>null</next>
+		<prev>null</prev>
+	</links>
+	<additionalHeaders>null</additionalHeaders>
+	<results>
+		<RowNumber>1</RowNumber>
+		<ChildPortfolio>ASUMIP</ChildPortfolio>
+		<PortfolioType>Sub Portfolio</PortfolioType>
+		<ParentPortfolio>ALGENF_M</ParentPortfolio>
+	</results>
+	<results>
+		<RowNumber>2</RowNumber>
+		<ChildPortfolio>406</ChildPortfolio>
+	</results>
+</root>

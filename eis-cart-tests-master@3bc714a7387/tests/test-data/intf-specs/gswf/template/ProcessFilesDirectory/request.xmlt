@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+	<soapenv:Header/>
+	<soapenv:Body>
+		<even:RaiseProcessFilesDirectoryAsynchron>
+			<even:BusinessFeed>${BUSINESS_FEED}</even:BusinessFeed>
+			<even:Directory>${INPUT_DATA_DIR}</even:Directory>
+			<even:FileLoadEvent>StandardFileLoad</even:FileLoadEvent>
+			<even:FilePatterns>${FILE_PATTERN}</even:FilePatterns>
+			<even:MessageBulkSize>2000</even:MessageBulkSize>
+			<even:MessageProcessingEvent>ProcessFeedMessage</even:MessageProcessingEvent>
+			<even:NrOfFilesParallel>1</even:NrOfFilesParallel>
+			<even:OutputDirectory>${ARCHIVE_DIR}</even:OutputDirectory>
+			<even:ParallelBranches>${PARALLELISM}</even:ParallelBranches>
+			<even:PricePointEventDefinitionId>${PRICE_POINT_EVENT_DEF_ID!}</even:PricePointEventDefinitionId>
+			<even:ReProcessProcessedFiles>true</even:ReProcessProcessedFiles>
+			<even:SuccessAction>${SUCCESS_ACTION}</even:SuccessAction>
+		</even:RaiseProcessFilesDirectoryAsynchron>
+	</soapenv:Body>
+</soapenv:Envelope>

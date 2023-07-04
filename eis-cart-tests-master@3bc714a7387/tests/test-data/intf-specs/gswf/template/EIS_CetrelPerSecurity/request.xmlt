@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+    <soapenv:Header/>
+    <soapenv:Body>
+         <even:RaiseEIS_CetrelPerSecurityAsynchron>
+           <even:CETRELDownloadDirectory>${CETREL_DOWNLOAD_DIRECTORY!}</even:CETRELDownloadDirectory>
+           <even:CETRELTimeout>${CETREL_TIMEOUT!}</even:CETRELTimeout>
+           <even:CETRELUploadDirectory>${CETREL_UPLOAD_DIRECTORY!}</even:CETRELUploadDirectory>
+           <even:EmailAddresses>${EMAIL_ADDRESSES!}</even:EmailAddresses>
+           <even:EmailSubject>Test Cetrel request and Reply workflow</even:EmailSubject>
+           <even:FirmName>${FIRM_NAME!}</even:FirmName>
+           <even:FromEmailAddress>${FROM_EMAIL_ADDRESS!}</even:FromEmailAddress>
+           <even:MaxRequestsPerFile>10000</even:MaxRequestsPerFile>
+           <even:MaxRetryTime>10</even:MaxRetryTime>
+           <even:NoOfFilesToRunInParallel>10</even:NoOfFilesToRunInParallel>
+           <even:RequestType>${REQUEST_TYPE!}</even:RequestType>
+           <even:RequestorID>${REQUESTOR_ID!}</even:RequestorID>
+           <even:StoreRequestFileLocalDirectory>${FILE_LOCAL_DIRECTORY!}</even:StoreRequestFileLocalDirectory>
+           <even:StoreRequestFileonLocal>${FILEON_LOCAL!}</even:StoreRequestFileonLocal>
+       </even:RaiseEIS_CetrelPerSecurityAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:EIS_PublishingWrapperEventResult>
+         <even:flowResultId>?</even:flowResultId>
+      </even:EIS_PublishingWrapperEventResult>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISSUERS ASOF_DATE="5/6/2019" CREATE_DATE="5/6/2019" RECORDS="1">
+    <ISSUER>
+        <ACTIVE>Y</ACTIVE>
+        <COUNTRY>AU</COUNTRY>
+        <COUNTRY_INC>AU</COUNTRY_INC>
+        <ISSR_EXCHANGE_set SIZE="3">
+            <ISSR_EXCHANGE>
+                <EXCHANGE>KMV</EXCHANGE>
+                <TICKER>G13054</TICKER>
+            </ISSR_EXCHANGE>
+            <ISSR_EXCHANGE>
+                <EXCHANGE>LEI</EXCHANGE>
+                <TICKER>JHE42UYNWWTJB8YTTU19</TICKER>
+            </ISSR_EXCHANGE>
+            <ISSR_EXCHANGE>
+                <EXCHANGE>ML_TICKER</EXCHANGE>
+                <TICKER>ANZ</TICKER>
+            </ISSR_EXCHANGE>
+        </ISSR_EXCHANGE_set>
+        <ISSUER_ID>${ISSUER_ID1}</ISSUER_ID>
+        <LONG_NAME>AUSTRALIA AND NEW ZEALAND BANKING GROUP LTD</LONG_NAME>
+        <NAME>AUSTRALIA AND NEW ZEALAND BANKING GROUP LTD</NAME>
+        <PARENT>${ISSUER_ID1}</PARENT>
+        <RATING_set SIZE="71">
+            <RATING>
+                <AGY>1</AGY>
+                <DATE>6/19/2017</DATE>
+                <VALUE>Aa3</VALUE>
+            </RATING>
+        </RATING_set>
+        <REVIEWED>Y</REVIEWED>
+        <SECTOR_set SIZE="6">
+            <SECTOR>
+                <CODE>BANK</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>BARC_SECT</TYPE>
+            </SECTOR>
+        </SECTOR_set>
+        <STATE>NY</STATE>
+        <STATE_INC>MD</STATE_INC>
+        <STOCK_ID>40428H706</STOCK_ID>
+        <TICKER>HSBC</TICKER>
+        <ULTIMATE_PARENT>R71927</ULTIMATE_PARENT>
+        <WHEN_DONE>4/21/2017 09:50:24.910</WHEN_DONE>
+        <YEAR_INC>1973</YEAR_INC>
+    </ISSUER>
+</ISSUERS>

@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_EmailsDOPCFEAsynchron>
+         <even:IsControlProcessEmail>${IS_CONTROL_EMAIL}</even:IsControlProcessEmail>
+		 <even:RecipientEmailID>${RECIPIENTS_EMAIL}</even:RecipientEmailID>
+		 <even:SenderEmailID>${SENDER_EMAIL}</even:SenderEmailID>
+      </even:RaiseEIS_EmailsDOPCFEAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

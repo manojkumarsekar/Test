@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2020-04-09" CREATE_DATE="4/10/2020" RECORDS="19071">
+    <ASSET>
+        <ISSUE>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CHANGE_DT>3/14/2018 9:10:35.740</CHANGE_DT>
+            <CONTRACT_MONTH>3</CONTRACT_MONTH>
+            <CONTRACT_YEAR>2018</CONTRACT_YEAR>
+            <COUNTRY>CN</COUNTRY>
+            <COUPON_FIX>115</COUPON_FIX>
+            <CURRENCY>USD</CURRENCY>
+            <CUSIP>Z92N6R2Y0</CUSIP>
+            <CUSIP2_set SIZE="2">
+                <CUSIP2_record>
+                    <CODE>R</CODE>
+                    <IDENTIFIER>BABAC161811500.U</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>e</CODE>
+                    <IDENTIFIER>BABA  180316C00115000</IDENTIFIER>
+                </CUSIP2_record>
+            </CUSIP2_set>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DATE_CONV>AC365L</DATE_CONV>
+            <DESC_INSTMT>MAR18 BABA C @ 115.000000</DESC_INSTMT>
+            <EXCHANGE>OPQ</EXCHANGE>
+            <EXERCISE_TYPE>A</EXERCISE_TYPE>
+            <EXP_DT>3/16/2018</EXP_DT>
+            <FUTURE_CODE>BABA</FUTURE_CODE>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>US</MARKET>
+            <MATURITY>3/16/2018</MATURITY>
+            <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+            <MODIFIED_BY>tsgops</MODIFIED_BY>
+            <NOTIONAL_FACE>100</NOTIONAL_FACE>
+            <NTL_FLAG>Y</NTL_FLAG>
+            <OPTION_CALL_PUT>C</OPTION_CALL_PUT>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <REVIEWED_BY>AUTOREVU</REVIEWED_BY>
+            <SEC_TYPE>OPTION_EQUITY</SEC_TYPE>
+            <SETTLE_CAL>US_BMA</SETTLE_CAL>
+            <SETTLE_METHOD>P</SETTLE_METHOD>
+            <SM_SEC_GROUP>OPTION</SM_SEC_GROUP>
+            <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+            <STRIKE>115</STRIKE>
+            <TICKER>BABA</TICKER>
+            <UNDERLYING_CUSIP>01609W102</UNDERLYING_CUSIP>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

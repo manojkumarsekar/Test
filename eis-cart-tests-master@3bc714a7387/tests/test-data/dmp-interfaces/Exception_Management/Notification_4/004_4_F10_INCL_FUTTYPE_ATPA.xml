@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2020-09-18" CREATE_DATE="9/18/2020" RECORDS="10005">
+    <ASSET>
+        <ISSUE>
+            <ACCRUAL_DT>8/23/2020</ACCRUAL_DT>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CHANGE_DT>9/14/2020 10:29:55.743</CHANGE_DT>
+            <COMPOUND_FLAG>0</COMPOUND_FLAG>
+            <CONTRACT_POINT_VALUE>2</CONTRACT_POINT_VALUE>
+            <CONTRACT_SIZE>2</CONTRACT_SIZE>
+            <CONTRACT_TICKER_PFX>ATP</CONTRACT_TICKER_PFX>
+            <COUNTRY>SG</COUNTRY>
+            <CURRENCY>USD</CURRENCY>
+            <CUSIP>ATPAZ0207</CUSIP>
+            <CUSIP2_set SIZE="2">
+                <CUSIP2_record>
+                    <CODE>I</CODE>
+                    <IDENTIFIER>SGXDB0316826</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>R</CODE>
+                    <IDENTIFIER>SFNTHZ0</IDENTIFIER>
+                </CUSIP2_record>
+            </CUSIP2_set>
+            <CUSIP_ALIAS_set SIZE="1">
+                <CUSIP_ALIAS_record>
+                    <CODE>275</CODE>
+                    <IDENTIFIER>XSIMFNTH        FF2020-12-180000000000000000000</IDENTIFIER>
+                    <PURPOSE>AII</PURPOSE>
+                </CUSIP_ALIAS_record>
+            </CUSIP_ALIAS_set>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DATE_CONV>ACTACT</DATE_CONV>
+            <DELIVERY_METHOD>C</DELIVERY_METHOD>
+            <DESC_INSTMT>FTSE THAI NTR (USD) DEC 20</DESC_INSTMT>
+            <EXCHANGE_MIC>XSIM</EXCHANGE_MIC>
+            <EXPECTED_MATURITY>12/18/2020</EXPECTED_MATURITY>
+            <FIRST_SETTLE_DT>8/23/2020</FIRST_SETTLE_DT>
+            <FUTURE_CLASS>EQINDX</FUTURE_CLASS>
+            <FUTURE_CODE>ATPA</FUTURE_CODE>
+            <ISSUE_DT>8/23/2020</ISSUE_DT>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>SG</MARKET>
+            <MATURITY>12/18/2020</MATURITY>
+            <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+            <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+            <MODIFIED_BY>e4seho</MODIFIED_BY>
+            <NOTES_set SIZE="2">
+                <NOTES_record>
+                    <EFF_DT>9/14/2020</EFF_DT>
+                    <INSTMT>ESI: Updated Risk Country as per EPA</INSTMT>
+                    <SEQ_NUM>1</SEQ_NUM>
+                    <USER_ID>e4kawang</USER_ID>
+                </NOTES_record>
+                <NOTES_record>
+                    <EFF_DT>9/14/2020</EFF_DT>
+                    <INSTMT>ESI: Updated Ticker from ATPAZ0 to ATPZ0 as per BBG</INSTMT>
+                    <SEQ_NUM>2</SEQ_NUM>
+                    <USER_ID>e4seho</USER_ID>
+                </NOTES_record>
+            </NOTES_set>
+            <NTL_FLAG>Y</NTL_FLAG>
+            <PMT_LOCATION>F</PMT_LOCATION>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <PRICE_MULTIPLIER>1</PRICE_MULTIPLIER>
+            <REVIEWED_BY>e4seho</REVIEWED_BY>
+            <RISK_COUNTRY>TH</RISK_COUNTRY>
+            <ROUND_FLAG>R</ROUND_FLAG>
+            <ROUND_PRECISION>9</ROUND_PRECISION>
+            <SEC_TYPE>FUTURE_INDEX</SEC_TYPE>
+            <SETTLE_LOCATION>F</SETTLE_LOCATION>
+            <SM_SEC_GROUP>FUTURE</SM_SEC_GROUP>
+            <SM_SEC_TYPE>INDEX</SM_SEC_TYPE>
+            <TICKER>ATPZ0</TICKER>
+            <TICKER_PFX>ATPA</TICKER_PFX>
+            <TICK_VALUE>2</TICK_VALUE>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

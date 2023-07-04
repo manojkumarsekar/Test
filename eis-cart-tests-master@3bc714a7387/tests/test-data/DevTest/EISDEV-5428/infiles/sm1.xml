@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="20191028" CREATE_DATE="10/29/2019" RECORDS="1">
+<ASSET><MBS_TBA>
+        <ACCRUAL_DT>11/1/2019</ACCRUAL_DT>
+        <AGENCY>UM</AGENCY>
+        <ASSET_BENCHMARK>01F0326B5</ASSET_BENCHMARK>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>10/10/2019 23:00:06.296</CHANGE_DT>
+        <COUNTRY>US</COUNTRY>
+        <COUPON_FIX>3.5</COUPON_FIX>
+        <COUP_FREQ>M</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>BRTVCVNZ7</CUSIP>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>01F0326B5</IDENTIFIER>
+                <PURPOSE>PPMA</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>US01F0326B57</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY>24</DELAY>
+        <DESC_INSTMT>UMBS  30YR TBA(REG A)</DESC_INSTMT>
+        <FIRST_PAY_DT>12/25/2019</FIRST_PAY_DT>
+        <FIRST_PRIN_DT>12/25/2019</FIRST_PRIN_DT>
+        <FIRST_SETTLE_DT>11/1/2019</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <ISSUER_ID>UMBS01</ISSUER_ID>
+        <ISSUE_DT>11/1/2019</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>US</MARKET>
+        <MATURITY>11/13/2019</MATURITY>
+        <MODIFIED_BY>avanchee</MODIFIED_BY>
+        <NET_CPN>3.5</NET_CPN>
+        <NOTIONAL_AMT>1</NOTIONAL_AMT>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>NY_Bank</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PRICING_CUSIP>UM0332300</PRICING_CUSIP>
+        <PRIN_FREQ>M</PRIN_FREQ>
+        <PROSPECTUS>Not Applicable</PROSPECTUS>
+        <RATING_set SIZE="3">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>7/1/2019</DATE>
+                <VALUE>Agency</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>7/1/2019</DATE>
+                <VALUE>AA+</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>7/1/2019</DATE>
+                <VALUE>Agency</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <SEC_TYPE>MBS_TBA</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>MBS</SM_SEC_GROUP>
+        <SM_SEC_TYPE>TBA</SM_SEC_TYPE>
+        <TICKER>UM30</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </MBS_TBA></ASSET>
+    </ASSETS>

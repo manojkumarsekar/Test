@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseMDSPointAndGroupPropagatorSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseMDSPointAndGroupPropagatorAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="ArrayOfMapsOfMatrixGridVsInstrumentId" type="tns:mapType"><xs:annotation><xs:documentation>Array of maps of matrixgid and instrument id</xs:documentation></xs:annotation></xs:element><xs:element name="Collection_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>C for collection and D for derivation</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Curve_BLANK_Id" type="xs:string"><xs:annotation><xs:documentation>Matrix Id</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Template_BLANK_Instrument" type="xs:string"><xs:annotation><xs:documentation>Template Instrument</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="ToAdd" type="xs:integer"><xs:annotation><xs:documentation>Default is add an instrument, false is to remove the instrument</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="MDSPointAndGroupPropagatorResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseMDSPointAndGroupPropagatorSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseMDSPointAndGroupPropagatorAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:MDSPointAndGroupPropagatorResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

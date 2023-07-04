@@ -1,0 +1,80 @@
+/*******************************************************************************
+ * Import pipeline libraries
+ *******************************************************************************/
+@Library(['eis-jenkins-lib@develop']) _
+
+pipeline {
+        agent {
+            label 'java'
+        }
+
+        options {
+            ansiColor('xterm')
+        }
+
+        triggers {
+            pollSCM 'H H 1 12 *'
+        }
+
+        stages {
+            stage('Build'){
+                steps{
+                    eisMavenExecute(
+                        goal: "clean package -DskipTests=true"
+                    )
+                    script {
+                        notifyBitbucket()
+                    }
+                }
+
+            }
+
+            stage('Test'){
+                steps {
+                    dir('cart-core-lite'){
+                        eisMavenExecute(
+                            goal: "exec:java -D\"run.cucumber.tags\"=@framework"
+                        )
+                    }
+                    script {
+                        notifyBitbucket()
+                    }
+                }
+
+            }
+            stage('Deploy'){
+                when {
+                   branch 'master'
+                }
+                steps {
+                    eisMavenExecute(
+                        goal: "deploy -DskipTests=true -D\"maven.skip.exec\"=true"
+                    )
+                    script {
+                        notifyBitbucket()
+                    }
+                }
+            }
+        }
+
+        post {
+            success {
+                script {
+                    if( env.BRANCH_NAME == 'master' ){
+                        archiveArtifacts artifacts: 'cart-core-lite/target/*.jar'
+                        sendEmail("qea.team.sg@eastspring.com")
+                    }
+                }
+            }
+            always {
+                script {
+                    currentBuild.result = currentBuild.result ?: 'SUCCESS'
+                    notifyBitbucket()
+                }
+            }
+            failure {
+                sendEmail("qea.team.sg@eastspring.com")
+            }
+
+        }
+}

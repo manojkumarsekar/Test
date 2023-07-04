@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+	<soapenv:Header/>
+	<soapenv:Body>
+		<even:RaiseEIS_LoadFiles_PublishExceptionsAsynchron>
+			<even:AttachmentFileName>${ATTACHMENT_FILENAME!}</even:AttachmentFileName>
+			<even:BusinessFeed>${BUSINESS_FEED!}</even:BusinessFeed>
+			<even:DetailsHeader>Filename,Main Entity ID,Main Entity Type, Default Severity, Exception Type, Notification ID, Details, Notification Count</even:DetailsHeader>
+			<even:DetailsSQL>SELECT FILENAME, MAIN_ENTITY_ID, MAIN_ENTITY_ID_CTXT_TYP, ERROR_LEVEL, EXCP_TYP, NOTFCN_ID, CHAR_VAL_TXT, NOTFCN_OCCUR_CNT FROM FT_V_DTL1 WHERE PRNT_JOB_ID = ? AND NOTFCN_STAT_TYP='OPEN'</even:DetailsSQL>
+			<even:Directory>${INPUT_DIR!}</even:Directory>
+			<even:EmailAddresses>${EMAIL_TO!}</even:EmailAddresses>
+			<even:EmailFooter>${FOOTER!}</even:EmailFooter>
+			<even:EmailHeader>${HEADER!}</even:EmailHeader>
+			<even:EmailSubject>${EMAIL_SUBJECT!}</even:EmailSubject>
+			<even:ExceptionDetailsInBody>${EXCEPTION_DETAILS_COUNT!}</even:ExceptionDetailsInBody>
+			<even:FileLoadEvent>${FILE_LOAD_EVENT!}</even:FileLoadEvent>
+			<even:FilePatterns>${FILE_PATTERN!}</even:FilePatterns>
+			<even:MessageBulkSize>500</even:MessageBulkSize>
+			<even:MessageProcessingEvent>ProcessFeedMessage</even:MessageProcessingEvent>
+			<even:MessageType>${MESSAGE_TYPE!}</even:MessageType>
+			<even:NrOfFilesParallel>${NOOFFILESINPARALLEL!}</even:NrOfFilesParallel>
+			<even:OutputDirectory>${OUTPUT_DIR!}</even:OutputDirectory>
+			<even:ParallelBranches>2</even:ParallelBranches>
+			<even:PostDataLoadProcessEvent>${POST_EVENT_NAME!}</even:PostDataLoadProcessEvent>
+			<even:PublishLoadSummary>${PUBLISH_LOAD_SUMMARY!}</even:PublishLoadSummary>
+			<even:ReProcessProcessedFiles>true</even:ReProcessProcessedFiles>
+			<even:SenderEmail>eis-dmp-support@eastspring.com</even:SenderEmail>
+			<even:SuccessAction>${SUCCESS_ACTION!}</even:SuccessAction>
+			<even:SummaryHeader>Filename, Task Total Count, Task Success Count, Task Failed Count, Task Partial Count, Task Filtered Count, Job Time, Job TPS</even:SummaryHeader>
+			<even:SummarySQL>SELECT FILENAME, TASK_TOT_CNT, TASK_SUCCESS_CNT, TASK_FAILED_CNT, TASK_PARTIAL_CNT, TASK_FILTERED_CNT, JOB_TME_TXT, JOB_TPS_CNT FROM FT_V_SUM1 WHERE PRNT_JOB_ID = ?</even:SummarySQL>
+			<even:UserGroupID>PortEmail</even:UserGroupID>
+		</even:RaiseEIS_LoadFiles_PublishExceptionsAsynchron>
+	</soapenv:Body>
+</soapenv:Envelope>

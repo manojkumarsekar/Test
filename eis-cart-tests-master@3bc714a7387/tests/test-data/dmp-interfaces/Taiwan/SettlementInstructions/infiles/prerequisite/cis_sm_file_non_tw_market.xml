@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2019-04-16" CREATE_DATE="04/16/2019" RECORDS="1">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>4/1/2015</ACCRUAL_DT>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/13/2019 5:07:34.736</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>LU</COUNTRY>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>BPM1EYW37</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>BWDPMB0</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>LU1207409209</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>LP68306350</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL8734970</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>FIDELITY FNDS-EU HY-YAUSD</DESC_INSTMT>
+        <DESC_INSTMT2>EB</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>4/1/2015</ISSUE_DT>
+        <LEAD_MGR>1634</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>LU</MARKET>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="1">
+            <NOTES_record>
+                <EFF_DT>5/10/2018</EFF_DT>
+                <INSTMT>ESI: Unchecked price in pct</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>p9sho</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>LUX</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <PRIN_FREQ>M</PRIN_FREQ>
+        <RATING_set SIZE="1">
+            <RATING_record>
+                <AGY>10403</AGY>
+                <DATE>3/9/2018</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>adapjoy</REVIEWED_BY>
+        <RISK_COUNTRY>LU</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="4">
+            <SECTOR_record>
+                <CODE>e4cochou</CODE>
+                <LEVEL>128</LEVEL>
+                <SECTOR_SOURCE>S</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>e4btu</CODE>
+                <LEVEL>133</LEVEL>
+                <SECTOR_SOURCE>S</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>e4reblin</CODE>
+                <LEVEL>135</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>e4suchen</CODE>
+                <LEVEL>136</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>LUXE</SETTLE_CAL>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>FFEYAUH</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>213593999.4</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

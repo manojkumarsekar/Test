@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2018-11-16" CREATE_DATE="11/16/2018" RECORDS="2643">
+    <ASSET><BND_CORP>
+        <ACCRUAL_DT>3/11/2014</ACCRUAL_DT>
+        <AMT_ISU>500000000</AMT_ISU>
+        <ANNOUNCE_DT>3/4/2014</ANNOUNCE_DT>
+        <CALC_TYPE>1</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>3/26/2018 17:04:14.120</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>HK</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="2">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>HK</CNTRY>
+                <CNTRY_SRC>JPJ</CNTRY_SRC>
+                <CNTRY_TYPE>IDX</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>HK</CNTRY>
+                <CNTRY_SRC>ML</CNTRY_SRC>
+                <CNTRY_TYPE>IDX</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <COUPON_FIX>4.875</COUPON_FIX>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>TWTOM3682</CUSIP>
+        <CUSIP_ALIAS_set SIZE="3">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL0003682X</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>30E360</DATE_CONV>
+        <DESC_INSTMT>AIA GROUP LTD</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>9/11/2014</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>3/11/2014</FIRST_SETTLE_DT>
+        <FLAG_144A>S</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>F12503</ISSUER_ID>
+        <ISSUE_DT>3/11/2014</ISSUE_DT>
+        <ISSUE_EXCHANGES_set SIZE="3">
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>FRA</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>HKG</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>MKX</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+        </ISSUE_EXCHANGES_set>
+        <ISSUE_PRICE>98.45</ISSUE_PRICE>
+        <LEH_INDUSTRY>LIFE</LEH_INDUSTRY>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>EURO</MARKET>
+        <MATURITY>3/11/2044</MATURITY>
+        <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>200000</MIN_TRD_SIZE>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>Y</MTN>
+        <NOTES_set SIZE="1">
+            <NOTES_record>
+                <EFF_DT>3/26/2018</EFF_DT>
+                <INSTMT>risk country as requested by Eastspring (Vishal Maheshwari)</INSTMT>
+                <SEQ_NUM>7</SEQ_NUM>
+                <USER_ID>mtang</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>NY_Bank</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PUT_CALL> </PUT_CALL>
+        <RATING_set SIZE="5">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>9/22/2017</DATE>
+                <VALUE>A2</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>3/5/2014</DATE>
+                <VALUE>A</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>3/11/2014</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>14</AGY>
+                <DATE>4/10/2018</DATE>
+                <VALUE>A</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>502</AGY>
+                <DATE>8/23/2017</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>rharriso</REVIEWED_BY>
+        <RISK_COUNTRY>HK</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SAL_INDUSTRY>LIFE</SAL_INDUSTRY>
+        <SECTOR_set SIZE="3">
+            <SECTOR_record>
+                <CODE>LIFE</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>BARC_SECT</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>INSL</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>ISS_ML</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>Financials</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>JACI</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>BND_CORP</SEC_TYPE>
+        <SM_SEC_GROUP>BND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>CORP</SM_SEC_TYPE>
+        <STRUCTURE>SENIOR</STRUCTURE>
+        <TICKER>AIA</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL></LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                <VALUE>TestBlankTWMValue</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL></LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                <VALUE>TestBlankTWMValue</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </BND_CORP></ASSET>
+</ASSETS>

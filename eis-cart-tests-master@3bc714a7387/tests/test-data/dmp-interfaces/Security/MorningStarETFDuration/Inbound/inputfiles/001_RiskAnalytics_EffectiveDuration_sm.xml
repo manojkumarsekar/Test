@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2020-11-05" CREATE_DATE="11/5/2020" RECORDS="1">
+    <ASSET><EQUITY_WARRANT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>11/5/2020 1:37:05.253</CHANGE_DT>
+        <COUNTRY>ES</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="2">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>ES</CNTRY>
+                <CNTRY_SRC>REU</CNTRY_SRC>
+                <CNTRY_TYPE>COI</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>ES</CNTRY>
+                <CNTRY_SRC>BLK</CNTRY_SRC>
+                <CNTRY_TYPE>COT</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <CURRENCY>EUR</CURRENCY>
+        <CUSIP>SBMHXF667</CUSIP>
+        <CUSIP2_set SIZE="2">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>BMHXF66</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>FER_r.MC</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="3">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>00100b0024d420d1</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>E49512390</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>ES06189009G9</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>FERROVIAL RIGHTS SA</DESC_INSTMT>
+        <DESC_INSTMT2>RIGHTS</DESC_INSTMT2>
+        <EXCHANGE>CATS</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <ISSUER_ID>R21644</ISSUER_ID>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>ES</MARKET>
+        <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+        <MODIFIED_BY>e4kawang</MODIFIED_BY>
+        <NOTES_set SIZE="2">
+            <NOTES_record>
+                <EFF_DT>11/5/2020</EFF_DT>
+                <INSTMT>EISG: Updated Ticker. Risk Cty as per BBG00Y29JVC1 and CACX 223542647</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>11/5/2020</EFF_DT>
+                <INSTMT>EISG: Bonus Rights. No Subscription Price</INSTMT>
+                <SEQ_NUM>2</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NOTIONAL_AMT>100</NOTIONAL_AMT>
+        <NOTIONAL_FACE>1</NOTIONAL_FACE>
+        <NTL_FLAG>Y</NTL_FLAG>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>e4kawang</REVIEWED_BY>
+        <RISK_COUNTRY>ES</RISK_COUNTRY>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>MCEE</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_WARRANT</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>WARRANT</SM_SEC_TYPE>
+        <TICKER>FER/D</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL>UCITS_ARTICLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>ESMA_10_788</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>UCITS_ELIGIBLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>Y</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <UNDERLYING_CUSIP>SB0385167</UNDERLYING_CUSIP>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_WARRANT></ASSET>
+</ASSETS>

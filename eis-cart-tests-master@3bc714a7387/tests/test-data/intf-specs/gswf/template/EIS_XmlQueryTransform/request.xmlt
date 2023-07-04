@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+	<soapenv:Header/>
+	<soapenv:Body>
+		<even:RaiseEIS_XmlQueryTransformAsynchron>
+			<even:EmailAddresses>${EMAIL_ADDRESSES!}</even:EmailAddresses>
+			<even:EmailMessage>${EMAIL_MESSAGE!}</even:EmailMessage>	
+			<even:EmailSender>${EMAIL_SENDER!}</even:EmailSender>	
+			<even:EmailSubject>${EMAIL_SUBJECT!}</even:EmailSubject>	
+			<even:OutputFile>${FILENAME!}</even:OutputFile>	
+			<even:QueryParameters>${QUERY_PARAMETER1!}</even:QueryParameters>	
+			<even:QueryParameters>${QUERY_PARAMETER2!}</even:QueryParameters>	
+			<even:QueryParameters>${QUERY_PARAMETER3!}</even:QueryParameters>	
+			<even:QueryURI>${QUERY_URI!}</even:QueryURI>
+			<even:RecordCountXpath>${REC_COUNT_XPATH!}</even:RecordCountXpath>	
+			<even:TransformURI>${XSLT_URI!}</even:TransformURI>	
+		</even:RaiseEIS_XmlQueryTransformAsynchron>
+	</soapenv:Body>
+</soapenv:Envelope>

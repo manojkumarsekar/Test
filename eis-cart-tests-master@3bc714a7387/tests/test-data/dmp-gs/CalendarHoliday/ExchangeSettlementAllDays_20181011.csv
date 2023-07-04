@@ -1,0 +1,9 @@
+CenterID,CalendarTypeID,EventDate,EventName,EventType
+138,S,20180101,New Year's Day,HDY
+138,S,20180102,Bank Holiday 2,HDY
+138,S,20180103,Bank Holiday 3,HDY
+138,S,20180104,Business Day,BDY
+138,S,20180105,Business Day,BDY
+138,S,20180106,Weekend,WKD
+138,S,20180107,Weekend,WKD
+138,S,20180108,Coming of Age  (Adults') Day,HDY

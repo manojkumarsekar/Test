@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaisePriceFinalizeValidationSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaisePriceFinalizeValidationAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="AdditionalPriceQualificationType" type="xs:string"><xs:annotation><xs:documentation>Additional Price Qualification Type for which pirces should be cheked/unchecked</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="BulkSize" type="xs:integer"/><xs:element maxOccurs="unbounded" minOccurs="0" name="Country" type="xs:string"/><xs:element minOccurs="0" name="Extra_BLANK_Configuration_BLANK_Information" type="xs:string"><xs:annotation><xs:documentation>Extra information that will be stored in the configInfo column of the JobLog entry.&#xd;
+</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Instruments" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Instruments</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="IsADR" type="xs:boolean"/><xs:element maxOccurs="unbounded" minOccurs="0" name="IssueGroup" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Issue Groups</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="IssueType" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Issue Types</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="IssueTypeGroup" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Issue Type Groups</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="JobId" type="xs:string"/><xs:element minOccurs="0" name="MarkPricesAsScrubbed" type="xs:boolean"><xs:annotation><xs:documentation>The parameter MarkPricesAsScrubbed will mark the Scrubbed/Validated Prices as SCRUBBED. This will work when rescrub mode is set to true.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Market" type="xs:string"><xs:annotation><xs:documentation>Market for which price should be marked as checked/unchecked</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Message_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>The Message Type that will be used for this job</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="MethodType" type="xs:string"><xs:annotation><xs:documentation>Method Type for which price should be marked as checked/unchecked</xs:documentation></xs:annotation></xs:element><xs:element name="Observation_BLANK_period" type="xs:integer"/><xs:element minOccurs="0" name="ParallelBranches" type="xs:integer"/><xs:element minOccurs="0" name="ParentJobId" type="xs:string"><xs:annotation><xs:documentation>The ID of the parent job.&#xd;
+</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Price_BLANK_Day_BLANK_Frequency" type="xs:string"><xs:annotation><xs:documentation>Please note only supported values are daily, intraday or monthly</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="PriceQuoteMethodType" type="xs:string"><xs:annotation><xs:documentation>Quote Method Type for which prices should be marked as checked/unchecked</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="PriceSourceType" type="xs:string"><xs:annotation><xs:documentation>Method Type for which price should be marked as checked/uncheckedPriceSourceType</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="PriceType" type="xs:string"><xs:annotation><xs:documentation>Price Type for which pirces should be cheked/unchecked</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Processing_BLANK_Date" type="xs:dateTime"/><xs:element minOccurs="0" name="PurposeType" type="xs:string"/><xs:element minOccurs="0" name="ReUse_BLANK_Job_BLANK_Id" type="xs:boolean"><xs:annotation><xs:documentation>This flag indicates that the working job id provided in the WF needs to be used instead of creating a new job_id in the ft_o_isjb table. This should only be set to true in case the entries in isjb need to be reused.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Region" type="xs:string"/><xs:element minOccurs="0" name="RescrubMode" type="xs:boolean"/><xs:element maxOccurs="unbounded" minOccurs="0" name="SuppressUserIDs" type="xs:string"/><xs:element maxOccurs="unbounded" minOccurs="0" name="Vendor" type="xs:string"><xs:annotation><xs:documentation>Vendors for which prices should be marked as checked/unchecked</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Working_BLANK_Job_BLANK_Id" type="xs:string"><xs:annotation><xs:documentation>Working job_id is the job_id from the ft_o_isjb table in case it has to be reused and new entries should not be created. It works in conjunction with the reuse job id flag</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="PriceFinalizeValidationResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaisePriceFinalizeValidationSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaisePriceFinalizeValidationAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:PriceFinalizeValidationResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+                   <soapenv:Header/>
+                      <soapenv:Body>
+                           <even:RaiseEIS_GenerateSqlFromFileAndExecuteAsynchron>
+                               <even:BulkSize>50</even:BulkSize>
+                               <even:BusinessFeed>${BUSINESS_FEED!}</even:BusinessFeed>
+                   			   <even:FileURI>${FileURI!}</even:FileURI>
+                               <even:TranslationMDX>${TRANSLATIONMDX!}</even:TranslationMDX>
+                           </even:RaiseEIS_GenerateSqlFromFileAndExecuteAsynchron>
+                      </soapenv:Body>
+                   </soapenv:Envelope>

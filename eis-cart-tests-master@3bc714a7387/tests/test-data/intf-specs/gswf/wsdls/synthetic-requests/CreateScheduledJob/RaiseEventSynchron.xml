@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseCreateScheduledJobSynchron>
+         <even:CronExpression>?</even:CronExpression>
+         <!--Optional:-->
+         <even:JobEndDate>?</even:JobEndDate>
+         <even:JobGroup>?</even:JobGroup>
+         <even:JobName>?</even:JobName>
+         <!--Optional:-->
+         <even:JobStartDate>?</even:JobStartDate>
+         <!--Optional:-->
+         <even:JobTriggerType>?</even:JobTriggerType>
+         <!--Optional:-->
+         <even:OverrideCronExpression>?</even:OverrideCronExpression>
+         <even:TriggerName>?</even:TriggerName>
+         <!--Optional:-->
+         <even:triggerEndDate>?</even:triggerEndDate>
+         <!--Optional:-->
+         <even:triggerStartDate>?</even:triggerStartDate>
+      </even:RaiseCreateScheduledJobSynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

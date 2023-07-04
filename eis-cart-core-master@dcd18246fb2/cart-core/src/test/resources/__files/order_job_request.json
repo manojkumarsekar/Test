@@ -1,0 +1,8 @@
+{
+  "ctm": "CTM_UAT",
+  "folder":"EIS-APP-DMP-INTRADAY-DEV108",
+  "hold": "true",
+  "ignoreCriteria": "true",
+  "independentFlow": "true"
+
+}

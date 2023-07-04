@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2019-04-16" CREATE_DATE="04/16/2019" RECORDS="2">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>1/1/2000</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>N/A</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/13/2019 5:07:47.210</CHANGE_DT>
+        <COUNTRY>TW</COUNTRY>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>BPM1D31S5</CUSIP>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL2972113</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>TW000T4719Y8</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>TAISHIN 1699 MMKT FUND</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>1/1/2000</ISSUE_DT>
+        <LEAD_MGR>1634</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TW</MARKET>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>NY_Bank</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <RATING_set SIZE="1">
+            <RATING_record>
+                <AGY>10403</AGY>
+                <DATE>8/28/2017</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>p9cchan</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>TW</SETTLE_CAL>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>SHESNBF</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>3622281375</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>TWN_MNY_TRPlat</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>ESITW</UDF_SOURCE>
+                <VALUE>2713</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>1/1/2000</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/13/2019 5:07:48.940</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TW</COUNTRY>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>BPM1EKVD6</CUSIP>
+        <CUSIP2_set SIZE="1">
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>TW000T0711Y9</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>2345 TT</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL4715370</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>EASTSPRING SMALL CAP FUND</DESC_INSTMT>
+        <DESC_INSTMT2>IEH</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>1/1/2000</ISSUE_DT>
+        <LEAD_MGR>1634</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TW</MARKET>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="1">
+            <NOTES_record>
+                <EFF_DT>5/10/2018</EFF_DT>
+                <INSTMT>ESI: Unchecked price in pct</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>p9sho</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>TW</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <PRIN_FREQ>M</PRIN_FREQ>
+        <RATING_set SIZE="1">
+            <RATING_record>
+                <AGY>10403</AGY>
+                <DATE>4/13/2018</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>p9sho</REVIEWED_BY>
+        <RISK_COUNTRY>TW</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>TW</SETTLE_CAL>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>CPSMCPI</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>34687164</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

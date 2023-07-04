@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_CompareJSONAsynchron>
+         <even:EntitySelectionSQL>${SQL_QUERY}</even:EntitySelectionSQL>
+         <even:NoOfThreads>${NO_OF_THREADS}</even:NoOfThreads>
+      </even:RaiseEIS_CompareJSONAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

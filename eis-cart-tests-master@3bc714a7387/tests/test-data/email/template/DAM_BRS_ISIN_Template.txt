@@ -1,0 +1,260 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style>
+        <!--
+        /* Font Definitions */
+        @font-face {
+            font-family: "Cambria Math";
+            panose-1: 2 4 5 3 5 4 6 3 2 4;
+            mso-font-alt: "Calisto MT";
+            mso-font-charset: 0;
+            mso-generic-font-family: roman;
+            mso-font-pitch: variable;
+            mso-font-signature: -536870145 1107305727 0 0 415 0;
+        }
+
+        @font-face {
+            font-family: Calibri;
+            panose-1: 2 15 5 2 2 2 4 3 2 4;
+            mso-font-alt: "Arial Rounded MT Bold";
+            mso-font-charset: 0;
+            mso-generic-font-family: swiss;
+            mso-font-pitch: variable;
+            mso-font-signature: -536870145 1073786111 1 0 415 0;
+        }
+
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal {
+            mso-style-unhide: no;
+            mso-style-qformat: yes;
+            mso-style-parent: "";
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            font-size: 10.0pt;
+            font-family: "Arial", sans-serif;
+            mso-fareast-font-family: Calibri;
+            mso-fareast-theme-font: minor-latin;
+        }
+
+        p, span {
+        	font-size: 10.0pt;
+            font-family: "Arial", sans-serif;
+            mso-fareast-font-family: Calibri;
+            mso-fareast-theme-font: minor-latin;
+        }
+
+        a:link, span.MsoHyperlink {
+            mso-style-noshow: yes;
+            mso-style-priority: 99;
+            color: #0079C1;
+            text-decoration: underline;
+            text-underline: single;
+        }
+
+        a:visited, span.MsoHyperlinkFollowed {
+            mso-style-noshow: yes;
+            mso-style-priority: 99;
+            color: #009A3D;
+            text-decoration: underline;
+            text-underline: single;
+        }
+
+        span.EmailStyle18 {
+            mso-style-type: personal;
+            mso-style-noshow: yes;
+            mso-style-unhide: no;
+            font-family: "Arial", sans-serif;
+            mso-ascii-font-family: Arial;
+            mso-hansi-font-family: Arial;
+            mso-bidi-font-family: Arial;
+            color: windowtext;
+        }
+
+        .MsoChpDefault {
+            mso-style-type: export-only;
+            mso-default-props: yes;
+            font-size: 10.0pt;
+            mso-ansi-font-size: 10.0pt;
+            mso-bidi-font-size: 10.0pt;
+        }
+
+        @page WordSection1 {
+            size: 612.0pt 792.0pt;
+            margin: 72.0pt 72.0pt 72.0pt 72.0pt;
+            mso-header-margin: 36.0pt;
+            mso-footer-margin: 36.0pt;
+            mso-paper-source: 0;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+
+
+        #repeatedTablesDiv td, #repeatedTablesDiv th, #listChangeTable td, #listChangeTable th {
+        	border: 1px #AAAAAA solid;
+            font-family: "Calibri", sans-serif;
+            font-size: 10.0pt;
+            padding: 2.5pt 5pt;
+        }
+
+        table {
+        	border-collapse: collapse;
+        }
+
+        -->
+    </style>
+ </head>
+ <body lang="EN-US" link="#0079C1" vlink="#009A3D" style="tab-interval:36.0pt;background-color:#F1F1F1;">
+  <div class="WordSection1">
+   <p class="MsoNormal">
+    <o:p>
+      &nbsp;
+    </o:p> </p>
+   <p class="MsoNormal"><span style="mso-ignore:vglayout"> </span></p>
+   <table align="center">
+    <tbody>
+     <tr>
+      <td align="left" valign="top" colspan="2"><img width="750" src="cid:banner" alt=""></td>
+     </tr>
+    </tbody>
+   </table>
+   <p class="MsoNormal"> <br> </p>
+   <p class="MsoNormal"><br></p>
+   <table align="center" style="background-color: white;">
+    <tbody>
+     <tr style="outline: #888888 thin;">
+      <td align="middle" valign="top">
+       <table class="MsoNormalTable" style="width:744px;" cellpadding="5">
+        <tbody>
+         <tr style="height:20.0pt;" valign="center">
+          <!-- note header row -->
+          <td width="461" colspan="3" style="border-bottom: solid #888888 1.0pt; height:20.0pt; padding-left: 10px; padding-right: 10px;"> <p class="MsoNormal"><span style="font-size:12.0pt;color:#888888">TW DAM Buy Sell</span></p> </td>
+          <td width="120" style="align-content:right; border-bottom: solid #888888 1.0pt; height:20.0pt;"> <p class="MsoNormal"><span><a href="https://clicktime.symantec.com/3Cn2VetN3pP8voj29vuRDZF7Vc?u=https%3A%2F%2Feastspring.blackrock.com%2Faladdinresearch%2Findex.html%23%2Flink%2F${LINK}">View note in browser</a></span></p> </td>
+         </tr>
+         <tr>
+          <!--note content row -->
+          <td colspan="4" style="padding-left: 10px; padding-right: 10px;">
+           <div>
+            <p class="MsoNormal" style="margin-top: 10px;"><strong style="font-size: 20pt; color: #183766;">SELL CAP BIO 20190222</strong></p>
+            <p class="MsoNormal"> <span style="margin-top: 5px; display: inline-block; color:white; background-color: #0f8397;">&nbsp;&nbsp;CAPGBIT&nbsp;&nbsp;</span> </p>
+            <br>
+            <br>
+            <p class="MsoNormal"> <span style="margin-top: 5px; display: inline-block; color:white; background-color: #0f8397;">&nbsp;&nbsp;${TEMP_PORTFOLIO}&nbsp;&nbsp;</span> <span style="margin-top: 5px; display: inline-block; color:white; background-color: #0f8397;">&nbsp;&nbsp;${PORTFOLIO}&nbsp;&nbsp;</span> </p>
+            <p class="MsoNormal" style="margin-top: 5px;"> <span style="color:#888888; font-size: 12pt;">Weihan Chen&nbsp;&nbsp;|&nbsp;&nbsp;${REPORT_DATE}, 04:02 </span></p>
+            <p class="MsoNormal" style="margin-top: 15px;"> </p>
+            <div id="repeatedTablesDiv" style="max-width:1025px">
+             <table class="table table-zebra table-condensed table-bordered inlineTable" id="fullListChangeTable" style="width:500px; margin: 0px 5px 5px 0px;">
+              <thead>
+               <tr>
+                <th colspan="5" style="color: #fff; background: #008ccf">CAPITAL GLO BIOTECH FUND-TWD EE (BPM1LPTK4)</th>
+               </tr>
+               <tr>
+                <th style="color: #fff; background: #008ccf; width:100px">Field Name</th>
+                <th style="color: #fff; background: #008ccf; width:75px">Action</th>
+                <th style="color: #fff; background: #008ccf; width:100px">Value</th>
+                <th style="color: #fff; background: #008ccf; width:100px">New End Date</th>
+                <th style="color: #fff; background: #008ccf; width:100px">Mat Restriction</th>
+               </tr>
+              </thead>
+              <tbody>
+               <tr>
+                <td style="width:100px;">Equity Ticker</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">CUSIP</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">${CUSIP}</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">ISIN</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">${ISIN}</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">Market</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">TW</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">Security Description</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">CAPITAL GLO BIOTECH FUND-TWD EE</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">Security Group</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">FUND</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">Security Country</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">TW</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">Price</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">${PRICE}</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">ESI TW DAM Buy Sell</td>
+                <td>Initiated</td>
+                <td style="background-color:#ffd700; color:#dd0000; width:100px">${TW_Buy_Sell}</td>
+                <td>${NEW_END_DATE}</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">DAM Target Price Lower</td>
+                <td>Initiated</td>
+                <td style="background-color:#ffd700; color:#dd0000; width:100px">${Target_Price_Lower}</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">DAM Target Price Upper</td>
+                <td>Initiated</td>
+                <td style="background-color:#ffd700; color:#dd0000; width:100px">${Target_Price_Upper}</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+               <tr>
+                <td style="width:100px;">Primary</td>
+                <td>&nbsp;</td>
+                <td style="width:150px;">[object Object]</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+            <p>&nbsp;</p>
+            <p></p>
+           </div> </td>
+         </tr>
+        </tbody>
+       </table> <br> <br> </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

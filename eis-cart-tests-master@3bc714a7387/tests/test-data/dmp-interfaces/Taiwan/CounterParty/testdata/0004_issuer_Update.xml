@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISSUERS ASOF_DATE="12/14/2018" CREATE_DATE="12/14/2018" RECORDS="1">
+    <ISSUER>
+        <ACTIVE>Y</ACTIVE>
+        <COUNTRY>US</COUNTRY>
+        <COUNTRY_INC>US</COUNTRY_INC>
+        <ISSR_EXCHANGE_set SIZE="9">
+            <ISSR_EXCHANGE>
+                <EXCHANGE>CIK</EXCHANGE>
+                <TICKER>0000831001</TICKER>
+            </ISSR_EXCHANGE>
+            <ISSR_EXCHANGE>
+                <EXCHANGE>ML_TICKER</EXCHANGE>
+                <TICKER>C</TICKER>
+            </ISSR_EXCHANGE>
+        </ISSR_EXCHANGE_set>
+        <ISSUER_ID>C87381_TEST</ISSUER_ID>
+        <LONG_NAME>CITIGROUP INC</LONG_NAME>
+        <NAME>CITIGROUP INC</NAME>
+        <PARENT>172967</PARENT>
+        <RATING_set SIZE="46">
+            <RATING>
+                <AGY>1</AGY>
+                <DATE>11/14/2017</DATE>
+                <VALUE>Baa1</VALUE>
+            </RATING>
+            <RATING>
+                <AGY>2</AGY>
+                <DATE>12/2/2015</DATE>
+                <VALUE>BBB+</VALUE>
+            </RATING>
+        </RATING_set>
+        <REVIEWED>Y</REVIEWED>
+        <SECTOR_set SIZE="13">
+            <SECTOR>
+                <CODE>p9sang</CODE>
+                <LEVEL>2</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR>
+            <SECTOR>
+                <CODE>BANK</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>BARC_SECT</TYPE>
+            </SECTOR>
+        </SECTOR_set>
+        <STATE>NY</STATE>
+        <STATE_INC>DE</STATE_INC>
+        <STOCK_ID>172967101</STOCK_ID>
+        <TICKER>C</TICKER>
+        <ULTIMATE_PARENT>172967_TEST</ULTIMATE_PARENT>
+        <WHEN_DONE>5/3/2018 20:39:21.363</WHEN_DONE>
+        <YEAR_INC>1988</YEAR_INC>
+    </ISSUER>
+</ISSUERS>

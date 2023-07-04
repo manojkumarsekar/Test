@@ -1,0 +1,10 @@
+Shares Outstanding
+SBL %
+DOI Position Quantity
+DOI %
+DMP Security Id
+Security Name
+Issuer Id
+Sec Type
+Exchange
+Exchange Country

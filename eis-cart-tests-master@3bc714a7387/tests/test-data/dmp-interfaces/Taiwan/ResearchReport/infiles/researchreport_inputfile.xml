@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <research>
+        <category>TW GFI Buy Sell</category>
+        <id>https://ppmg.blackrock.com/aladdinresearch/index.html#/link/22918</id>
+        <createDate>2019-01-15, 10:12</createDate>
+        <portfolio>
+            <portfolioCode>NDMNBF</portfolioCode>
+        </portfolio>
+        <listValues>
+            <fieldName>Equity Ticker</fieldName>
+            <action></action>
+            <value></value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>CUSIP</fieldName>
+            <action></action>
+            <value>09681MAB4</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ISIN</fieldName>
+            <action></action>
+            <value>US09681MAB46</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Market</fieldName>
+            <action></action>
+            <value>EURO</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Description</fieldName>
+            <action></action>
+            <value>BOC AVIATION PTE LTD 3.875 27-APR-2026 Reg-S (SENIOR)</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Group</fieldName>
+            <action></action>
+            <value>BND</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Security Country</fieldName>
+            <action></action>
+            <value>SG</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>Price</fieldName>
+            <action></action>
+            <value>97.048</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>S&amp;P Rating</fieldName>
+            <action></action>
+            <value>A-</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>ESI TW GFI Buy Sell</fieldName>
+            <action>Initiated</action>
+            <value>Buy</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Lower</fieldName>
+            <action>Initiated</action>
+            <value>97</value>
+            <matRestriction></matRestriction>
+        </listValues>
+        <listValues>
+            <fieldName>GAA FI Target Price Upper</fieldName>
+            <action>Initiated</action>
+            <value>105</value>
+            <matRestriction></matRestriction>
+        </listValues>
+    </research>
+</root>

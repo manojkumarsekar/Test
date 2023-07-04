@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSACTIONS ASOF_DATE="3/26/2019" CREATE_DATE="3/26/2019" RECORDS="1">
+    <TRADE>
+        <COUNTERPARTY_CODE>TEST_4425</COUNTERPARTY_CODE>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CUSIP>BPM1LPTK4</CUSIP>
+        <DESC_INSTMT>CAPITAL GLO BIOTECH FUND-TWD</DESC_INSTMT>
+        <DESK_TYPE>GEN</DESK_TYPE>
+        <EXECUTION_TIME>3/26/2019 1:11:19.000</EXECUTION_TIME>
+        <EXEC_TIME_SOURCE>A</EXEC_TIME_SOURCE>
+        <FUND>14868</FUND>
+        <FX_PAY_SI_set SIZE="0"></FX_PAY_SI_set>
+        <FX_RCV_SI_set SIZE="0"></FX_RCV_SI_set>
+        <INVNUM>-33</INVNUM>
+        <ISIN>TW000T1649A0</ISIN>
+        <MTG_SUBTYPE>EE</MTG_SUBTYPE>
+        <MULTI_FUND_ID>1791124</MULTI_FUND_ID>
+        <PORTFOLIOS_PORTFOLIO_NAME>U_TT4425</PORTFOLIOS_PORTFOLIO_NAME>
+        <PREPAY_RATE>100.0000000000</PREPAY_RATE>
+        <ROLL_FEE>0.0000000000</ROLL_FEE>
+        <SI_set SIZE="10">
+            <SI>
+                <NAME>BANK NAME</NAME>
+                <NUM>1</NUM>
+                <VALUE>DBS Bank (Taiwan) This is a test broker SSI for line 1, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>TRADING BKR BIC</NAME>
+                <NUM>2</NUM>
+                <VALUE>8100364 This is a test broker SSI for line 2, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>CITY, COUNTRY</NAME>
+                <NUM>3</NUM>
+                <VALUE>Nanjing Branch This is a test broker SSI for line 3, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>PSET</NAME>
+                <NUM>4</NUM>
+                <VALUE>This is a test broker SSI for line 4, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>A/C#</NAME>
+                <NUM>5</NUM>
+                <VALUE>This is a test broker SSI for line 5, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>A/C NAME</NAME>
+                <NUM>6</NUM>
+                <VALUE>This is a test broker SSI for line 6, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>CLEARING AGT BIC</NAME>
+                <NUM>7</NUM>
+                <VALUE>This is a test broker SSI for line 7, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>OTHER</NAME>
+                <NUM>8</NUM>
+                <VALUE>This is a test broker SSI for line 8, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>DECU/RECU BIC</NAME>
+                <NUM>9</NUM>
+                <VALUE>This is a test broker SSI for line 9, testing 100 length maximum character allowed here in comments section</VALUE>
+            </SI>
+            <SI>
+                <NAME>DECU/RECU A/C#</NAME>
+                <NUM>10</NUM>
+                <VALUE>FAXCISON</VALUE>
+            </SI>
+        </SI_set>
+        <TRDCOMM_COMMENTS_set SIZE="6">
+            <TRDCOMM_COMMENTS>This is a test comment for line 1, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>This is a test comment for line 2, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>This is a test comment for line 3, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>This is a test comment for line 4, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>This is a test comment for line 5, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>This is a test comment for line 6, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+            <TRDCOMM_COMMENTS>This is a test comment for line 7, testing 75 length maximum character allowed here in comments section</TRDCOMM_COMMENTS>
+        </TRDCOMM_COMMENTS_set>
+        <SM_COUPON_FREQ>0</SM_COUPON_FREQ>
+        <SM_CURRENCY>TWD</SM_CURRENCY>
+        <SM_PRINCIPAL_FREQ>12</SM_PRINCIPAL_FREQ>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_BROKER_ID>10623.0000000000</SUB_BROKER_ID>
+        <TD_NUM>33</TD_NUM>
+        <TICKER>CAPGBIT</TICKER>
+        <TOUCH_COUNT>1</TOUCH_COUNT>
+        <TRAN_TYPE>SELL</TRAN_TYPE>
+        <TRAN_TYPE1>TRD</TRAN_TYPE1>
+        <TRDCHARGE_set SIZE="0"></TRDCHARGE_set>
+        <TRDCOMM_STIPS_set SIZE="0"></TRDCOMM_STIPS_set>
+        <TRD_AUTH_TIME>3/26/2019 1:11:19.000</TRD_AUTH_TIME>
+        <TRD_COMMISSION>0.0000000000</TRD_COMMISSION>
+        <TRD_COMMISSION_RATE>0.0000000000</TRD_COMMISSION_RATE>
+        <TRD_CONFIRMED_BY></TRD_CONFIRMED_BY>
+        <TRD_CONVEXITY>0.0001000000</TRD_CONVEXITY>
+        <TRD_COUNTERPARTY>DBS-TW</TRD_COUNTERPARTY>
+        <TRD_COUPON>0.0000000000</TRD_COUPON>
+        <TRD_CURRENCY>TWD</TRD_CURRENCY>
+        <TRD_DROP_RATE>0.0000000000</TRD_DROP_RATE>
+        <TRD_DURATION>0.0001000000</TRD_DURATION>
+        <TRD_ENTRY_TIME>3/26/2019 1:11:19.000</TRD_ENTRY_TIME>
+        <TRD_EXCHANGE_RATE>1.0000000000</TRD_EXCHANGE_RATE>
+        <TRD_EXTERNAL_ACCOUNT_ID>35200001544</TRD_EXTERNAL_ACCOUNT_ID>
+        <TRD_EXTERNAL_ACCOUNT_LOC>ESUNCOMMER</TRD_EXTERNAL_ACCOUNT_LOC>
+        <TRD_EXTID_set SIZE="0"></TRD_EXTID_set>
+        <TRD_EX_COMMISSION>0.0000000000</TRD_EX_COMMISSION>
+        <TRD_FACTOR>1.0000000000</TRD_FACTOR>
+        <TRD_FIFO_TYPE>OPEN</TRD_FIFO_TYPE>
+        <TRD_FINANCING_RATE>0.0000000000</TRD_FINANCING_RATE>
+        <TRD_INTEREST>0.0000000000</TRD_INTEREST>
+        <TRD_LOCATION>TW</TRD_LOCATION>
+        <TRD_MODIFIED_BY>p9ryou</TRD_MODIFIED_BY>
+        <TRD_MODIFY_DATE>3/26/2019</TRD_MODIFY_DATE>
+        <TRD_MODIFY_TIME>3/26/2019 1:11:25.183</TRD_MODIFY_TIME>
+        <TRD_ORIG_ENTRY_DATE>3/26/2019</TRD_ORIG_ENTRY_DATE>
+        <TRD_ORIG_FACE>-3307686.0000000000</TRD_ORIG_FACE>
+        <TRD_OTHER_FEE>0.0000000000</TRD_OTHER_FEE>
+        <TRD_PRICE>15.6000000000</TRD_PRICE>
+        <TRD_PRINCIPAL>-51599902.0000000000</TRD_PRINCIPAL>
+        <TRD_PURPOSE>TW_DAM_BS</TRD_PURPOSE>
+        <TRD_SERIES_NUM>0</TRD_SERIES_NUM>
+        <TRD_SETTLE_DATE>3/26/2019</TRD_SETTLE_DATE>
+        <TRD_TD_PAR>-3307686.0000000000</TRD_TD_PAR>
+        <TRD_SETTLE_TEMPLATE_NAME>FAX</TRD_SETTLE_TEMPLATE_NAME>
+        <TRD_TRADER>MMAI</TRD_TRADER>
+        <TRD_TRADE_DATE>3/26/2019</TRD_TRADE_DATE>
+        <TRD_VERSION>1</TRD_VERSION>
+        <TRD_YIELD>0.000000000</TRD_YIELD>
+        <UDF_set SIZE="0"></UDF_set>
+        <UNITS>SHARES</UNITS>
+        <TRD_REVIEWED_BY>MTG</TRD_REVIEWED_BY>
+        <TRD_REVIEW_TIME>1/14/2019 7:39:19.000</TRD_REVIEW_TIME>
+    </TRADE>
+</TRANSACTIONS>

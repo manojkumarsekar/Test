@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+           <soapenv:Header/>
+               <soapenv:Body>
+                   <even:RaiseEIS_ProcessFilesInDirectoryAndPublishRawdataAsynchron>
+                       <even:Directory>${DIRECTORY!}</even:Directory>
+                       <even:EmailAddresses>${EMAIL_ADDRESSES!}</even:EmailAddresses>
+                       <even:EmailFooter>${EMAIL_FOOTER_TEMP!}</even:EmailFooter>
+                       <even:EmailHeader>${EMAIL_HEADER_TEMP!}</even:EmailHeader>
+                       <even:EmailSubject>${EMAIL_SUBJECT!}</even:EmailSubject>
+                       <even:FromEmailAddress>${FROM_EMAIL_ADDRESS!}</even:FromEmailAddress>
+                       <even:InputPosition>${INPUT_POSITION!}</even:InputPosition>
+                       <even:InputSeparator>${INPUT_SEPARATOR!}</even:InputSeparator>
+                       <even:MessageBulkSize>${MESSAGE_BULK_SIZE!}</even:MessageBulkSize>
+                       <even:MessageType>${MESSAGE_TYPE!}</even:MessageType>
+                       <even:NrOfFilesParallel>${NR_OF_FILES_PARALLEL!}</even:NrOfFilesParallel>
+                       <even:OutputDirectory>${OUTPUT_DIRECTORY!}</even:OutputDirectory>
+                       <even:RawFileRequired>${RAW_FILE_REQUIRED!}</even:RawFileRequired>
+                       <even:RawHeader>${RAW_HEADER!}</even:RawHeader>
+                       <even:ReProcessProcessedFiles>${REPROCESS_PROCESSED_FILES!}</even:ReProcessProcessedFiles>
+                       <even:Recursive>${RECURSIVE!}</even:Recursive>
+                       <even:SortAscending>${SORT_ASCENDING!}</even:SortAscending>
+                       <even:SuccessAction>DELETE</even:SuccessAction>
+                   </even:RaiseEIS_ProcessFilesInDirectoryAndPublishRawdataAsynchron>
+               </soapenv:Body>
+</soapenv:Envelope>

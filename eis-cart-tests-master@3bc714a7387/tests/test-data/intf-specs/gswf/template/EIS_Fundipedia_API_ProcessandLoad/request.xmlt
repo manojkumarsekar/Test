@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_Fundipedia_API_ProcessandLoadAsynchron>
+         <even:API_KEY>${APIKEY!}</even:API_KEY>
+         <even:API_SECRET>${APISECRET!}</even:API_SECRET>
+         <even:API_URL>${API_URL!}</even:API_URL>
+         <even:MessageType>${MESSAGETYPE!}</even:MessageType>
+         <even:ReportId>${REPORTID!}</even:ReportId>
+         <even:ReportPath>${REPORTPATH!}</even:ReportPath>
+         <even:TokenPath>${TOKENPATH!}</even:TokenPath>
+      </even:RaiseEIS_Fundipedia_API_ProcessandLoadAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

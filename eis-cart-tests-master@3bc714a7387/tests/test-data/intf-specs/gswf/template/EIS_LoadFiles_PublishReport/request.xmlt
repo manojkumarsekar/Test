@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+<soapenv:Header/>
+   <soapenv:Body>
+        <even:RaiseEIS_LoadFiles_PublishReportAsynchron>
+            <even:AttachmentFileName>${ATTACHMENT_FILENAME!}</even:AttachmentFileName>
+            <even:BusinessFeed>${BUSINESS_FEED!}</even:BusinessFeed>
+            <even:DataHeader>${DATA_HEADER!}</even:DataHeader>
+            <even:DataRowsDetailsInBody>${DATA_DETAILS_COUNT!}</even:DataRowsDetailsInBody>
+            <even:DataSQL>${DATA_SQL!}</even:DataSQL>
+            <even:Directory>${INPUT_DATA_DIR!}</even:Directory>
+            <even:EmailAddresses>${EMAIL_ADDRESS!}</even:EmailAddresses>
+            <even:EmailSubject>${EMAIL_SUBJECT!}</even:EmailSubject>
+            <even:FileLoadEvent>${FILE_LOAD_EVENT!}</even:FileLoadEvent>
+            <even:FilePatterns>${FILE_PATTERN!}</even:FilePatterns>
+            <even:MessageBulkSize>2000</even:MessageBulkSize>
+            <even:MessageProcessingEvent>ProcessFeedMessage</even:MessageProcessingEvent>
+            <even:MessageType>${MESSAGE_TYPE!}</even:MessageType>
+            <even:NrOfFilesParallel>1</even:NrOfFilesParallel>
+            <even:OutputDirectory>${ARCHIVE_DIR!}</even:OutputDirectory>
+            <even:ParallelBranches>10</even:ParallelBranches>
+            <even:ReProcessProcessedFiles>true</even:ReProcessProcessedFiles>
+            <even:SenderEmail>eis-dmp-support@eastspring.com</even:SenderEmail>
+            <even:SuccessAction>DELETE</even:SuccessAction>
+            <even:UserGroupID>${USER_GROUP_ID!}</even:UserGroupID>
+        </even:RaiseEIS_LoadFiles_PublishReportAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>
+

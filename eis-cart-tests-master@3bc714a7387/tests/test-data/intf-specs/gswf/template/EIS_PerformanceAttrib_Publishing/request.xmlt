@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_PerformanceAttribution_PublishingAsynchron>
+         <even:BulkSize>500</even:BulkSize>
+         <even:Query>${SQL_QUERY}</even:Query>
+         <even:headerCount>9</even:headerCount>
+      </even:RaiseEIS_PerformanceAttribution_PublishingAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

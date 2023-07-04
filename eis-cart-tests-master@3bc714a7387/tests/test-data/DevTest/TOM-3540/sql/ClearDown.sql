@@ -1,0 +1,11 @@
+DELETE FROM ft_t_wisu WHERE rptg_prd_end_dte < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wact WHERE rptg_prd_end_dte < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wpos WHERE rptg_prd_end_dte < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wtrd WHERE rptg_prd_end_dte < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wisl WHERE rptg_prd_end_dte < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wisk WHERE iss_sok NOT IN (SELECT iss_sok FROM ft_t_wisu);
+DELETE FROM ft_t_wagp WHERE rptg_prd_end_dte < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wagr WHERE wagr_sok NOT IN (SELECT prnt_wagr_sok FROM ft_t_wagp);
+DELETE FROM ft_t_wfxr WHERE fx_tms < TO_DATE('01-JAN-2018','dd-mon-yyyy');
+DELETE FROM ft_t_wack WHERE acct_sok NOT IN (SELECT acct_sok FROM ft_t_wact);
+UPDATE ft_t_jblg SET job_stat_typ = 'CLOSED' WHERE job_start_tms > (SYSDATE - 2/24) AND job_stat_typ='OPEN' AND job_input_txt LIKE '%TC%';

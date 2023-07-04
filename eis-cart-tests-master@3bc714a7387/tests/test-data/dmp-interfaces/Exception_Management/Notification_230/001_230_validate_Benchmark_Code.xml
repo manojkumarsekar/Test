@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FUND_GROUP ASOF_DATE="12/22/2020" CREATE_DATE="12/22/2020" RECORDS="1021">
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="6">
+            <ALT_FUND_ID>
+                <FUND_ID>853610003</FUND_ID>
+                <LOC>BNPSS</LOC>
+                <LOC_TYPE>:SGD</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>ASPSPA</FUND_ID>
+                <LOC>BNPACCOUNT</LOC>
+                <LOC_TYPE>ACCT</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>PCA</LOC>
+                <LOC_TYPE>ASA</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>ESI</LOC>
+                <LOC_TYPE>ASM</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>SG</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>ASPSPA</FUND_ID>
+                <LOC>BNPS-ES</LOC>
+                <LOC_TYPE>P_BA</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>SGD</BASE_CURRENCY>
+        <COUNTRY>SG</COUNTRY>
+        <CUSTODIAN>BNPSS</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>ASPSPA</CUSTODY_ACCT_NUM>
+        <FUND>3288</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="2">
+            <INDEX>
+                <CUSIP>BRT8BDZF0</CUSIP>
+                <DESC>Markit iBoxx ALBI Singapore (50% Non-Govt Bond + 50% Govt Bond) SGD Index</DESC>
+                <NAME>IBALBSGC</NAME>
+                <PRIORITY>2</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+            <INDEX>
+                <CUSIP>BPM1R8W63</CUSIP>
+                <DESC>Markit iBoxx ALBI Singapore (50% Non-Govt Bond + 50% Govt Bond) SGD No Cash</DESC>
+                <NAME>BM_IBALSG</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PM_NAME>e4wecheo</PM_NAME>
+        <PORTFOLIOS_FULL_NAME>PLA SURPLUS ACCOUNT</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>ASPSPA</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>BPM0UJHB3</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>ESI_DMP</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <TAX_ID/>
+    </FUND_MEMBER>
+</FUND_GROUP>

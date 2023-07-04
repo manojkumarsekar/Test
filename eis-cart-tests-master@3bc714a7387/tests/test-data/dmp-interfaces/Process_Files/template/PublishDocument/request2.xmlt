@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_PublishDocumentAsynchron>
+         <even:BRSPropertyFileLocation>db://resource/propertyfiles/BRSCredentials.enc</even:BRSPropertyFileLocation>
+         <even:BRSWebserviceURL>${BRSWebserviceURL}</even:BRSWebserviceURL>
+         <even:InsightPropertyFileLocation>${InsightPropertyFileLocation}</even:InsightPropertyFileLocation>
+         <even:InsightWebserviceURL>${InsightWebserviceURL}</even:InsightWebserviceURL>
+         <even:MessageType>EIS_MT_BRS_SECURITY_NEW</even:MessageType>
+         <even:SendByPreferredMethod>false</even:SendByPreferredMethod>
+         <even:StatusDerivationEvent>EIS_TWDeriveOrderStatus</even:StatusDerivationEvent>
+         <even:SubscriptionName>${SUBSCRIPTION_NAME}</even:SubscriptionName>
+         <even:TranslationMDX>db://resource/mapping/EASTSPRING/TRANSLATION/EITW_BRS_JSON_BRS_XML_SECURITY.mdx</even:TranslationMDX>
+      </even:RaiseEIS_PublishDocumentAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+

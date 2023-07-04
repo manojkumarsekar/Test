@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="${TRD_DATE}" CREATE_DATE="${TRD_DATE}" RECORDS="1">
+    ${ASSET_XML}
+</ASSETS>

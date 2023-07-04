@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<COUNTERPARTIES ASOF_DATE="11/25/2018" CREATE_DATE="11/25/2018" RECORDS="1">
+    <COUNTERPARTY>
+        <BROKER_ISSUER>C87335</BROKER_ISSUER>
+        <BROKER_TICKER>KBCS</BROKER_TICKER>
+        <BROKER_TYPE>FF-EF</BROKER_TYPE>
+        <COUNTERPARTY_CODE>1700</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>KBC SECURITIES NV</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="3">
+            <EXTERN>
+                <DESK></DESK>
+                <ENTITY_ID>KBC</ENTITY_ID>
+                <EXTERN_ENTITY>9483</EXTERN_ENTITY>
+                <FULL_NAME>OMGEO-CTM</FULL_NAME>
+                <SHORTNAME>CTM</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK>a</DESK>
+                <ENTITY_ID>KBCABEBB</ENTITY_ID>
+                <EXTERN_ENTITY>9471</EXTERN_ENTITY>
+                <FULL_NAME>TRADEWEB U.K. (FIX)</FULL_NAME>
+                <SHORTNAME>FIXTWUK</SHORTNAME>
+                <SUB_BROKER_ID>149.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>a</DESK>
+                <ENTITY_ID>KBCS</ENTITY_ID>
+                <EXTERN_ENTITY>9476</EXTERN_ENTITY>
+                <FULL_NAME>BLOOMBERG EMSX</FULL_NAME>
+                <SHORTNAME>FIXEMSX</SHORTNAME>
+                <SUB_BROKER_ID>149.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>KBCS</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+ </COUNTERPARTIES>

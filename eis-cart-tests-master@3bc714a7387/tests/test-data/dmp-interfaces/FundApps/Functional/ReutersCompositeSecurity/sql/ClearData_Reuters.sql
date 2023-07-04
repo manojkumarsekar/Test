@@ -1,0 +1,2 @@
+UPDATE ft_t_isid set end_tms =sysdate-1 , start_tms = sysdate-1 where instr_id in (select instr_id from ft_t_isid where iss_id ='BBLn.BK' and id_ctxt_typ = 'RIC') and  id_ctxt_typ = 'RIC' and end_tms is null and  last_chg_usr_id ='EIS_REUTERS_COMPOSITE_DMP_SECURITY';
+UPDATE ft_t_isid set end_tms =sysdate-1 , start_tms = sysdate-1 where instr_id in (select instr_id from ft_t_isid where iss_id ='ORG.AX' and id_ctxt_typ = 'RIC') and  id_ctxt_typ = 'RIC' and end_tms is null and  last_chg_usr_id ='EIS_REUTERS_COMPOSITE_DMP_SECURITY';

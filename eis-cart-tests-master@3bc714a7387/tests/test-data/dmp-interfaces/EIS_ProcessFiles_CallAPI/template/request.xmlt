@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_BRSAPIRequestReplyWrapperAsynchron>
+         <even:CheckForExistenceOfEntity>${CHECK_FOR_EXISTENCE_OF_ENTITY}</even:CheckForExistenceOfEntity>
+         <even:Directory>${INBOUND_PATH}</even:Directory>
+         <even:FilePatterns>${FILE_PATTERN}</even:FilePatterns>
+         <even:MessageTypeToBuildAPICall>${MSG_TYP_API}</even:MessageTypeToBuildAPICall>
+         <even:MessageTypeToProcessMessage>${MSG_TYP_PROCESS}</even:MessageTypeToProcessMessage>
+         <even:OutputDirectory>${ARCHIVE_PATH}</even:OutputDirectory>
+         <even:PropertyFile>${BRSPROPERTY_FILE_LOCATION}</even:PropertyFile>
+         <even:SuccessAction>DELETE</even:SuccessAction>
+         <even:TranslationMDX>${TRANSLATION_MDX}</even:TranslationMDX>
+         <even:WebserviceURL>${BRS_WEBSERVICE_URL}</even:WebserviceURL>
+      </even:RaiseEIS_BRSAPIRequestReplyWrapperAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

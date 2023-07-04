@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2019-04-16" CREATE_DATE="04/16/2019" RECORDS="2">
+    <ASSET><EQUITY_EQUITY>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>12/9/2016 23:41:32.246</CHANGE_DT>
+        <COUNTRY>TW</COUNTRY>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>S66834052</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>6683405</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>0050.TW</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>0050 TT</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL6228858</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>TW0000050004</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>YUANTA P-SHARES TAIWAN TOP  ETF</DESC_INSTMT>
+        <DESC_INSTMT2>ETF</DESC_INSTMT2>
+        <DR_TYPE>N</DR_TYPE>
+        <EXCHANGE>TAI</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TW</MARKET>
+        <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1000</MIN_TRD_SIZE>
+        <MODIFIED_BY>tsgops</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <RATING_set SIZE="1">
+            <RATING_record>
+                <AGY>10403</AGY>
+                <DATE>8/28/2017</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>AUTOREVU</REVIEWED_BY>
+        <SECTOR_set SIZE="2">
+            <SECTOR_record>
+                <CODE>e4wchen</CODE>
+                <LEVEL>0</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>TAIW</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>0050</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>935500000</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+    <ASSET><EQUITY_EQUITY>
+        <ACCRUAL_DT>11/21/1995</ACCRUAL_DT>
+        <ANNOUNCE_DT>11/21/1995</ANNOUNCE_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>12/8/2018 4:52:50.473</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TW</COUNTRY>
+        <COUP_FREQ>Q</COUP_FREQ>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>S60052149</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>6005214</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>2345.TW</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>2345 TT</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="3">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL6110679</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>TW0002345006</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>ACCTON TECHNOLOGY CORP</DESC_INSTMT>
+        <DESC_INSTMT2>ETF</DESC_INSTMT2>
+        <DR_TYPE>N</DR_TYPE>
+        <EXCHANGE>TAI</EXCHANGE>
+        <FIRST_SETTLE_DT>11/21/1995</FIRST_SETTLE_DT>
+        <FISCAL_YEAR>12</FISCAL_YEAR>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>R47883</ISSUER_ID>
+        <ISSUE_DT>11/21/1995</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TW</MARKET>
+        <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1000</MIN_TRD_SIZE>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <RATING_set SIZE="2">
+            <RATING_record>
+                <AGY>14</AGY>
+                <DATE>10/25/2017</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>10406</AGY>
+                <DATE>6/20/2016</DATE>
+                <VALUE>4</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>preid</REVIEWED_BY>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>e4eulai</CODE>
+                <LEVEL>0</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>2345</TICKER>
+        <UDF_set SIZE="5">
+            <UDF_record>
+                <LABEL>Local_Ex_IndCl</LABEL>
+                <PURPOSE>ESI</PURPOSE>
+                <UDF_SOURCE>Bloomberg</UDF_SOURCE>
+                <VALUE>Communi&amp;Internet</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>

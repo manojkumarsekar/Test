@@ -1,0 +1,40 @@
+{
+	'name': 'tomcartTransformation',
+	'version': '0.1.0',
+	'source': {
+		'format': 'CSV',
+		'delimiter': '\t',
+		'encoding': 'UTF-16',
+		'file': 'c:/',
+		'validations': [
+			{ 'id': 'encoding' },
+			{ 'id': 'format' },
+			{ 'id': 'delimiter' },
+			{ 'id': 'uniform-column-count' }
+		],
+		'transformations': [
+			{ 'id': 'convert-encoding', 'namedResultFile': 0, 'from': 'UTF-16', 'to': 'UTF-8' },
+			{ 'id': 'convert-delimiter', 'namedResultFile': 0, 'from': '\t', 'to': ',' },
+			{ 'id': 'omit-initial-lines', 'namedResultFile': 0, 'lineCount': 1 },
+			{ 'id': 'strip-char-from-cols', 'namedResultFile': 0, 'scope': 'specified', 'cols': ['[ShareClass AUM (M.)]'], 'charToStrip': ',' },
+			{ 'id': 'trim-cols', 'namedResultFile': 0, 'scope': 'specified', 'cols': ['[Accounting Code]'] }
+		]
+	},
+	'target': {
+		'format': 'CSV',
+		'delimiter': ',',
+		'encoding': 'UTF-8',
+		'validations': [
+			{ 'id': 'encoding' },
+			{ 'id': 'format' },
+			{ 'id': 'delimiter' },
+			{ 'id': 'uniform-column-count' }
+		],
+		'transformations': [
+			{ 'id': 'omit-initial-lines', 'namedResultFile': 0, 'lineCount': 1 },
+			{ 'id': 'strip-char-from-cols', 'namedResultFile': 0, 'scope': 'specified', 'cols': ['[FUM $ Base in mio]'], 'char': ',' },
+			{ 'id': 'trim-cols', 'namedResultFile': 0, 'scope': 'specified', 'cols': ['[Return Source]', '[Return Type]'] }
+		]	
+	}
+}
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2/18/2020" CREATE_DATE="2/18/2020" RECORDS="1">
+    <ASSET><BND_GOVT>
+        <ACCRUAL_DT>4/9/2001</ACCRUAL_DT>
+        <AMT_ISU>40000000000</AMT_ISU>
+        <ANNOUNCE_DT>3/28/2001</ANNOUNCE_DT>
+        <CALC_TYPE>639</CALC_TYPE>
+        <CALL_MANDATORY>N</CALL_MANDATORY>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/4/2020 3:19:54.920</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TH</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="2">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>IHS</CNTRY_SRC>
+                <CNTRY_TYPE>IDX</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>ML</CNTRY_SRC>
+                <CNTRY_TYPE>IDX</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <COUPON_FIX>6.4</COUPON_FIX>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>THBCUSIP6222</CUSIP>
+        <CUSIP2_set SIZE="4">
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>TW000T0825Y7</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>60030</CODE>
+                <IDENTIFIER>TH_THAIID6222</IDENTIFIER>
+                <PURPOSE>THAIID</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT365</DATE_CONV>
+        <DESC_INSTMT>THAILAND (KINGDOM OF)</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>10/9/2001</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>4/9/2001</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>R61053</ISSUER_ID>
+        <ISSUE_DT>4/9/2001</ISSUE_DT>
+        <ISSUE_EXCHANGES_set SIZE="1">
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>BDC</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+        </ISSUE_EXCHANGES_set>
+        <LEH_INDUSTRY>TRES</LEH_INDUSTRY>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TH</MARKET>
+        <MATURITY>4/9/2021</MATURITY>
+        <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1000</MIN_TRD_SIZE>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PC_DAY_CONV>B</PC_DAY_CONV>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>TH</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PUT_CALL> </PUT_CALL>
+        <PUT_MANDATORY>N</PUT_MANDATORY>
+        <REVIEWED_BY>kulee</REVIEWED_BY>
+        <RISK_COUNTRY>TH</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SAL_INDUSTRY>DSOV</SAL_INDUSTRY>
+        <SECTOR_set SIZE="2">
+            <SECTOR_record>
+                <CODE>TRES</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>BARC_SECT</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>SOV</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>M</SECTOR_SOURCE>
+                <TYPE>ISS_ML</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SINK_MANDATORY>N</SINK_MANDATORY>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <STRUCTURE>SENIOR</STRUCTURE>
+        <TICKER>EISDEV6222</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </BND_GOVT></ASSET>
+</ASSETS>

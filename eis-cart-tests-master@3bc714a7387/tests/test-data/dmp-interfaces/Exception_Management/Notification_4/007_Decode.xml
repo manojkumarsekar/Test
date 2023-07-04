@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DECODES ASOF_DATE="8/27/2020" CREATE_DATE="8/27/2020" RECORDS="238">
+    <DECODE>
+        <DECODE_set SIZE="2">
+            <DECODE_record>
+                <CDE>00027=</CDE>
+                <MEANING>KIA MOTORS CORP(00027=)</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>09677=</CDE>
+                <MEANING>SK INNOVATION CO LTD(09677=)</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>FUTURE_TYPES</TAG_NAME>
+    </DECODE>
+	<DECODE>
+        <DECODE_set SIZE="2">
+            <DECODE_record>
+                <CDE>PAGE</CDE>
+                <MEANING>UTIL UTEL PAGE  Paging</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>WLES</CDE>
+                <MEANING>UTIL UTEL WLES  Wireless</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>B_INDUSTRY</TAG_NAME>
+    </DECODE>
+	<DECODE>
+        <DECODE_set SIZE="2">
+            <DECODE_record>
+                <CDE>TAEXE</CDE>
+                <MEANING>TA Execution before Price</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>TWM</CDE>
+                <MEANING>TW Monthly TD</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>BROKER_REASONS</TAG_NAME>
+    </DECODE>
+	<DECODE>
+        <DECODE_set SIZE="2">
+            <DECODE_record>
+                <CDE>T</CDE>
+                <MEANING>Dirty Bond Trading</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>X</CDE>
+                <MEANING>Non-Dollar Financing (FES)</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>STRUCTURED_BY</TAG_NAME>
+    </DECODE>
+	<DECODE>
+        <DECODE_set SIZE="7">
+            <DECODE_record>
+                <CDE>SUPSEN</CDE>
+                <MEANING>SUPER SENIOR</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>SENIOR</CDE>
+                <MEANING>SENIOR</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>MEZZANIN</CDE>
+                <MEANING>MEZZANINE</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>SUB</CDE>
+                <MEANING>SUBORDINATED</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>PFD</CDE>
+                <MEANING>PREFERRED</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>JUNMEZZ</CDE>
+                <MEANING>JUNIOR MEZZANINE</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>EQUITY</CDE>
+                <MEANING>EQUITY</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>STR_PROD_STRUCT</TAG_NAME>
+    </DECODE>
+    <DECODE>
+        <DECODE_set SIZE="3">
+            <DECODE_record>
+                <CDE>3010</CDE>
+                <MEANING>Forest &amp; Paper Products Manufacturing</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>3011</CDE>
+                <MEANING>Metals &amp; Mining</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>5017</CDE>
+                <MEANING>Government Local</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>BICS_IND</TAG_NAME>
+    </DECODE>
+</DECODES>

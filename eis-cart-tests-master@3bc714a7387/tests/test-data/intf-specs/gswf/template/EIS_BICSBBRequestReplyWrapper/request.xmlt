@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <even:RaiseEIS_BICSBBRequestReplyWrapperAsynchron>
+            <even:BBDownloadDirectory>${BB_DOWNLOAD_DIR!}</even:BBDownloadDirectory>
+            <even:BBFirmName>${BB_FIRM_NAME!}</even:BBFirmName>
+            <even:BBRequestType>${BB_REQUEST_TYPE!}</even:BBRequestType>
+            <even:BBRequestorID>EIS</even:BBRequestorID>
+            <even:BBSN>${BB_SN!}</even:BBSN>
+            <even:BBUploadDirectory>${BB_UPLOAD_DIR!}</even:BBUploadDirectory>
+            <even:BBUserNumber>${BB_USER_NUMBER!}</even:BBUserNumber>
+            <even:BBWorkStation>${BB_WORK_STATION!}</even:BBWorkStation>
+            <even:BICSEmailCC>${BICS_EMAIL_CC!}</even:BICSEmailCC>
+            <even:BICSEmailRecipient>${BICS_EMAIL_RECEPIENT!}</even:BICSEmailRecipient>
+            <even:EmailSender>${EMAIL_SENDER!}</even:EmailSender>
+            <even:GroupName>${GROUP_NAME!}</even:GroupName>
+            <even:QueryName>${QUERY_NAME!}</even:QueryName>
+            <even:ULEmailRecipient>${UL_EMAIL_RECEPIENT!}</even:ULEmailRecipient>
+        </even:RaiseEIS_BICSBBRequestReplyWrapperAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>

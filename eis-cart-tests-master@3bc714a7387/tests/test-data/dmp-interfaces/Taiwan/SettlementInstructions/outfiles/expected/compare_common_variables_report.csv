@@ -1,0 +1,10 @@
+Eastspring Securities Investment Trust Company Limited
+${ACCOUNT_NAME}
+CONFIRMED
+Custodian:${CUSTODIAN_NAME}
+${PRINCIPAL}
+${QUANTITY}
+${PRICE}
+${COMMISSION}
+${OTHERFEE}
+${NETMONEY}

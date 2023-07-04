@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseDummySetUpSequenceEventAsynchron>
+         <!--Optional:-->
+         <even:JMSByteMessage>cid:1039103312807</even:JMSByteMessage>
+         <!--Optional:-->
+         <even:JMSCorrelationID>?</even:JMSCorrelationID>
+         <!--Optional:-->
+         <even:JMSDestinationName>?</even:JMSDestinationName>
+         <!--Optional:-->
+         <even:JMSMessageID>?</even:JMSMessageID>
+         <!--Optional:-->
+         <even:JMSMessages>
+            <!--You may enter ANY elements at this point-->
+         </even:JMSMessages>
+         <!--Optional:-->
+         <even:JMSObjectMessage>?</even:JMSObjectMessage>
+         <even:JMSProperties>
+            <!--You may enter ANY elements at this point-->
+         </even:JMSProperties>
+         <!--Optional:-->
+         <even:JMSTextMessage>?</even:JMSTextMessage>
+         <!--Optional:-->
+         <even:JMSTimestamp>?</even:JMSTimestamp>
+         <!--Optional:-->
+         <even:JMSType>?</even:JMSType>
+         <!--Optional:-->
+         <even:metadata>
+            <!--You may enter ANY elements at this point-->
+         </even:metadata>
+      </even:RaiseDummySetUpSequenceEventAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

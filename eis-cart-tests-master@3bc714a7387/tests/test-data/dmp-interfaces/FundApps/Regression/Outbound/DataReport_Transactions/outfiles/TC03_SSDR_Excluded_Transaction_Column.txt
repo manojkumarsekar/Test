@@ -1,0 +1,18 @@
+Position Date/Effective Date
+SID Number
+Executed Qty
+Executed Price
+Trade Date
+Settlement Date
+SSDR Processing Date/Time
+Executed Broker
+SSDR Order ID
+SSDR Transaction ID
+Conversion Ratio
+Voting Rights Per Share
+Contract Size
+Covered Warr Indicator
+Derivative Delivery (Physical vs Cash)
+Underlying External Sec ID
+Underlying Security Name
+Underlying Security BCUSIP

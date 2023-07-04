@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TRANSACTIONS ASOF_DATE="12/3/2019" CREATE_DATE="12/3/2019" RECORDS="1">
+    <TRADE>
+        <ACCRUAL_DT>5/3/2019</ACCRUAL_DT>
+        <ACCT_DESIG>TW_RES_TAGGED</ACCT_DESIG>
+        <BROKER_REASON>TWM</BROKER_REASON>
+        <COUNTERPARTY_CODE>4876</COUNTERPARTY_CODE>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CUSIP>BPM2N8SM5</CUSIP>
+        <DESC_INSTMT>DBS BANK (TAIWAN) LTD (NAN JING E.</DESC_INSTMT>
+        <DESK_TYPE>GEN</DESK_TYPE>
+        <DTM_2A7>214</DTM_2A7>
+        <EXECUTION_TIME>5/3/2019 8:32:17.000</EXECUTION_TIME>
+        <EXEC_TIME_SOURCE>A</EXEC_TIME_SOURCE>
+        <FIRST_PAY_DT>6/3/2019</FIRST_PAY_DT>
+        <FUND>3486</FUND>
+        <FX_PAY_SI_set SIZE="0"/>
+        <FX_RCV_SI_set SIZE="0"/>
+        <INVNUM>-1480</INVNUM>
+        <MATURITY>12/3/2019</MATURITY>
+        <MULTI_FUND_ID>1911036</MULTI_FUND_ID>
+        <PORTFOLIOS_PORTFOLIO_NAME>TT12</PORTFOLIOS_PORTFOLIO_NAME>
+        <PREPAY_RATE>100.0000000000</PREPAY_RATE>
+        <ROLL_FEE>0.0000000000</ROLL_FEE>
+        <SI_set SIZE="10">
+            <SI>
+                <NAME>BANK NAME</NAME>
+                <NUM>1</NUM>
+                <VALUE>DBS Bank (Taiwan)</VALUE>
+            </SI>
+            <SI>
+                <NAME>TRADING BKR BIC</NAME>
+                <NUM>2</NUM>
+                <VALUE>8100364</VALUE>
+            </SI>
+            <SI>
+                <NAME>CITY, COUNTRY</NAME>
+                <NUM>3</NUM>
+                <VALUE>Nanjing Branch</VALUE>
+            </SI>
+            <SI>
+                <NAME>PSET</NAME>
+                <NUM>4</NUM>
+            </SI>
+            <SI>
+                <NAME>A/C#</NAME>
+                <NUM>5</NUM>
+                <VALUE>10000080688</VALUE>
+            </SI>
+            <SI>
+                <NAME>A/C NAME</NAME>
+                <NUM>6</NUM>
+                <VALUE>Remittance fee to be paid by Fund</VALUE>
+            </SI>
+            <SI>
+                <NAME>CLEARING AGT BIC</NAME>
+                <NUM>7</NUM>
+            </SI>
+            <SI>
+                <NAME>OTHER</NAME>
+                <NUM>8</NUM>
+            </SI>
+            <SI>
+                <NAME>DECU/RECU BIC</NAME>
+                <NUM>9</NUM>
+            </SI>
+            <SI>
+                <NAME>DECU/RECU A/C#</NAME>
+                <NUM>10</NUM>
+                <VALUE>FAXTD</VALUE>
+            </SI>
+        </SI_set>
+        <SM_COUPON_FREQ>12</SM_COUPON_FREQ>
+        <SM_CURRENCY>TWD</SM_CURRENCY>
+        <SM_PRINCIPAL_FREQ>0</SM_PRINCIPAL_FREQ>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>TD</SM_SEC_TYPE>
+        <SUB_BROKER_ID>10572.0000000000</SUB_BROKER_ID>
+        <TD_NUM>1288</TD_NUM>
+        <TICKER>DBSM</TICKER>
+        <TOUCH_COUNT>4</TOUCH_COUNT>
+        <TRAN_TYPE>BUY</TRAN_TYPE>
+        <TRAN_TYPE1>TRD</TRAN_TYPE1>
+        <TRDCHARGE_set SIZE="0"/>
+        <TRDCOMM_COMMENTS_set SIZE="0"/>
+        <TRDCOMM_STIPS_set SIZE="0"/>
+        <TRDREL_record_set SIZE="1">
+            <TRDREL_record>
+                <ACTION>OPEN</ACTION>
+                <TRDREL_AMOUNT>35000000.0000000000</TRDREL_AMOUNT>
+                <TRDREL_INVNUM1>-4850</TRDREL_INVNUM1>
+                <TRDREL_TYPE>SPEC</TRDREL_TYPE>
+            </TRDREL_record>
+        </TRDREL_record_set>
+        <TRD_AUTH_TIME>5/3/2019 8:32:17.000</TRD_AUTH_TIME>
+        <TRD_COMMISSION>0.0000000000</TRD_COMMISSION>
+        <TRD_COMMISSION_RATE>0.0000000000</TRD_COMMISSION_RATE>
+        <TRD_CONFIRMED_BY>AUTO</TRD_CONFIRMED_BY>
+        <TRD_CONVEXITY>0.0000000000</TRD_CONVEXITY>
+        <TRD_COUNTERPARTY>DBS-TW</TRD_COUNTERPARTY>
+        <TRD_COUPON>0.5600000000</TRD_COUPON>
+        <TRD_CURRENCY>TWD</TRD_CURRENCY>
+        <TRD_DROP_RATE>0.0000000000</TRD_DROP_RATE>
+        <TRD_DURATION>0.5822459670</TRD_DURATION>
+        <TRD_ENTRY_TIME>12/3/2019 6:02:54.000</TRD_ENTRY_TIME>
+        <TRD_EXCHANGE_RATE>1.0000000000</TRD_EXCHANGE_RATE>
+        <TRD_EXTERNAL_ACCOUNT_ID>TBD</TRD_EXTERNAL_ACCOUNT_ID>
+        <TRD_EXTERNAL_ACCOUNT_LOC>CHINATRUST</TRD_EXTERNAL_ACCOUNT_LOC>
+        <TRD_EXTID_set SIZE="0"/>
+        <TRD_EX_COMMISSION>0.0000000000</TRD_EX_COMMISSION>
+        <TRD_FACTOR>1.0000000000</TRD_FACTOR>
+        <TRD_FIFO_TYPE>OPEN</TRD_FIFO_TYPE>
+        <TRD_FINANCING_RATE>0.0000000000</TRD_FINANCING_RATE>
+        <TRD_INTEREST>0.0000000000</TRD_INTEREST>
+        <TRD_LOCATION>TW</TRD_LOCATION>
+        <TRD_MODIFIED_BY>tsgops</TRD_MODIFIED_BY>
+        <TRD_MODIFY_DATE>12/3/2019</TRD_MODIFY_DATE>
+        <TRD_MODIFY_TIME>12/3/2019 6:02:54.836</TRD_MODIFY_TIME>
+        <TRD_ORIG_ENTRY_DATE>5/3/2019</TRD_ORIG_ENTRY_DATE>
+        <TRD_ORIG_FACE>35000000.0000000000</TRD_ORIG_FACE>
+        <TRD_OTHER_FEE>0.0000000000</TRD_OTHER_FEE>
+        <TRD_PRICE>100.0000000000</TRD_PRICE>
+        <TRD_PRINCIPAL>35000000.0000000000</TRD_PRINCIPAL>
+        <TRD_PURPOSE>TW_MM</TRD_PURPOSE>
+        <TRD_REVIEWED_BY>AUTO</TRD_REVIEWED_BY>
+        <TRD_REVIEW_TIME>5/3/2019 8:32:17.000</TRD_REVIEW_TIME>
+        <TRD_SERIES_NUM>0</TRD_SERIES_NUM>
+        <TRD_SETTLE_DATE>5/3/2019</TRD_SETTLE_DATE>
+        <TRD_SETTLE_LOCATION>PHYS_NONUS</TRD_SETTLE_LOCATION>
+        <TRD_SETTLE_TEMPLATE_NAME>FAX TD - TW Nanjing Branch</TRD_SETTLE_TEMPLATE_NAME>
+        <TRD_TD_PAR>35000000.0000000000</TRD_TD_PAR>
+        <TRD_TRADER>MMAI</TRD_TRADER>
+        <TRD_TRADE_DATE>5/3/2019</TRD_TRADE_DATE>
+        <TRD_VERSION>4</TRD_VERSION>
+        <TRD_YIELD>0.5579436100</TRD_YIELD>
+        <UDF_set SIZE="0"/>
+        <UNITS>BONDS</UNITS>
+    </TRADE>
+</TRANSACTIONS>

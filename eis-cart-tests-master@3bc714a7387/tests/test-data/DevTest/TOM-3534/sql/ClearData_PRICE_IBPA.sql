@@ -1,0 +1,2 @@
+delete fT_T_ispc where instr_id in (select instr_id from fT_T_isid where iss_id in ('SG71E6000003', 'IDA0000535B5', 'IDG000006602')) and prc_typ='62';
+delete ft_t_isgp where instr_id in (select instr_id from fT_T_isid where iss_id in ('SG71E6000003', 'IDA0000535B5', 'IDG000006602')) and prnt_iss_grp_oid='IBPAPRCSOI';

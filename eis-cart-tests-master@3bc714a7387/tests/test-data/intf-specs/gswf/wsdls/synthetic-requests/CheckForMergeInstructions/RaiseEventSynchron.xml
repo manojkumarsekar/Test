@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseCheckForMergeInstructionsSynchron>
+         <!--Optional:-->
+         <even:IgnoreUpdates>?</even:IgnoreUpdates>
+         <!--Optional:-->
+         <even:cnstOid>?</even:cnstOid>
+         <!--Optional:-->
+         <even:entityType>?</even:entityType>
+         <even:messageType>?</even:messageType>
+         <!--Optional:-->
+         <even:multipleMergeInstructions>?</even:multipleMergeInstructions>
+      </even:RaiseCheckForMergeInstructionsSynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

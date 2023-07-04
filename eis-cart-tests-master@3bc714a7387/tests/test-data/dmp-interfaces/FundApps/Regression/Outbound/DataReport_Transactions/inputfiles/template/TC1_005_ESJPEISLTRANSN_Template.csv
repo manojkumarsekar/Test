@@ -1,0 +1,3 @@
+﻿Security Id|Fund Id|Transaction Id|Transaction Type|Transaction Date|Execution Date|Execution Time|Settlement Date|Quantity|Trade Currency|Trade Price|Reversing Original Transaction Id
+2113382|300060|-4698TC1TRN7${TRD_VAR_NUM}|P|${CURR_DATE}|${CURR_DATE}|07:00:00|${CURR_DATE_1}|1531|EUR|187.4987|
+End of File

@@ -1,0 +1,12 @@
+/.idea/
+/target/*
+/docs/
+*.bak
+*.iml
+*.ipr
+*.ipl
+dependency-reduced-pom.xml
+*~
+~*
+*.log
+cart-core/target/*

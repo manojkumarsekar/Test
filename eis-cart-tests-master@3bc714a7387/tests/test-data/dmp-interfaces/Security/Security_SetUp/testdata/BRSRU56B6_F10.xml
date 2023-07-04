@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2020-12-11" CREATE_DATE="12/11/2020" RECORDS="1">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>2/2/2005</ACCRUAL_DT>
+        <ASSET_BENCHMARK>BRTAPV1P5</ASSET_BENCHMARK>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>5/31/2019 9:43:37.673</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>LU</COUNTRY>
+        <CURRENCY>USD</CURRENCY>
+        <CUSIP>BRSRU56B6</CUSIP>
+        <CUSIP2_set SIZE="5">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>BF92F95</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>LU0210305115</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>N</CODE>
+                <IDENTIFIER>L5337A149</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>LP60006965</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>V</CODE>
+                <IDENTIFIER>2100595</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="5">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>0003f8038cf4dd5d</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL6482428</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>F_2313754</IDENTIFIER>
+                <PURPOSE>PPMG</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>L5337A149</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>LU0210305115</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>EASTSPRING INV US HI YLD BD D</DESC_INSTMT>
+        <DESC_INSTMT2>IBH</DESC_INSTMT2>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>2/2/2005</ISSUE_DT>
+        <LEAD_MGR>1769</LEAD_MGR>
+        <MARKET>LU</MARKET>
+        <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+        <MODIFIED_BY>e4pshett</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="3">
+            <NOTES_record>
+                <EFF_DT>2/1/2017</EFF_DT>
+                <INSTMT>risk country per PPMG</INSTMT>
+                <SEQ_NUM>10</SEQ_NUM>
+                <USER_ID>ntodorov</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>5/3/2018</EFF_DT>
+                <INSTMT>ESI: Updated min trade increment and size</INSTMT>
+                <SEQ_NUM>11</SEQ_NUM>
+                <USER_ID>p9ktoh</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>5/30/2019</EFF_DT>
+                <INSTMT>ESI: Underlying index updated as advised by TOM team(Manish)</INSTMT>
+                <SEQ_NUM>12</SEQ_NUM>
+                <USER_ID>e4pshett</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>NY_BANK</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <PRICING>0</PRICING>
+        <RATING_set SIZE="1">
+            <RATING_record>
+                <AGY>10403</AGY>
+                <DATE>8/28/2017</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>e4pshett</REVIEWED_BY>
+        <RISK_COUNTRY>US</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>FUND_OPEN_END</SEC_TYPE>
+        <SETTLE_CAL>LUX</SETTLE_CAL>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>OPEN_END</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>PRUUHYD</TICKER>
+        <UDF_set SIZE="7">
+            <UDF_record>
+                <LABEL>ESI_MAS</LABEL>
+                <PURPOSE>ESI</PURPOSE>
+                <UDF_SOURCE>manual</UDF_SOURCE>
+                <VALUE>Global Hi Yield</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>ESI_ShOS_SICAV</LABEL>
+                <PURPOSE>ESI GAA</PURPOSE>
+                <UDF_SOURCE>BNYE</UDF_SOURCE>
+                <VALUE>466362996.639</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>CMoney</PURPOSE>
+                <VALUE>18606869</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>GAA_ASTTY</LABEL>
+                <PURPOSE>GAA</PURPOSE>
+                <UDF_SOURCE>ptong</UDF_SOURCE>
+                <VALUE>CREDIT_HY</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>GAA_VEHICLE</LABEL>
+                <PURPOSE>ESI</PURPOSE>
+                <UDF_SOURCE>Manual</UDF_SOURCE>
+                <VALUE>Core I</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>SAA_SECTOR</LABEL>
+                <PURPOSE>PPMG</PURPOSE>
+                <VALUE>NEBR_FI_US_HY</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>SAA_VEHICLE</LABEL>
+                <PURPOSE>ESI</PURPOSE>
+                <UDF_SOURCE>p9achawl</UDF_SOURCE>
+                <VALUE>Y</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>    

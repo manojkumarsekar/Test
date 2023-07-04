@@ -1,0 +1,256 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 13,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1465162,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I assign \"A\" to variable \"B\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"B\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ConfigStepsDef.assignValueToVariable(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2921354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.java:16"
+            }
+          },
+          {
+            "result": {
+              "duration": 4058029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DmpHooks.setupGsApiConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1116184360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DmpHooks.setupGsDbConfig()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login to GS web UI",
+        "description": "",
+        "id": "golden-source-portal-web-ui-smoke-test;login-to-gs-web-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 172146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.java:17"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5141549176,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I open a web session from URL \"${gs.web.UI.url}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "${gs.web.UI.url}",
+                  "offset": 31
+                }
+              ],
+              "location": "WebStepsDef.java:54"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2013938262,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I pause for 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "WebStepsDef.java:19"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@basic_login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1386565,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I assign \"A\" to variable \"B\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"B\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ConfigStepsDef.assignValueToVariable(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2076429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.java:16"
+            }
+          },
+          {
+            "result": {
+              "duration": 8341172,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DmpHooks.setupGsApiConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 16079192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DmpHooks.setupGsDbConfig()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Close browsers",
+        "description": "",
+        "id": "golden-source-portal-web-ui-smoke-test;close-browsers",
+        "after": [
+          {
+            "result": {
+              "duration": 70482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.java:17"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1096337608,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I close all opened web browsers",
+            "match": {
+              "location": "WebStepsDef.java:49"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@basic_login"
+          }
+        ]
+      }
+    ],
+    "name": "Golden Source Portal Web UI Smoke Test",
+    "description": "  The Data Management Platform (DMP) leverages the solutions from vendor Golden Source.\n  One of the components of the Golden Source is the Golden Source Portal where users will\n  be able to view and manage the data through the Web User Interface.\n\n  This Smoke Test provides some assurance that the deployed application (portal) by\n  performing basic tasks on the Web UI to ensure that the basic functionalities are still\n  there (after new deployments, changes, or on periodic basis).",
+    "id": "golden-source-portal-web-ui-smoke-test",
+    "keyword": "Feature",
+    "uri": "file:gs-ui/LoginTest/000_GS_UI_Basic_Check.feature",
+    "tags": [
+      {
+        "name": "@web",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@basic_login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    ]
+  }
+]

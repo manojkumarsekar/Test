@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2020-06-10" CREATE_DATE="6/10/2020" RECORDS="1">
+    <ASSET><CASH_TD>
+        <ACCRUAL_DT>5/3/2019</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>5/3/2019 10:40:45.966</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>ID</COUNTRY>
+        <COUPON_FIX>5.8</COUPON_FIX>
+        <COUP_FREQ>T</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>IDR</CURRENCY>
+        <CUSIP>BPM2N7GB4</CUSIP>
+        <CUSIP_ALIAS_set SIZE="1">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL4958361</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT365</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>BANK PERMATA SYARIAH ID</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>6/3/2019</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>5/3/2019</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <ISSUER_ID>H90848</ISSUER_ID>
+        <ISSUE_DT>5/3/2019</ISSUE_DT>
+        <LIQUIDITY>N</LIQUIDITY>
+        <MARKET>ID</MARKET>
+        <MATURITY>6/3/2019</MATURITY>
+        <MODIFIED_BY>e4erpa03</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="1">
+            <NOTES_record>
+                <EFF_DT>5/3/2019</EFF_DT>
+                <INSTMT>Structure updated from Strategy by RPA</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>e4erpa03</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NOTIONAL_AMT>1</NOTIONAL_AMT>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>ID</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PROSPECTUS>Not Applicable</PROSPECTUS>
+        <PUT_CALL> </PUT_CALL>
+        <RATING_set SIZE="3">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>1/7/2019</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>1/7/2019</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>1/7/2019</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>e4erpa03</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>CASH_TD</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>TD</SM_SEC_TYPE>
+        <STRUCTURE>ESI SY</STRUCTURE>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>PERMSY</TICKER>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>CMoney</PURPOSE>
+                <VALUE>9912880.44</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </CASH_TD></ASSET>
+</ASSETS>

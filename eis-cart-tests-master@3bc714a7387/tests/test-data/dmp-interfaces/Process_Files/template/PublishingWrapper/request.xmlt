@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_PublishingWrapperEventAsynchron>
+         <even:BlankFile>false</even:BlankFile>
+         <even:DateAppendSQL>select sysdate from dual</even:DateAppendSQL>
+         <even:DateFormat>yyyyMMdd</even:DateFormat>
+         <!--<even:FilePerEntity>FALSE</even:FilePerEntity> -->
+         <even:No._BLANK_Of_BLANK_Parallel_BLANK_Branches>${NO_OF_PARALLEL_BRANCHES}</even:No._BLANK_Of_BLANK_Parallel_BLANK_Branches>
+         <even:PublishingBulkSize>${PUBLISHING_BULK_SIZE}</even:PublishingBulkSize>
+         <even:PublishingFileName>${PUBLISHING_FILE_NAME}</even:PublishingFileName>
+         <even:RecordTag>${RECORD_TAG!}</even:RecordTag>
+		 <even:RuntimeCharValTxt>${RUNTIME_CHAR_VAL_TXT!}</even:RuntimeCharValTxt>
+         <even:XmlMergeLevel>${XML_MERGE_LEVEL!}</even:XmlMergeLevel>
+         <!-- <even:addCorrelationHeader>false</even:addCorrelationHeader> -->
+         <!-- <even:addCoveringXMLHeader>true</even:addCoveringXMLHeader> -->
+         <!-- <even:appendEOFLine>false</even:appendEOFLine> -->
+         <even:bulkSize>500</even:bulkSize>
+         <even:columnSeparator>${COLUMN_SEPARATOR!}</even:columnSeparator>
+         <even:columnToSort>${COLUMN_TO_SORT!}</even:columnToSort>
+         <even:emailBody>${EMAIL_BODY!}</even:emailBody>
+         <even:emailFrom>${EMAIL_FROM!}</even:emailFrom>
+         <even:emailGroup>${EMAIL_GROUP!}</even:emailGroup>
+         <even:emailSubject>${EMAIL_SUBJECT!}</even:emailSubject>
+         <!--Zero or more repetitions:-->
+         <even:emailTo>${EMAIL_TO!}</even:emailTo>
+         <even:extractStreetRefToSubmit>${EXTRACT_STREETREF_TO_SUBMIT!}</even:extractStreetRefToSubmit>
+         <even:footerCount>${FOOTER_COUNT!}</even:footerCount>
+         <even:headerCount>1</even:headerCount>
+         <even:inlineAOIProcessing>${AOI_PROCESSING!}</even:inlineAOIProcessing>
+         <even:jobId>${JOB_ID!}</even:jobId>
+         <even:messageType>${MESSAGE_TYPE!}</even:messageType>
+         <even:publishingDestination>${PUBLISHING_DESTINATION!}</even:publishingDestination>
+         <even:publishingMode>BATCH</even:publishingMode>
+         <even:replaceXMLtagFromSubmittedMsg>${UNESCAPE_XML!}</even:replaceXMLtagFromSubmittedMsg>
+         <even:runtimePublishTms>${RUNTIMEPUBLISH_TMS!}</even:runtimePublishTms>
+         <even:sql>${SQL!}</even:sql>
+         <even:subscriptionName>${SUBSCRIPTION_NAME}</even:subscriptionName>
+         <even:transactionId>${TRANSACTION_ID!}</even:transactionId>
+		 </even:RaiseEIS_PublishingWrapperEventAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+		
+      

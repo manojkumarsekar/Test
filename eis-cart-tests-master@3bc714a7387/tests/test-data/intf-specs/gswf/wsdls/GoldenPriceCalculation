@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseGoldenPriceCalculationSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseGoldenPriceCalculationAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element maxOccurs="unbounded" minOccurs="0" name="Additional_BLANK_Price_BLANK_Qualification_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>Specifies the Additional Price Qualification Type</xs:documentation></xs:annotation></xs:element><xs:element name="Bulk_BLANK_Size" type="xs:integer"><xs:annotation><xs:documentation>The number of instruments to be processed in one branch of exceution.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="CleanValidationInstructionCache" type="xs:boolean"><xs:annotation><xs:documentation>whether to clean the prvi from cache, default is set to true.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Consider_BLANK_Calendar_BLANK_Results" type="xs:boolean"><xs:annotation><xs:documentation>If true only business days are selected and part of check</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Country" type="xs:string"><xs:annotation><xs:documentation>The country used for filtering the PRVI instructions</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="CreateGPRCOnHoliday" type="xs:boolean"/><xs:element minOccurs="0" name="DiagnosticMode" type="xs:boolean"/><xs:element minOccurs="0" name="Donot_BLANK_Consider_BLANK_Issue_BLANK_Maturity" type="xs:boolean"><xs:annotation><xs:documentation>The parameter when set to true will pick up matured issues for validation. when set to false matured issues will not be picked for validation.</xs:documentation></xs:annotation></xs:element><xs:element name="Downstream_BLANK_System_BLANK_Identifier" type="xs:string"><xs:annotation><xs:documentation>The downstream system identifier, this is the dwdf_oid value from the ft_t_dwdf table</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Extra_BLANK_Configuration_BLANK_Information" type="xs:string"><xs:annotation><xs:documentation>Extra information that will be stored in the configInfo column of the JobLog entry.&#xd;
+
+</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Ignore_BLANK_Issue_BLANK_MAT_EXP_TMS" type="xs:boolean"><xs:annotation><xs:documentation>Ignore Issue Maturity Expiry Date. If set, then ISSU.MAT_EXP_TMS will be ignored and Matured Issues will also be validated</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Instruments" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Instruments</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="IssueGroup" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Issue Groups</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="IssueType" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Issue Types</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="IssueTypeGroup" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Issue Type Groups</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="JobIDs" type="xs:string"><xs:annotation><xs:documentation>Job Id value.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Market" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific  Markets</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Message_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>The Message Type that will be used for this job.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Observation_BLANK_Period" type="xs:integer"><xs:annotation><xs:documentation>Limitates result set (e.g 7 days, check only prices between today and last week) (in days, default = yesterday)</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="PRVI_BLANK_Hierarchy_BLANK_Enable_BLANK_Switch" type="xs:boolean"><xs:annotation><xs:documentation>Flag to enable PRVI Hierarchy functionality</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="ParentJobId" type="xs:string"><xs:annotation><xs:documentation>The ID of the parent job.&#xd;
+
+</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Price_BLANK_Day_BLANK_Frequency" type="xs:string"><xs:annotation><xs:documentation>Please note only supported values are daily, intraday or monthly</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Price_BLANK_Method_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific Method Types</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Price_BLANK_Quote_BLANK_Method_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>Used to validate prices with specifc Quote Method Types</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Price_BLANK_Source" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific Price Sources</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Price_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific Price Types</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Prior_BLANK_GPRC_BLANK_Observation_BLANK_Count" type="xs:integer"><xs:annotation><xs:documentation>This count will fetch prior Golden prices between dates processing date and (processing date minus this count).&#xd;
+It should be greate than observation period.Default value should be 0.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Processing_BLANK_Date" type="xs:dateTime"><xs:annotation><xs:documentation>Only instruments which 'exist' (Date is between Start and End Tms of Issue) on this date will be returned.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="PublishingEvent" type="xs:string"><xs:annotation><xs:documentation>Event to be raised for publishing VALID Golden prices (GPRC)</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="PurposeType" type="xs:string"><xs:annotation><xs:documentation>The purpose type value for filtering issue records.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Qualifying_BLANK_type_BLANK_for_BLANK_Golden_BLANK_Price_BLANK_Check" type="xs:string"><xs:annotation><xs:documentation>specifies the status of prices which can qualify to participate in GoldenPrice calc viz values VALIDANDSUSPECT, VALIDANDUNVERIFD,ALL and VALID</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="ReUse_BLANK_Job_BLANK_Id" type="xs:boolean"><xs:annotation><xs:documentation>This flag indicates that the working job id provided in the WF needs to be used instead of creating a new job_id in the ft_o_isjb table. This should only be set to true in case the entries in isjb need to be reused.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Reevaluate_BLANK_existing_BLANK_GOlden_BLANK_Prices" type="xs:boolean"><xs:annotation><xs:documentation> If set to true then reevaluates the existing GPRC.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Region" type="xs:string"><xs:annotation><xs:documentation>The region used for filtering the PRVI instructions</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="RelType_BLANK_OneToMany" type="xs:string"><xs:annotation><xs:documentation>Relationship type value that relates dummies and actuals in One to many set up.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="RelType_BLANK_Sequence" type="xs:string"><xs:annotation><xs:documentation>Relationship type value that relates dummies and actuals in sequence set up.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Select_BLANK_Prvi_BLANK_For_BLANK_Hierarchy" type="xs:string"><xs:annotation><xs:documentation>prvi to be used.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Suppress_BLANK_GEN1_BLANK_Issues_BLANK_for_BLANK_User_BLANK_Ids" type="xs:string"><xs:annotation><xs:documentation>The user Id's mentioned here will not be scrubbed, provided GPRC already exists with these user Id's.</xs:documentation></xs:annotation></xs:element><xs:element name="Threads_BLANK_In_BLANK_Parallel" type="xs:integer"><xs:annotation><xs:documentation>The number of execution branches used to process instruments.The no of bulks of issues given to each thread depends on this parameter.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Vendor" type="xs:string"><xs:annotation><xs:documentation>Used to validate only prices with specific Vendors</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Working_BLANK_Job_BLANK_Id" type="xs:string"><xs:annotation><xs:documentation>Working job_id is the job_id from the ft_o_isjb table in case it has to be reused and new entries should not be created. It works in conjunction with the reuse job id flag</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="GoldenPriceCalculationResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseGoldenPriceCalculationSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseGoldenPriceCalculationAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:GoldenPriceCalculationResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

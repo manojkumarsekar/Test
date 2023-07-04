@@ -1,0 +1,3 @@
+Date,"Fund ID","Fund Name","Fund Custody Account Number","Security ID","Security Description","Security Type","Exchange",ISIN,SEDOL,"SBL Quantity EOD","Counterparty Full Name"
+"${DYNAMIC_DATE_SBL}","PHKL_European_Multi","PHKL European Multi Factor Equity Fund","PR3W","B2NJ7Z1","5.875 GENERAL ELECTRIC CO 14-","COMMON STOCK","US",US36962G3P70,B2NJ7Z1,78001,"CREDIT SUISSE SECURITIES (USA) LLC","COLLATERAL"
+"${DYNAMIC_DATE_SBL}","PHKL_European_Multi","PHKL European Multi Factor Equity Fund","PR3W","B2NJ7Z1","5.875 GENERAL ELECTRIC CO 14-","COMMON STOCK","US",US36962G3P70,B2NJ7Z1,78002,"CREDIT SUISSE SECURITIES (USA) LLC","COLLATERAL"

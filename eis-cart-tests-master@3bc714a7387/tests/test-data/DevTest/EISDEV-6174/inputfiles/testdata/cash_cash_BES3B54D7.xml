@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2020-06-10" CREATE_DATE="6/10/2020" RECORDS="1">
+    <ASSET><CASH_CASH>
+        <ACCRUAL_DT>1/1/1970</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>4/25/2019 19:39:21.593</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TH</COUNTRY>
+        <COUP_FREQ>A</COUP_FREQ>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>BES3B54D7</CUSIP>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT365</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>RHB BANK BHD MY</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>5/16/2019</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>4/16/2019</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <ISSUER_ID>R81515</ISSUER_ID>
+        <ISSUE_DT>4/16/2019</ISSUE_DT>
+        <LIQUIDITY>N</LIQUIDITY>
+        <MARKET>MY</MARKET>
+        <MATURITY>5/16/2019</MATURITY>
+        <MODIFIED_BY>e4erpa03</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="1">
+            <NOTES_record>
+                <EFF_DT>4/26/2019</EFF_DT>
+                <INSTMT>Structure updated from Strategy by RPA</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>e4erpa03</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NOTIONAL_AMT>1</NOTIONAL_AMT>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>MY</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PMT_LOCATION>F</PMT_LOCATION>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PROSPECTUS>Not Applicable</PROSPECTUS>
+        <PUT_CALL> </PUT_CALL>
+        <RATING_set SIZE="7">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>6/6/2018</DATE>
+                <VALUE>P-2</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>9/27/2005</DATE>
+                <VALUE>A-2</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>2/6/1965</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>21</AGY>
+                <DATE>6/6/2018</DATE>
+                <VALUE>A3</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>22</AGY>
+                <DATE>12/15/2010</DATE>
+                <VALUE>BBB+</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>23</AGY>
+                <DATE>8/22/2011</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>25</AGY>
+                <DATE>4/10/2018</DATE>
+                <VALUE>BBB-</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>e4erpa03</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SEC_TYPE>CASH_TD</SEC_TYPE>
+        <SETTLE_LOCATION>F</SETTLE_LOCATION>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>CASH</SM_SEC_TYPE>
+        <STRUCTURE>ESI TD</STRUCTURE>
+        <TAX_STATUS>T</TAX_STATUS>
+        <UDF_set SIZE="1">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>CMoney</PURPOSE>
+                <VALUE>1524967</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </CASH_CASH></ASSET>
+</ASSETS>    

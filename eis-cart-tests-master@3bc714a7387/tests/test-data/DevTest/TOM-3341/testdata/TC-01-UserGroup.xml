@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<USERS ASOF_DATE="9/26/2018" CREATE_DATE="9/26/2018" RECORDS="2">
+    <USER>
+        <ACCOUNT_CREATED>3/8/2018</ACCOUNT_CREATED>
+        <EMAIL>Edward.Kuffour@MandG.co.uk</EMAIL>
+        <FNAME>Edward Kwayie</FNAME>
+        <LAST_LOGIN>09/22/2018 10:24:10</LAST_LOGIN>
+        <LNAME>- Kuffour</LNAME>
+        <LOGIN>p9ekuffo</LOGIN>
+        <OFFICE_LOCATION>MG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Retail &amp; Institutional Business</PRIMARY_DEPT_NAME>
+        <USER_GROUP>G_VIEW_ONLY_BASE</USER_GROUP>
+        <USER_GROUP_DESC>G_VIEW_ONLY_BASE</USER_GROUP_DESC>
+    </USER>	
+	<USER>
+        <ACCOUNT_CREATED>3/23/2018</ACCOUNT_CREATED>
+        <EMAIL>Tarunkumar.Trivedi@eastspring.com</EMAIL>
+        <FNAME>Tarunkumar</FNAME>
+        <LAST_LOGIN>09/26/2018 03:44:58</LAST_LOGIN>
+        <LNAME>Trivedi</LNAME>
+        <LOGIN>abc123</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>+65 66534732</TEL_OFFICE>
+        <USER_GROUP>ESI_DRC</USER_GROUP>
+        <USER_GROUP_DESC></USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/23/2018</ACCOUNT_CREATED>
+        <EMAIL>Nitin.Mahajan@eastspring.com</EMAIL>
+        <FNAME>Nitin</FNAME>
+        <LAST_LOGIN>09/26/2018 03:44:58</LAST_LOGIN>
+        <LNAME>Mahajan</LNAME>
+        <LOGIN>def123</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>TOM</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>+65 66534732</TEL_OFFICE>
+        <USER_GROUP>ESI_DRC</USER_GROUP>
+        <USER_GROUP_DESC></USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/23/2018</ACCOUNT_CREATED>
+        <EMAIL>Anand.Patel@eastspring.com</EMAIL>
+        <FNAME>Anand</FNAME>
+        <LAST_LOGIN>09/26/2018 03:44:58</LAST_LOGIN>
+        <LNAME>Patel</LNAME>
+        <LOGIN>ghi123</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Testing123</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>+65 66534732</TEL_OFFICE>
+        <USER_GROUP>ESI_DRC</USER_GROUP>
+        <USER_GROUP_DESC></USER_GROUP_DESC>
+    </USER>
+</USERS>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ORDERS ASOF_DATE="12/3/2018" CREATE_DATE="12/3/2018" RECORDS="1">
+    <ORDER>
+        <ACTIVE_TIME>12/3/2018 5:27:06.150</ACTIVE_TIME>
+        <AUTH_TIME>12/3/2018 5:26:32.730</AUTH_TIME>
+        <AVG_PRICE>142.1138000000</AVG_PRICE>
+        <COUNTRY>IN</COUNTRY>
+        <CURRENCY>INR</CURRENCY>
+        <CUSIP>SB037HF18</CUSIP>
+        <ENTRY_TIME>12/3/2018 5:27:06.150</ENTRY_TIME>
+        <EXP_DATE>12/31/2222</EXP_DATE>
+        <FACE>22618.0000000000</FACE>
+        <FACTOR>1.0000000000</FACTOR>
+        <FILL_AMT>22618.0000000000</FILL_AMT>
+        <FLAG_AON>N</FLAG_AON>
+        <LIMIT_TYPE>P</LIMIT_TYPE>
+        <LIMIT_VALUE>10.0000000000</LIMIT_VALUE>
+        <MODIFIED_BY>p9saswat</MODIFIED_BY>
+        <MODIFY_TIME>12/3/2018 5:49:37.530</MODIFY_TIME>
+        <OPEN_DATE>12/3/2018</OPEN_DATE>
+        <ORDER_REASON>ESI.ID 26</ORDER_REASON>
+        <ORD_DETAIL_set SIZE="1">
+            <ORD_DETAIL>
+                <MODIFIED_BY>p9saswat</MODIFIED_BY>
+                <MODIFIED_TIME>12/3/2018 5:49:37.530</MODIFIED_TIME>
+                <ORD_DETAIL_BOOKED_AMT>22618.0000000000</ORD_DETAIL_BOOKED_AMT>
+                <ORD_DETAIL_FACE>22618.0000000000</ORD_DETAIL_FACE>
+                <ORD_DETAIL_FUND>3202</ORD_DETAIL_FUND>
+                <ORD_DETAIL_ID>1725936.0000000000</ORD_DETAIL_ID>
+                <ORIG_ORD_DETAIL_ID>1725836.0000000000</ORIG_ORD_DETAIL_ID>
+                <ORIG_ORD_ID>1725636</ORIG_ORD_ID>
+                <ORIG_ORD_NUM>1725636</ORIG_ORD_NUM>
+                <PORTFOLIO_NAME>ALINDF</PORTFOLIO_NAME>
+                <VERSION>2</VERSION>
+            </ORD_DETAIL>
+        </ORD_DETAIL_set>
+        <ORD_GROUP>A4_REBALANCE_RUN_2763</ORD_GROUP>
+        <ORD_NUM>TST1725736</ORD_NUM>
+        <ORD_TYPE>M</ORD_TYPE>
+        <OWNER_TYPE>T</OWNER_TYPE>
+        <PM>JYL</PM>
+        <PRICE>140.3000000000</PRICE>
+        <PRICE_CURRENCY>INR</PRICE_CURRENCY>
+        <SEC_DESC1>NTPC LTD</SEC_DESC1>
+        <SEDOL>B037HF1</SEDOL>
+        <SETTLE_DATE>12/5/2018</SETTLE_DATE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <STATUS>F</STATUS>
+        <TIME_IN_FORCE>1</TIME_IN_FORCE>
+        <TOUCH_COUNT>2</TOUCH_COUNT>
+        <TRADER>P9SASWAT</TRADER>
+        <TRAN_TYPE>BUY</TRAN_TYPE>
+        <UPDATE_INSTR>ESI.EQ 1. Imple</UPDATE_INSTR>
+        <VERSION>2</VERSION>
+        <YIELD>0.0000000000</YIELD>
+        <COMMENTS_record_set SIZE="4">
+            <COMMENTS_record>
+                <COMMENT_LINENO>5</COMMENT_LINENO>
+                <COMMENT_TYPE>GEN</COMMENT_TYPE>
+                <COMMENT_VALUE>General comment use for testing</COMMENT_VALUE>
+            </COMMENTS_record>
+            <COMMENTS_record>
+                <COMMENT_LINENO>2</COMMENT_LINENO>
+                <COMMENT_TYPE>INS</COMMENT_TYPE>
+                <COMMENT_VALUE>INS comment use for testing</COMMENT_VALUE>
+            </COMMENTS_record>
+            <COMMENTS_record>
+                <COMMENT_LINENO>2</COMMENT_LINENO>
+                <COMMENT_TYPE>PRO</COMMENT_TYPE>
+                <COMMENT_VALUE>PRO comment use for testing</COMMENT_VALUE>
+            </COMMENTS_record>
+            <COMMENTS_record>
+                <COMMENT_LINENO>1</COMMENT_LINENO>
+                <COMMENT_TYPE>LOT</COMMENT_TYPE>
+                <COMMENT_VALUE>LOT comment use for testing</COMMENT_VALUE>
+            </COMMENTS_record>
+        </COMMENTS_record_set>
+    </ORDER>
+</ORDERS>

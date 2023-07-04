@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseEOIMaintenanceSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseEOIMaintenanceAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Accounts" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return ORG_ID, BK_ID, ACCT_ID  of ft_t_acct e.g. select ORG_ID, BK_ID, ACCT_ID from ft_t_acct. The ORG_ID, BK_ID, ACCT_ID returned by this query will be the Entity of Interests for Raising notifications. The sequence of columns in select statements must be as mentioned in the example here. Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Benchmark_BLANK_Definitions" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return bnch_oid of ft_t_bnch e.g. select bnch_oid  from FT_T_BNCH . The bnch_oids returned by this query will be the Entity of Interests for Raising notifications. Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Customers" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return cst_id of ft_t_cust e.g. select cst_id from ft_t_cust. The cst_ids returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Dealer_BLANK_Representatives" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return drep_oid of ft_t_drep e.g. select drep_oid from ft_t_drep. The drep_oids returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Dealers" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return dler_oid of ft_t_dler e.g. select dler_oid from ft_t_dler. The dler_oids returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Employees" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return empl_oid of ft_t_empl e.g. select empl_oid from ft_t_empl. The empl_oids returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Financial_BLANK_Institution_BLANK_Roles" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return inst_mnem and finsrl_typ of ft_t_finr e.g. select inst_mnem, finsrl_typ from ft_t_finr. The inst_mnem and finsrl_typ returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Financial_BLANK_Institutions" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return inst_mnem of ft_t_fins e.g. select inst_mnem from ft_t_fins. The inst_mnem returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Financial_BLANK_Markets" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return mkt_oid  of ft_t_mrkt e.g. select mkt_oid from ft_t_mrkt. The mkt_oids returned by this query will be the Entity of Interests for Raising notifications.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Issuers" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return instr_issr_id of ft_t_issr e.g.select instr_Issr_ID from FT_T_ISSR where issr_typ='CORP'. The instrument Ids returned by this query will be the Entity of Interests for Raising notification.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Query_BLANK_For_BLANK_Selecting_BLANK_Issues" type="xs:string"><xs:annotation><xs:documentation>The query should be SQL format which should return instr_id of ft_t_issu e.g. select instr_id from FT_T_ISSU where iss_typ='BOND'. The instrument Ids returned by this query will be the Entity of Interests for Raising notification.  Do not put a semi colon at the end of the query.</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="EOIMaintenanceResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseEOIMaintenanceSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseEOIMaintenanceAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:EOIMaintenanceResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

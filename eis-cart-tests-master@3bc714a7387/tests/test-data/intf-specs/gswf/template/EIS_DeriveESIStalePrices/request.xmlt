@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+           <soapenv:Header/>
+           <soapenv:Body>
+              <even:RaiseEIS_DeriveESIStalePricesAsynchron>
+                 <even:GroupName>${GROUP_NAME!}</even:GroupName>
+                 <even:NoOfBranches>${NO_OF_BRANCH!}</even:NoOfBranches>
+                 <even:PrcSrceTyp>${PRC_SRCE_TYP!}</even:PrcSrceTyp>
+                 <even:PrcTyp>${PRC_TYP!}</even:PrcTyp>
+                 <even:PrcngMethTyp>${PRCNG_METH_TYP!}</even:PrcngMethTyp>
+              </even:RaiseEIS_DeriveESIStalePricesAsynchron>
+           </soapenv:Body>
+ </soapenv:Envelope>

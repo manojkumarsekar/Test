@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="${VAR_SYSDATE}" CREATE_DATE="${VAR_SYSDATE}" RECORDS="1">
+    <ASSET><FUND_CLOSED_END>
+        <ACCRUAL_DT>4/19/2013</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>11/1/2019 1:58:46.673</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TH</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="3">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>REU</CNTRY_SRC>
+                <CNTRY_TYPE>COI</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>BLK</CNTRY_SRC>
+                <CNTRY_TYPE>COT</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>TH</CNTRY>
+                <CNTRY_SRC>FTU</CNTRY_SRC>
+                <CNTRY_TYPE>IDX</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>SB9HL5X67</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>B9HL5X6</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>BTSGIFu.BK</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>2</CODE>
+                <IDENTIFIER>BTSGIF TB</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="5">
+            <CUSIP_ALIAS_record>
+                <CODE>8888</CODE>
+                <IDENTIFIER>00100b00089faf81</IDENTIFIER>
+                <PURPOSE>REUQID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>BTSGIF</IDENTIFIER>
+                <PURPOSE>ESITF</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>BTSGIF</IDENTIFIER>
+                <PURPOSE>ESITH</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>TH4447010000</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>80</CODE>
+                <IDENTIFIER>Y0984F109</IDENTIFIER>
+                <PURPOSE>CINS</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>BTS RAIL MASS CF</DESC_INSTMT>
+        <EXCHANGE>BAN</EXCHANGE>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>G18677</ISSUER_ID>
+        <ISSUE_DT>4/19/2013</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TH</MARKET>
+        <MIN_LOT_SIZE>100</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>100</MIN_TRD_SIZE>
+        <MODIFIED_BY>adapjoy</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>TH</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>adapjoy</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="2">
+            <SECTOR_record>
+                <CODE>5759</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>ISS_FTSE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>SETT</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>FUND_CLOSED_END</SEC_TYPE>
+        <SM_SEC_GROUP>FUND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>CLOSED_END</SM_SEC_TYPE>
+        <TICKER>BTSGIF</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_CLOSED_END></ASSET>
+</ASSETS>

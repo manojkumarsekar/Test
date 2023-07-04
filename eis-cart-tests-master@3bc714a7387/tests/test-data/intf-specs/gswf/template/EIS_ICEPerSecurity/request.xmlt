@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <even:RaiseEIS_ICEPerSecurityAsynchron>
+            <even:ICEDownloadDirectory>${ICE_DOWNLOAD_DIRECTORY!}</even:ICEDownloadDirectory>
+            <even:ICETimeout>${ICE_TIMEOUT!}</even:ICETimeout>
+            <even:ICEUploadDirectory>${ICE_UPLOAD_DIRECTORY!}</even:ICEUploadDirectory>
+            <even:MaxRequestsPerFile>${MAX_REQUESTS_PER_FILE!}</even:MaxRequestsPerFile>
+            <even:MaxRetryTime>3</even:MaxRetryTime>
+            <even:NoOfFilesToRunInParallel>2</even:NoOfFilesToRunInParallel>
+            <even:PricePointEventDefinitionId>${PRICE_POINT_EVENT_DEFINITION_ID!}</even:PricePointEventDefinitionId>
+            <even:RequestType>${REQUEST_TYPE!}</even:RequestType>
+            <even:RequestorID>${REQUESTOR_ID!}</even:RequestorID>
+        </even:RaiseEIS_ICEPerSecurityAsynchron>
+    </soapenv:Body>
+</soapenv:Envelope>

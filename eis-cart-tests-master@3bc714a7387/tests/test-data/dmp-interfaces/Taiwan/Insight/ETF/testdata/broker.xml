@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COUNTERPARTIES ASOF_DATE="2/19/2019" CREATE_DATE="2/19/2019" RECORDS="1">
+    <COUNTERPARTY>
+        <BROKER_ISSUER>D22283</BROKER_ISSUER>
+        <BROKER_TICKER>MACQ-TW</BROKER_TICKER>
+        <BROKER_TYPE>BROKER</BROKER_TYPE>
+        <COUNTERPARTY_CODE>TEST_4465</COUNTERPARTY_CODE>
+        <COUNTERPARTY_NAME>Macquarie Capital Limited</COUNTERPARTY_NAME>
+        <EXTERN_set SIZE="3">
+            <EXTERN>
+                <ENTITY_ID>1360</ENTITY_ID>
+                <EXTERN_ENTITY>173514</EXTERN_ENTITY>
+                <FULL_NAME>TW Financial Institution</FULL_NAME>
+                <SHORTNAME>TWFI</SHORTNAME>
+            </EXTERN>
+            <EXTERN>
+                <DESK>a</DESK>
+                <ENTITY_ID>MSL342</ENTITY_ID>
+                <EXTERN_ENTITY>134264</EXTERN_ENTITY>
+                <FULL_NAME>FIXULLINK</FULL_NAME>
+                <SHORTNAME>FIXULLINK</SHORTNAME>
+                <SUB_BROKER_ID>10750.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+            <EXTERN>
+                <DESK>b</DESK>
+                <ENTITY_ID>MSL342^~PROG</ENTITY_ID>
+                <EXTERN_ENTITY>134264</EXTERN_ENTITY>
+                <FULL_NAME>FIXULLINK</FULL_NAME>
+                <SHORTNAME>FIXULLINK</SHORTNAME>
+                <SUB_BROKER_ID>11077.0000000000</SUB_BROKER_ID>
+            </EXTERN>
+        </EXTERN_set>
+        <TRD_COUNTERPARTY>MACQ-TW</TRD_COUNTERPARTY>
+    </COUNTERPARTY>
+</COUNTERPARTIES>

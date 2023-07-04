@@ -1,0 +1,5 @@
+cusip,modify_time,modify_by,Modifier's Full Name,change_action,tag,Tag Full Name,value,Value Full Name,purpose,source
+001055102,1/17/2020 12:56:12 AM,e4tarun,e4tarun,ins,Test_CDF_TAG,Test_CDF_TAG,67587295.27,67587295.27,GAA,e4tarun
+001055102,1/17/2020 12:56:12 AM,e4tarun,e4tarun,ins,CDF_MISSING,CDF_MISSING,67587295.27,67587295.27,GAA,e4tarun
+001055102,1/17/2020 12:56:12 AM,e4tarun,e4tarun,ins,UCITS_ARTICLE,ESI UCITS Article number,41-1,41-1,GAA,e4tarun
+001055102,1/17/2020 12:56:12 AM,e4tarun,e4tarun,ins,UCITS_ELIGIBLE,ESI UCITS Eligibility Flag,Y,Y,GAA,e4tarun

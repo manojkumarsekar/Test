@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2020-08-27" CREATE_DATE="8/27/2020" RECORDS="5971">
+    <ASSET>
+        <ISSUE>
+            <ACCRUAL_DT>5/15/2020</ACCRUAL_DT>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CHANGE_DT>5/18/2020 9:56:33.000</CHANGE_DT>
+            <COUNTRY>US</COUNTRY>
+            <COUNTRY_CLASSIFICATION_set SIZE="2">
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>US</CNTRY>
+                    <CNTRY_SRC>REU</CNTRY_SRC>
+                    <CNTRY_TYPE>COI</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>US</CNTRY>
+                    <CNTRY_SRC>BLK</CNTRY_SRC>
+                    <CNTRY_TYPE>COT</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+            </COUNTRY_CLASSIFICATION_set>
+            <CURRENCY>USD</CURRENCY>
+            <CUSIP>531229128</CUSIP>
+            <CUSIP2_set SIZE="3">
+                <CUSIP2_record>
+                    <CODE>C</CODE>
+                    <IDENTIFIER>BMFHSF0</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>R</CODE>
+                    <IDENTIFIER>LSXMR.OQ</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>2</CODE>
+                    <IDENTIFIER>LSXMR US</IDENTIFIER>
+                </CUSIP2_record>
+            </CUSIP2_set>
+            <CUSIP_ALIAS_set SIZE="4">
+                <CUSIP_ALIAS_record>
+                    <CODE>8888</CODE>
+                    <IDENTIFIER>00100b00221ca73a</IDENTIFIER>
+                    <PURPOSE>REUQID</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>42</CODE>
+                    <IDENTIFIER>531229128</IDENTIFIER>
+                    <PURPOSE>CUSIP</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>284</CODE>
+                    <IDENTIFIER>LSXMR.O</IDENTIFIER>
+                    <PURPOSE>CONRIC</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>70</CODE>
+                    <IDENTIFIER>US5312291280</IDENTIFIER>
+                    <PURPOSE>ISIN</PURPOSE>
+                </CUSIP_ALIAS_record>
+            </CUSIP_ALIAS_set>
+            <CUSIP_TYPE>CUSIP</CUSIP_TYPE>
+            <DESC_INSTMT>LIBERTY MEDIA RIGHTS EXP  JUNE COR</DESC_INSTMT>
+            <DESC_INSTMT2>RIGHTS</DESC_INSTMT2>
+            <EXCHANGE>NASDAQ</EXCHANGE>
+            <FLAG_144A>N</FLAG_144A>
+            <ISSUER_ID>D12172</ISSUER_ID>
+            <ISSUE_DT>5/15/2020</ISSUE_DT>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>US</MARKET>
+            <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+            <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+            <MODIFIED_BY>e4seho</MODIFIED_BY>
+            <NOTES_set SIZE="1">
+                <NOTES_record>
+                    <EFF_DT>5/18/2020</EFF_DT>
+                    <INSTMT>ESI: Updated the resultant security the right will be bought into as underlying</INSTMT>
+                    <SEQ_NUM>1</SEQ_NUM>
+                    <USER_ID>e4seho</USER_ID>
+                </NOTES_record>
+            </NOTES_set>
+            <NOTIONAL_AMT>100</NOTIONAL_AMT>
+            <NOTIONAL_FACE>1</NOTIONAL_FACE>
+            <NTL_FLAG>Y</NTL_FLAG>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <REVIEWED_BY>e4seho</REVIEWED_BY>
+            <SECTOR_set SIZE="1">
+                <SECTOR_record>
+                    <CODE>NASG</CODE>
+                    <LEVEL>1</LEVEL>
+                    <TYPE>REUT_SEGM</TYPE>
+                </SECTOR_record>
+            </SECTOR_set>
+            <SEC_TYPE>EQUITY_WARRANT</SEC_TYPE>
+            <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+            <SM_SEC_TYPE>WARRANT</SM_SEC_TYPE>
+            <TICKER>LSXMR</TICKER>
+            <UDF_set SIZE="2">
+                <UDF_record>
+                    <LABEL>UCITS_ARTICLE</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>CETREL</UDF_SOURCE>
+                    <VALUE>ESMA_10_788</VALUE>
+                </UDF_record>
+                <UDF_record>
+                    <LABEL>UCITS_ELIGIBLE</LABEL>
+                    <PURPOSE>IMT</PURPOSE>
+                    <UDF_SOURCE>CETREL</UDF_SOURCE>
+                    <VALUE>N</VALUE>
+                </UDF_record>
+            </UDF_set>
+            <UNDERLYING_CUSIP>531229607</UNDERLYING_CUSIP>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

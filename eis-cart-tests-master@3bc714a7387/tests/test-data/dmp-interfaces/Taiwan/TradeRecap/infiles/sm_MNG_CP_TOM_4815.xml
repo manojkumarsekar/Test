@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="3/26/2019" CREATE_DATE="3/26/2019" RECORDS="1">
+    <ASSET><FUND_OPEN_END>
+        <ACCRUAL_DT>12/25/2013</ACCRUAL_DT>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>2/13/2019 5:07:32.893</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TW</COUNTRY>
+        <CPN_TYPE>F</CPN_TYPE>
+		<COUP_FREQ>M</COUP_FREQ>
+        <COUPON_FIX>6.9</COUPON_FIX>
+        <CURRENCY>TWD</CURRENCY>
+        <CUSIP>TEST14815</CUSIP>
+        <CUSIP2_set SIZE="1">
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>TEST04815</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>TEST04815</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>TEST00048153</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>D30360</DATE_CONV>
+        <DELAY_CONV>C</DELAY_CONV>
+        <DESC_INSTMT>CAPITAL GLO BIOTECH FUND-TWD</DESC_INSTMT>
+        <DESC_INSTMT2>EE</DESC_INSTMT2>
+        <EXCHANGE>BLN</EXCHANGE>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUE_DT>12/25/2013</ISSUE_DT>
+        <LEAD_MGR>1634</LEAD_MGR>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>US</MARKET>
+        <MATURITY>12/25/2019</MATURITY>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="1">
+            <NOTES_record>
+                <EFF_DT>6/27/2018</EFF_DT>
+                <INSTMT>ESI: remove % flag from pricing</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>p9detan</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_CAL>TW</PMT_CAL>
+        <PMT_FREQ_TYPE>1</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <PRIN_FREQ>M</PRIN_FREQ>
+        <RATING_set SIZE="1">
+            <RATING_record>
+                <AGY>10403</AGY>
+                <DATE>8/28/2017</DATE>
+                <VALUE>NR</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <RED_FREQ>365</RED_FREQ>
+        <REVIEWED_BY>adapjoy</REVIEWED_BY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>p9wchen</CODE>
+                <LEVEL>0</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>AR_COVERAGE</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SETTLE_CAL>TW</SETTLE_CAL>
+        <SM_SEC_GROUP>CASH</SM_SEC_GROUP>
+        <SM_SEC_TYPE>REP</SM_SEC_TYPE>
+        <SUB_FREQ>365</SUB_FREQ>
+        <TAX_STATUS>T</TAX_STATUS>
+        <TICKER>TEST04815</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL>Funds_Sec_ShOS</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>CMoney</UDF_SOURCE>
+                <VALUE>TEST04815</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>TWN_MNY_TRPlat</LABEL>
+                <PURPOSE>ESITW</PURPOSE>
+                <UDF_SOURCE>ESITW</UDF_SOURCE>
+                <VALUE>TEST04815</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </FUND_OPEN_END></ASSET>
+</ASSETS>

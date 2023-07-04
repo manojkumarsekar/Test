@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FUND_GROUP ASOF_DATE="7/25/2018" CREATE_DATE="7/25/2018" RECORDS="1">
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="1">
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>TH</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>THB</BASE_CURRENCY>
+        <COUNTRY>TH</COUNTRY>
+        <FUND>217</FUND>
+        <INCEPT_DATE>12/26/2016</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>217</CUSIP>
+                <DESC>MSCI Emerging Markets Index MYR N</DESC>
+                <NAME>MS_NETMYR</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PORTFOLIOS_FULL_NAME>217</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>217</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>217</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>TFB-AG</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <CUSTODIAN>CITIBANKIN</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>8008708004</CUSTODY_ACCT_NUM>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+</FUND_GROUP>

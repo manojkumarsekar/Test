@@ -1,0 +1,450 @@
+{
+  "portfoliosByPortfolioId": {
+    "4590": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4590,
+      "portfolioName": "UAT_EASTSPRING Training 03",
+      "portfolioTicker": "U_ESTRN03",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZHU2",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN03",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12342",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 03",
+          "benchTicker": "U_ESTRN03",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4591": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4591,
+      "portfolioName": "UAT_EASTSPRING Training 04",
+      "portfolioTicker": "U_ESTRN04",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZHY4",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12343",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN04",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 04",
+          "benchTicker": "U_ESTRN04",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4592": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4592,
+      "portfolioName": "UAT_EASTSPRING Training 05",
+      "portfolioTicker": "U_ESTRN05",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZHZ1",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN05",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12344",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 05",
+          "benchTicker": "U_ESTRN05",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4593": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4593,
+      "portfolioName": "UAT_EASTSPRING Training 06",
+      "portfolioTicker": "U_ESTRN06",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZJ14",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12345",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN06",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 06",
+          "benchTicker": "U_ESTRN06",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4594": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4594,
+      "portfolioName": "UAT_EASTSPRING Training 07",
+      "portfolioTicker": "U_ESTRN07",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZJ30",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN07",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12346",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 07",
+          "benchTicker": "U_ESTRN07",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4595": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4595,
+      "portfolioName": "UAT_EASTSPRING Training 08",
+      "portfolioTicker": "U_ESTRN08",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZJA4",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN08",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12347",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 08",
+          "benchTicker": "U_ESTRN08",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4596": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4596,
+      "portfolioName": "UAT_EASTSPRING Training 09",
+      "portfolioTicker": "U_ESTRN09",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZJC0",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12348",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN09",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 09",
+          "benchTicker": "U_ESTRN09",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4597": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4597,
+      "portfolioName": "UAT_EASTSPRING Training 10",
+      "portfolioTicker": "U_ESTRN10",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZJD8",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12349",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN10",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 10",
+          "benchTicker": "U_ESTRN10",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4588": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4588,
+      "portfolioName": "UAT_EASTSPRING Training 01",
+      "portfolioTicker": "U_ESTRN01",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZHG3",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN01",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "TSTARCODE5678",
+          "orgName": "TESTADMN",
+          "extEntityType": "ADMN",
+          "orgId": 38140
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "1234",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 01",
+          "benchTicker": "U_ESTRN01",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "4589": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": 4589,
+      "portfolioName": "UAT_EASTSPRING Training 02",
+      "portfolioTicker": "U_ESTRN02",
+      "baseCcy": "SGD",
+      "portfolioCountry": "SG",
+      "portfolioInception": "2018-01-01",
+      "mandate": "BAL-GLOB",
+      "legalStructure": "DOM-COMM",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZHL2",
+      "portfolioType": "SEP-ACCT",
+      "portfolioTaxId": " ",
+      "altFundId": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "12341",
+          "orgName": "TESTCUS",
+          "extEntityType": "CUS2",
+          "orgId": 9412
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN02",
+          "orgName": "TSTFC",
+          "extEntityType": "FUTR",
+          "orgId": 9644
+        },
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/ExternPortfoliosRecord",
+          "extPortfolioId": "U_ESTRN02",
+          "orgName": "ESITRN",
+          "extEntityType": "CNSL",
+          "orgId": 38321
+        }
+      ],
+      "index": [
+        {
+          "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/BenchMarkPortfoliosRecord",
+          "assetId": "BRS36LJ92",
+          "benchName": "UAT_EASTSPRING Training 02",
+          "benchTicker": "U_ESTRN02",
+          "benchPriority": 1,
+          "benchType": "RISK",
+          "startDate": "2017-12-29"
+        }
+      ]
+    },
+    "-787": {
+      "@type": "https://aladdin.io/model/portfolio-mgmt/portfolios/Portfolios.v1.json#/PortfoliosRecordByPortfolio",
+      "portfolioId": -787,
+      "portfolioName": "ESI_TRN",
+      "portfolioTicker": "ESI_TRN",
+      "baseCcy": "USD",
+      "primaryPmId": "undefined",
+      "assetId": "BPM14ZPJ8",
+      "altFundId": [],
+      "index": []
+    }
+  },
+  "errors": {}
+}

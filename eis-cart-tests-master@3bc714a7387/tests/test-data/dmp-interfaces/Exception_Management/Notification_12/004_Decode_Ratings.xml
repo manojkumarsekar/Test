@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DECODES ASOF_DATE="8/27/2020" CREATE_DATE="8/27/2020" RECORDS="238">
+    <DECODE>
+        <DECODE_set SIZE="2">
+            <DECODE_record>
+                <CDE>T</CDE>
+                <MEANING>Dirty Bond Trading</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>X</CDE>
+                <MEANING>Non-Dollar Financing (FES)</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>STRUCTURED_BY</TAG_NAME>
+    </DECODE>
+    <DECODE>
+        <DECODE_set SIZE="7">
+            <DECODE_record>
+                <CDE>SUPSEN</CDE>
+                <MEANING>SUPER SENIOR</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>SENIOR</CDE>
+                <MEANING>SENIOR</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>MEZZANIN</CDE>
+                <MEANING>MEZZANINE</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>SUB</CDE>
+                <MEANING>SUBORDINATED</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>PFD</CDE>
+                <MEANING>PREFERRED</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>JUNMEZZ</CDE>
+                <MEANING>JUNIOR MEZZANINE</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>EQUITY</CDE>
+                <MEANING>EQUITY</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>STR_PROD_STRUCT</TAG_NAME>
+    </DECODE>
+    <DECODE>
+        <DECODE_set SIZE="3">
+            <DECODE_record>
+                <CDE>212</CDE>
+                <MEANING>S&amp;P Underlying Credit Program</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>29027</CDE>
+                <MEANING>ESI TH ICR Long Term</MEANING>
+            </DECODE_record>
+            <DECODE_record>
+                <CDE>29028</CDE>
+                <MEANING>ESI TH ICR Short Term</MEANING>
+            </DECODE_record>
+        </DECODE_set>
+        <TAG_NAME>RATING AGENCIES</TAG_NAME>
+    </DECODE>
+</DECODES>

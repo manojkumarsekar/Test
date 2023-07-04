@@ -1,0 +1,4 @@
+Security_ID|Fund_ID|Transaction_ID|Transaction_Type|Transaction_Date|Execution_Date|Execution_Time|Settlement_Date|Quantity|Trade_Currency|Trade_Price|Rev_Orig_Transaction_ID
+TH0101A10Z01|LF6|TMFATRN001${TRD_VAR_NUM_1}|S|${CURR_DATE}|${CURR_DATE}|12:00:00|${CURR_DATE_1}|101|JPY|102.369141|
+TH0268010Z03|TB3|TMFATRN002${TRD_VAR_NUM_1}|S|${CURR_DATE}|${CURR_DATE}|18:51:36|${CURR_DATE_1}|103|THB|104.50000000|
+End of File

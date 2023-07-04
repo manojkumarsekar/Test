@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseMDSIssuePointValidationSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseMDSIssuePointValidationAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element minOccurs="0" name="BulkSize" type="xs:integer"/><xs:element minOccurs="0" name="Calendar" type="xs:string"><xs:annotation><xs:documentation>Override Calendar if it's not specified</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="DataSources_BLANK_ID" type="xs:string"><xs:annotation><xs:documentation>DataSources ID</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="FundType" type="xs:string"><xs:annotation><xs:documentation>fund type, parameter for BidAsk Tolerance check</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Ignore_BLANK_Issue_BLANK_MAT_EXP_TMS" type="xs:boolean"><xs:annotation><xs:documentation>Ignore Issue Maturity Expiry Date</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="IgnorePriceValidityForComparison" type="xs:boolean"><xs:annotation><xs:documentation>Used for tolerance check activity.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="IsGoldenPriceValidate" type="xs:boolean"><xs:annotation><xs:documentation>this flag will decide whether to run Golden Price Calculation Rule or not.</xs:documentation></xs:annotation></xs:element><xs:element name="JobDefinitionId" type="xs:string"><xs:annotation><xs:documentation>JobDefinitionId (FT_T_JBDF)</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Markets_BLANK_ID" type="xs:string"><xs:annotation><xs:documentation>Markets ID</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Number_BLANK_of_BLANK_threads" type="xs:integer"><xs:annotation><xs:documentation>Number of threads</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Observation_BLANK_Period" type="xs:integer"><xs:annotation><xs:documentation>Observation Period</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Override_BLANK_suspect_BLANK_status" type="xs:boolean"><xs:annotation><xs:documentation>Override suspect status</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Price_BLANK_Day_BLANK_Frequency" type="xs:string"><xs:annotation><xs:documentation>Price Day Frequency</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Price_BLANK_Source_BLANK_Types" type="xs:string"><xs:annotation><xs:documentation>Price Source Type</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Price_BLANK_Types" type="xs:string"><xs:annotation><xs:documentation>Price Types</xs:documentation></xs:annotation></xs:element><xs:element name="PricePointEventDefinitionId" type="xs:string"><xs:annotation><xs:documentation>PricePointEventDefinitionId PPED_OID from FT_T_PPED table</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Processing_BLANK_Date" type="xs:dateTime"><xs:annotation><xs:documentation>Processing Date</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Qualifying_BLANK_type_BLANK_for_BLANK_Golden_BLANK_Price_BLANK_Check" type="xs:string"><xs:annotation><xs:documentation>if ALL - create GRPC with SUSPECT price, &#xd;
+
+
+
+
+
+
+
+if VALID - create GRPC with VALID price</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="RunCalendarCheck" type="xs:boolean"><xs:annotation><xs:documentation>Set false to turn off the Calendar check</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="WriteValidStatusRecords" type="xs:boolean"><xs:annotation><xs:documentation>write ISPS entry for VALID price or not (default no)</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="MDSIssuePointValidationResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseMDSIssuePointValidationSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseMDSIssuePointValidationAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:MDSIssuePointValidationResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

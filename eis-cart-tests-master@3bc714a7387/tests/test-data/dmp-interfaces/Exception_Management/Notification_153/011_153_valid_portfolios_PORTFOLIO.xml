@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FUND_GROUP ASOF_DATE="11/1/2018" CREATE_DATE="11/1/2018" RECORDS="586">
+    <FUND_MEMBER>
+        <ALT_FUND_ID_set SIZE="5">
+            <ALT_FUND_ID>
+                <FUND_ID>VND90000888822</FUND_ID>
+                <LOC>STANDARDCH</LOC>
+                <LOC_TYPE>:VND</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>VVPVLD</FUND_ID>
+                <LOC>BNPACCOUNT</LOC>
+                <LOC_TYPE>ACCT</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>PCA</LOC>
+                <LOC_TYPE>ASA</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>ESI</LOC>
+                <LOC_TYPE>ASM</LOC_TYPE>
+            </ALT_FUND_ID>
+            <ALT_FUND_ID>
+                <FUND_ID>0</FUND_ID>
+                <LOC>VN</LOC>
+                <LOC_TYPE>MNGR</LOC_TYPE>
+            </ALT_FUND_ID>
+        </ALT_FUND_ID_set>
+        <BASE_CURRENCY>VND</BASE_CURRENCY>
+        <COUNTRY>VN</COUNTRY>
+        <CUSTODIAN>STANDARDCH</CUSTODIAN>
+        <CUSTODY_ACCT_NUM>133821200010</CUSTODY_ACCT_NUM>
+        <FUND>9671</FUND>
+        <INCEPT_DATE>8/1/2018</INCEPT_DATE>
+        <INDEX_set SIZE="1">
+            <INDEX>
+                <CUSIP>BRT93RB62</CUSIP>
+                <DESC>Fund Has No Benchmark In VND</DESC>
+                <NAME>NOBENCHVND</NAME>
+                <PRIORITY>1</PRIORITY>
+                <TYPE>RISK</TYPE>
+            </INDEX>
+        </INDEX_set>
+        <INVESTMENT_TYPE>BAL-GLOB</INVESTMENT_TYPE>
+        <LEGAL_STRUCTURE>DOM-COMM</LEGAL_STRUCTURE>
+        <PM_NAME>e4trquan</PM_NAME>
+        <PORTFOLIOS_FULL_NAME>LF CREDIT SUB-FUND</PORTFOLIOS_FULL_NAME>
+        <PORTFOLIOS_PORTFOLIO_NAME>VVPVLD</PORTFOLIOS_PORTFOLIO_NAME>
+        <PORTFOLIO_CUSIP>BPM1PYCZ6</PORTFOLIO_CUSIP>
+        <PORTFOLIO_GROUP>ESI_DMP</PORTFOLIO_GROUP>
+        <PORTFOLIO_TYPE>SEP-ACCT</PORTFOLIO_TYPE>
+        <TAX_ID></TAX_ID>
+    </FUND_MEMBER>
+</FUND_GROUP>

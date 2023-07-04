@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+           <soapenv:Header/>
+               <soapenv:Body>
+                   <even:RaiseLDAPSynchronizationAsynchron>
+                       <even:DeleteNonExistentUsers>${DELETENONEXISTENTUSERS}</even:DeleteNonExistentUsers>
+                       <even:LDAPPassword>${LDAPPASSWORD}</even:LDAPPassword>
+                       <even:LDAPServerURL>${LDAPSERVERURL}</even:LDAPServerURL>
+                       <even:LDAPUser>${LDAPUSER}</even:LDAPUser>
+                       <even:RoleBasePath>${ROLEBASEPATH}</even:RoleBasePath>
+                       <even:RoleFilter>${ROLEFILTER}</even:RoleFilter>
+                       <even:RoleIdentifierAttribute>${ROLEIDENTIFIERATTRIBUTE}</even:RoleIdentifierAttribute>
+                       <even:RoleMemberAttribute>${ROLEMEMBERATTRIBUTE}</even:RoleMemberAttribute>
+                       <even:UserBasePath>${USERBASEPATH}</even:UserBasePath>
+                       <even:UserFilter>${USERFILTER}</even:UserFilter>
+                       <even:UserIdentifierAttribute>${USERIDENTIFIERATTRIBUTE}</even:UserIdentifierAttribute>                       
+                       <even:UserRolesAttribute>${USERROLESATTRIBUTE}</even:UserRolesAttribute>
+                   </even:RaiseLDAPSynchronizationAsynchron>
+               </soapenv:Body>
+</soapenv:Envelope>

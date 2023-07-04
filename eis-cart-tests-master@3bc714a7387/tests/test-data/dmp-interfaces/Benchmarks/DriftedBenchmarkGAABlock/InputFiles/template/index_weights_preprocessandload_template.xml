@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INDEXES ASOF_DATE="${DYNAMIC_DATE}" CREATE_DATE="${DYNAMIC_DATE}" RECORDS="3">
+    <INDEX>
+        <CUSIP>BRTC8W5U3</CUSIP>
+        <DESC>ASPBFS-COMP-GAA Forward</DESC>
+        <NAME>ASPBFSCOMF</NAME>
+        <SUB_INDEX_set SIZE="4">
+            <SUB_INDEX>
+                <CUSIP>BRT5TG2L3</CUSIP>
+                <DESC>ICE BofAML Euro Corporate Index (ER00) 100% JPY Hedged Index Forward</DESC>
+                <NAME>MLEURCOJHF</NAME>
+                <WEIGHT>0.1200000000</WEIGHT>
+            </SUB_INDEX>
+            <SUB_INDEX>
+                <CUSIP>BRTC69CL8</CUSIP>
+                <DESC>ICE BofAML U.S. Corporates BBB3-A3 Rated Index (H130) JPY Hedged Index Forw</DESC>
+                <NAME>MLH130USHF</NAME>
+                <WEIGHT>0.1200000000</WEIGHT>
+            </SUB_INDEX>
+        </SUB_INDEX_set>
+    </INDEX>
+    <INDEX>
+        <CUSIP>BRW61A0B4</CUSIP>
+        <DESC>MP_ASPRAB Performance Shell</DESC>
+        <NAME>MP_TESTFILTER</NAME>
+        <SUB_INDEX_set SIZE="12">
+            <SUB_INDEX>
+                <CUSIP>BES3AQTC7</CUSIP>
+                <DESC>AA_BLOCK - PPJEQ</DESC>
+                <NAME>AA_PPJEQ</NAME>
+                <WEIGHT>0.0084353267</WEIGHT>
+            </SUB_INDEX>
+            <SUB_INDEX>
+                <CUSIP>BES3AXPR3</CUSIP>
+                <DESC>AA_BLOCK - PRUUHYD</DESC>
+                <NAME>AA_PRUUHYD</NAME>
+                <WEIGHT>0.0136736581</WEIGHT>
+            </SUB_INDEX>
+        </SUB_INDEX_set>
+    </INDEX>
+    <INDEX>
+        <CUSIP>BRW61A0D0</CUSIP>
+        <DESC>SAA Benchmark of ASPRAB</DESC>
+        <NAME>SAA_TESTFILTER</NAME>
+        <SUB_INDEX_set SIZE="12">
+            <SUB_INDEX>
+                <CUSIP>BPM158TP9</CUSIP>
+                <DESC>AA_BLOCK - TOPIX</DESC>
+                <NAME>AA_TOPIX</NAME>
+                <WEIGHT>0.0087141308</WEIGHT>
+            </SUB_INDEX>
+            <SUB_INDEX>
+                <CUSIP>BRTC5A997</CUSIP>
+                <DESC>AA_BLOCK - ICE BofAML US HY Constrained Index</DESC>
+                <NAME>AA_HUC0USD</NAME>
+                <WEIGHT>0.0137616847</WEIGHT>
+            </SUB_INDEX>
+            <SUB_INDEX>
+                <CUSIP>BES3AXPR3</CUSIP>
+                <DESC>AA_BLOCK - PRUUHYD</DESC>
+                <NAME>AA_PRUUHYD</NAME>
+                <WEIGHT>0.0136736581</WEIGHT>
+            </SUB_INDEX>
+        </SUB_INDEX_set>
+    </INDEX>
+</INDEXES>

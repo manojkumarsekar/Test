@@ -1,0 +1,4 @@
+Security Id|Fund Id|Transaction Id|Transaction Type|Transaction Date|Execution Date|Execution Time|Settlement Date|Quantity|Trade Currency|Trade Price|Reversing Original Transaction Id
+KR7055550008|E41231|KRFATRN001${TRD_VAR_NUM_1}|S|${CURR_DATE}|${CURR_DATE}|21:13:41|${CURR_DATE_1}|42|KRW|28350|
+KR7015760002|E40537|KRFATRN002${TRD_VAR_NUM_1}|S|${CURR_DATE}|${CURR_DATE}|21:13:41|${CURR_DATE_1}|14304|KRW|19233|
+End of File

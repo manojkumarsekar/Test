@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2020-04-03" CREATE_DATE="4/3/2020" RECORDS="1">
+    <ASSET><BND_CORP>
+        <ACCRUAL_DT>5/21/2015</ACCRUAL_DT>
+        <AMT_ISU>1400000000</AMT_ISU>
+        <ANNOUNCE_DT>5/13/2015</ANNOUNCE_DT>
+        <CALC_TYPE>639</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>4/3/2020 6:24:40.556</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TH</COUNTRY>
+        <COUPON_FIX>3.98</COUPON_FIX>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>BPM0C6UC4</CUSIP>
+        <CUSIP2_set SIZE="5">
+            <CUSIP2_record>
+                <CODE>B</CODE>
+                <IDENTIFIER>EK9370991</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>BYVXCS7</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>TH0961035506</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>N</CODE>
+                <IDENTIFIER>Y9002LAC9</IDENTIFIER>
+            </CUSIP2_record>
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>0x00102c91839401bb</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="2">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL1315350</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>60030</CODE>
+                <IDENTIFIER>TTW255A</IDENTIFIER>
+                <PURPOSE>THAIID</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>TTW PCL</DESC_INSTMT>
+        <ISSUER_ID>D63742</ISSUER_ID>
+        <ISSUE_DT>5/21/2015</ISSUE_DT>
+        <ISSUE_EXCHANGES_set SIZE="1">
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>BDC</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+        </ISSUE_EXCHANGES_set>
+        <ISSUE_PRICE>100</ISSUE_PRICE>
+        <LEH_INDUSTRY>OTHU</LEH_INDUSTRY>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TH</MARKET>
+        <MARKET_ISSUE>PRIVATE</MARKET_ISSUE>
+        <MATURITY>5/21/2025</MATURITY>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>3010</CODE>
+                <LEVEL>0</LEVEL>
+                <TYPE>BICS_SECTOR</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>BND_CORP</SEC_TYPE>
+        <SM_SEC_GROUP>BND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>CORP</SM_SEC_TYPE>
+        <STRUCTURE>SENIOR</STRUCTURE>
+        <TICKER>TTWTB</TICKER>
+    </BND_CORP></ASSET>
+</ASSETS>

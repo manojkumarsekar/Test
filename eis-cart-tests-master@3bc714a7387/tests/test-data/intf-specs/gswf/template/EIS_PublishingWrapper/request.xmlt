@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_PublishingWrapperEventAsynchron>
+         <even:DateAppendSQL>select sysdate from dual</even:DateAppendSQL>
+         <even:DateFormat>yyyyMMdd</even:DateFormat>
+         <!--<even:FilePerEntity>FALSE</even:FilePerEntity> -->
+         <even:No._BLANK_Of_BLANK_Parallel_BLANK_Branches>20</even:No._BLANK_Of_BLANK_Parallel_BLANK_Branches>
+         <even:PublishingBulkSize>500</even:PublishingBulkSize>
+         <even:PublishingFileName>${PUBLISHING_FILE_NAME}</even:PublishingFileName>
+         <even:RecordTag>${RECORD_TAG}</even:RecordTag>
+         <!--<even:addCorrelationHeader>FALSE</even:addCorrelationHeader> -->
+         <!--<even:addCoveringXMLHeader>TRUE</even:addCoveringXMLHeader> -->
+         <!--<even:appendEOFLine>FALSE</even:appendEOFLine> -->
+         <even:bulkSize>500</even:bulkSize>
+         <even:headerCount>1</even:headerCount>
+         <!--<even:inlineAOIProcessing>FALSE</even:inlineAOIProcessing> -->
+         <even:jobId>${JOB_ID}</even:jobId>
+         <even:messageType>${MESSAGE_TYPE}</even:messageType>
+         <even:publishingMode>BATCH</even:publishingMode>
+         <even:sql>${SQL}</even:sql>
+         <even:subscriptionName>${SUBSCRIPTION_NAME}</even:subscriptionName>
+         <even:transactionId>${TRANSACTION_ID}</even:transactionId>
+      </even:RaiseEIS_PublishingWrapperEventAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,2 @@
+SourceId,ClientCode,AccountCode,AccountName,SecurityCode,IsinCode,SedolCode,SecurityName,PortfolioCcy,SecurityCcy,Holding,PriceL,PriceP,AccruedInterestL,AccruedInterestP,CleanValuationL,CleanValuationP,ValuationL,ValuationP,ExchRateP_USD,ValuationUSD,ValuationDate,CountryIssue,BCAT_Desc,BSIT_P2,BSIT_P3,BSIT_P4,BSIT_P5,BSIT_P6,BSIT_P7,BSIT_P8,BSIT_P9,ESI_CORE_L2,ESI_E3_CTAG
+BNP,ARBRUF,ARBRUF,28TE,,TEST00067344,,TAIWAN SEMICONDUCTOR MANUFACTURING,SGD,,,,,,,,,,,,,15/10/2005,TW,,,,,,,,,,Fixed Income,Non Credit

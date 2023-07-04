@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_RefreshMViewAsynchron>
+         <even:MViewName>${MVIEW_NAME}</even:MViewName>
+         <even:ProcedureName>${PROC_NAME}</even:ProcedureName>
+         <even:SubscriptionName>${SUBSCRIPTION_NAME!}</even:SubscriptionName>
+      </even:RaiseEIS_RefreshMViewAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

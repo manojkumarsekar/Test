@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_SendCDFUpdateEmailAsynchron>
+             <even:CCEmail>${CC_EMAIL!}</even:CCEmail>
+	     <even:EmailFooter>${EMAIL_FOOTER!}</even:EmailFooter>
+		 <even:EmailFooterNotfcn>${EMAIL_NOTFCN_FOOTER!}</even:EmailFooterNotfcn>
+		 <even:EmailHeader>${EMAIL_HEADER!}</even:EmailHeader>
+		 <even:EmailHeaderNotfcn>${EMAIL_NOTFCN_HEADER!}</even:EmailHeaderNotfcn>
+		 <even:RecipientEmailNotfcn>${RECIPIENTS_NOTFCN_EMAIL!}</even:RecipientEmailNotfcn>
+		 <even:SenderEmail>${SENDER_EMAIL!}</even:SenderEmail>
+		 <even:SenderEmailNotfcn>${SENDER_NOTFCN_EMAIL!}</even:SenderEmailNotfcn>
+      </even:RaiseEIS_SendCDFUpdateEmailAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

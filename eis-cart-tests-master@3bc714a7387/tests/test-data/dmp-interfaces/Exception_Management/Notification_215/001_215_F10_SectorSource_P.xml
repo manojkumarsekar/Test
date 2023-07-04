@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ASSETS ASOF_DATE="2020-09-25" CREATE_DATE="9/25/2020" RECORDS="9995">
+    <ASSET>
+        <ISSUE>
+            <CALC_TYPE>0</CALC_TYPE>
+            <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+            <CHANGE_DT>9/5/2018 11:14:59.206</CHANGE_DT>
+            <COMPOUND_FLAG>0</COMPOUND_FLAG>
+            <COUNTRY>VN</COUNTRY>
+            <COUNTRY_CLASSIFICATION_set SIZE="3">
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>VN</CNTRY>
+                    <CNTRY_SRC>REU</CNTRY_SRC>
+                    <CNTRY_TYPE>COI</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>VN</CNTRY>
+                    <CNTRY_SRC>BLK</CNTRY_SRC>
+                    <CNTRY_TYPE>COT</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+                <COUNTRY_CLASSIFICATION_record>
+                    <CNTRY>VN</CNTRY>
+                    <CNTRY_SRC>FV0</CNTRY_SRC>
+                    <CNTRY_TYPE>IDX</CNTRY_TYPE>
+                </COUNTRY_CLASSIFICATION_record>
+            </COUNTRY_CLASSIFICATION_set>
+            <CURRENCY>VND</CURRENCY>
+            <CUSIP>SBP3RNW58</CUSIP>
+            <CUSIP2_set SIZE="3">
+                <CUSIP2_record>
+                    <CODE>C</CODE>
+                    <IDENTIFIER>BP3RNW5</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>R</CODE>
+                    <IDENTIFIER>MWG.HM</IDENTIFIER>
+                </CUSIP2_record>
+                <CUSIP2_record>
+                    <CODE>2</CODE>
+                    <IDENTIFIER>MWG VN</IDENTIFIER>
+                </CUSIP2_record>
+            </CUSIP2_set>
+            <CUSIP_ALIAS_set SIZE="4">
+                <CUSIP_ALIAS_record>
+                    <CODE>8888</CODE>
+                    <IDENTIFIER>00100b000abe50f9</IDENTIFIER>
+                    <PURPOSE>REUQID</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>145986</CODE>
+                    <IDENTIFIER>ESL8531205</IDENTIFIER>
+                    <PURPOSE>ESI</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>70</CODE>
+                    <IDENTIFIER>VN000000MWG0</IDENTIFIER>
+                    <PURPOSE>ISIN</PURPOSE>
+                </CUSIP_ALIAS_record>
+                <CUSIP_ALIAS_record>
+                    <CODE>80</CODE>
+                    <IDENTIFIER>Y604K2105</IDENTIFIER>
+                    <PURPOSE>CINS</PURPOSE>
+                </CUSIP_ALIAS_record>
+            </CUSIP_ALIAS_set>
+            <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+            <DESC_INSTMT>MOBILE WORLD INVESTMENT CORP</DESC_INSTMT>
+            <DR_TYPE>N</DR_TYPE>
+            <EXCHANGE>XSTC</EXCHANGE>
+            <FLAG_144A>N</FLAG_144A>
+            <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+            <ISSUER_ID>G72724</ISSUER_ID>
+            <LIQUIDITY>L</LIQUIDITY>
+            <MARKET>VN</MARKET>
+            <MIN_LOT_SIZE>10</MIN_LOT_SIZE>
+            <MIN_TRD_SIZE>10</MIN_TRD_SIZE>
+            <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+            <MTN>N</MTN>
+            <NTL_FLAG>N</NTL_FLAG>
+            <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+            <PRICE_AS_PCT>N</PRICE_AS_PCT>
+            <REVIEWED_BY>ksmith</REVIEWED_BY>
+            <SECTOR_set SIZE="4">
+                <SECTOR_record>
+                    <CODE>e4levu</CODE>
+                    <LEVEL>77</LEVEL>
+                    <SECTOR_SOURCE>1</SECTOR_SOURCE>
+                    <TYPE>AR_COVERAGE</TYPE>
+                </SECTOR_record>
+                <SECTOR_record>
+                    <CODE>e4ngthao</CODE>
+                    <LEVEL>78</LEVEL>
+                    <SECTOR_SOURCE>1</SECTOR_SOURCE>
+                    <TYPE>AR_COVERAGE</TYPE>
+                </SECTOR_record>
+                <SECTOR_record>
+                    <CODE>HOCH</CODE>
+                    <LEVEL>1</LEVEL>
+                    <TYPE>REUT_SEGM</TYPE>
+                </SECTOR_record>
+                <SECTOR_record>
+                    <CODE>e4levu</CODE>
+                    <LEVEL>77</LEVEL>
+                    <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                    <TYPE>SBP3RNW58</TYPE>
+                </SECTOR_record>
+            </SECTOR_set>
+            <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+            <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+            <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+            <TICKER>MWG</TICKER>
+            <UDF_set SIZE="1">
+                <UDF_record>
+                    <LABEL>Funds_Sec_ShOS</LABEL>
+                    <PURPOSE>CMoney</PURPOSE>
+                    <VALUE>1311273990.238</VALUE>
+                </UDF_record>
+            </UDF_set>
+            <WI_FLAG>N</WI_FLAG>
+        </ISSUE>
+    </ASSET>
+</ASSETS>

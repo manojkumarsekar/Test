@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseBulkProcessFeedMessageAsynchron>
+         <!--Optional:-->
+         <even:InternalPublishingEvent>?</even:InternalPublishingEvent>
+         <!--Optional:-->
+         <even:IsWorkstationMessage>?</even:IsWorkstationMessage>
+         <even:Message>?</even:Message>
+         <!--Optional:-->
+         <even:MessageMetaData>
+            <!--You may enter ANY elements at this point-->
+         </even:MessageMetaData>
+         <even:MessageType>?</even:MessageType>
+         <!--Optional:-->
+         <even:ProcessFilteredMessages>?</even:ProcessFilteredMessages>
+         <even:TransactionId>?</even:TransactionId>
+         <!--Zero or more repetitions:-->
+         <even:messageArray>?</even:messageArray>
+      </even:RaiseBulkProcessFeedMessageAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

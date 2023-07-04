@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EventRaiserService" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:tns="http://www.thegoldensource.com/EventRaiserService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="RaiseSchedulePublishingSynchron" type="tns:inputParameterType"/>
+      <xs:element name="RaiseSchedulePublishingAsynchron" type="tns:inputParameterType"/>
+      <xs:complexType name="inputParameterType">
+        <xs:sequence><xs:element name="Database" type="xs:string"><xs:annotation><xs:documentation>Database JNDI name</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Email_BLANK_Subject" type="xs:string"><xs:annotation><xs:documentation>Email Subject to be provided</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Email_BLANK_Text" type="xs:string"><xs:annotation><xs:documentation>Sample Email message to be sent.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Entity_BLANK_Filter_BLANK_Condition" type="xs:string"><xs:annotation><xs:documentation>Allows special condition for a particular Entity node. Condition to select single datagroup from multi occuring datagroup.&#xd;
+
+
+
+
+
+
+
+</xs:documentation></xs:annotation></xs:element><xs:element name="EntityMode" type="xs:string"><xs:annotation><xs:documentation>Defines whether Business Entities or Models should be&#xd;
+
+
+
+
+
+
+
+used for publishing.Possible values are MODEL_ENTITY or BUSINESS_ENTITY.Default value is MODEL_ENTITY.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Extract_BLANK_All_BLANK_fields_BLANK_of_BLANK_Related_BLANK_entity" type="xs:boolean"><xs:annotation><xs:documentation>It set to true then all fields of related entity gets extracted and if set to false then only selected fields of related entity gets extracted. Fields to be selected can be defined in FT_BE_BERP table. Default value is true.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Handle_BLANK_Extraction_BLANK_Failures" type="xs:string"><xs:annotation><xs:documentation>This value is used for Exception Handling configuration.&#xd;
+
+
+
+
+
+
+
+</xs:documentation></xs:annotation></xs:element><xs:element name="No._BLANK_Of_BLANK_Parallel_BLANK_Branches" type="xs:integer"><xs:annotation><xs:documentation>Defines how many parallel branches to be run for publishing.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Preferred_BLANK_Language" type="xs:string"><xs:annotation><xs:documentation>Preferred Language</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Preferred_BLANK_Vendor" type="xs:string"><xs:annotation><xs:documentation>Preferred Vendor</xs:documentation></xs:annotation></xs:element><xs:element name="Publishing_BLANK_Destination" type="xs:string"><xs:annotation><xs:documentation>Defines where to publish.Possible value are FILE,EMAIL,JMS.Default value is FILE.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Publishing_BLANK_File_BLANK_Directory" type="xs:string"><xs:annotation><xs:documentation>Path of the directory where published data will be written to the file in the case when "Publishing Destination is "FILE".</xs:documentation></xs:annotation></xs:element><xs:element name="Publishing_BLANK_Model_BLANK_ID/Business_BLANK_Entity_BLANK_Name" type="xs:string"><xs:annotation><xs:documentation>Name of the MODEL/BUSINESS ENTITY to be used for publishing.</xs:documentation></xs:annotation></xs:element><xs:element name="Publishing_BLANK_Output_BLANK_Type" type="xs:string"><xs:annotation><xs:documentation>Defines format of published data.Possible value are XML and CSV.CSV is not  recommended for publishing multi occuring data group.Default value is XML.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Publishing_BLANK_Query" type="xs:string"><xs:annotation><xs:documentation>Identifies a list of enties to be published.This can be either EQL or SQL.&#xd;
+
+
+
+
+
+
+
+Please enter the query for publishing inside &lt;sql&gt; instr_id in (select instr_id from ft_t_issu) &lt;/sql&gt; if SQL is used.For EQL,please refer documentation.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="PublishingBulkSize" type="xs:integer"><xs:annotation><xs:documentation>Defines how many entities you want to extract in one bulk.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="QueryParameter" type="tns:mapType"><xs:annotation><xs:documentation>This should be used only when Publishing query has named parameter and should be used for EQL only.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Recipient's_BLANK_Email" type="xs:string"><xs:annotation><xs:documentation>List of Recipient's Email.This will be used only when PUBLISHING DESTINATION  is EMAIL.</xs:documentation></xs:annotation></xs:element><xs:element maxOccurs="unbounded" minOccurs="0" name="Select_BLANK_Fields_BLANK_Per_BLANK_Node" type="xs:string"><xs:annotation><xs:documentation>An array of select fields per node while extracting the entities.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Sender's_BLANK_Email" type="xs:string"><xs:annotation><xs:documentation>Sender's Email .This will be used only when PUBLISHING DESTINATION  is EMAIL.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Store_BLANK_Published_BLANK_Xml" type="xs:boolean"><xs:annotation><xs:documentation>Store Published Xml to PBDP table if its true.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="Threshold_BLANK_for_BLANK_Extraction_BLANK_Failures" type="xs:string"><xs:annotation><xs:documentation>Value for this field should be specified in x/y format, both x and y is numeric. &#xd;
+
+
+
+
+
+
+
+Here x is percentage of instruments allowed to fail during extraction and y is minimum sampling size.</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="clearDomainCache" type="xs:boolean"><xs:annotation><xs:documentation>clearDomainCache</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="isSortingEnabled" type="xs:boolean"><xs:annotation><xs:documentation>this parameter will determine whether sorting is to be done for multi occuring data group if sorting parameter is defined for that multi occuring data group.True value will sort and vice versa.Default value is True</xs:documentation></xs:annotation></xs:element><xs:element minOccurs="0" name="transactionId" type="xs:string"><xs:annotation><xs:documentation>transactionId from standard file load which will be used in the message by mesage publishing</xs:documentation></xs:annotation></xs:element></xs:sequence>
+      </xs:complexType>
+      <xs:element name="outputParameter" type="tns:outputParameterType"/>
+      <xs:complexType name="outputParameterType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+          <xs:element name="finished" type="xs:boolean"/>
+          <xs:element name="failed" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SchedulePublishingResult" type="tns:flowResultType"/>
+      <xs:complexType name="flowResultType">
+        <xs:sequence>
+          <xs:element name="flowResultId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FaultReason" type="xs:string"/>
+      <xs:element name="WebServiceCallFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="tns:FaultReason"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="mapType"> <!-- GT 48634 -->
+      <xs:sequence>
+        <xs:any maxOccurs="unbounded" minOccurs="0" processContents="skip"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="inputParameterMessageSynchron">
+    <wsdl:part element="tns:RaiseSchedulePublishingSynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="inputParameterMessageAsynchron">
+    <wsdl:part element="tns:RaiseSchedulePublishingAsynchron" name="RaiseEventRequest"/>
+  </wsdl:message>
+  <wsdl:message name="outputParameterMessage">
+    <wsdl:part element="tns:outputParameter" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="flowResultIdMessage">
+    <wsdl:part element="tns:SchedulePublishingResult" name="RaiseEventResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceCallFault">
+    <wsdl:part element="tns:WebServiceCallFault" name="Reason"/>
+  </wsdl:message>
+  <wsdl:portType name="EventRaiserPortType">
+    <wsdl:operation name="RaiseEventSynchron">
+      <wsdl:documentation>Raise an application event synchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageSynchron"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <wsdl:documentation>Raise an application event asynchronously.</wsdl:documentation>
+      <wsdl:input message="tns:inputParameterMessageAsynchron"/>
+      <wsdl:output message="tns:flowResultIdMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <wsdl:documentation>Get the result of a given application event.</wsdl:documentation>
+      <wsdl:input message="tns:flowResultIdMessage"/>
+      <wsdl:output message="tns:outputParameterMessage"/>
+      <wsdl:fault message="tns:WebServiceCallFault" name="WebServiceCallFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventRaiserSoapBinding" type="tns:EventRaiserPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="RaiseEventSynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseEventAsynchron">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetEventResult">
+      <soap:operation soapAction="http://www.thegoldensource.com/EventRaiserService.wsdl"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceCallFault">
+        <soap:fault name="WebServiceCallFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventRaiserService">
+    <wsdl:port binding="tns:EventRaiserSoapBinding" name="EventRaiserPort">
+      <soap:address location="http://vsgeisldapp07.pru.intranet.asia:8680/standardvddb/webservice/Events"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

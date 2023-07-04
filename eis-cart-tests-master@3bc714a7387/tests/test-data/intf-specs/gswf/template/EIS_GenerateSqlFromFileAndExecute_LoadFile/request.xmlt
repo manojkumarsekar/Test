@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+                   <soapenv:Header/>
+                      <soapenv:Body>
+                           <even:RaiseEIS_GenerateSqlFromFileAndExecute_LoadFileAsynchron>
+                               <even:BulkSize>500</even:BulkSize>
+                               <even:Execute_Sql>${EXECUTE_SQL!}</even:Execute_Sql>
+                   			   		 <even:FileURI>${FILE_URI!}</even:FileURI>
+                               <even:MessageProcessingEvent>ProcessFeedMessage</even:MessageProcessingEvent>
+                               <even:MessageType_GenerateSqlFromFile>${MESSAGETYPE_GENERATESQLFROMFILE!}</even:MessageType_GenerateSqlFromFile>
+                               <even:MessageType_StandardFileLoad>${MESSAGETYPE_STANDARDFILELOAD!}</even:MessageType_StandardFileLoad>
+                               <even:OutputDirectory>${OUTPUT_DIRECTORY!}</even:OutputDirectory>
+												  		 <even:Parallel_BLANK_File_BLANK_Load_BLANK_Sub></even:Parallel_BLANK_File_BLANK_Load_BLANK_Sub>
+                               <even:ParallelBranches>2</even:ParallelBranches>
+                               <even:SuccessAction>${SUCCESS_ACTION!}</even:SuccessAction>
+                           </even:RaiseEIS_GenerateSqlFromFileAndExecute_LoadFileAsynchron>
+                      </soapenv:Body>
+                   </soapenv:Envelope>

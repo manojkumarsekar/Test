@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="1/8/2021" CREATE_DATE="1/8/2021" RECORDS="2">
+    <ASSET><BND_CORP>
+        <ACCRUAL_DT>1/22/2021</ACCRUAL_DT>
+        <AMT_ISU>3000000000</AMT_ISU>
+        <ANNOUNCE_DT>1/22/2021</ANNOUNCE_DT>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>1/8/2021 6:39:59.090</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>TH</COUNTRY>
+        <COUPON_FIX>1.75</COUPON_FIX>
+        <COUP_FREQ>S</COUP_FREQ>
+        <CPN_TYPE>F</CPN_TYPE>
+        <CURRENCY>THB</CURRENCY>
+        <CUSIP>BES3P9AH8</CUSIP>
+        <CUSIP2_set SIZE="1">
+            <CUSIP2_record>
+                <CODE>R</CODE>
+                <IDENTIFIER>0x00102c805641268d</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="4">
+            <CUSIP_ALIAS_record>
+                <CODE>60030</CODE>
+                <IDENTIFIER>CPF231A</IDENTIFIER>
+                <PURPOSE>THAIID</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>CPF231A</IDENTIFIER>
+                <PURPOSE>ESITF</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>CPF231AX</IDENTIFIER>
+                <PURPOSE>ESITF</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>CPF231AZ</IDENTIFIER>
+                <PURPOSE>ESITF</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DATE_CONV>ACT365</DATE_CONV>
+        <DESC_INSTMT>CHAROEN POKPHAND FOODS PCL</DESC_INSTMT>
+        <END_ADJ_FLAG>N</END_ADJ_FLAG>
+        <FIRST_PAY_DT>7/22/2021</FIRST_PAY_DT>
+        <FIRST_SETTLE_DT>1/22/2021</FIRST_SETTLE_DT>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_CCN>N</FLAG_CCN>
+        <FLAG_CONVERT>N</FLAG_CONVERT>
+        <FLAG_EOM>N</FLAG_EOM>
+        <FLAG_ERISA>N</FLAG_ERISA>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <FLAG_REG_RIGHTS>N</FLAG_REG_RIGHTS>
+        <ISSUER_ID>R69558</ISSUER_ID>
+        <ISSUE_DT>1/22/2021</ISSUE_DT>
+        <ISSUE_EXCHANGES_set SIZE="1">
+            <ISSUE_EXCHANGES_record>
+                <EXCHANGE>BDC</EXCHANGE>
+            </ISSUE_EXCHANGES_record>
+        </ISSUE_EXCHANGES_set>
+        <ISSUE_PRICE>100</ISSUE_PRICE>
+        <LEH_INDUSTRY>FOOD</LEH_INDUSTRY>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>TH</MARKET>
+        <MARKET_ISSUE>PRIVATE</MARKET_ISSUE>
+        <MATURITY>1/22/2023</MATURITY>
+        <MIN_LOT_SIZE>1000</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1000</MIN_TRD_SIZE>
+        <MODIFIED_BY>e4kawang</MODIFIED_BY>
+        <MTN>Y</MTN>
+        <NOTES_set SIZE="4">
+            <NOTES_record>
+                <EFF_DT>1/8/2021</EFF_DT>
+                <INSTMT>EISG: Moved ESITF ID from BES3QDDC6</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>1/8/2021</EFF_DT>
+                <INSTMT>EISG: Updated Setup as per EITH TFUND</INSTMT>
+                <SEQ_NUM>2</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>1/8/2021</EFF_DT>
+                <INSTMT>EISG: Pending Listing in BBG</INSTMT>
+                <SEQ_NUM>3</SEQ_NUM>
+                <USER_ID>e4kawang</USER_ID>
+            </NOTES_record>
+            <NOTES_record>
+                <EFF_DT>1/22/2021</EFF_DT>
+                <INSTMT>To Be Priced</INSTMT>
+                <SEQ_NUM>0</SEQ_NUM>
+                <USER_ID>EjvStatus</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_ADJ_METH>F</PMT_ADJ_METH>
+        <PMT_CAL>TH</PMT_CAL>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>Y</PRICE_AS_PCT>
+        <PRICING>100ths</PRICING>
+        <PUT_CALL> </PUT_CALL>
+        <RATING_set SIZE="4">
+            <RATING_record>
+                <AGY>1</AGY>
+                <DATE>12/14/2020</DATE>
+                <VALUE>NA</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>2</AGY>
+                <DATE>12/14/2020</DATE>
+                <VALUE>NA</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>3</AGY>
+                <DATE>12/14/2020</DATE>
+                <VALUE>NA</VALUE>
+            </RATING_record>
+            <RATING_record>
+                <AGY>10402</AGY>
+                <DATE>1/8/2021</DATE>
+                <VALUE>A+</VALUE>
+            </RATING_record>
+        </RATING_set>
+        <REVIEWED_BY>e4kawang</REVIEWED_BY>
+        <RISK_COUNTRY>TH</RISK_COUNTRY>
+        <ROUND_FLAG>R</ROUND_FLAG>
+        <ROUND_PRECISION>9</ROUND_PRECISION>
+        <SECTOR_set SIZE="1">
+            <SECTOR_record>
+                <CODE>FOOD</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>BARC_SECT</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>BND_CORP</SEC_TYPE>
+        <SM_SEC_GROUP>BND</SM_SEC_GROUP>
+        <SM_SEC_TYPE>CORP</SM_SEC_TYPE>
+        <STRUCTURE>SENIOR</STRUCTURE>
+        <TICKER>CPFTB</TICKER>
+        <UNITS>BONDS</UNITS>
+        <WI_FLAG>N</WI_FLAG>
+    </BND_CORP></ASSET>
+</ASSETS>

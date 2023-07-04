@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Snapshot Date="${SNAPSHOT_DATE}">
+    <Portfolios>
+        <Portfolio PortfolioId="PHKL_European_Multi">
+            <Asset AssetId="PHKL_European_Multi_${ISS_ID_COLL}_C" AssetName="${ISE_NME_COLL}" ExecutionVenue="XXXX" HasIntentionToExerciseVotingRights="False" HasTransferOfTitle="False" HasTransferOfVotingPower="False" InstrumentId="${ISS_ID_COLL}_C" MarketValue="" MarketValueInInstrumentCurrency="" Quantity="156003" SFTType="CollateralTaken"/>
+        </Portfolio>
+    </Portfolios>
+</Snapshot>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<USERS ASOF_DATE="11/25/2019" CREATE_DATE="11/25/2019" RECORDS="7">
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>ammar.ali@eastspring123.com</EMAIL>
+        <FNAME>Ammar</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>ESI_SG_Life_Team</USER_GROUP>
+        <USER_GROUP_DESC>ESI_SG_Life_Team</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>ammar.ali@e454.com</EMAIL>
+        <FNAME>Ammar</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>ESI_VIEW-ALL-INDICES</USER_GROUP>
+        <USER_GROUP_DESC>View permission on All Indices for Singapore Users</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>ammar.ali@eastspring.com</EMAIL>
+        <FNAME>Ammar</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Testing</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>ESI_VIEW_ALLexTW</USER_GROUP>
+        <USER_GROUP_DESC>ESI_VIEW_ALLexTW</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>ammar.ali@eastspring.com</EMAIL>
+        <FNAME>Ammar</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>G_VIEW_ONLY_BASE</USER_GROUP>
+        <USER_GROUP_DESC>G_VIEW_ONLY_BASE</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>ammar.ali@eastspring.com</EMAIL>
+        <FNAME>Ammar</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>raja.ramalingam@eastspring.com</EMAIL>
+        <FNAME>Raja</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>raja.ramalingam@eastspring.com</EMAIL>
+        <FNAME>Raja</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>	
+    <USER>
+        <ACCOUNT_CREATED>5/15/2019</ACCOUNT_CREATED>
+        <EMAIL>abhishek.anand@tmbameastspring.com</EMAIL>
+        <FNAME>Abhishek</FNAME>
+        <LAST_LOGIN>07/24/2019 11:55:07</LAST_LOGIN>
+        <LNAME>Ali</LNAME>
+        <LOGIN>e4aali</LOGIN>
+        <OFFICE_LOCATION>SG</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Unknown TBD</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>98905209</TEL_OFFICE>
+        <USER_GROUP>MST</USER_GROUP>
+        <USER_GROUP_DESC>Highest level of Client Hiearchy</USER_GROUP_DESC>
+    </USER>
+    <USER>
+        <ACCOUNT_CREATED>3/3/2020</ACCOUNT_CREATED>
+        <EMAIL>raisa.dsouza@thanachartfundeastspring.com</EMAIL>
+        <FNAME>Raisa</FNAME>
+        <LAST_LOGIN>12/15/2020 23:41:48</LAST_LOGIN>
+        <LNAME>Dsouza</LNAME>
+        <LOGIN>e4dsouzar</LOGIN>
+        <OFFICE_LOCATION>TFUND</OFFICE_LOCATION>
+        <PRIMARY_DEPT_NAME>Compliance</PRIMARY_DEPT_NAME>
+        <TEL_OFFICE>662 126 8300 - 8732</TEL_OFFICE>
+        <USER_GROUP>ESI_EVERYONE_INTRACTV</USER_GROUP>
+        <USER_GROUP_DESC>ESI_EVERYONE_INTRACTV</USER_GROUP_DESC>
+    </USER>
+</USERS>

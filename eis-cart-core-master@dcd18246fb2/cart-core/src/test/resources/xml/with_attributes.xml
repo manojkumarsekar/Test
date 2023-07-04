@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Snapshot Date="2019-05-02">
+    <Portfolios>
+        <Portfolio PortfolioId="GLEM1">
+            <Asset AssetId="GLEM1_ESL2242132" AssetName="ICICI BANK ADR REP 2 ORD" ExecutionVenue="XNYS"
+                   InstrumentId="ESL2242132" Quantity="885558" SFTType="Normal"/>
+        </Portfolio>
+        <Portfolio PortfolioId="OBCB1">
+            <Asset/>
+        </Portfolio>
+        <Portfolio>
+            <Asset1>Test</Asset1>
+        </Portfolio>
+        <Portfolio1>TEST_PORT1</Portfolio1>
+        <Portfolio1>TEST_PORT2</Portfolio1>
+    </Portfolios>
+    <Transactions/>
+</Snapshot>

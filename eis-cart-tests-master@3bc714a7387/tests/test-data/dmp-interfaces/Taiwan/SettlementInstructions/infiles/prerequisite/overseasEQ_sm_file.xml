@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ASSETS ASOF_DATE="2019-04-16" CREATE_DATE="04/16/2019" RECORDS="1">
+    <ASSET><EQUITY_EQUITY>
+        <ACCRUAL_DT>8/16/1999</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>N/A</CD_INSTMT_TYPE>
+        <CHANGE_DT>12/8/2018 14:53:46.970</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>IN</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="6">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>IN</CNTRY>
+                <CNTRY_SRC>REU</CNTRY_SRC>
+                <CNTRY_TYPE>COI</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>IN</CNTRY>
+                <CNTRY_SRC>BLK</CNTRY_SRC>
+                <CNTRY_TYPE>COT</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <CURRENCY>INR</CURRENCY>
+        <CUSIP>BPM1LQ437</CUSIP>
+        <CUSIP2_set SIZE="2">
+            <CUSIP2_record>
+                <CODE>C</CODE>
+                <IDENTIFIER>BG0ZVG9</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="3">
+            <CUSIP_ALIAS_record>
+                <CODE>145986</CODE>
+                <IDENTIFIER>ESL7759194</IDENTIFIER>
+                <PURPOSE>ESI</PURPOSE>
+            </CUSIP_ALIAS_record>
+            <CUSIP_ALIAS_record>
+                <CODE>70</CODE>
+                <IDENTIFIER>INE111A01025</IDENTIFIER>
+                <PURPOSE>ISIN</PURPOSE>
+            </CUSIP_ALIAS_record>
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>DUMMY</CUSIP_TYPE>
+        <DESC_INSTMT>CONTAINER CORPORATION OF INDIA LTD</DESC_INSTMT>
+        <DR_TYPE>N</DR_TYPE>
+        <EXCHANGE>FIN</EXCHANGE>
+        <FISCAL_YEAR>3</FISCAL_YEAR>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>B94804</ISSUER_ID>
+        <ISSUE_DT>8/16/1999</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>IN</MARKET>
+        <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+        <MODIFIED_BY>p9sho</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NOTES_set SIZE="3">
+            <NOTES_record>
+                <EFF_DT>6/25/2018</EFF_DT>
+                <INSTMT>ESI: Corp Action to move from S61009825</INSTMT>
+                <SEQ_NUM>1</SEQ_NUM>
+                <USER_ID>p9ktoh</USER_ID>
+            </NOTES_record>
+        </NOTES_set>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>p9sho</REVIEWED_BY>
+        <RISK_COUNTRY>IN</RISK_COUNTRY>
+        <SECTOR_set SIZE="2">
+            <SECTOR_record>
+                <CODE>2777</CODE>
+                <LEVEL>1</LEVEL>
+                <SECTOR_SOURCE>P</SECTOR_SOURCE>
+                <TYPE>ISS_FTSE</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>ROS2</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>REUT_SEGM</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SETTLE_CAL>RB</SETTLE_CAL>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>CONCOR</TICKER>
+        <UDF_set SIZE="2">
+            <UDF_record>
+                <LABEL>UCITS_ARTICLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>41-1</VALUE>
+            </UDF_record>
+            <UDF_record>
+                <LABEL>UCITS_ELIGIBLE</LABEL>
+                <PURPOSE>IMT</PURPOSE>
+                <UDF_SOURCE>CETREL</UDF_SOURCE>
+                <VALUE>Y</VALUE>
+            </UDF_record>
+        </UDF_set>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INDEXES ASOF_DATE="${DYNAMIC_DATE}" CREATE_DATE="${DYNAMIC_DATE}" RECORDS="3">
+    <INDEX>
+        <CUSIP>BES2NWTD0</CUSIP>
+        <DESC>MP_TESTDOP</DESC>
+        <NAME>MP_TESTDOP</NAME>
+        <SUB_INDEX_set SIZE="19">
+            <SUB_INDEX>
+                <CUSIP>BES2NZ9W3</CUSIP>
+                <DESC>AA_BLOCK - MOD_DERV</DESC>
+                <NAME>AA_MOD_DERTEST</NAME>
+                <WEIGHT>-0.0021000000</WEIGHT>
+            </SUB_INDEX>
+            <SUB_INDEX>
+                <CUSIP>BES2NZ9W3</CUSIP>
+                <DESC>AA_BLOCK - MOD_DERV</DESC>
+                <NAME>AA_MOD_DERTEST2</NAME>
+                <WEIGHT>-0.0021000000</WEIGHT>
+            </SUB_INDEX>
+        </SUB_INDEX_set>
+    </INDEX>
+    <INDEX>
+        <CUSIP>BES2NWTD0</CUSIP>
+        <DESC>SAA_TESTDOP</DESC>
+        <NAME>SAA_TESTDOP</NAME>
+        <SUB_INDEX_set SIZE="19">
+            <SUB_INDEX>
+                <CUSIP>BES2NZ9W3</CUSIP>
+                <DESC>AA_BLOCK - MOD_DERV</DESC>
+                <NAME>AA_MOD_DERTEST</NAME>
+                <WEIGHT>0.0035000000</WEIGHT>
+            </SUB_INDEX>
+        </SUB_INDEX_set>
+    </INDEX>
+</INDEXES>

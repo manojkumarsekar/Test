@@ -1,0 +1,4 @@
+#https://jira.intranet.asia/browse/TOM-2253
+#https://collaborate.intranet.asia/pages/viewpage.action?spaceKey=TOMR3&title=Provision+of+prices+to+BRS+for+Processing+Portfolios
+
+#This feature file is moved under cart-tests/tests/features/dmp-gs/EASTSPRING/PRICING/101_EIS_PricingProcessConsolidated_workflow.feature

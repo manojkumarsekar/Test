@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:even="http://www.thegoldensource.com/EventRaiserService.wsdl">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <even:RaiseEIS_Perf_PeerRanking_ExceltoCSV_LoadAsynchron>
+         <even:BeanShellScript_Excel>${BEAN_SHELL_EXCEL_URI!}</even:BeanShellScript_Excel>
+         <even:BusinessFeed>${BUSINESS_FEED!}</even:BusinessFeed>
+         <even:Directory>${INPUT_DATA_DIR!}</even:Directory>
+         <even:FileLoadEvent>${FILE_LOAD_EVENT!}</even:FileLoadEvent>
+         <even:FilePatterns>${FILEPATTERN!}</even:FilePatterns>
+         <even:HeadersURI>${HEADERURI!}</even:HeadersURI>
+         <even:ListSheetName>${LIST_SHEET_NAME!}</even:ListSheetName>
+         <even:LoadFilePatterns>${LOAD_FILE_PATTERNS!}</even:LoadFilePatterns>
+         <even:MessageBulkSize>2000</even:MessageBulkSize>
+         <even:MessageType>${MESSAGE_TYPE!}</even:MessageType>
+         <even:NrOfFilesParallel>${PARALLELISM!}</even:NrOfFilesParallel>
+         <even:OutputDirectory>${OUTPUT_DATA_DIR!}</even:OutputDirectory>
+         <even:ParametersURI>${PARAMETERSURI!}</even:ParametersURI>
+         <even:ReProcessProcessedFiles>${REPROCESSPROCESSEDFILES!}</even:ReProcessProcessedFiles>
+         <even:RecursiveSearch>false</even:RecursiveSearch>
+         <even:SortAscending>true</even:SortAscending>
+         <even:SortFiles>TIME</even:SortFiles>
+         <even:SuccessAction>${SUCCESS_ACTION!}</even:SuccessAction>
+         <even:VendorDefinition></even:VendorDefinition>
+      </even:RaiseEIS_Perf_PeerRanking_ExceltoCSV_LoadAsynchron>
+   </soapenv:Body>
+</soapenv:Envelope>

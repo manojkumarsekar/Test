@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:even='http://www.thegoldensource.com/EventRaiserService.wsdl'>
+           <soapenv:Header/>
+               <soapenv:Body>
+                   <even:RaiseEIS_ReutersDSSRequestFromFileAsynchron>
+                       <even:Directory>${DIRECTORY!}</even:Directory>
+					   <even:FilePattern>${FILE_PATTERN!}</even:FilePattern>
+                       <even:MaxRequestsPerFile>500</even:MaxRequestsPerFile>
+					   <even:MaxRetryTime>5000</even:MaxRetryTime>
+                       <even:NoOfFilesToRunInParallel>2</even:NoOfFilesToRunInParallel>
+					   <even:RTDownloadDirectory>${RT_DOWNLOAD_DIR!}</even:RTDownloadDirectory>
+					   <even:RTTimeout>100</even:RTTimeout>
+					   <even:RTUploadDirectory>${RT_UPLOAD_DIR!}</even:RTUploadDirectory>
+                       <even:RequestMessageType>EIS_MT_ROBO_REUTERS_SBL_REQUEST_TNC</even:RequestMessageType>
+                       <even:RequestMessageType>EIS_MT_ROBO_REUTERS_SBL_REQUEST_COMPOSITE</even:RequestMessageType>
+                       <even:RequestorID>UNKNOWN</even:RequestorID>
+                       </even:RaiseEIS_ReutersDSSRequestFromFileAsynchron>
+               </soapenv:Body>
+</soapenv:Envelope>

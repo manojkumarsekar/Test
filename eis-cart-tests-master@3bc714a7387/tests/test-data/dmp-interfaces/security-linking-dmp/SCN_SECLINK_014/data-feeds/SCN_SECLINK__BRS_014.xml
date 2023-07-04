@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<ASSETS ASOF_DATE="20170615" CREATE_DATE="6/19/2017" RECORDS="1">
+    <ASSET><EQUITY_EQUITY>
+        <ACCRUAL_DT>10/27/1994</ACCRUAL_DT>
+        <CALC_TYPE>0</CALC_TYPE>
+        <CD_INSTMT_TYPE>UNKNOWN</CD_INSTMT_TYPE>
+        <CHANGE_DT>3/29/2017 17:06:13.506</CHANGE_DT>
+        <COMPOUND_FLAG>0</COMPOUND_FLAG>
+        <COUNTRY>CA</COUNTRY>
+        <COUNTRY_CLASSIFICATION_set SIZE="2">
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>CA</CNTRY>
+                <CNTRY_SRC>REU</CNTRY_SRC>
+                <CNTRY_TYPE>COI</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+            <COUNTRY_CLASSIFICATION_record>
+                <CNTRY>CA</CNTRY>
+                <CNTRY_SRC>BLK</CNTRY_SRC>
+                <CNTRY_TYPE>COT</CNTRY_TYPE>
+            </COUNTRY_CLASSIFICATION_record>
+        </COUNTRY_CLASSIFICATION_set>
+        <CURRENCY>IDR</CURRENCY>
+        <CUSIP>063671102</CUSIP>
+        <CUSIP2_set SIZE="3">
+            <CUSIP2_record>
+                <CODE>I</CODE>
+                <IDENTIFIER>ID1000129802</IDENTIFIER>
+            </CUSIP2_record>
+        </CUSIP2_set>
+        <CUSIP_ALIAS_set SIZE="3">
+        </CUSIP_ALIAS_set>
+        <CUSIP_TYPE>CUSIP</CUSIP_TYPE>
+        <DESC_INSTMT>BANK OF MONTREAL</DESC_INSTMT>
+        <DR_TYPE>N</DR_TYPE>
+        <EXCHANGE>NYSE</EXCHANGE>
+        <FISCAL_YEAR>10</FISCAL_YEAR>
+        <FLAG_144A>N</FLAG_144A>
+        <FLAG_PERFORMING>Y</FLAG_PERFORMING>
+        <ISSUER_ID>073671</ISSUER_ID>
+        <ISSUE_DT>10/27/1994</ISSUE_DT>
+        <LIQUIDITY>L</LIQUIDITY>
+        <MARKET>US</MARKET>
+        <MIN_LOT_SIZE>1</MIN_LOT_SIZE>
+        <MIN_TRD_SIZE>1</MIN_TRD_SIZE>
+        <MODIFIED_BY>sm_timestamp</MODIFIED_BY>
+        <MTN>N</MTN>
+        <NTL_FLAG>N</NTL_FLAG>
+        <PMT_FREQ_TYPE>0</PMT_FREQ_TYPE>
+        <PRICE_AS_PCT>N</PRICE_AS_PCT>
+        <REVIEWED_BY>pmahapat</REVIEWED_BY>
+        <RISK_COUNTRY>CA</RISK_COUNTRY>
+        <SECTOR_set SIZE="5">
+            <SECTOR_record>
+                <CODE>408</CODE>
+                <LEVEL>16</LEVEL>
+                <TYPE>MASK</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>1215</CODE>
+                <LEVEL>64</LEVEL>
+                <TYPE>MASK</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>1402</CODE>
+                <LEVEL>67</LEVEL>
+                <TYPE>MASK</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>1403</CODE>
+                <LEVEL>68</LEVEL>
+                <TYPE>MASK</TYPE>
+            </SECTOR_record>
+            <SECTOR_record>
+                <CODE>NYSE</CODE>
+                <LEVEL>1</LEVEL>
+                <TYPE>MASK</TYPE>
+            </SECTOR_record>
+        </SECTOR_set>
+        <SEC_TYPE>EQUITY_EQUITY</SEC_TYPE>
+        <SM_SEC_GROUP>EQUITY</SM_SEC_GROUP>
+        <SM_SEC_TYPE>EQUITY</SM_SEC_TYPE>
+        <TICKER>BMO</TICKER>
+        <WI_FLAG>N</WI_FLAG>
+    </EQUITY_EQUITY></ASSET>
+</ASSETS>
